@@ -1,0 +1,93 @@
+⏳ Gathering type trace data for /home/ssalb/ConvoForm/apps/web...
+../../packages/ai/src/conversation.ts(12,49): error TS2307: Cannot find module 'openai/resources' or its corresponding type declarations.
+../../packages/ai/src/generateForm.ts(1,49): error TS2307: Cannot find module 'openai/resources' or its corresponding type declarations.
+../../packages/ai/src/openAI.ts(10,49): error TS2307: Cannot find module 'openai/resources' or its corresponding type declarations.
+../../packages/ui/src/components/ui/calendar.tsx(58,9): error TS2353: Object literal may only specify known properties, and 'IconLeft' does not exist in type 'Partial<CustomComponents>'.
+Files:                        2847
+Lines of Library:            41991
+Lines of Definitions:       304796
+Lines of TypeScript:         18417
+Lines of JavaScript:             0
+Lines of JSON:                  57
+Lines of Other:                  0
+Identifiers:                406232
+Symbols:                    499237
+Types:                      197960
+Instantiations:            3014652
+Memory used:               729504K
+Assignability cache size:    84931
+Identity cache size:          3362
+Subtype cache size:            973
+Strict subtype cache size:     626
+Tracing time:                0.25s
+I/O Read time:               0.09s
+Parse time:                  1.17s
+ResolveTypeReference time:   0.02s
+ResolveModule time:          0.51s
+ResolveLibrary time:         0.01s
+Program time:                2.18s
+Bind time:                   0.76s
+Check time:                  7.42s
+printTime time:              0.00s
+Emit time:                   0.00s
+Dump types time:             4.43s
+Total time:                 10.36s
+
+
+⏳ Analyzing type trace data for /home/ssalb/ConvoForm/apps/web...
+Found 1147 traces with duration information
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | handleSubmit         |          885.50 | src/components/formViewer/DynamicAnswerInput/textInput.tsx:53:11
+   2 | Identifier: ...s Fie |          135.17 | ../../packages/ui/src/components/ui/form.tsx:39:7
+   3 | Identifier: number   |          119.40 | src/components/formViewer/DynamicAnswerInput/multiChoiceInput.tsx:14:11
+   4 | forwardRef           |           97.04 | ../../packages/ui/src/components/ui/accordion.tsx:52:5
+   5 | forwardRef           |           93.26 | ../../packages/ui/src/components/ui/input.tsx:10:13
+   6 | pick                 |           68.61 | src/app/api/form/[formId]/conversation/route.ts:35:10
+   7 | querySelector        |           56.24 | src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/index.tsx:153:29
+   8 | one                  |           53.83 | ../../packages/db/src/schema/formFields/formField.ts:25:13
+   9 | createInsertSchema   |           49.17 | ../../packages/db/src/schema/formFields/validation.ts:54:37
+  10 | forwardRef           |           36.36 | ../../packages/ui/src/components/ui/accordion.tsx:11:22
+  11 | forwardRef           |           31.29 | ../../packages/ui/src/components/ui/button.tsx:45:13
+  12 | init                 |           28.76 | sentry.client.config.ts:7:13
+  13 | input                |           28.38 | ../../packages/api/src/router/conversation.ts:18:10
+  14 | input                |           26.73 | ../../packages/api/src/router/form.ts:282:14
+  15 | accessor             |           26.41 | src/components/queryComponents/table/table.tsx:41:11
+  16 | useMutation          |           26.30 | src/app/(protectedPage)/forms/[formId]/_components/formEditor/formEditorCard.tsx:85:21
+  17 | createTRPCRouter     |           26.10 | ../../packages/api/src/router/form.ts:24:44
+  18 | many                 |           24.91 | ../../packages/db/src/schema/forms/form.ts:53:17
+  19 | omit                 |           23.11 | ../../packages/api/src/router/form.ts:283:12
+  20 | createInsertSchema   |           22.14 | ../../packages/db/src/schema/conversations/validation.ts:31:40
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | handleSubmit         |          917.56 |        101.95 |     9 | src/components/formViewer/DynamicAnswerInput/textInput.tsx:53:11 (885.50ms)
+   2 | forwardRef           |          643.98 |          5.19 |   124 | ../../packages/ui/src/components/ui/accordion.tsx:52:5 (97.04ms)
+   3 | input                |          306.00 |          3.29 |    93 | ../../packages/api/src/router/conversation.ts:18:10 (28.38ms)
+   4 | Identifier: any      |          189.55 |          2.96 |    64 | src/app/global-error.tsx:13:11 (17.05ms)
+   5 | pick                 |          149.64 |          7.88 |    19 | src/app/api/form/[formId]/conversation/route.ts:35:10 (68.61ms)
+   6 | createTRPCRouter     |          143.63 |          6.24 |    23 | ../../packages/api/src/router/form.ts:24:44 (26.10ms)
+   7 | useMutation          |          143.40 |          4.22 |    34 | src/app/(protectedPage)/forms/[formId]/_components/formEditor/formEditorCard.tsx:85:21 (26.30ms)
+   8 | Identifier: ...s Fie |          135.17 |        135.17 |     1 | ../../packages/ui/src/components/ui/form.tsx:39:7 (135.17ms)
+   9 | Identifier: number   |          126.36 |         18.05 |     7 | src/components/formViewer/DynamicAnswerInput/multiChoiceInput.tsx:14:11 (119.40ms)
+  10 | map                  |          121.23 |          1.64 |    74 | src/components/formViewer/DynamicAnswerInput/multiChoiceInput.tsx:31:59 (10.45ms)
+  11 | createInsertSchema   |          111.74 |         10.16 |    11 | ../../packages/db/src/schema/formFields/validation.ts:54:37 (49.17ms)
+  12 | object               |          101.79 |          2.99 |    34 | ../../packages/db/src/schema/formFields/validation.ts:10:37 (19.34ms)
+  13 | cn                   |           88.79 |          4.67 |    19 | ../../packages/ui/src/components/ui/skeleton.tsx:7:11 (20.79ms)
+  14 | findMany             |           84.31 |          5.62 |    15 | ../../packages/api/src/router/conversation.ts:28:39 (21.79ms)
+  15 | omit                 |           73.51 |          5.65 |    13 | ../../packages/api/src/router/form.ts:283:12 (23.11ms)
+  16 | one                  |           72.16 |         14.43 |     5 | ../../packages/db/src/schema/formFields/formField.ts:25:13 (53.83ms)
+  17 | mutation             |           67.53 |          1.69 |    40 | ../../packages/api/src/router/formField.ts:18:15 (10.07ms)
+  18 | querySelector        |           56.43 |         18.81 |     3 | src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/index.tsx:153:29 (56.24ms)
+  19 | query                |           53.32 |          1.16 |    46 | ../../packages/api/src/router/form.ts:214:13 (7.16ms)
+  20 | init                 |           51.91 |         12.98 |     4 | sentry.client.config.ts:7:13 (28.76ms)
+
+✅ Analysis complete! Results exported to:
+   - /home/ssalb/ConvoForm/apps/web/.attest/trace/ranges.csv (individual calls)
+   - /home/ssalb/ConvoForm/apps/web/.attest/trace/names.csv (grouped by function name)
+   - /home/ssalb/ConvoForm/apps/web/.attest/trace/summary.txt (complete analysis report)

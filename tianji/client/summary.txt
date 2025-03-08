@@ -1,0 +1,88 @@
+⏳ Gathering type trace data for /home/ssalb/tianji/src/client...
+Files:                         5311
+Lines of Library:             41991
+Lines of Definitions:        546606
+Lines of TypeScript:          42454
+Lines of JavaScript:              0
+Lines of JSON:                   63
+Lines of Other:                   0
+Identifiers:                 682894
+Symbols:                    1127832
+Types:                       414352
+Instantiations:             6732059
+Memory used:               1463702K
+Assignability cache size:    196806
+Identity cache size:          13201
+Subtype cache size:            7446
+Strict subtype cache size:     5329
+Tracing time:                 0.40s
+I/O Read time:                0.13s
+Parse time:                   1.60s
+ResolveModule time:           0.61s
+ResolveTypeReference time:    0.02s
+ResolveLibrary time:          0.02s
+Program time:                 3.00s
+Bind time:                    1.34s
+Check time:                  14.84s
+printTime time:               0.00s
+Emit time:                    0.00s
+Dump types time:              9.54s
+Total time:                  19.18s
+
+⏳ Analyzing type trace data for /home/ssalb/tianji/src/client...
+Found 3039 traces with duration information
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | handleSubmit         |          645.15 | routes/website/add.tsx:75:9
+   2 | defineConfig         |          466.31 | vite.config.ts:7:15
+   3 | forwardRef           |          354.46 | components/ui/tooltip.tsx:12:23
+   4 | record               |          282.94 | ../server/prisma/zod/schemas/index.ts:3:35
+   5 | all                  |          211.36 | components/website/WebsiteOverview.tsx:78:10
+   6 | all                  |          164.06 | routes/settings/billing.tsx:51:10
+   7 | Identifier: ...s Fie |          161.23 | components/ui/form.tsx:38:7
+   8 | forwardRef           |          138.45 | components/ui/input.tsx:10:13
+   9 | navigate             |          133.51 | components/CommandPanel/index.tsx:52:22
+  10 | memo                 |          117.43 | components/Loading.tsx:5:11
+  11 | createFileRoute      |          108.73 | routes/index.tsx:3:21
+  12 | map                  |           79.75 | components/layout/Nav.tsx:63:18
+  13 | TianjiPrismaAdapter  |           70.43 | ../server/model/auth.ts:99:11
+  14 | object               |           65.85 | ../server/trpc/routers/workspace.ts:211:44
+  15 | use                  |           58.78 | ../server/trpc/trpc.ts:60:31
+  16 | all                  |           55.58 | components/telemetry/TelemetryOverview.tsx:79:10
+  17 | retry                |           53.25 | ../server/model/billing/credit.ts:63:7
+  18 | getQueryKey          |           48.49 | components/website/WebsiteInfo.tsx:39:18
+  19 | isTransferable       |           45.17 | ../server/utils/sandbox.ts:121:9
+  20 | map                  |           43.84 | components/DataTable.tsx:88:25
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | memo                 |         1062.48 |          2.16 |   492 | components/Loading.tsx:5:11 (117.43ms)
+   2 | forwardRef           |          927.23 |          6.58 |   141 | components/ui/tooltip.tsx:12:23 (354.46ms)
+   3 | handleSubmit         |          660.98 |        132.20 |     5 | routes/website/add.tsx:75:9 (645.15ms)
+   4 | extend               |          534.19 |         19.78 |    27 | ../server/prisma/zod/user.ts:32:78 (40.15ms)
+   5 | object               |          489.29 |          3.31 |   148 | ../server/trpc/routers/workspace.ts:211:44 (65.85ms)
+   6 | defineConfig         |          472.85 |        157.62 |     3 | vite.config.ts:7:15 (466.31ms)
+   7 | all                  |          471.83 |         26.21 |    18 | components/website/WebsiteOverview.tsx:78:10 (211.36ms)
+   8 | lazy                 |          442.44 |          3.69 |   120 | ../server/prisma/zod/website.ts:31:71 (11.53ms)
+   9 | map                  |          353.23 |          3.18 |   111 | components/layout/Nav.tsx:63:18 (79.75ms)
+  10 | record               |          315.63 |         35.07 |     9 | ../server/prisma/zod/schemas/index.ts:3:35 (282.94ms)
+  11 | router               |          306.07 |          5.28 |    58 | ../server/trpc/routers/monitor.ts:38:37 (42.76ms)
+  12 | meta                 |          256.88 |          1.15 |   224 | ../server/trpc/routers/monitor.ts:607:13 (11.25ms)
+  13 | array                |          179.73 |          4.28 |    42 | ../server/prisma/zod/schemas/index.ts:13:9 (17.03ms)
+  14 | navigate             |          176.68 |          5.35 |    33 | components/CommandPanel/index.tsx:52:22 (133.51ms)
+  15 | Identifier: ...s Fie |          161.23 |        161.23 |     1 | components/ui/form.tsx:38:7 (161.23ms)
+  16 | createFileRoute      |          152.74 |          9.55 |    16 | routes/index.tsx:3:21 (108.73ms)
+  17 | union                |          144.99 |          4.14 |    35 | ../server/prisma/zod/workspacebill.ts:8:51 (12.61ms)
+  18 | addChildren          |          127.62 |          3.87 |    33 | routeTree.gen.ts:427:14 (34.25ms)
+  19 | t                    |          116.65 |          1.42 |    82 | components/layout/Header.tsx:14:14 (8.06ms)
+  20 | accessor             |          115.87 |          4.83 |    24 | routes/settings/workspace.tsx:145:13 (21.68ms)
+
+✅ Analysis complete! Results exported to:
+   - /home/ssalb/tianji/src/client/.attest/trace/ranges.csv (individual calls)
+   - /home/ssalb/tianji/src/client/.attest/trace/names.csv (grouped by function name)
+   - /home/ssalb/tianji/src/client/.attest/trace/summary.txt (complete analysis report)

@@ -1,0 +1,88 @@
+⏳ Gathering type trace data for /home/ssalb/tianji/src/server...
+Files:                        1804
+Lines of Library:            41991
+Lines of Definitions:       364929
+Lines of TypeScript:         16120
+Lines of JavaScript:             0
+Lines of JSON:                  63
+Lines of Other:                  0
+Identifiers:                393379
+Symbols:                    507398
+Types:                      173177
+Instantiations:            2337662
+Memory used:               637117K
+Assignability cache size:    86626
+Identity cache size:          3140
+Subtype cache size:           1249
+Strict subtype cache size:    1804
+Tracing time:                0.15s
+I/O Read time:               0.08s
+Parse time:                  0.96s
+ResolveModule time:          0.20s
+ResolveTypeReference time:   0.01s
+ResolveLibrary time:         0.02s
+Program time:                1.52s
+Bind time:                   0.65s
+Check time:                  5.37s
+printTime time:              0.00s
+Emit time:                   0.00s
+Dump types time:             5.14s
+Total time:                  7.54s
+
+⏳ Analyzing type trace data for /home/ssalb/tianji/src/server...
+Found 1475 traces with duration information
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | object               |          129.26 | model/billing/limit.ts:6:31
+   2 | isTransferable       |           80.33 | utils/sandbox.ts:121:9
+   3 | TianjiPrismaAdapter  |           76.97 | model/auth.ts:99:11
+   4 | object               |           71.55 | model/_schema/index.ts:58:77
+   5 | compose              |           49.84 | middleware/validate.ts:18:18
+   6 | use                  |           46.15 | trpc/trpc.ts:60:31
+   7 | extend               |           41.36 | prisma/zod/workspace.ts:48:88
+   8 | router               |           39.22 | trpc/routers/monitor.ts:38:37
+   9 | Identifier: ...erver |           31.94 | ws/index.ts:11:13
+  10 | extend               |           30.72 | prisma/zod/websitesession.ts:36:98
+  11 | extend               |           30.58 | prisma/zod/website.ts:31:84
+  12 | compose              |           30.44 | middleware/validate.ts:18:9
+  13 | groupBy              |           29.53 | trpc/routers/website.ts:117:53
+  14 | extend               |           28.15 | prisma/zod/websiteevent.ts:30:94
+  15 | extend               |           28.01 | prisma/zod/user.ts:32:78
+  16 | router               |           25.73 | trpc/routers/monitor.ts:38:37
+  17 | findUnique           |           25.56 | model/auth.ts:193:9
+  18 | pick                 |           25.09 | trpc/routers/website.ts:652:33
+  19 | extend               |           24.81 | prisma/zod/surveyresult.ts:44:94
+  20 | extend               |           23.74 | prisma/zod/userapikey.ts:23:90
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | object               |          549.94 |          3.64 |   151 | model/billing/limit.ts:6:31 (129.26ms)
+   2 | extend               |          543.98 |         16.48 |    33 | prisma/zod/workspace.ts:48:88 (41.36ms)
+   3 | lazy                 |          460.22 |          3.84 |   120 | prisma/zod/survey.ts:36:69 (12.84ms)
+   4 | router               |          311.34 |          7.78 |    40 | trpc/routers/monitor.ts:38:37 (39.22ms)
+   5 | meta                 |          276.83 |          1.29 |   215 | trpc/routers/monitor.ts:521:10 (11.66ms)
+   6 | union                |          171.63 |          5.20 |    33 | prisma/zod/workspace.ts:9:51 (18.37ms)
+   7 | array                |          107.09 |          3.57 |    30 | model/monitor/provider/openai.ts:14:10 (10.13ms)
+   8 | create               |           90.10 |          2.37 |    38 | model/telemetry.ts:107:22 (13.81ms)
+   9 | mutation             |           89.21 |          1.49 |    60 | trpc/routers/feed/integration.ts:64:15 (13.27ms)
+  10 | groupBy              |           86.50 |          4.12 |    21 | trpc/routers/website.ts:117:53 (29.53ms)
+  11 | isTransferable       |           80.87 |         40.44 |     2 | utils/sandbox.ts:121:9 (80.33ms)
+  12 | compose              |           80.28 |         40.14 |     2 | middleware/validate.ts:18:18 (49.84ms)
+  13 | TianjiPrismaAdapter  |           76.97 |         76.97 |     1 | model/auth.ts:99:11 (76.97ms)
+  14 | findUnique           |           72.49 |          2.68 |    27 | model/auth.ts:193:9 (25.56ms)
+  15 | query                |           70.53 |          1.12 |    63 | trpc/routers/notification.ts:12:7 (13.24ms)
+  16 | use                  |           68.08 |          8.51 |     8 | trpc/trpc.ts:60:31 (46.15ms)
+  17 | update               |           59.00 |          1.55 |    38 | trpc/routers/workspace.ts:70:21 (5.87ms)
+  18 | merge                |           58.82 |          7.35 |     8 | trpc/routers/feed/index.ts:35:15 (20.34ms)
+  19 | pick                 |           57.02 |          4.07 |    14 | trpc/routers/website.ts:652:33 (25.09ms)
+  20 | findMany             |           49.80 |          1.66 |    30 | model/billing/cronjob.ts:13:21 (7.93ms)
+
+✅ Analysis complete! Results exported to:
+   - /home/ssalb/tianji/src/server/.attest/trace/ranges.csv (individual calls)
+   - /home/ssalb/tianji/src/server/.attest/trace/names.csv (grouped by function name)
+   - /home/ssalb/tianji/src/server/.attest/trace/summary.txt (complete analysis report)

@@ -1,0 +1,275 @@
+Function Name,Total Self (ms),Avg Self (ms),Call Count,Top Location,Top Self (ms)
+memo,1062.484,2.160,492,components/Loading.tsx:5:11,117.430
+forwardRef,927.228,6.576,141,components/ui/tooltip.tsx:12:23,354.461
+handleSubmit,660.984,132.197,5,routes/website/add.tsx:75:9,645.151
+extend,534.186,19.785,27,../server/prisma/zod/user.ts:32:78,40.148
+object,489.294,3.306,148,../server/trpc/routers/workspace.ts:211:44,65.853
+defineConfig,472.855,157.618,3,vite.config.ts:7:15,466.312
+all,471.828,26.213,18,components/website/WebsiteOverview.tsx:78:10,211.359
+lazy,442.444,3.687,120,../server/prisma/zod/website.ts:31:71,11.529
+map,353.231,3.182,111,components/layout/Nav.tsx:63:18,79.753
+record,315.631,35.070,9,../server/prisma/zod/schemas/index.ts:3:35,282.941
+router,306.067,5.277,58,../server/trpc/routers/monitor.ts:38:37,42.763
+meta,256.879,1.147,224,../server/trpc/routers/monitor.ts:607:13,11.252
+array,179.733,4.279,42,../server/prisma/zod/schemas/index.ts:13:9,17.031
+navigate,176.679,5.354,33,components/CommandPanel/index.tsx:52:22,133.506
+Identifier: <TFieldValues extends Fie,161.227,161.227,1,components/ui/form.tsx:38:7,161.227
+createFileRoute,152.742,9.546,16,routes/index.tsx:3:21,108.733
+union,144.986,4.142,35,../server/prisma/zod/workspacebill.ts:8:51,12.615
+addChildren,127.622,3.867,33,routeTree.gen.ts:427:14,34.248
+t,116.645,1.423,82,components/layout/Header.tsx:14:14,8.059
+accessor,115.869,4.828,24,routes/settings/workspace.tsx:145:13,21.685
+mutation,88.957,1.348,66,../server/trpc/routers/feed/integration.ts:64:15,16.694
+useQuery,84.702,2.647,32,components/monitor/MonitorHealthBar.tsx:196:45,7.974
+query,82.788,0.812,102,../server/trpc/routers/feed/index.ts:226:15,11.391
+update,79.131,1.199,66,routeTree.gen.ts:177:29,7.135
+Identifier: any,78.051,4.878,16,components/ui/resizable.tsx:35:21,20.309
+useMemo,77.379,1.517,51,components/server/ServerRowExpendView.tsx:26:13,18.375
+TianjiPrismaAdapter,70.427,70.427,1,../server/model/auth.ts:99:11,70.427
+use,70.007,7.779,9,../server/trpc/trpc.ts:60:31,58.778
+findUnique,65.564,2.115,31,../server/model/auth.ts:193:9,27.038
+create,64.420,1.263,51,../server/model/monitor/manager.ts:47:16,10.310
+input,63.666,1.137,56,../server/trpc/routers/ai.ts:29:7,15.205
+retry,55.518,9.253,6,../server/model/billing/credit.ts:63:7,53.250
+findMany,54.508,3.206,17,../server/trpc/routers/monitor.ts:644:13,8.356
+compact,53.775,3.585,15,components/survey/useSurveyListColumns.tsx:27:20,19.293
+pick,53.489,4.115,13,../server/trpc/routers/website.ts:652:33,21.904
+useMutation,53.234,1.972,27,routes/feed/add.tsx:21:25,14.472
+useEvent,51.348,1.317,39,routes/feed/$channelId/edit.tsx:37:33,9.262
+getQueryKey,48.494,48.494,1,components/website/WebsiteInfo.tsx:39:18,48.494
+groupBy,47.881,3.420,14,../server/trpc/routers/website.ts:279:24,11.063
+useReactTable,45.378,9.076,5,components/DataTable.tsx:52:16,39.101
+isTransferable,45.172,45.172,1,../server/utils/sandbox.ts:121:9,45.172
+useInfiniteQuery,42.365,4.707,9,components/website/WebsiteLighthouseBtn.tsx:44:78,23.841
+merge,42.096,4.677,9,../server/trpc/routers/workspace.ts:210:15,16.501
+immer,41.784,10.446,4,store/user.ts:16:63,35.334
+context,38.366,9.591,4,../server/trpc/trpc.ts:28:10,37.198
+useRouterState,32.539,16.269,2,components/CommonList.tsx:30:23,32.396
+findFirst,31.484,1.499,21,../server/model/auth.ts:282:13,5.037
+literal,29.151,5.830,5,../server/trpc/routers/ai.ts:36:20,13.344
+useForm,29.103,1.819,16,routes/website/add.tsx:44:15,15.552
+get,27.493,2.115,13,../server/model/website/insights.ts:153:81,8.111
+enum,26.168,2.908,9,../server/prisma/zod/schemas/index.ts:17:12,9.188
+setSync,22.538,11.269,2,../server/utils/sandbox.ts:153:5,20.776
+$transaction,22.348,0.931,24,../server/model/billing/credit.ts:38:47,6.444
+redirect,19.668,6.556,3,utils/route.ts:10:20,10.326
+fetchDataByCursor,17.017,2.431,7,../server/trpc/routers/website.ts:664:42,5.794
+anonymous,16.521,1.180,14,components/MarkdownEditor/index.tsx:5:45,4.751
+cn,15.531,0.914,17,components/ui/calendar.tsx:17:15,3.649
+info,14.617,3.654,4,components/monitor/provider/custom.tsx:33:17,5.374
+execa,14.351,4.784,3,../server/model/notification/provider/apprise.ts:22:10,8.047
+Identifier: { expiredAt: Date | null;,13.757,6.878,2,../server/model/user.ts:396:9,10.380
+delete,12.645,2.529,5,../server/trpc/routers/workspace.ts:190:12,4.751
+display,12.440,0.957,13,components/server/ServerList.tsx:49:27,3.176
+on,11.872,5.936,2,../server/ws/shared.ts:65:32,11.069
+Identifier: Window & typeof globalThi,10.635,2.659,4,utils/env.ts:6:158,9.684
+format,10.216,3.405,3,routes/survey/$surveyId/index.tsx:282:32,5.641
+"Identifier: ""vertical""",9.688,4.844,2,routes/register.tsx:47:14,9.334
+findSession,9.384,2.346,4,../server/model/telemetry.ts:31:8,9.021
+loggerLink,9.192,9.192,1,api/trpc.ts:33:11,9.192
+reduce,9.179,0.706,13,../server/utils/prisma.ts:139:55,6.061
+createOpenApiExpressMiddleware,8.983,4.492,2,../server/trpc/index.ts:22:38,8.687
+persist,8.655,1.731,5,store/insights.ts:21:9,6.289
+useUserInfo,8.303,2.768,3,store/user.ts:66:12,8.152
+getValue,8.300,2.767,3,components/server/ServerRowExpendView.tsx:111:29,7.612
+next,7.724,0.702,11,../server/trpc/trpc.ts:71:13,3.205
+setState,7.503,3.752,2,routes/insights.tsx:56:20,5.380
+createRootRouteWithContext,7.403,7.403,1,routes/__root.tsx:11:21,7.403
+Identifier: typeof DataTable,7.097,3.548,2,routes/settings/apiKey.tsx:150:15,3.840
+mutateAsync,7.015,0.701,10,routes/settings/apiKey.tsx:125:25,4.197
+Identifier: DatePickerType,6.991,3.496,2,components/DateFilter.tsx:11:6,6.846
+createTransport,6.809,6.809,1,../server/model/auth.ts:67:28,6.809
+count,6.703,0.609,11,../server/trpc/routers/monitor.ts:781:37,1.418
+Credentials,6.642,2.214,3,../server/model/auth.ts:35:23,5.850
+run,6.620,3.310,2,../server/model/monitor/runner.ts:56:16,6.612
+splitLink,6.535,2.178,3,api/trpc.ts:47:13,3.006
+createActionURL,6.534,2.178,3,../server/model/auth.ts:147:14,6.013
+string,6.335,1.056,6,components/survey/SurveyEditForm.tsx:47:14,5.805
+buildFilterQueryOperator,6.015,6.015,1,../server/model/website/insights.ts:59:30,6.015
+FirstPunctuation: any,5.980,1.993,3,../server/trpc/trpc.ts:24:9,4.381
+signIn,5.456,5.456,1,api/authjs/useAuth.ts:66:20,5.456
+find,5.366,5.366,1,../server/utils/prisma.ts:61:9,5.366
+toLowerCase,5.338,5.338,1,../server/model/monitor/provider/http.ts:18:7,5.338
+Identifier: typeof PrismaClient,4.957,4.957,1,../server/model/_client.ts:12:22,4.957
+createExpressMiddleware,4.906,1.226,4,../server/trpc/index.ts:14:37,3.873
+filter,4.617,0.385,12,../server/trpc/routers/website.ts:295:13,1.707
+parse,4.611,0.307,15,../server/model/notification/provider/smtp.ts:22:8,1.553
+useWatch,4.593,1.531,3,components/modals/NotificationInfo/strategies/telegram.tsx:11:16,4.034
+Identifier: PickerComponentClass<Pick,4.442,4.442,1,../../node_modules/.pnpm/antd@5.13.1_date-fns@3.6.0_moment@2.30.1_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/antd/es/date-picker/index.d.ts:66:36,4.442
+includes,4.437,1.479,3,../server/model/auth.ts:31:13,3.219
+Identifier: FC<PropsWithChildren<{ ns,4.082,4.082,1,routes/telemetry.tsx:76:19,4.082
+set,4.074,0.453,9,store/user.ts:26:32,1.014
+Identifier: TypographyProps,3.994,1.997,2,routes/settings/workspace.tsx:190:17,3.508
+Identifier: number | undefined,3.929,3.929,1,routes/survey/$surveyId/index.tsx:202:17,3.929
+reset,3.928,1.964,2,routes/website/$websiteId/index.tsx:196:15,3.555
+output,3.835,1.918,2,../server/trpc/routers/website.ts:180:13,2.510
+useEventWithLoading,3.718,0.620,6,components/survey/SurveyAIBtn/SurveyAISummary.tsx:66:56,2.456
+Github,3.678,1.839,2,../server/model/auth.ts:82:14,2.570
+"Identifier: ""/status/$slug""",3.649,3.649,1,routes/page/$slug.tsx:84:20,3.649
+createFeedEvent,3.623,0.906,4,../server/trpc/routers/feed/integration.ts:379:24,1.883
+middleware,3.609,0.722,5,../server/trpc/trpc.ts:62:27,1.970
+Number,3.564,1.188,3,../server/utils/env.ts:11:19,2.982
+getCenterTotalSize,3.403,3.403,1,components/DataTable.tsx:68:7,3.403
+Identifier: string,3.402,0.378,9,../server/model/website/insights.ts:186:21,2.426
+createRouter,3.389,1.130,3,App.tsx:18:29,1.572
+open,3.340,3.340,1,routes/feed/$channelId/index.tsx:161:7,3.340
+nativeEnum,3.232,3.232,1,../server/prisma/zod/workspacetask.ts:15:10,3.232
+Identifier: <TFieldValues extends Fie,3.169,3.169,1,routes/settings/workspace.tsx:239:19,3.169
+unstable_pipe,3.161,1.054,3,../server/trpc/trpc.ts:157:9,2.967
+flexRender,3.127,1.564,2,components/DataTable.tsx:103:24,2.539
+every,3.015,3.015,1,utils/route.ts:4:71,3.015
+getDateQuery,2.872,1.436,2,../server/model/website/index.ts:374:9,2.114
+buildCursorResponseSchema,2.695,2.695,1,../server/trpc/routers/website.ts:651:13,2.695
+Nodemailer,2.642,1.321,2,../server/model/auth.ts:63:27,2.437
+Identifier: ForwardRefExoticComponent,2.608,2.608,1,routes/monitor/$monitorId/index.tsx:97:7,2.608
+castToNumber,2.514,1.257,2,../server/model/website/insights.ts:153:13,2.363
+zodResolver,2.492,1.246,2,components/feed/FeedChannelEditForm.tsx:49:16,1.297
+findUniqueOrThrow,2.408,2.408,1,../server/trpc/routers/workspace.ts:260:25,2.408
+Identifier: ForwardRefExoticComponent,2.372,2.372,1,routes/telemetry/$telemetryId.tsx:117:21,2.372
+Identifier: typeof VirtualizedInfinit,2.345,2.345,1,routes/survey/$surveyId/index.tsx:252:16,2.345
+forEach,2.230,0.743,3,components/monitor/CustomizedErrorArea.tsx:7:45,1.547
+getOpenAIClient,2.215,0.554,4,../server/trpc/routers/ai.ts:74:27,1.211
+buildQueryWithCache,2.214,0.369,6,../server/model/billing/workspace.ts:51:68,1.173
+partial,2.166,0.722,3,../server/trpc/routers/website.ts:178:16,1.205
+log,2.148,0.716,3,routes/playground.tsx:55:11,1.974
+emit,2.138,0.713,3,../server/model/feed/event.ts:46:6,1.749
+sortBy,2.090,1.045,2,components/survey/SurveyCategoryChart.tsx:33:31,1.904
+aggregate,2.086,0.298,7,../server/model/workspace.ts:55:20,0.834
+Identifier: any,2.053,1.026,2,../server/utils/sandbox.ts:26:11,1.994
+Identifier: Context<FormFieldContextV,2.031,2.031,1,components/ui/form.tsx:36:11,2.031
+createCheckout,1.932,0.242,8,../server/model/billing/index.ts:100:25,0.602
+getWorkspaceWebsiteStats,1.826,0.609,3,../server/trpc/routers/website.ts:227:22,1.138
+onChange,1.824,0.456,4,components/monitor/StatusPage/ServiceList.tsx:34:22,1.191
+Identifier: DropdownSelectProps<T>,1.781,1.781,1,components/insights/DropdownSelect.tsx:48:13,1.781
+endsWith,1.779,1.779,1,../server/model/auth.ts:104:13,1.779
+getCsrfToken,1.753,0.584,3,api/authjs/lib.tsx:167:10,1.474
+Identifier: CardInterface,1.726,1.726,1,routes/telemetry/$telemetryId.tsx:167:11,1.726
+createMany,1.709,0.854,2,../server/model/website/index.ts:266:8,1.546
+toAdapterUser,1.704,0.284,6,../server/model/auth.ts:56:15,0.755
+Identifier: OpenAI,1.699,1.699,1,../server/model/openai.ts:22:11,1.699
+caching,1.681,0.841,2,../server/cache/index.ts:10:29,1.563
+toISOString,1.667,1.667,1,../server/utils/prisma.ts:73:12,1.667
+Identifier: ForwardRefExoticComponent,1.644,1.644,1,components/DataTable.tsx:167:15,1.644
+axios,1.615,0.538,3,../server/model/monitor/provider/http.ts:88:24,1.418
+then,1.583,0.791,2,components/website/WebsiteVisitorMap/index.tsx:9:6,1.448
+sql,1.553,0.388,4,../server/model/website/index.ts:344:9,0.812
+castToDate,1.550,0.775,2,../server/model/website/insights.ts:189:13,1.454
+useRequest,1.539,0.769,2,routes/register.tsx:22:52,1.382
+emitWithAck,1.521,1.521,1,api/socketio.ts:75:19,1.521
+toPairs,1.489,1.489,1,components/WebhookPlayground.tsx:174:14,1.489
+createWithEqualityFn,1.273,1.273,1,store/user.ts:16:28,1.273
+getWorkspaceWebsitePageview,1.270,1.270,1,../server/trpc/routers/website.ts:363:56,1.270
+changeUserPassword,1.167,1.167,1,../server/trpc/routers/user.ts:139:13,1.167
+reverse,1.148,0.574,2,components/insights/TableView.tsx:42:8,0.967
+createClient,1.147,0.287,4,api/trpc.ts:32:13,0.577
+search,1.143,1.143,1,hooks/useFuseSearch.ts:18:19,1.143
+flatMap,1.138,0.569,2,components/survey/SurveyListTable.tsx:38:12,0.878
+getState,1.114,0.223,5,store/user.ts:16:13,0.667
+useSocketSubscribe,1.042,1.042,1,components/website/WebsiteLighthouseBtn.tsx:57:8,1.042
+Identifier: { user: { id: string; use,1.026,0.205,5,../server/model/auth.ts:223:15,0.463
+Identifier: { _config: RootConfig<{ c,1.008,0.504,2,../server/trpc/trpc.ts:33:22,0.677
+getRequestInfo,0.992,0.331,3,../server/utils/detect.ts:56:28,0.852
+keys,0.966,0.161,6,../server/utils/common.ts:79:9,0.430
+default,0.961,0.961,1,components/monitor/StatusPage/schema.ts:16:13,0.961
+loadable,0.955,0.478,2,components/MarkdownEditor/index.tsx:5:30,0.861
+Identifier: { isProd: boolean; isDev:,0.875,0.292,3,../server/model/_client.ts:10:12,0.690
+Identifier: { email: string | null; c,0.865,0.433,2,../server/model/user.ts:95:9,0.748
+mapValues,0.859,0.429,2,components/insights/TableView.tsx:66:10,0.589
+Identifier: FC<DialogProps>,0.844,0.844,1,components/ui/command.tsx:27:11,0.844
+nullable,0.786,0.131,6,../server/trpc/routers/workspace.ts:428:25,0.193
+Identifier: MutableRefObject<PickFunc,0.776,0.388,2,hooks/useEvent.ts:34:9,0.581
+Identifier: number,0.764,0.764,1,components/DataTable.tsx:167:25,0.764
+handleJump,0.759,0.759,1,components/CommandPanel/index.tsx:282:23,0.759
+millify,0.742,0.371,2,utils/common.ts:20:9,0.653
+"Identifier: Request<ParamsDictionary,",0.739,0.370,2,../server/model/telemetry.ts:16:14,0.399
+confirm,0.727,0.727,1,components/monitor/useMonitorAction.ts:78:12,0.727
+normalizeFilters,0.723,0.723,1,../server/utils/prisma.ts:74:10,0.723
+takeRight,0.716,0.239,3,components/monitor/StatusPage/StatusHeader.tsx:83:35,0.373
+FirstBinaryOperator: any,0.712,0.356,2,routes/website/add.tsx:91:23,0.475
+copyData,0.690,0.690,1,../server/utils/sandbox.ts:82:29,0.690
+Identifier: FC<FeedChannelEditFormPro,0.647,0.647,1,routes/feed/add.tsx:48:9,0.647
+useAIStoreContext,0.610,0.203,3,routes/survey/$surveyId/index.tsx:58:21,0.307
+useCallback,0.587,0.294,2,components/VirtualizedInfiniteDataTable.tsx:52:48,0.482
+clsx,0.572,0.572,1,components/monitor/MonitorHealthBar.tsx:152:28,0.572
+useRef,0.548,0.183,3,hooks/useDataReady.ts:12:8,0.283
+Identifier: JWT,0.546,0.546,1,../server/model/auth.ts:106:13,0.546
+resetQueries,0.544,0.272,2,components/website/WebsiteInfo.tsx:37:23,0.404
+Identifier: Date | null,0.537,0.179,3,../server/utils/common.ts:196:32,0.264
+Identifier: { email: string | null; c,0.536,0.536,1,../server/model/user.ts:218:9,0.536
+cva,0.519,0.259,2,components/ui/avatar.tsx:7:23,0.420
+useEffect,0.511,0.170,3,hooks/useTheme.ts:100:4,0.251
+"Identifier: ""submit""",0.504,0.252,2,routes/telemetry/add.tsx:93:24,0.308
+Identifier: GetWebsiteEventAggregateT,0.500,0.167,3,../server/model/workspace.ts:71:9,0.187
+useSocketSubscribeList,0.481,0.240,2,routes/feed/$channelId/index.tsx:85:25,0.428
+createContext,0.444,0.222,2,components/ui/chart.tsx:28:6,0.250
+useGlobalConfig,0.438,0.438,1,components/website/WebsiteVisitorMap/VisitorLarkMap.tsx:34:8,0.438
+createEvent,0.438,0.109,4,../server/trpc/routers/monitor.ts:299:31,0.129
+findIndex,0.433,0.433,1,components/Sortable/SortableContext.tsx:13:31,0.433
+_get,0.415,0.415,1,components/ai/store.ts:54:33,0.415
+useCommandState,0.409,0.409,1,components/CommandPanel/index.tsx:225:15,0.409
+some,0.400,0.400,1,routes/switchWorkspace.tsx:31:37,0.400
+fetch,0.400,0.133,3,components/monitor/StatusPage/StatusHeader.tsx:77:35,0.260
+join,0.390,0.097,4,../server/model/website/insights.ts:58:130,0.240
+dayjs,0.385,0.064,6,components/monitor/StatusPage/StatusHeader.tsx:93:25,0.119
+"Identifier: ""/api/auth""",0.376,0.376,1,api/authjs/lib.tsx:107:20,0.376
+isEmpty,0.361,0.361,1,routes/monitor/add.tsx:30:12,0.361
+Identifier: { identifier: string; tok,0.356,0.356,1,../server/model/auth.ts:263:13,0.356
+getMinimumUnit,0.356,0.356,1,../server/utils/common.ts:199:11,0.356
+Identifier: ForwardRefExoticComponent,0.355,0.355,1,routes/playground.tsx:66:9,0.355
+String,0.354,0.177,2,components/monitor/provider/ping.tsx:29:45,0.246
+handleChangeGroupTitle,0.343,0.171,2,components/monitor/StatusPage/ServiceList.tsx:160:38,0.218
+"Identifier: typeof import(""/home/ssal",0.325,0.325,1,components/ui/chart.tsx:106:21,0.325
+Identifier: OPENAPI_TAG[],0.321,0.321,1,../server/trpc/routers/feed/index.ts:468:13,0.321
+last,0.317,0.106,3,components/monitor/StatusPage/StatusHeader.tsx:93:32,0.172
+take,0.308,0.154,2,components/survey/SurveyCategoryChart.tsx:41:23,0.240
+Identifier: typeof OPENAPI_TAG,0.306,0.102,3,../server/trpc/routers/feed/index.ts:469:14,0.117
+isArray,0.297,0.149,2,components/CommonList.tsx:121:18,0.160
+unix,0.284,0.095,3,components/server/ServerRowExpendView.tsx:111:18,0.180
+guess,0.278,0.278,1,routes/settings/workspace.tsx:175:11,0.278
+"Identifier: typeof import(""/home/ssal",0.273,0.137,2,../../node_modules/.pnpm/@radix-ui+react-menu@2.0.6_@types+react-dom@18.2.7_@types+react@18.2.78_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/@radix-ui/react-menu/dist/index.d.ts:54:67,0.189
+Identifier: ErrorConstructor,0.261,0.131,2,../server/model/billing/index.ts:155:10,0.218
+Identifier: { user: { id: string; use,0.261,0.261,1,../server/model/auth.ts:244:35,0.261
+entries,0.250,0.250,1,components/ui/chart.tsx:74:22,0.250
+substring,0.243,0.121,2,../server/model/website/index.ts:201:29,0.195
+Identifier: SortableContextProps<T>,0.241,0.241,1,components/Sortable/SortableContext.tsx:16:8,0.241
+useIsLogined,0.236,0.236,1,api/socketio.ts:165:8,0.236
+Identifier: false,0.233,0.233,1,routes/website/$websiteId/index.tsx:183:21,0.233
+Identifier: MemoryCache,0.227,0.227,1,../server/cache/index.ts:17:9,0.227
+callback,0.219,0.110,2,../server/ws/shared.ts:87:6,0.170
+Identifier: ForwardRefExoticComponent,0.214,0.214,1,components/ui/dropdown-menu.tsx:95:4,0.214
+"Identifier: typeof import(""/home/ssal",0.208,0.104,2,components/ui/dropdown-menu.tsx:96:31,0.120
+checkEnvTrusty,0.193,0.048,4,../server/utils/env.ts:19:23,0.078
+createWorkspacePermissionMiddleware,0.193,0.193,1,../server/trpc/trpc.ts:134:8,0.193
+appendAssistantResponse,0.191,0.191,1,components/ai/store.ts:53:44,0.191
+Identifier: CompoundedComponent,0.191,0.095,2,routes/login.tsx:101:8,0.155
+describe,0.189,0.189,1,utils/health.spec.ts:7:39,0.189
+"Identifier: Router<Route<any, ""/"", ""/",0.186,0.186,1,App.tsx:30:19,0.186
+error,0.182,0.061,3,components/survey/SurveyDownloadBtn.tsx:113:22,0.091
+Identifier: BuiltRouter<{ ctx: { toke,0.181,0.181,1,../server/trpc/routers/index.ts:34:31,0.181
+"Identifier: typeof import(""/home/ssal",0.177,0.088,2,../../node_modules/.pnpm/@radix-ui+react-menubar@1.0.4_@types+react-dom@18.2.7_@types+react@18.2.78_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/@radix-ui/react-menubar/dist/index.d.ts:84:65,0.091
+Identifier: MonitorProvider,0.174,0.174,1,components/monitor/provider/dns.tsx:87:13,0.174
+test,0.174,0.087,2,utils/health.spec.ts:7:47,0.138
+Identifier: OptionFC,0.169,0.169,1,../../node_modules/.pnpm/antd@5.13.1_date-fns@3.6.0_moment@2.30.1_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/antd/es/select/index.d.ts:53:19,0.169
+Identifier: FilterDateOperator,0.169,0.169,1,../server/model/website/insights.ts:186:10,0.169
+refetchStats,0.166,0.083,2,components/website/WebsiteOverview.tsx:78:42,0.099
+useState,0.160,0.053,3,components/layout/Menu.tsx:13:26,0.150
+Identifier: boolean,0.151,0.075,2,routes/register.tsx:47:43,0.088
+Identifier: BaseQueryFilters,0.150,0.150,1,../server/model/survey.ts:14:8,0.150
+Identifier: Options,0.142,0.142,1,../server/model/notification/provider/smtp.ts:32:48,0.142
+useDataReady,0.122,0.122,1,routes/telemetry.tsx:48:27,0.122
+Identifier: { websiteId: string; star,0.117,0.058,2,../server/model/website/index.ts:350:17,0.090
+Identifier: DateConstructor,0.115,0.115,1,../server/utils/common.ts:196:22,0.115
+formatNumber,0.099,0.099,1,components/insights/TableView.tsx:56:19,0.099
+authUser,0.092,0.092,1,../server/model/auth.ts:44:27,0.092
+useNavigate,0.086,0.043,2,routes/page/$slug.tsx:26:8,0.073
+Identifier: typeof PureComponent,0.085,0.085,1,../../node_modules/.pnpm/recharts@2.12.7_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/recharts/types/component/Tooltip.d.ts:29:87,0.085
+setTimeout,0.079,0.079,1,routes/settings/billing.tsx:57:16,0.079
+useTranslation,0.073,0.036,2,components/website/WebsiteVisitorMap/VisitorLeafletMap.tsx:15:16,0.055
+Identifier: { readonly string: 1; rea,0.072,0.072,1,../server/utils/types.ts:4:50,0.072
+Identifier: FC<{ monitorId: string; },0.067,0.067,1,components/monitor/MonitorDataChart.tsx:197:3,0.067
+Identifier: { path: `/workspace/{work,0.065,0.065,1,../server/trpc/routers/feed/index.ts:467:9,0.065
+Identifier: string | ParsedQs | (stri,0.051,0.051,1,../server/model/telemetry.ts:16:8,0.051
+useResizeObserver,0.041,0.041,1,components/HealthBar.tsx:19:40,0.041
+Identifier: typeof Tooltip,0.038,0.038,1,components/ui/chart.tsx:106:6,0.038
+Identifier: FC<CommonWrapperProps>,0.031,0.031,1,routes/settings/workspace.tsx:343:7,0.031
+parseWebsiteFilters,0.004,0.004,1,../server/model/website/index.ts:331:53,0.004

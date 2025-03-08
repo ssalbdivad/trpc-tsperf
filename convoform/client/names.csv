@@ -1,0 +1,181 @@
+Function Name,Total Self (ms),Avg Self (ms),Call Count,Top Location,Top Self (ms)
+handleSubmit,917.563,101.951,9,src/components/formViewer/DynamicAnswerInput/textInput.tsx:53:11,885.504
+forwardRef,643.982,5.193,124,../../packages/ui/src/components/ui/accordion.tsx:52:5,97.037
+input,306.000,3.290,93,../../packages/api/src/router/conversation.ts:18:10,28.377
+Identifier: any,189.548,2.962,64,src/app/global-error.tsx:13:11,17.047
+pick,149.638,7.876,19,src/app/api/form/[formId]/conversation/route.ts:35:10,68.606
+createTRPCRouter,143.629,6.245,23,../../packages/api/src/router/form.ts:24:44,26.097
+useMutation,143.399,4.218,34,src/app/(protectedPage)/forms/[formId]/_components/formEditor/formEditorCard.tsx:85:21,26.303
+Identifier: <TFieldValues extends Fie,135.171,135.171,1,../../packages/ui/src/components/ui/form.tsx:39:7,135.171
+Identifier: number,126.361,18.052,7,src/components/formViewer/DynamicAnswerInput/multiChoiceInput.tsx:14:11,119.398
+map,121.227,1.638,74,src/components/formViewer/DynamicAnswerInput/multiChoiceInput.tsx:31:59,10.448
+createInsertSchema,111.740,10.158,11,../../packages/db/src/schema/formFields/validation.ts:54:37,49.167
+object,101.793,2.994,34,../../packages/db/src/schema/formFields/validation.ts:10:37,19.342
+cn,88.790,4.673,19,../../packages/ui/src/components/ui/skeleton.tsx:7:11,20.787
+findMany,84.310,5.621,15,../../packages/api/src/router/conversation.ts:28:39,21.787
+omit,73.506,5.654,13,../../packages/api/src/router/form.ts:283:12,23.106
+one,72.164,14.433,5,../../packages/db/src/schema/formFields/formField.ts:25:13,53.833
+mutation,67.531,1.688,40,../../packages/api/src/router/formField.ts:18:15,10.067
+querySelector,56.430,18.810,3,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/index.tsx:153:29,56.237
+query,53.323,1.159,46,../../packages/api/src/router/form.ts:214:13,7.164
+init,51.910,12.978,4,sentry.client.config.ts:7:13,28.762
+pgTable,44.586,5.573,8,../../packages/db/src/schema/forms/form.ts:9:36,16.888
+useForm,43.968,2.931,15,src/components/formViewer/DynamicAnswerInput/textInput.tsx:36:19,18.861
+useQuery,41.716,2.781,15,src/components/formViewer/formDesignContext.tsx:39:64,9.227
+extend,36.615,2.288,16,../../packages/db/src/schema/forms/validation.ts:26:32,8.866
+promise,32.875,6.575,5,src/app/api/form/[formId]/conversations/route.ts:15:10,14.405
+"Identifier: (<Props, TagName extends ",29.936,2.994,10,src/components/common/typingEffect.tsx:53:11,5.827
+preventDefault,27.420,2.285,12,src/app/(protectedPage)/(mainPage)/workspaces/[workspaceId]/_component/pageHeader.tsx:122:11,5.378
+relations,27.293,1.820,15,../../packages/db/src/schema/formDesigns/formDesigns.ts:29:36,12.260
+accessor,26.407,26.407,1,src/components/queryComponents/table/table.tsx:41:11,26.407
+text,25.546,2.555,10,../../packages/db/src/schema/forms/form.ts:18:15,10.275
+many,25.112,12.556,2,../../packages/db/src/schema/forms/form.ts:53:17,24.911
+toString,23.852,3.975,6,src/components/conversationsStats.tsx:19:11,15.338
+createSelectSchema,22.836,3.262,7,../../packages/db/src/schema/formFields/validation.ts:60:37,13.210
+literal,22.610,7.537,3,../../packages/db/src/schema/formFields/validation.ts:37:15,12.119
+Identifier: string,22.550,1.253,18,src/components/common/confirmAction.tsx:32:9,6.291
+insert,21.345,1.334,16,../../packages/api/src/router/form.ts:85:36,7.418
+clerkMiddleware,15.615,3.904,4,src/middleware.ts:16:32,9.551
+useReactTable,15.312,7.656,2,src/app/(protectedPage)/forms/[formId]/conversations/_components/data-table/conversations-data-table.tsx:160:16,15.211
+partial,14.766,4.922,3,../../packages/db/src/schema/forms/validation.ts:31:31,7.188
+mutate,14.707,7.353,2,src/app/(protectedPage)/(mainPage)/workspaces/[workspaceId]/_component/pageHeader.tsx:63:40,13.429
+setValue,14.608,14.608,1,src/app/(protectedPage)/forms/[formId]/_components/formEditor/customizeEndScreenCard.tsx:99:39,14.608
+use,14.305,2.384,6,../../packages/api/src/procedures/authProtectedProcedure.ts:14:59,5.709
+Identifier: <TFieldValues extends Fie,13.877,3.469,4,src/app/(protectedPage)/forms/[formId]/_components/formEditor/formEditorCard.tsx:194:17,7.606
+anonymous,13.736,13.736,1,src/instrumentation.ts:2:47,13.736
+toDateString,13.308,6.654,2,src/components/formViewer/DynamicAnswerInput/datePicker.tsx:64:7,11.253
+createRouteMatcher,12.953,6.476,2,src/middleware.ts:3:22,12.354
+findFirst,12.253,1.532,8,../../packages/api/src/router/conversation.ts:69:38,6.012
+require,11.974,5.987,2,../../packages/tailwind-config/src/tailwind.config.ts:4:6,7.232
+zodResolver,11.555,5.778,2,src/app/(protectedPage)/forms/[formId]/_components/formEditor/customizeEndScreenCard.tsx:80:14,6.331
+Identifier: (props: Without<NextClerk,10.303,10.303,1,src/components/authProvider.tsx:9:11,10.303
+Identifier: { name: string; overview:,9.998,9.998,1,src/app/api/ai/generateForm/route.ts:68:10,9.998
+animate,9.351,4.675,2,src/components/formViewer/welcomeScreen.tsx:41:28,5.218
+createClient,8.728,2.182,4,src/trpc/react.tsx:45:13,8.001
+useAnimate,8.347,4.174,2,src/components/formViewer/welcomeScreen.tsx:28:27,7.427
+union,8.112,2.704,3,../../packages/db/src/schema/formFields/validation.ts:35:40,7.105
+Identifier: string | undefined,8.000,4.000,2,src/components/formViewer/askScreen.tsx:48:24,7.923
+"Identifier: ""/dashboard""",7.906,7.906,1,src/app/(protectedPage)/(mainPage)/_components/navigationCardContent.tsx:124:28,7.906
+matchMedia,7.830,7.830,1,src/hooks/use-media-query.ts:10:27,7.830
+Identifier: ForwardRefExoticComponent,7.718,7.718,1,../../node_modules/.pnpm/@clerk+nextjs@6.10.2_next@15.1.6_react-dom@19.0.0_react@19.0.0/node_modules/@clerk/nextjs/dist/types/server/routeMatcher.d.ts:5:42,7.718
+update,7.606,0.380,20,../../packages/api/src/router/conversation.ts:211:29,1.818
+select,6.460,1.077,6,../../packages/api/src/router/conversation.ts:149:29,1.963
+array,5.825,1.942,3,../../packages/api/src/router/conversation.ts:269:17,5.245
+timestamp,5.680,1.136,5,../../packages/db/src/schema/base.ts:11:13,3.953
+Identifier: ForwardRefExoticComponent,5.490,5.490,1,src/app/(formSubmissionPage)/view/[formId]/_components/formNotPublishedScreen.tsx:13:9,5.490
+context,5.205,5.205,1,../../packages/api/src/trpc.ts:40:17,5.205
+"Identifier: ({ title, description, co",5.151,5.151,1,src/app/global-error.tsx:15:7,5.151
+Identifier: ZodObject<{ backgroundCol,4.930,4.930,1,src/app/(protectedPage)/forms/[formId]/_components/formDesignEditor/basicDesignCard.tsx:42:42,4.930
+Identifier: ZodObject<extendShape<Pic,4.558,4.558,1,../../packages/db/src/schema/conversations/validation.ts:13:43,4.558
+Identifier: { code: string; name: str,4.354,4.354,1,../../packages/react/src/utils/streamUtils.ts:41:26,4.354
+useSensors,4.343,2.172,2,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/index.tsx:67:18,4.014
+enum,4.061,0.677,6,../../packages/release/src/schema.ts:8:8,1.966
+Identifier: ForwardRefExoticComponent,4.031,4.031,1,src/components/common/confirmAction.tsx:30:7,4.031
+setError,3.928,3.928,1,../../packages/react/src/hooks/useConvoForm.ts:169:37,3.928
+Identifier: ForwardRefExoticComponent,3.917,3.917,1,src/app/(protectedPage)/(mainPage)/workspaces/[workspaceId]/_component/pageHeader.tsx:144:13,3.917
+Identifier: OrganizationSwitcherExpor,3.868,3.868,1,src/app/(protectedPage)/(mainPage)/_components/navigationCardContent.tsx:124:7,3.868
+replayIntegration,3.817,1.908,2,sentry.client.config.ts:19:30,2.323
+next,3.660,1.220,3,../../packages/api/src/procedures/orgProtectedProcedure.ts:13:11,1.523
+filter,3.628,1.814,2,src/app/api/form/[formId]/conversation/route.ts:103:37,3.423
+eq,3.503,0.389,9,../../packages/api/src/router/formDesign.ts:71:27,1.121
+Identifier: typeof Link,3.315,1.657,2,src/app/(protectedPage)/forms/[formId]/conversations/_components/data-table/conversations-data-table.tsx:227:10,2.569
+Identifier: { border: string; input: ,3.186,3.186,1,../../packages/tailwind-config/src/tailwind.config.ts:16:12,3.186
+"Identifier: ({ children, className, }",3.174,3.174,1,src/app/(landingPage)/page.tsx:56:7,3.174
+httpBatchLink,3.120,1.560,2,src/trpc/react.tsx:50:12,2.517
+keys,3.101,3.101,1,../../packages/rate-limiter/src/rateLimit.ts:77:40,3.101
+values,3.081,1.541,2,../../packages/api/src/router/conversation.ts:106:17,2.792
+"StringLiteral: "" """,3.000,3.000,1,src/app/(landingPage)/_components/screenshotsSlider.tsx:23:19,3.000
+mutateAsync,2.836,0.709,4,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/editFieldItem.tsx:89:26,1.414
+getState,2.719,1.359,2,src/app/(protectedPage)/forms/[formId]/conversations/_components/data-table/conversations-data-table.tsx:173:11,1.597
+slice,2.698,2.698,1,../../packages/ui/src/components/ui/use-toast.ts:72:23,2.698
+capture,2.643,0.529,5,../../packages/analytics/src/providers/posthogAnalyticsProvider.ts:43:18,0.947
+"Identifier: { inputType: ""text""; inpu",2.555,1.277,2,../../packages/db/src/schema/formFields/utils.ts:4:33,2.073
+Identifier: Date | undefined,2.537,2.537,1,src/components/formViewer/DynamicAnswerInput/datePicker.tsx:31:31,2.537
+Identifier: { center: true; padding: ,2.533,2.533,1,../../packages/tailwind-config/src/tailwind.config.ts:8:9,2.533
+Identifier: MouseEvent<HTMLAnchorElem,2.504,0.417,6,src/components/common/linkN.tsx:50:31,1.451
+references,2.356,0.393,6,../../packages/db/src/schema/forms/form.ts:20:22,0.932
+boolean,2.324,0.332,7,../../packages/db/src/schema/forms/form.ts:16:15,0.735
+Identifier: ForwardRefExoticComponent,2.317,2.317,1,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/editFieldSheet.tsx:227:31,2.317
+Identifier: ForwardRefExoticComponent,2.199,0.550,4,src/app/(protectedPage)/forms/[formId]/_components/formEditor/customizeEndScreenCard.tsx:174:19,1.561
+checkRateLimitThrowError,2.196,2.196,1,../../packages/api/src/lib/utils.ts:36:44,2.196
+Identifier: boolean,2.190,0.156,14,../../packages/ui/src/components/ui/drawer.tsx:8:15,1.048
+watch,2.188,1.094,2,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/editFieldSheet.tsx:102:28,1.940
+useEffect,2.172,0.434,5,src/hooks/use-media-query.ts:9:13,1.005
+stringify,2.106,2.106,1,src/lib/apiClient.ts:31:19,2.106
+Identifier: typeof OpenAI,2.061,2.061,1,../../packages/ai/src/openAI.ts:22:17,2.061
+FirstBinaryOperator: any,2.052,0.410,5,src/app/(protectedPage)/(mainPage)/_components/navigationCardContent.tsx:145:9,0.570
+useState,2.004,0.401,5,src/components/formViewer/welcomeScreen.tsx:19:29,1.119
+Identifier: Variants,1.859,1.859,1,src/components/formViewer/DynamicAnswerInput/multiChoiceInput.tsx:13:6,1.859
+Identifier: ForwardRefExoticComponent,1.845,1.845,1,src/components/formViewer/topProgressBar.tsx:37:13,1.845
+jsonb,1.635,0.409,4,../../packages/db/src/schema/conversations/conversation.ts:12:17,0.679
+find,1.612,1.612,1,../../packages/ai/src/conversation.ts:17:11,1.612
+invalidateQueries,1.582,1.582,1,src/app/(protectedPage)/(mainPage)/_components/navigationCardContent.tsx:35:10,1.582
+protect,1.537,0.768,2,src/middleware.ts:18:10,1.115
+generateQuestion,1.428,0.714,2,src/app/api/form/[formId]/conversation/route.ts:153:11,1.292
+ref,1.401,1.401,1,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/addFieldItemEditor.tsx:163:23,1.401
+read,1.372,0.686,2,../../packages/react/src/utils/streamUtils.ts:95:10,1.188
+useSensor,1.361,1.361,1,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/index.tsx:68:30,1.361
+unique,1.316,0.439,3,../../packages/db/src/schema/base.ts:6:37,1.088
+Identifier: typeof IllustrationImageE,1.309,0.436,3,src/components/common/emptyCard.tsx:14:28,0.870
+refetch,1.275,0.425,3,src/components/queryComponents/queryComponent.tsx:29:32,1.136
+setState,1.244,0.249,5,../../packages/react/src/hooks/useConvoForm.ts:182:23,0.386
+limit,1.209,0.403,3,../../packages/rate-limiter/src/rateLimit.ts:97:8,1.061
+and,1.160,0.232,5,../../packages/api/src/router/conversation.ts:342:15,0.532
+Identifier: ForwardRefExoticComponent,1.153,0.384,3,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/addFieldItemEditor.tsx:190:15,0.632
+Identifier: typeof MainNavTab,1.113,1.113,1,src/app/(protectedPage)/forms/[formId]/conversations/_components/conversationsSidebar.tsx:100:11,1.113
+Identifier: Context<FormContext | und,1.106,1.106,1,src/components/formViewer/formContext.tsx:84:11,1.106
+"Identifier: ({ onCTAClick, postCTACli",1.088,1.088,1,src/components/formViewer/index.tsx:57:50,1.088
+toast,1.060,0.353,3,src/app/(protectedPage)/(mainPage)/_components/navigationCardContent.tsx:47:12,0.535
+onRetry,1.033,1.033,1,src/components/queryComponents/table/table.tsx:131:11,1.033
+auth,0.971,0.324,3,src/lib/getOrganizationId.ts:5:20,0.416
+Identifier: { Root: ({ open: openProp,0.880,0.880,1,../../packages/ui/src/components/ui/drawer.tsx:11:59,0.880
+"Identifier: ({ className, items, head",0.877,0.877,1,src/app/(protectedPage)/forms/[formId]/conversations/_components/conversationsNavigation.tsx:52:12,0.877
+delete,0.816,0.272,3,../../packages/api/src/router/webhook.ts:46:36,0.414
+onEdit,0.811,0.811,1,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/editFieldItem.tsx:172:21,0.811
+min,0.804,0.402,2,../../packages/db/src/schema/formFields/validation.ts:54:13,0.590
+localFont,0.789,0.394,2,src/app/fonts/customFonts.ts:11:22,0.537
+useFormContext,0.778,0.389,2,src/app/(landingPage)/_components/demoSection/demoCollectedDataTable.tsx:22:8,0.750
+create,0.739,0.739,1,../../packages/api/src/trpc.ts:40:13,0.739
+FirstPunctuation: any,0.728,0.728,1,../../packages/ai/src/conversation.ts:149:11,0.728
+Identifier: UseTRPCMutationResult<{ i,0.700,0.700,1,src/app/(protectedPage)/forms/[formId]/_components/formEditor/fieldsEditorCard/editFieldSheet.tsx:83:30,0.700
+Identifier: ForwardRefExoticComponent,0.635,0.635,1,src/components/common/statsCard.tsx:30:11,0.635
+useContext,0.619,0.103,6,../../packages/ui/src/components/ui/form.tsx:44:21,0.299
+trim,0.611,0.204,3,src/components/formViewer/endScreen.tsx:15:25,0.307
+Identifier: ({ form }: Readonly<Props,0.597,0.597,1,src/app/(protectedPage)/forms/[formId]/page.tsx:61:13,0.597
+Identifier: { text: string; variant: ,0.597,0.597,1,src/app/(protectedPage)/(mainPage)/_components/navigationCardContent.tsx:70:8,0.597
+set,0.590,0.590,1,../../packages/api/src/router/conversation.ts:213:14,0.590
+"Identifier: ""destructive""",0.572,0.572,1,src/components/queryComponents/table/table.tsx:132:11,0.572
+getOneWithFields,0.563,0.113,5,src/app/(formSubmissionPage)/view/[formId]/page.tsx:25:57,0.190
+handleCreateForm,0.531,0.531,1,src/app/(protectedPage)/(mainPage)/workspaces/[workspaceId]/_component/createFormButton.tsx:89:7,0.531
+Identifier: Process,0.489,0.163,3,../../packages/websocket-client/src/utils/url.ts:1:31,0.372
+getORCreateConversation,0.477,0.159,3,src/app/api/form/[formId]/conversations/route.ts:37:34,0.337
+Identifier: { opacity: number; },0.445,0.445,1,src/app/(protectedPage)/forms/[formId]/conversations/[conversationId]/template.tsx:7:16,0.445
+join,0.437,0.219,2,../../packages/ai/src/systemPrompt.ts:109:25,0.348
+desc,0.412,0.206,2,../../packages/api/src/router/conversation.ts:35:47,0.318
+"Identifier: ({ label, id, labelSide, ",0.408,0.408,1,src/app/(protectedPage)/forms/[formId]/_components/formPublishToggle.tsx:35:11,0.408
+Identifier: ForwardRefExoticComponent,0.388,0.194,2,src/app/(protectedPage)/forms/[formId]/_components/formEditor/formEditorCard.tsx:356:11,0.311
+Identifier: ForwardRefExoticComponent,0.375,0.375,1,src/app/(protectedPage)/forms/[formId]/conversations/_components/data-table/conversations-data-table.tsx:184:13,0.375
+Identifier: { color: string | undefin,0.367,0.367,1,src/components/formViewer/askScreen.tsx:47:26,0.367
+parse,0.325,0.163,2,src/app/api/webhook/route.ts:17:12,0.257
+"Identifier: ({ className, ...props }:",0.299,0.299,1,src/app/(protectedPage)/(mainPage)/_components/usageCard.tsx:62:9,0.299
+isRateLimitErrorResponse,0.288,0.144,2,src/app/(protectedPage)/(mainPage)/_components/navigationCardContent.tsx:46:21,0.153
+Identifier: typeof TranscriptCard,0.272,0.272,1,src/app/(protectedPage)/forms/[formId]/conversations/_components/conversationDetail.tsx:78:13,0.272
+Identifier: { GroovySittingDoodle: an,0.268,0.268,1,src/components/common/emptyCard.tsx:14:6,0.268
+floor,0.215,0.072,3,../../packages/rate-limiter/src/utils.ts:11:15,0.106
+reduce,0.210,0.105,2,src/app/changelog/_components/releaseCard.tsx:21:27,0.162
+Identifier: ({ workspace }: Readonly<,0.206,0.206,1,src/app/(protectedPage)/(mainPage)/workspaces/[workspaceId]/page.tsx:41:27,0.206
+Identifier: ({ code: string; name: st,0.201,0.201,1,../../packages/react/src/utils/streamUtils.ts:41:6,0.201
+Identifier: { scale: number; },0.177,0.177,1,src/components/formViewer/DynamicAnswerInput/multiChoiceInput.tsx:13:48,0.177
+string,0.173,0.086,2,../../packages/db/src/schema/conversations/validation.ts:25:11,0.089
+Identifier: ZodObject<{ role: ZodEnum,0.157,0.157,1,../../packages/db/src/schema/conversations/validation.ts:29:40,0.157
+Identifier: { id: string; name: strin,0.145,0.048,3,src/app/(protectedPage)/(mainPage)/workspaces/[workspaceId]/page.tsx:41:55,0.082
+asc,0.131,0.131,1,../../packages/api/src/router/form.ts:193:38,0.131
+Identifier: OpenAI,0.099,0.099,1,../../packages/ai/src/openAI.ts:22:6,0.099
+Identifier: { id: string; name: strin,0.099,0.049,2,src/app/(protectedPage)/forms/[formId]/conversations/_components/conversationDetail.tsx:79:22,0.064
+Identifier: typeof PgColumnBuilder,0.095,0.095,1,../../node_modules/.pnpm/drizzle-orm@0.38.4_@neondatabase+serverless@0.10.4/node_modules/drizzle-orm/pg-core/columns/boolean.d.ts:13:105,0.095
+Identifier: Response,0.092,0.092,1,src/lib/apiClient.ts:40:9,0.092
+Identifier: UseFormReturn<{ id: strin,0.088,0.044,2,src/app/(protectedPage)/forms/[formId]/_components/formEditor/formEditorCard.tsx:275:29,0.066
+useCallback,0.085,0.085,1,src/app/(protectedPage)/(mainPage)/workspaces/[workspaceId]/_component/pageHeader.tsx:62:45,0.085
+Identifier: { ({ shouldScaleBackgroun,0.074,0.074,1,../../packages/ui/src/components/ui/drawer.tsx:8:6,0.074
+"Identifier: ""secondary""",0.060,0.060,1,src/app/(landingPage)/_components/signInButton.tsx:8:14,0.060
+Identifier: Control<{ id: string; nam,0.041,0.041,1,src/app/(protectedPage)/forms/[formId]/_components/formEditor/formEditorCard.tsx:274:29,0.041

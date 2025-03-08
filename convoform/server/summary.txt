@@ -1,0 +1,88 @@
+⏳ Gathering type trace data for /home/ssalb/ConvoForm/packages/api...
+Files:                         932
+Lines of Library:            41991
+Lines of Definitions:       148163
+Lines of TypeScript:          2769
+Lines of JavaScript:             0
+Lines of JSON:                  57
+Lines of Other:                  0
+Identifiers:                192171
+Symbols:                    205256
+Types:                       50283
+Instantiations:            1067052
+Memory used:               318360K
+Assignability cache size:    18671
+Identity cache size:           879
+Subtype cache size:            165
+Strict subtype cache size:      29
+Tracing time:                0.10s
+I/O Read time:               0.06s
+Parse time:                  0.80s
+ResolveModule time:          0.18s
+ResolveTypeReference time:   0.01s
+ResolveLibrary time:         0.01s
+Program time:                1.27s
+Bind time:                   0.44s
+Check time:                  2.10s
+printTime time:              0.00s
+Emit time:                   0.00s
+Dump types time:             1.59s
+Total time:                  3.81s
+
+⏳ Analyzing type trace data for /home/ssalb/ConvoForm/packages/api...
+Found 475 traces with duration information
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | createInsertSchema   |           51.80 | ../db/src/schema/formFields/validation.ts:54:37
+   2 | one                  |           50.83 | ../db/src/schema/formFields/formField.ts:25:13
+   3 | createInsertSchema   |           40.01 | ../db/src/schema/conversations/validation.ts:31:40
+   4 | input                |           27.41 | src/router/conversation.ts:18:10
+   5 | text                 |           24.07 | ../db/src/schema/base.ts:7:6
+   6 | object               |           22.89 | ../db/src/schema/formFields/validation.ts:35:50
+   7 | many                 |           22.68 | ../db/src/schema/forms/form.ts:53:17
+   8 | createTRPCRouter     |           22.64 | src/router/form.ts:24:44
+   9 | input                |           21.93 | src/router/form.ts:26:10
+  10 | partial              |           20.51 | ../db/src/schema/forms/validation.ts:31:31
+  11 | extend               |           20.40 | ../db/src/schema/forms/validation.ts:43:40
+  12 | input                |           20.30 | src/router/form.ts:282:14
+  13 | createTRPCRouter     |           19.82 | src/router/form.ts:24:44
+  14 | omit                 |           19.78 | src/router/form.ts:283:12
+  15 | extend               |           19.37 | ../db/src/schema/forms/validation.ts:26:32
+  16 | timestamp            |           19.24 | ../db/src/schema/base.ts:11:13
+  17 | relations            |           18.03 | ../db/src/schema/formDesigns/formDesigns.ts:29:36
+  18 | createTRPCRouter     |           17.49 | src/router/formDesign.ts:15:50
+  19 | createTRPCRouter     |           17.29 | src/router/conversation.ts:17:52
+  20 | findMany             |           17.25 | src/router/conversation.ts:28:39
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | input                |          234.46 |          3.01 |    78 | src/router/conversation.ts:18:10 (27.41ms)
+   2 | createTRPCRouter     |          168.84 |          7.67 |    22 | src/router/form.ts:24:44 (22.64ms)
+   3 | createInsertSchema   |          155.59 |         12.97 |    12 | ../db/src/schema/formFields/validation.ts:54:37 (51.80ms)
+   4 | findMany             |           82.55 |          4.13 |    20 | src/router/conversation.ts:28:39 (17.25ms)
+   5 | extend               |           77.26 |          4.83 |    16 | ../db/src/schema/forms/validation.ts:43:40 (20.40ms)
+   6 | text                 |           67.77 |          3.57 |    19 | ../db/src/schema/base.ts:7:6 (24.07ms)
+   7 | one                  |           67.29 |         22.43 |     3 | ../db/src/schema/formFields/formField.ts:25:13 (50.83ms)
+   8 | omit                 |           66.21 |          6.62 |    10 | src/router/form.ts:283:12 (19.78ms)
+   9 | query                |           66.07 |          1.61 |    41 | src/router/conversation.ts:154:13 (13.54ms)
+  10 | object               |           63.11 |          5.26 |    12 | ../db/src/schema/formFields/validation.ts:35:50 (22.89ms)
+  11 | mutation             |           61.96 |          1.63 |    38 | src/router/formField.ts:18:15 (10.93ms)
+  12 | pick                 |           51.23 |          6.40 |     8 | ../db/src/schema/conversations/validation.ts:72:40 (15.44ms)
+  13 | pgTable              |           49.85 |          4.15 |    12 | ../db/src/schema/forms/form.ts:9:36 (12.35ms)
+  14 | partial              |           37.99 |          6.33 |     6 | ../db/src/schema/forms/validation.ts:31:31 (20.51ms)
+  15 | relations            |           36.15 |          2.13 |    17 | ../db/src/schema/formDesigns/formDesigns.ts:29:36 (18.03ms)
+  16 | createSelectSchema   |           30.21 |          3.78 |     8 | ../db/src/schema/conversations/validation.ts:37:40 (13.04ms)
+  17 | insert               |           28.12 |          2.34 |    12 | src/router/conversation.ts:104:29 (9.49ms)
+  18 | findFirst            |           25.02 |          2.78 |     9 | src/router/conversation.ts:69:38 (5.92ms)
+  19 | many                 |           22.95 |         11.47 |     2 | ../db/src/schema/forms/form.ts:53:17 (22.68ms)
+  20 | timestamp            |           21.46 |          4.29 |     5 | ../db/src/schema/base.ts:11:13 (19.24ms)
+
+✅ Analysis complete! Results exported to:
+   - /home/ssalb/ConvoForm/packages/api/.attest/trace/ranges.csv (individual calls)
+   - /home/ssalb/ConvoForm/packages/api/.attest/trace/names.csv (grouped by function name)
+   - /home/ssalb/ConvoForm/packages/api/.attest/trace/summary.txt (complete analysis report)

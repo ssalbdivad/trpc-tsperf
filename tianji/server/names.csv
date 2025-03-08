@@ -1,0 +1,169 @@
+Function Name,Total Self (ms),Avg Self (ms),Call Count,Top Location,Top Self (ms)
+object,549.941,3.642,151,model/billing/limit.ts:6:31,129.256
+extend,543.979,16.484,33,prisma/zod/workspace.ts:48:88,41.365
+lazy,460.216,3.835,120,prisma/zod/survey.ts:36:69,12.843
+router,311.341,7.784,40,trpc/routers/monitor.ts:38:37,39.219
+meta,276.834,1.288,215,trpc/routers/monitor.ts:521:10,11.659
+union,171.628,5.201,33,prisma/zod/workspace.ts:9:51,18.374
+array,107.093,3.570,30,model/monitor/provider/openai.ts:14:10,10.130
+create,90.097,2.371,38,model/telemetry.ts:107:22,13.809
+mutation,89.206,1.487,60,trpc/routers/feed/integration.ts:64:15,13.267
+groupBy,86.499,4.119,21,trpc/routers/website.ts:117:53,29.531
+isTransferable,80.873,40.436,2,utils/sandbox.ts:121:9,80.328
+compose,80.279,40.139,2,middleware/validate.ts:18:18,49.837
+TianjiPrismaAdapter,76.967,76.967,1,model/auth.ts:99:11,76.967
+findUnique,72.490,2.685,27,model/auth.ts:193:9,25.556
+query,70.527,1.119,63,trpc/routers/notification.ts:12:7,13.239
+use,68.082,8.510,8,trpc/trpc.ts:60:31,46.151
+update,59.004,1.553,38,trpc/routers/workspace.ts:70:21,5.865
+merge,58.818,7.352,8,trpc/routers/feed/index.ts:35:15,20.343
+pick,57.018,4.073,14,trpc/routers/website.ts:652:33,25.090
+findMany,49.801,1.660,30,model/billing/cronjob.ts:13:21,7.931
+record,49.122,5.458,9,model/_schema/index.ts:15:11,10.179
+post,44.861,8.972,5,router/website.ts:14:39,22.219
+input,37.022,1.194,31,trpc/routers/workspace.ts:404:24,10.069
+Identifier: typeof Server,31.935,31.935,1,ws/index.ts:11:13,31.935
+all,30.514,2.180,14,model/workspace.ts:77:79,8.761
+findFirst,23.721,2.965,8,model/feed/event.ts:17:6,7.855
+setSync,22.317,11.158,2,utils/sandbox.ts:153:5,21.916
+middleware,21.420,4.284,5,trpc/trpc.ts:62:27,15.889
+test,21.271,1.934,11,router/__test__/telemetry.test.ts:33:25,4.672
+enum,20.480,5.120,4,trpc/routers/telemetry.ts:264:16,5.435
+delete,18.624,1.552,12,model/auth.ts:257:37,5.215
+findFirstOrThrow,17.988,5.996,3,model/monitor/index.bench.ts:31:13,11.262
+retry,17.848,2.975,6,model/billing/credit.ts:63:7,16.195
+expect,17.613,2.202,8,router/__test__/telemetry.test.ts:46:73,9.653
+get,17.460,1.247,14,model/monitor/provider/openai.ts:96:37,7.896
+execa,16.736,5.579,3,model/notification/provider/apprise.ts:22:10,9.421
+createLogger,16.554,2.759,6,utils/logger.ts:18:22,6.270
+Github,14.996,7.498,2,model/auth.ts:82:14,13.085
+$transaction,14.609,1.217,12,model/website/index.ts:261:9,4.078
+Identifier: SurveyResultWhereInput,14.335,7.168,2,mq/worker.ts:126:15,14.099
+createTransport,13.910,13.910,1,model/auth.ts:67:28,13.910
+nativeEnum,13.418,6.709,2,prisma/zod/feedchannel.ts:11:19,7.010
+parse,13.138,0.821,16,trpc/routers/website.ts:714:27,4.550
+literal,11.866,2.967,4,trpc/routers/ai.ts:36:20,5.351
+map,11.643,0.364,32,model/prompt/survey.ts:80:3,2.426
+Nodemailer,11.425,3.808,3,model/auth.ts:59:43,6.224
+run,11.202,11.202,1,model/monitor/runner.ts:56:16,11.202
+aggregate,11.194,1.599,7,trpc/routers/monitor.ts:452:30,6.279
+toLowerCase,10.839,2.710,4,model/monitor/provider/http.ts:18:7,7.876
+compact,9.475,3.158,3,utils/env.ts:17:8,4.241
+castToNumber,9.187,4.594,2,model/website/insights.ts:153:13,7.674
+createActionURL,9.172,3.057,3,model/auth.ts:147:14,8.551
+createOpenApiExpressMiddleware,8.514,4.257,2,trpc/index.ts:22:38,8.186
+Credentials,7.887,2.629,3,model/auth.ts:35:23,6.894
+reduce,7.639,0.694,11,utils/prisma.ts:139:55,3.105
+Identifier: typeof PrismaClient,7.572,7.572,1,model/_client.ts:12:22,7.572
+includes,7.264,1.453,5,model/auth.ts:31:51,3.287
+find,6.976,3.488,2,utils/prisma.ts:98:9,4.429
+arrayElement,6.905,1.726,4,tests/seeds/website.ts:57:17,6.279
+"Identifier: Request<ParamsDictionary,",6.668,3.334,2,model/telemetry.ts:16:14,5.893
+validationResult,6.430,3.215,2,middleware/validate.ts:7:10,5.826
+buildFilterQueryOperator,6.217,6.217,1,model/website/insights.ts:59:30,6.217
+join,6.079,0.868,7,model/prompt/survey.ts:71:15,5.322
+keys,5.872,0.839,7,trpc/routers/website.ts:238:20,5.270
+filter,5.676,1.135,5,trpc/routers/website.ts:295:13,2.709
+toAdapterUser,5.547,1.109,5,model/auth.ts:56:15,4.400
+fetchDataByCursor,5.240,5.240,1,trpc/routers/website.ts:664:42,5.240
+detect,5.168,1.723,3,model/monitor/provider/ping.ts:58:24,4.965
+Number,4.845,1.615,3,utils/env.ts:11:19,4.303
+count,4.831,0.966,5,model/telemetry.ts:69:23,2.046
+upsert,4.754,0.951,5,model/billing/index.ts:131:20,1.821
+bench,4.497,1.124,4,model/monitor/index.bench.ts:29:34,4.128
+on,4.417,2.208,2,ws/shared.ts:91:34,3.891
+Google,4.358,4.358,1,model/auth.ts:87:44,4.358
+isEmpty,4.034,4.034,1,middleware/validate.ts:6:27,4.034
+findUniqueOrThrow,3.857,0.643,6,model/user.ts:226:21,3.290
+Identifier: string,3.782,0.420,9,model/monitor/provider/http.ts:38:15,2.138
+copyObject,3.708,1.854,2,utils/sandbox.ts:121:51,3.514
+Identifier: { websiteId: string; star,3.670,1.835,2,model/website/index.ts:313:54,3.534
+open,3.204,1.068,3,utils/detect.ts:95:19,3.089
+buildCursorResponseSchema,3.158,3.158,1,trpc/routers/website.ts:651:13,3.158
+axios,3.127,1.042,3,model/monitor/provider/http.ts:88:24,2.780
+updateMany,3.057,1.019,3,mq/worker.ts:252:16,1.296
+FirstPunctuation: any,3.017,1.509,2,model/monitor/provider/openai.ts:122:9,2.873
+Identifier: { id: string; workspaceId,2.969,2.969,1,model/telemetry.ts:131:9,2.969
+values,2.759,0.690,4,trpc/routers/website.ts:476:17,1.668
+createFeedEvent,2.712,1.356,2,trpc/routers/feed/integration.ts:355:14,2.099
+getBillingCreditGrants,2.512,0.628,4,model/monitor/provider/openai.ts:71:7,1.449
+toISOString,2.197,0.732,3,utils/prisma.ts:110:12,1.559
+makeTransferable,1.938,0.485,4,utils/sandbox.ts:160:23,0.880
+Auth,1.858,0.619,3,model/auth.ts:154:25,1.454
+shape,1.776,1.776,1,router/website.ts:26:18,1.776
+format,1.750,0.437,4,utils/logger.ts:11:23,0.780
+push,1.698,0.566,3,tests/utils.ts:18:25,0.785
+launch,1.687,0.422,4,utils/screenshot/lighthouse.ts:12:8,1.217
+groupByTokenSize,1.680,0.840,2,model/openai.spec.ts:78:12,1.521
+pMap,1.576,0.315,5,mq/worker.ts:242:28,0.593
+sql,1.505,1.505,1,model/website/index.ts:305:9,1.505
+then,1.485,1.485,1,trpc/routers/survey.ts:188:15,1.485
+sign,1.451,0.725,2,middleware/auth.ts:14:16,1.304
+body,1.421,1.421,1,router/website.ts:18:12,1.421
+"Identifier: typeof import(""/home/ssal",1.391,0.696,2,utils/prometheus/client.ts:3:31,1.035
+Identifier: { user: { id: string; use,1.358,0.272,5,model/auth.ts:223:15,0.709
+maxDate,1.333,0.666,2,utils/prisma.ts:76:24,1.243
+unstable_pipe,1.242,0.621,2,trpc/trpc.ts:117:22,1.046
+Identifier: { identifier: string; tok,1.093,0.547,2,model/auth.ts:271:41,1.001
+uniq,1.004,0.335,3,mq/worker.ts:227:32,0.823
+bind,0.990,0.990,1,middleware/prometheus/middleware.ts:19:19,0.990
+validateInput,0.905,0.302,3,middleware/prometheus/index.ts:26:30,0.552
+for,0.834,0.834,1,utils/logger.ts:7:11,0.834
+Identifier: { allUSD: number; totalUs,0.802,0.160,5,model/monitor/provider/openai.ts:80:22,0.413
+validate,0.761,0.381,2,router/website.ts:17:11,0.689
+setInterval,0.748,0.249,3,middleware/prometheus/middleware.ts:18:36,0.611
+StringLiteral: string,0.717,0.717,1,model/monitor/provider/http.ts:41:26,0.717
+number,0.717,0.120,6,model/monitor/provider/openai.ts:18:22,0.327
+Cron,0.684,0.342,2,cronjob/index.ts:20:37,0.543
+getOpenAIClient,0.643,0.643,1,model/openai.ts:64:20,0.643
+getTelemetryStats,0.640,0.320,2,trpc/routers/telemetry.ts:394:56,0.556
+findSession,0.609,0.152,4,model/telemetry.ts:31:8,0.243
+copyData,0.603,0.603,1,utils/sandbox.ts:82:29,0.603
+hashUuid,0.594,0.148,4,model/website/index.ts:97:20,0.273
+parseTelemetryFilters,0.572,0.572,1,model/telemetry.ts:171:8,0.572
+string,0.562,0.047,12,trpc/routers/website.ts:403:16,0.120
+Identifier: Date | null,0.511,0.511,1,model/workspace.ts:70:9,0.511
+Identifier: { user: { id: string; use,0.504,0.504,1,model/auth.ts:244:35,0.504
+parseDateRange,0.463,0.463,1,trpc/routers/website.ts:198:49,0.463
+updateWorkspaceSubscription,0.446,0.111,4,router/billing.ts:83:12,0.178
+custom,0.425,0.425,1,router/website.ts:23:15,0.425
+next,0.425,0.213,2,trpc/trpc.ts:45:22,0.274
+Identifier: string | undefined,0.414,0.207,2,model/monitor/provider/http.ts:41:13,0.374
+String,0.399,0.133,3,trpc/routers/feed/integration.ts:114:25,0.251
+pingAction,0.375,0.125,3,model/monitor/provider/tcp.ts:8:7,0.188
+"Identifier: Record<string, SubscribeE",0.350,0.350,1,ws/shared.ts:64:6,0.350
+createUser,0.330,0.083,4,tests/utils.ts:19:23,0.183
+dayjs,0.321,0.053,6,model/monitor/runner.ts:92:53,0.122
+buildMonitorOpenapi,0.293,0.293,1,trpc/routers/monitor.ts:40:11,0.293
+Identifier: Process,0.284,0.095,3,utils/env.ts:43:12,0.138
+Identifier: GetWebsiteEventAggregateT,0.279,0.139,2,model/workspace.ts:72:9,0.165
+info,0.275,0.092,3,trpc/routers/feed/integration.ts:483:61,0.124
+startsWith,0.268,0.268,1,trpc/trpc.ts:62:6,0.268
+forEach,0.262,0.131,2,trpc/routers/survey.ts:196:62,0.223
+Identifier: unknown,0.255,0.255,1,utils/cast.ts:12:7,0.255
+chunk,0.246,0.246,1,mq/worker.ts:344:17,0.246
+Identifier: object,0.237,0.237,1,utils/json.ts:31:9,0.237
+indexOf,0.212,0.053,4,utils/common.ts:222:16,0.094
+catch,0.205,0.205,1,model/monitor/page/manager.ts:44:14,0.205
+Identifier: number,0.204,0.102,2,model/monitor/provider/openai.ts:91:11,0.113
+getSingleMetric,0.177,0.177,1,middleware/prometheus/index.ts:108:8,0.177
+Identifier: SMTPTransport.Options,0.176,0.176,1,model/notification/provider/smtp.ts:32:48,0.176
+notify,0.167,0.056,3,model/monitor/runner.ts:90:18,0.110
+trigger,0.161,0.161,1,cronjob/index.spec.ts:10:12,0.161
+text,0.161,0.080,2,model/monitor/runner.ts:90:61,0.103
+ping,0.153,0.153,1,model/monitor/provider/tcp.ts:22:9,0.153
+startTimer,0.141,0.141,1,trpc/trpc.ts:35:6,0.141
+ThisKeyword: this,0.133,0.044,3,model/monitor/runner.ts:172:26,0.091
+buildWorkspaceOpenapi,0.126,0.126,1,trpc/routers/workspace.ts:35:11,0.126
+Identifier: PrismaClient<{ log: { rea,0.118,0.118,1,model/_client.ts:12:13,0.118
+Identifier: FilterDateOperator,0.109,0.109,1,model/website/insights.ts:188:9,0.109
+"Identifier: Server<DefaultEventsMap, ",0.105,0.105,1,ws/index.ts:11:8,0.105
+"Identifier: Histogram<""route"" | ""type",0.105,0.105,1,utils/prometheus/client.ts:3:13,0.105
+Identifier: number[] | undefined,0.104,0.052,2,middleware/prometheus/index.ts:116:15,0.092
+getTimezone,0.099,0.033,3,model/monitor/runner.ts:93:23,0.070
+Identifier: string | ParsedQs | (stri,0.074,0.074,1,model/telemetry.ts:16:8,0.074
+Identifier: any,0.057,0.057,1,model/website/index.ts:127:14,0.057
+Identifier: boolean,0.041,0.041,1,model/telemetry.ts:268:8,0.041
+getAuthSession,0.037,0.037,1,ws/index.ts:50:32,0.037
+Identifier: { id: string; workspaceId,0.031,0.031,1,model/monitor/runner.ts:172:10,0.031
+SyntaxList: any,0.028,0.028,1,ws/shared.ts:64:62,0.028
