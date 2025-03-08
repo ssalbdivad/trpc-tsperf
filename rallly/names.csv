@@ -1,0 +1,268 @@
+Function Name,Total Self (ms),Avg Self (ms),Call Count,Top Location,Top Self (ms)
+Identifier: any,468.039,5.850,80,../../packages/emails/src/components/styled-components.tsx:174:7,99.364
+t,356.473,3.301,108,../../packages/emails/src/templates/finalized-participant.tsx:100:10,76.605
+forwardRef,347.327,3.656,95,../../packages/ui/src/button.tsx:65:13,30.140
+map,267.125,2.226,120,src/app/[locale]/(admin)/events/event-list.tsx:38:21,18.037
+Identifier: <Key extends ParseKeys<Ns,264.625,29.403,9,../../packages/emails/src/components/email-layout.tsx:56:17,213.008
+createEnv,235.593,33.656,7,src/env.ts:4:19,198.413
+sendTemplate,191.090,95.545,2,../../packages/emails/src/send-email.tsx:75:20,190.948
+Identifier: string,86.066,2.690,32,../../packages/emails/src/components/styled-components.tsx:27:14,46.275
+mutation,83.384,1.635,51,src/trpc/routers/polls.ts:521:15,21.100
+format,79.652,8.850,9,src/components/forms/poll-options-form/dayjs-localizer.ts:317:9,35.451
+Identifier: number,73.213,12.202,6,src/components/poll/mobile-poll.tsx:190:22,43.377
+router,67.937,3.774,18,src/trpc/routers/polls.ts:44:29,13.745
+input,63.772,1.594,40,src/trpc/routers/polls.ts:258:10,11.117
+cn,63.668,3.351,19,src/app/[locale]/(admin)/app-card.tsx:12:11,11.099
+PrismaAdapter,63.127,31.564,2,src/auth/adapters/prisma.ts:19:18,62.865
+FirstBinaryOperator: any,62.846,3.928,16,../../packages/emails/src/templates/abandoned-checkout.tsx:64:15,18.252
+create,56.624,3.146,18,src/auth/adapters/prisma.ts:24:13,20.875
+query,51.324,1.833,28,src/trpc/routers/polls.ts:439:12,13.679
+object,51.172,1.312,39,src/next-auth.ts:21:28,6.682
+useMutation,48.993,1.633,30,src/components/discussion/discussion.tsx:86:21,14.524
+"Identifier: ""app""",44.000,44.000,1,src/components/trans.tsx:14:20,44.000
+middleware,43.486,7.248,6,src/trpc/trpc.ts:27:56,38.329
+use,39.353,2.186,18,src/trpc/trpc.ts:27:39,11.231
+getCoreRowModel,37.246,37.246,1,src/app/[locale]/(admin)/events/event-list.tsx:16:21,37.246
+reset,36.345,6.058,6,src/components/settings/date-time-preferences.tsx:44:11,21.387
+enum,35.750,4.469,8,src/trpc/routers/polls/participants.ts:135:18,9.388
+useTranslation,35.048,11.683,3,src/components/trans.tsx:13:16,34.108
+handleSubmit,33.173,2.764,12,src/components/settings/language-preference.tsx:32:7,10.076
+Identifier: FC<Readonly<HeadingProps>,31.451,15.725,2,../../packages/emails/src/components/styled-components.tsx:90:11,20.467
+test,29.849,2.714,11,tests/house-keeping.spec.ts:55:87,17.537
+fromNow,28.606,7.152,4,src/components/event-card.tsx:49:17,8.436
+$transaction,27.067,1.933,14,src/trpc/routers/polls.ts:779:12,10.001
+Identifier: (<Props extends {}>(Compo,26.553,4.425,6,src/components/pay-wall-dialog.tsx:38:14,11.041
+setValue,26.532,3.790,7,src/components/forms/poll-options-form/month-calendar/month-calendar.tsx:226:33,14.134
+some,25.685,5.137,5,src/next-auth.config.ts:17:30,12.146
+mutateAsync,24.521,2.229,11,src/components/new-participant-modal.tsx:112:11,5.953
+update,23.337,1.945,12,src/trpc/routers/polls.ts:337:12,6.120
+Identifier: Readonly<HeadingProps>,21.922,10.961,2,../../packages/emails/src/components/styled-components.tsx:91:21,13.429
+NextAuth,21.846,1.986,11,src/next-auth.ts:33:14,8.461
+get,21.737,4.347,5,src/app/api/notifications/unsubscribe/route.ts:10:19,11.198
+capture,21.418,2.380,9,src/app/[locale]/(admin)/sidebar.tsx:106:11,4.511
+useState,20.474,4.095,5,src/components/forms/poll-options-form/poll-options-form.tsx:40:24,12.906
+watch,18.684,3.737,5,src/components/poll/voting-form.tsx:154:45,15.281
+Identifier: FC<Readonly<Omit<Detailed,17.533,17.533,1,../../packages/emails/src/components/styled-components.tsx:24:11,17.533
+safeParse,15.940,15.940,1,src/app/[locale]/(admin)/settings/profile/profile-picture.tsx:24:27,15.940
+Identifier: boolean,15.753,3.151,5,playwright.config.ts:36:12,11.113
+toISOString,15.419,1.101,14,src/components/poll/scheduled-event.tsx:25:11,7.121
+findUnique,15.099,0.888,17,src/trpc/routers/user.ts:30:19,2.894
+init,15.003,7.502,2,sentry.client.config.ts:9:13,11.526
+"Identifier: (props: { i18nKey: ""menu""",14.820,1.059,14,src/app/[locale]/(admin)/dashboard.tsx:35:13,4.175
+startsWith,14.494,2.416,6,src/app/[locale]/(admin)/sidebar.tsx:68:9,5.343
+Identifier: typeof Calendar,14.072,14.072,1,src/components/forms/poll-options-form/week-calendar.tsx:25:24,14.072
+updateMany,13.868,1.261,11,src/auth/helpers/merge-user.ts:11:26,4.291
+getSignedUrl,13.824,13.824,1,src/trpc/routers/user.ts:196:24,13.824
+Identifier: Process,13.012,3.253,4,playwright.config.ts:5:11,6.766
+CredentialsProvider,12.864,2.144,6,src/auth/providers/registration-token.ts:9:62,6.051
+findMany,12.822,1.832,7,src/trpc/routers/scheduled-events.ts:22:27,10.330
+toggleSorting,11.935,11.935,1,src/components/table/table-column-header.tsx:21:11,11.935
+createTransport,11.817,2.954,4,../../packages/emails/src/send-email.tsx:164:15,8.883
+Identifier: ForwardRefExoticComponent,11.267,2.253,5,src/app/[locale]/(admin)/settings/profile/profile-page.tsx:66:11,8.015
+"Identifier: ""Africa/Abidjan"" | ""Afric",11.251,11.251,1,src/utils/date-time-utils.ts:77:9,11.251
+groupBy,11.169,5.585,2,src/trpc/routers/polls.ts:48:43,8.724
+useQuery,10.528,2.106,5,src/components/poll/notifications-toggle.tsx:17:53,4.859
+NodemailerProvider,10.471,2.618,4,src/auth/providers/email.ts:16:17,6.323
+toUpperCase,10.464,5.232,2,src/components/user.tsx:20:11,8.630
+Identifier: ForwardRefExoticComponent,10.027,2.507,4,src/app/[locale]/invite/[urlId]/nav.tsx:19:9,5.225
+Identifier: S3Client,9.922,9.922,1,src/utils/s3.ts:25:9,9.922
+cancel,9.819,4.910,2,src/components/poll/desktop-poll/participant-row-form.tsx:56:11,6.934
+mutate,9.794,3.265,3,src/components/poll/manage-poll.tsx:69:13,4.868
+useForm,9.628,1.203,8,src/components/settings/date-time-preferences.tsx:33:15,7.274
+delete,9.327,3.109,3,tests/next-auth-migration.spec.ts:21:10,6.395
+all,9.254,1.322,7,src/auth/helpers/merge-user.ts:11:25,3.880
+toast,9.241,1.540,6,src/app/[locale]/(admin)/settings/profile/profile-picture.tsx:34:13,4.361
+send,9.194,3.065,3,src/app/api/storage/[...key]/route.ts:20:25,8.622
+Identifier: ReactNode,8.869,2.217,4,src/components/settings/settings.tsx:19:7,3.478
+upsert,8.668,4.334,2,src/app/api/stripe/webhook/handlers/utils.ts:57:8,7.859
+Identifier: typeof PrismaClient,8.639,8.639,1,../../packages/database/index.ts:6:9,8.639
+string,8.381,2.095,4,src/components/new-participant-modal.tsx:30:9,8.159
+Identifier: PlaywrightTestConfig,8.233,8.233,1,playwright.config.ts:14:6,8.233
+toString,7.867,1.573,5,src/app/[locale]/(admin)/events/user-scheduled-events.tsx:18:11,3.341
+Identifier: { email: string; name: st,7.822,2.607,3,src/app/api/stripe/checkout/route.ts:76:7,3.892
+useEffect,7.768,1.110,7,src/app/[locale]/(admin)/settings/profile/profile-email-address.tsx:47:19,3.265
+count,7.681,0.512,15,src/auth/helpers/is-email-blocked.ts:80:27,1.504
+requiredString,7.274,2.425,3,src/components/participant-dropdown.tsx:248:13,3.704
+useReactTable,7.095,2.365,3,src/app/[locale]/(admin)/events/event-list.tsx:13:16,6.633
+useCallback,6.973,1.743,4,src/components/forms/poll-options-form/month-calendar/time-picker.tsx:28:40,3.842
+Identifier: Omit<DetailedHTMLProps<Ta,6.883,3.441,2,../../packages/emails/src/components/styled-components.tsx:142:13,4.582
+join,6.594,1.649,4,src/components/poll/manage-poll/use-csv-exporter.ts:15:17,6.257
+ThisKeyword: this,6.571,6.571,1,../../packages/emails/src/send-email.tsx:194:11,6.571
+Identifier: Devices,6.495,2.165,3,playwright.config.ts:17:38,4.614
+getEmailClient,6.433,2.144,3,src/trpc/routers/polls.ts:740:47,3.073
+createClient,6.348,6.348,1,src/trpc/client/provider.tsx:71:8,6.348
+union,6.341,3.170,2,src/components/new-participant-modal.tsx:33:15,5.957
+fetchRequestHandler,6.071,2.024,3,src/app/api/trpc/[trpc]/route.ts:17:9,5.757
+getValues,5.864,2.932,2,src/components/forms/poll-options-form/poll-options-form.tsx:79:18,5.624
+push,5.767,1.922,3,next.config.js:16:19,2.705
+forEach,5.469,1.823,3,src/components/forms/poll-options-form/month-calendar/month-calendar.tsx:66:21,4.755
+onChange,5.187,1.297,4,src/components/forms/poll-options-form/poll-options-form.tsx:226:17,2.411
+Identifier: { prismaGlobal: PrismaCli,5.186,5.186,1,../../packages/database/index.ts:15:15,5.186
+Identifier: FC<Readonly<Omit<Detailed,5.055,5.055,1,../../packages/emails/src/components/styled-components.tsx:119:11,5.055
+hkdf,5.033,2.517,2,src/auth/legacy/helpers/jwt.ts:27:15,4.877
+findUniqueOrThrow,5.010,5.010,1,src/trpc/routers/polls/participants.ts:296:15,5.010
+createElement,4.924,1.231,4,src/components/add-to-calendar-button.tsx:115:20,1.824
+Identifier: string | 3002,4.909,1.636,3,playwright.config.ts:11:16,3.746
+Boolean,4.789,4.789,1,src/components/poll/desktop-poll.tsx:141:9,4.789
+error,4.768,4.768,1,src/auth/edge/with-auth.ts:17:9,4.768
+createEvent,4.735,0.789,6,src/trpc/routers/polls.ts:630:20,1.942
+Identifier: FC<Readonly<Omit<Detailed,4.713,2.356,2,../../packages/emails/src/components/email-layout.tsx:43:11,3.278
+findFirst,4.620,1.155,4,src/app/api/notifications/unsubscribe/route.ts:29:24,2.253
+Identifier: ForwardRefExoticComponent,4.592,1.531,3,src/features/quick-create/quick-create-button.tsx:13:7,3.515
+Identifier: { title: string; id: stri,4.252,4.252,1,src/features/quick-create/lib/get-guest-polls.ts:30:9,4.252
+reduce,4.153,0.593,7,src/trpc/routers/polls.ts:59:11,2.476
+"Identifier: ({ href, children, target",4.126,2.063,2,src/app/[locale]/(admin)/sidebar.tsx:152:13,3.712
+Identifier: ({ start }: { start: Date,4.109,4.109,1,src/components/poll/scheduled-event.tsx:90:13,4.109
+Identifier: ComponentType<{ className,4.062,4.062,1,../../packages/ui/src/dropdown-menu.tsx:226:7,4.062
+array,4.030,4.030,1,src/components/poll/voting-form.tsx:26:9,4.030
+entries,3.990,0.798,5,src/components/modal/modal-provider.tsx:68:8,2.009
+Identifier: FC<Readonly<Omit<Detailed,3.925,3.925,1,../../packages/emails/src/components/styled-components.tsx:68:11,3.925
+Identifier: TemplateComponent<T>,3.720,3.720,1,../../packages/emails/src/send-email.tsx:98:24,3.720
+"Identifier: ({ size, className, src, ",3.645,3.645,1,src/app/[locale]/(admin)/sidebar.tsx:171:19,3.645
+Identifier: ForwardRefExoticComponent,3.587,1.794,2,src/components/poll/truncated-linkify.tsx:30:9,3.291
+addEventListener,3.477,3.477,1,src/components/poll/desktop-poll/participant-row-form.tsx:47:6,3.477
+literal,3.449,3.449,1,src/components/new-participant-modal.tsx:22:16,3.449
+withPosthog,3.312,1.656,2,src/app/api/stripe/webhook/route.ts:10:33,3.090
+import,3.294,3.294,1,src/utils/dayjs.tsx:203:5,3.294
+generateGradient,3.172,3.172,1,src/components/random-gradient-bar.tsx:4:11,3.172
+createPortal,3.097,3.097,1,src/components/cookie-consent.tsx:18:23,3.097
+"Identifier: { ""12h"": string; ""24h"": s",3.094,3.094,1,declarations/i18next.d.ts:12:18,3.094
+Identifier: <TFieldValues extends Fie,3.071,3.071,1,../../packages/ui/src/form.tsx:31:7,3.071
+newParticipant,3.033,1.516,2,src/components/poll/desktop-poll.tsx:233:7,2.441
+Identifier: ForwardRefExoticComponent,2.994,0.998,3,src/app/[locale]/(admin)/settings/profile/profile-settings.tsx:60:19,2.320
+fetch,2.955,0.739,4,src/app/[locale]/invite/[urlId]/page.tsx:19:10,1.550
+Identifier: typeof Error,2.944,2.944,1,src/global-error.tsx:23:9,2.944
+getSubject,2.912,1.456,2,../../packages/emails/src/send-email.tsx:97:20,2.370
+Identifier: (props: Omit<DetailedHTML,2.876,0.959,3,../../packages/emails/src/components/styled-components.tsx:41:9,2.427
+getOptions,2.708,2.708,1,src/components/forms/poll-options-form/month-calendar/time-picker.tsx:71:18,2.708
+Identifier: Context<{ participants: (,2.706,2.706,1,src/components/participants-provider.tsx:45:11,2.706
+Identifier: { width: number; height: ,2.655,2.655,1,playwright.config.ts:18:7,2.655
+createServerSideHelpers,2.640,2.640,1,src/trpc/server/create-ssr-helper.ts:32:31,2.640
+Identifier: ForwardRefExoticComponent,2.490,2.490,1,src/components/optimized-avatar-image.tsx:33:63,2.490
+Identifier: (props: Omit<DetailedHTML,2.453,1.226,2,../../packages/emails/src/components/styled-components.tsx:141:11,2.292
+Identifier: ForwardRefExoticComponent,2.332,2.332,1,src/components/forms/poll-options-form/poll-options-form.tsx:120:21,2.332
+updatePreferences,2.269,2.269,1,src/components/clock.tsx:28:11,2.269
+"Identifier: ""cancel""",2.269,2.269,1,src/components/poll/manage-poll/finalize-poll-dialog.tsx:244:21,2.269
+Identifier: UseFormReturn<PollSetting,2.259,1.129,2,src/components/forms/poll-settings.tsx:96:24,2.151
+"StringLiteral: ""Pro""",2.234,2.234,1,public/locales/en/app.json:131:13,2.234
+Identifier: (props: SessionProviderPr,2.114,2.114,1,src/app/[locale]/layout.tsx:35:7,2.114
+queueTemplate,2.087,0.417,5,src/trpc/routers/polls.ts:246:19,0.729
+Identifier: EventWrapperProps<Event>,2.063,1.032,2,src/components/forms/poll-options-form/week-calendar.tsx:106:32,1.720
+Identifier: { delay: number; duration,1.968,1.968,1,src/components/pay-wall-dialog.tsx:38:19,1.968
+createTRPCReact,1.931,1.931,1,src/trpc/client.ts:5:20,1.931
+Identifier: ForwardRefExoticComponent,1.888,1.888,1,../../packages/ui/src/command.tsx:33:9,1.888
+Identifier: <TFieldValues extends Fie,1.853,0.926,2,src/components/settings/language-preference.tsx:38:9,1.842
+useVisibilityTrigger,1.828,0.914,2,src/components/visibility-trigger.tsx:44:21,1.711
+setIsWriting,1.789,0.358,5,src/components/discussion/discussion.tsx:268:25,0.847
+render,1.765,0.882,2,src/app/[locale]/poll/[urlId]/edit-options/page.tsx:124:33,1.501
+Identifier: MapConstructor,1.642,1.642,1,../../packages/ui/src/hooks/use-toast.ts:54:22,1.642
+Identifier: ForwardRefExoticComponent,1.591,0.795,2,src/components/add-to-calendar-button.tsx:96:11,1.234
+zodResolver,1.575,0.788,2,src/components/new-participant-modal.tsx:99:16,0.891
+"Identifier: ({ size, }: { size?: ""sm""",1.572,1.572,1,src/components/layouts/poll-layout.tsx:69:11,1.572
+Identifier: typeof NextResponse,1.527,1.527,1,src/app/api/storage/[...key]/route.ts:47:11,1.527
+setProtectedHeader,1.524,0.139,11,tests/helpers/next-auth-v4.ts:30:15,0.317
+migrateData,1.459,0.486,3,src/auth/adapters/prisma.ts:22:17,0.790
+setData,1.455,1.455,1,src/components/poll/notifications-toggle.tsx:61:10,1.455
+locale,1.414,1.414,1,src/utils/dayjs.tsx:242:66,1.414
+open,1.371,0.343,4,src/components/add-to-calendar-button.tsx:62:9,0.624
+next,1.350,1.350,1,src/trpc/trpc.ts:77:9,1.350
+redirect,1.340,0.223,6,src/app/api/notifications/unsubscribe/route.ts:56:51,0.672
+captureMessage,1.302,0.651,2,src/app/[locale]/(admin)/settings/profile/profile-picture.tsx:61:10,0.676
+"Identifier: ({ brand, last4 }: { bran",1.266,1.266,1,src/app/[locale]/(admin)/settings/billing/components/payment-method.tsx:55:13,1.266
+signIn,1.205,0.172,7,src/app/[locale]/(auth)/login/components/login-email-form.tsx:54:34,0.355
+useMemo,1.194,0.398,3,src/components/forms/poll-options-form/poll-options-form.tsx:69:8,1.052
+Identifier: ForwardRefExoticComponent,1.168,0.584,2,src/components/settings/date-time-preferences.tsx:62:19,1.166
+Identifier: { slot?: string | undefin,1.148,1.148,1,../../packages/emails/src/components/styled-components.tsx:25:18,1.148
+json,1.136,0.189,6,src/app/api/stripe/webhook/route.ts:40:13,0.333
+Identifier: (props: PropsWithChildren,1.131,0.565,2,src/components/layouts/poll-layout.tsx:90:13,1.015
+toFixed,1.130,1.130,1,src/components/pay-wall-dialog.tsx:91:11,1.130
+Identifier: ({ children }: { children,1.119,1.119,1,src/app/[locale]/(admin)/events/past-events.tsx:27:9,1.119
+normalizeTimeZone,1.079,1.079,1,src/utils/date-time-utils.ts:23:9,1.079
+pick,1.078,0.539,2,src/app/guest.ts:11:27,0.916
+prismaClientSingleton,1.063,0.531,2,../../packages/database/index.ts:15:15,0.922
+useHeadlessDatePicker,0.992,0.331,3,src/components/forms/poll-options-form/month-calendar/month-calendar.tsx:88:44,0.447
+preventDefault,0.966,0.966,1,src/components/upgrade-button.tsx:28:7,0.966
+sendMail,0.952,0.238,4,../../packages/emails/src/send-email.tsx:143:12,0.754
+Identifier: (props: Readonly<Omit<Det,0.941,0.941,1,../../packages/emails/src/templates/abandoned-checkout.tsx:95:9,0.941
+Identifier: (props: { title: ReactNod,0.896,0.448,2,src/app/[locale]/(admin)/settings/profile/profile-page.tsx:31:9,0.790
+required,0.893,0.893,1,src/components/create-poll.tsx:104:23,0.893
+Identifier: ({ locale: string | null;,0.884,0.884,1,src/components/poll/desktop-poll.tsx:254:17,0.884
+dayjs,0.883,0.098,9,src/components/forms/poll-options-form/dayjs-localizer.ts:68:13,0.240
+find,0.877,0.877,1,src/components/poll/voting-form.tsx:54:29,0.877
+Identifier: ForwardRefExoticComponent,0.877,0.438,2,../../packages/ui/src/toast.tsx:99:4,0.661
+Identifier: ForwardRefExoticComponent,0.864,0.432,2,src/components/poll/mobile-poll.tsx:82:15,0.850
+updatePollMutation,0.857,0.428,2,src/app/[locale]/poll/[urlId]/edit-details/page.tsx:47:48,0.675
+dispatch,0.851,0.426,2,../../packages/ui/src/hooks/use-toast.ts:143:42,0.760
+Identifier: ForwardRefExoticComponent,0.821,0.821,1,src/components/clock.tsx:97:7,0.821
+anonymous,0.820,0.820,1,src/instrumentation.ts:2:47,0.820
+Identifier: { id: string; active: boo,0.793,0.793,1,src/app/[locale]/(admin)/settings/billing/page.tsx:131:15,0.793
+createBreakpoint,0.758,0.758,1,src/components/poll/responsive-results.tsx:6:6,0.758
+getFixedT,0.751,0.250,3,src/i18n/server.ts:11:7,0.561
+memo,0.748,0.748,1,src/components/poll/score-summary.tsx:82:9,0.748
+usePoll,0.739,0.369,2,src/components/poll/score-summary.tsx:19:5,0.611
+Identifier: { children: ReactNode; },0.687,0.687,1,src/app/providers.tsx:20:13,0.687
+logout,0.682,0.682,1,src/components/user-dropdown.tsx:61:7,0.682
+Identifier: { letterSpacing: number; ,0.674,0.337,2,../../packages/emails/src/templates/register.tsx:44:18,0.573
+parse,0.673,0.673,1,src/app/api/og-image-poll/route.tsx:31:8,0.673
+setError,0.666,0.333,2,src/app/[locale]/(admin)/settings/profile/profile-email-address.tsx:95:58,0.503
+filter,0.630,0.630,1,src/next-auth.ts:28:6,0.630
+"Identifier: ({ children, size, varian",0.629,0.210,3,src/components/user-dropdown.tsx:121:13,0.286
+normalizeVotes,0.620,0.620,1,src/components/poll/voting-form.tsx:154:20,0.620
+Identifier: ForwardRefExoticComponent,0.616,0.308,2,src/components/user-dropdown.tsx:138:31,0.602
+getByRole,0.602,0.301,2,tests/poll-page.ts:15:30,0.404
+"Identifier: ({ href, children, }: { h",0.593,0.593,1,src/app/[locale]/(admin)/settings/settings-menu.tsx:11:11,0.593
+url,0.583,0.583,1,src/env.ts:4:13,0.583
+set,0.574,0.287,2,src/next-auth.config.ts:44:64,0.506
+"Identifier: ({ children, annual, larg",0.544,0.544,1,src/components/pay-wall-dialog.tsx:140:15,0.544
+Identifier: ForwardRefExoticComponent,0.531,0.531,1,src/app/[locale]/(admin)/polls/user-polls.tsx:84:7,0.531
+Identifier: (props: Omit<DetailedHTML,0.527,0.264,2,../../packages/emails/src/templates/register.tsx:43:9,0.516
+Identifier: ({ email }: { email: stri,0.523,0.523,1,src/app/[locale]/(auth)/login/verify/page.tsx:45:9,0.523
+Identifier: i18n,0.510,0.510,1,../../packages/emails/src/templates/new-participant.tsx:37:15,0.510
+onCancel,0.483,0.242,2,src/components/modal/modal.tsx:35:11,0.327
+absoluteUrl,0.473,0.095,5,src/utils/session/session-config.ts:7:12,0.157
+Identifier: (e: MouseEvent<HTMLElemen,0.469,0.469,1,src/components/forms/poll-options-form/week-calendar.tsx:101:19,0.469
+onOpenChange,0.468,0.468,1,src/components/participant-dropdown.tsx:241:7,0.468
+cookies,0.457,0.457,1,src/app/[locale]/(auth)/register/actions.ts:5:48,0.457
+Identifier: { opacity: number; y: num,0.456,0.228,2,src/components/poll/mobile-poll.tsx:189:23,0.396
+Identifier: FunctionComponent<{ type?,0.437,0.219,2,src/components/poll/mobile-poll/poll-option.tsx:160:19,0.430
+Identifier: { hidden: { opacity: numb,0.432,0.432,1,src/components/poll/mobile-poll.tsx:188:17,0.432
+Identifier: FormState<{ email: string,0.431,0.072,6,src/components/new-participant-modal.tsx:165:20,0.247
+getDerivedEncryptionKey,0.387,0.387,1,src/auth/legacy/helpers/jwt.ts:8:8,0.387
+dayjsLocalizer,0.356,0.356,1,src/components/forms/poll-options-form/week-calendar.tsx:17:6,0.356
+useUtils,0.344,0.344,1,src/components/poll/mutations.ts:19:41,0.344
+Identifier: FC<DialogProps>,0.329,0.329,1,src/components/clock.tsx:94:11,0.329
+Identifier: InfiniteData<{ polls: { t,0.324,0.162,2,src/app/[locale]/(admin)/polls/user-polls.tsx:46:8,0.164
+Identifier: ({ id: string; timeZone?:,0.300,0.100,3,src/components/user-provider.tsx:96:17,0.161
+isSame,0.297,0.099,3,src/components/forms/poll-options-form/dayjs-localizer.ts:293:11,0.128
+Identifier: { title: ReactNode; descr,0.278,0.278,1,src/components/settings/settings.tsx:36:9,0.278
+trigger,0.260,0.260,1,src/components/forms/poll-settings.tsx:150:39,0.260
+getByText,0.254,0.127,2,tests/register-page.ts:11:10,0.129
+usePlan,0.240,0.240,1,src/contexts/plan.tsx:43:20,0.240
+"Identifier: Map<string, Timeout>",0.232,0.232,1,../../packages/ui/src/hooks/use-toast.ts:54:6,0.232
+afterAll,0.228,0.114,2,tests/next-auth-migration.spec.ts:20:30,0.178
+"Identifier: Control<ChangeNameForm, a",0.195,0.098,2,src/components/participant-dropdown.tsx:249:23,0.132
+originalFn,0.191,0.191,1,src/trpc/client.ts:5:13,0.191
+"Identifier: { ({ title, hostName, pol",0.186,0.186,1,../../packages/emails/src/templates/finalized-participant.tsx:110:3,0.186
+Identifier: ForwardRefExoticComponent,0.183,0.183,1,../../packages/ui/src/dialog.tsx:42:4,0.183
+Identifier: ForwardRefExoticComponent,0.160,0.160,1,../../packages/ui/src/tabs.tsx:37:4,0.160
+describe,0.150,0.150,1,tests/edit-options.spec.ts:4:51,0.150
+extend,0.146,0.073,2,src/trpc/routers/scheduled-events.ts:10:23,0.129
+"StringLiteral: ""@rallly/database""",0.146,0.146,1,next.config.js:20:21,0.146
+Identifier: Event,0.139,0.139,1,src/app/api/stripe/webhook/handlers/payment-method/attached.ts:7:24,0.139
+Identifier: EmailContext,0.133,0.067,2,../../packages/emails/src/templates/new-participant.tsx:38:16,0.109
+onOk,0.131,0.131,1,src/components/modal/use-modal.tsx:17:13,0.131
+Identifier: (props: Readonly<HeadingP,0.114,0.114,1,../../packages/emails/src/components/styled-components.tsx:85:13,0.114
+useUnmount,0.101,0.101,1,src/components/create-poll.tsx:65:6,0.101
+Identifier: string | null,0.094,0.047,2,src/app/api/stripe/checkout/route.ts:56:6,0.054
+load,0.089,0.089,1,tests/vote-and-comment.spec.ts:60:14,0.089
+text,0.089,0.089,1,src/app/api/stripe/webhook/route.ts:10:13,0.089
+useMount,0.088,0.088,1,src/components/poll/use-touch-beacon.ts:16:12,0.088
+"Identifier: { textAlign: ""center""; fo",0.071,0.071,1,../../packages/emails/src/templates/register.tsx:43:14,0.071
+"Identifier: ""requireParticipantEmailL",0.065,0.065,1,src/components/forms/poll-settings.tsx:124:29,0.065
+diff,0.059,0.059,1,src/components/forms/poll-options-form/dayjs-localizer.ts:226:11,0.059
+encrypt,0.058,0.058,1,tests/helpers/next-auth-v4.ts:30:9,0.058
+"Identifier: ""paid"" | ""free""",0.031,0.031,1,src/contexts/plan.tsx:46:7,0.031
+waitFor,0.024,0.024,1,tests/register-page.ts:10:39,0.024
+Identifier: UserData,0.013,0.013,1,src/contexts/permissions.tsx:34:43,0.013
+"Identifier: ({ className, ...props }:",0.011,0.011,1,src/app/[locale]/(admin)/settings/billing/page.tsx:141:17,0.011
+subtract,0.008,0.008,1,tests/house-keeping.spec.ts:237:37,0.008

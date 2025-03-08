@@ -1,0 +1,88 @@
+⏳ Gathering type trace data for /home/ssalb/rallly/apps/web...
+Files:                        3137
+Lines of Library:            40252
+Lines of Definitions:       491370
+Lines of TypeScript:         27387
+Lines of JavaScript:           165
+Lines of JSON:                 335
+Lines of Other:                  0
+Identifiers:                552166
+Symbols:                    618836
+Types:                      141781
+Instantiations:             916754
+Memory used:               847256K
+Assignability cache size:    69402
+Identity cache size:          4208
+Subtype cache size:           1224
+Strict subtype cache size:     681
+Tracing time:                0.63s
+I/O Read time:               0.15s
+Parse time:                  2.12s
+ResolveTypeReference time:   0.02s
+ResolveModule time:          0.50s
+ResolveLibrary time:         0.01s
+Program time:                3.50s
+Bind time:                   1.12s
+Check time:                  8.15s
+printTime time:              0.00s
+Emit time:                   0.00s
+Dump types time:             4.94s
+Total time:                 12.77s
+
+⏳ Analyzing type trace data for /home/ssalb/rallly/apps/web...
+Found 1456 traces with duration information
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | Identifier: ...ys<Ns |          213.01 | ../../packages/emails/src/components/email-layout.tsx:56:17
+   2 | createEnv            |          198.41 | src/env.ts:4:19
+   3 | sendTemplate         |          190.95 | ../../packages/emails/src/send-email.tsx:75:20
+   4 | Identifier: any      |           99.36 | ../../packages/emails/src/components/styled-components.tsx:174:7
+   5 | t                    |           76.60 | ../../packages/emails/src/templates/finalized-participant.tsx:100:10
+   6 | PrismaAdapter        |           62.87 | src/auth/adapters/prisma.ts:19:18
+   7 | Identifier: string   |           46.28 | ../../packages/emails/src/components/styled-components.tsx:27:14
+   8 | Identifier: ...ys<Ns |           44.66 | src/components/trans.tsx:14:9
+   9 | Identifier: "app"    |           44.00 | src/components/trans.tsx:14:20
+  10 | Identifier: number   |           43.38 | src/components/poll/mobile-poll.tsx:190:22
+  11 | t                    |           42.80 | ../../packages/emails/src/templates/abandoned-checkout.tsx:27:16
+  12 | middleware           |           38.33 | src/trpc/trpc.ts:27:56
+  13 | getCoreRowModel      |           37.25 | src/app/[locale]/(admin)/events/event-list.tsx:16:21
+  14 | t                    |           37.05 | src/components/discussion/discussion.tsx:127:9
+  15 | format               |           35.45 | src/components/forms/poll-options-form/dayjs-localizer.ts:317:9
+  16 | useTranslation       |           34.11 | src/components/trans.tsx:13:16
+  17 | forwardRef           |           30.14 | ../../packages/ui/src/button.tsx:65:13
+  18 | reset                |           21.39 | src/components/settings/date-time-preferences.tsx:44:11
+  19 | mutation             |           21.10 | src/trpc/routers/polls.ts:521:15
+  20 | create               |           20.87 | src/auth/adapters/prisma.ts:24:13
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | Identifier: any      |          468.04 |          5.85 |    80 | ../../packages/emails/src/components/styled-components.tsx:174:7 (99.36ms)
+   2 | t                    |          356.47 |          3.30 |   108 | ../../packages/emails/src/templates/finalized-participant.tsx:100:10 (76.60ms)
+   3 | forwardRef           |          347.33 |          3.66 |    95 | ../../packages/ui/src/button.tsx:65:13 (30.14ms)
+   4 | map                  |          267.12 |          2.23 |   120 | src/app/[locale]/(admin)/events/event-list.tsx:38:21 (18.04ms)
+   5 | Identifier: ...ys<Ns |          264.62 |         29.40 |     9 | ../../packages/emails/src/components/email-layout.tsx:56:17 (213.01ms)
+   6 | createEnv            |          235.59 |         33.66 |     7 | src/env.ts:4:19 (198.41ms)
+   7 | sendTemplate         |          191.09 |         95.55 |     2 | ../../packages/emails/src/send-email.tsx:75:20 (190.95ms)
+   8 | Identifier: string   |           86.07 |          2.69 |    32 | ../../packages/emails/src/components/styled-components.tsx:27:14 (46.28ms)
+   9 | mutation             |           83.38 |          1.63 |    51 | src/trpc/routers/polls.ts:521:15 (21.10ms)
+  10 | format               |           79.65 |          8.85 |     9 | src/components/forms/poll-options-form/dayjs-localizer.ts:317:9 (35.45ms)
+  11 | Identifier: number   |           73.21 |         12.20 |     6 | src/components/poll/mobile-poll.tsx:190:22 (43.38ms)
+  12 | router               |           67.94 |          3.77 |    18 | src/trpc/routers/polls.ts:44:29 (13.75ms)
+  13 | input                |           63.77 |          1.59 |    40 | src/trpc/routers/polls.ts:258:10 (11.12ms)
+  14 | cn                   |           63.67 |          3.35 |    19 | src/app/[locale]/(admin)/app-card.tsx:12:11 (11.10ms)
+  15 | PrismaAdapter        |           63.13 |         31.56 |     2 | src/auth/adapters/prisma.ts:19:18 (62.87ms)
+  16 | FirstBinaryO...: any |           62.85 |          3.93 |    16 | ../../packages/emails/src/templates/abandoned-checkout.tsx:64:15 (18.25ms)
+  17 | create               |           56.62 |          3.15 |    18 | src/auth/adapters/prisma.ts:24:13 (20.87ms)
+  18 | query                |           51.32 |          1.83 |    28 | src/trpc/routers/polls.ts:439:12 (13.68ms)
+  19 | object               |           51.17 |          1.31 |    39 | src/next-auth.ts:21:28 (6.68ms)
+  20 | useMutation          |           48.99 |          1.63 |    30 | src/components/discussion/discussion.tsx:86:21 (14.52ms)
+
+✅ Analysis complete! Results exported to:
+   - /home/ssalb/rallly/apps/web/.attest/trace/ranges.csv (individual calls)
+   - /home/ssalb/rallly/apps/web/.attest/trace/names.csv (grouped by function name)
+   - /home/ssalb/rallly/apps/web/.attest/trace/summary.txt (complete analysis report)
