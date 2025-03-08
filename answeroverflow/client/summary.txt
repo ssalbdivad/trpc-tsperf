@@ -1,0 +1,84 @@
+⏳ Gathering type trace data for /home/ssalb/AnswerOverflow/apps/dashboard...
+Files:                         3349
+Lines of Library:             41991
+Lines of Definitions:        505353
+Lines of TypeScript:          24897
+Lines of JavaScript:            574
+Lines of JSON:                    0
+Lines of Other:                   0
+Identifiers:                 645279
+Symbols:                     668278
+Types:                       154386
+Instantiations:            13817162
+Memory used:                920504K
+Assignability cache size:    186601
+Identity cache size:           3218
+Subtype cache size:            1067
+Strict subtype cache size:      626
+Tracing time:                 0.27s
+I/O Read time:                0.11s
+Parse time:                   1.51s
+ResolveModule time:           0.33s
+ResolveTypeReference time:    0.01s
+ResolveLibrary time:          0.01s
+Program time:                 2.41s
+Bind time:                    0.94s
+Check time:                  14.38s
+printTime time:               0.00s
+Emit time:                    0.00s
+Dump types time:              5.01s
+Total time:                  17.72s
+⏳ Analyzing type trace data for /home/ssalb/AnswerOverflow/apps/dashboard...
+Found 1499 traces with duration information
+Error processing entry at /home/ssalb/AnswerOverflow/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:5645: Could not find TS path /home/ssalb/AnswerOverflow/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | useMutation          |         1869.04 | src/app/dashboard/[serverId]/settings/page.tsx:35:24
+   2 | useMutation          |         1731.63 | src/app/dashboard/[serverId]/channels/page.tsx:205:24
+   3 | Identifier: ...aph:  |          732.63 | ../../packages/core/src/cache.ts:12:10
+   4 | object               |          444.49 | ../../packages/core/src/zodSchemas/channelSchemas.ts:104:43
+   5 | psDrizzle            |          279.44 | ../../packages/core/src/db.ts:36:54
+   6 | mutation             |          235.69 | ../../packages/api/src/router/server.ts:99:13
+   7 | mutation             |          235.13 | ../../packages/api/src/router/channel.ts:125:13
+   8 | createInsertSchema   |          167.24 | ../../packages/core/src/schema.ts:197:36
+   9 | omit                 |          133.62 | ../../packages/core/src/zodSchemas/channelSchemas.ts:107:10
+  10 | forwardRef           |          133.17 | ../../packages/ui/src/ui/command.tsx:45:3
+  11 | Identifier: any      |          125.15 | ../../packages/ui/src/layouts/root.tsx:46:10
+  12 | useMutation          |           79.00 | src/app/dashboard/[serverId]/settings/page.tsx:35:24
+  13 | useMutation          |           70.45 | src/app/dashboard/[serverId]/channels/page.tsx:205:24
+  14 | deepPartial          |           69.80 | ../../packages/core/src/zodSchemas/serverSchemas.ts:26:13
+  15 | omit                 |           68.46 | ../../packages/core/src/zodSchemas/channelSchemas.ts:87:34
+  16 | omit                 |           63.45 | ../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:40:5
+  17 | useMutation          |           58.30 | src/app/dashboard/[serverId]/settings/page.tsx:36:11
+  18 | Identifier: ... "dev |           56.12 | ../../packages/core/src/db.ts:8:14
+  19 | object               |           55.90 | ../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:39:49
+  20 | cn                   |           55.67 | ../../packages/ui/src/discord-avatar.tsx:21:10
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | useMutation          |         3894.97 |        243.44 |    16 | src/app/dashboard/[serverId]/settings/page.tsx:35:24 (1869.04ms)
+   2 | forwardRef           |         1018.32 |          6.70 |   152 | ../../packages/ui/src/ui/command.tsx:45:3 (133.17ms)
+   3 | Identifier: ...aph:  |          732.63 |        732.63 |     1 | ../../packages/core/src/cache.ts:12:10 (732.63ms)
+   4 | object               |          730.83 |         17.83 |    41 | ../../packages/core/src/zodSchemas/channelSchemas.ts:104:43 (444.49ms)
+   5 | mutation             |          473.46 |         59.18 |     8 | ../../packages/api/src/router/server.ts:99:13 (235.69ms)
+   6 | Identifier: any      |          362.80 |          7.89 |    46 | ../../packages/ui/src/layouts/root.tsx:46:10 (125.15ms)
+   7 | omit                 |          334.03 |         16.70 |    20 | ../../packages/core/src/zodSchemas/channelSchemas.ts:107:10 (133.62ms)
+   8 | map                  |          305.65 |          2.26 |   135 | ../../packages/core/src/discord-account.ts:62:21 (22.49ms)
+   9 | psDrizzle            |          280.05 |        140.02 |     2 | ../../packages/core/src/db.ts:36:54 (279.44ms)
+  10 | createInsertSchema   |          213.43 |         16.42 |    13 | ../../packages/core/src/schema.ts:197:36 (167.24ms)
+  11 | cn                   |          168.97 |          9.39 |    18 | ../../packages/ui/src/discord-avatar.tsx:21:10 (55.67ms)
+  12 | input                |          162.46 |          3.78 |    43 | ../../packages/api/src/router/channel.ts:117:9 (45.14ms)
+  13 | createEnv            |          109.40 |          8.42 |    13 | ../../packages/env/src/shared.ts:87:26 (41.94ms)
+  14 | relations            |           92.81 |          2.65 |    35 | ../../packages/core/src/schema.ts:57:30 (36.05ms)
+  15 | deepPartial          |           92.78 |         23.19 |     4 | ../../packages/core/src/zodSchemas/serverSchemas.ts:26:13 (69.80ms)
+  16 | findFirst            |           87.92 |          1.83 |    48 | ../../packages/core/src/server.ts:177:21 (15.42ms)
+  17 | mysqlTable           |           79.52 |          4.19 |    19 | ../../packages/core/src/schema.ts:64:26 (12.96ms)
+  18 | extend               |           78.26 |          6.02 |    13 | ../../packages/core/src/zodSchemas/channelSchemas.ts:95:30 (38.06ms)
+  19 | Identifier: ... "dev |           73.65 |         24.55 |     3 | ../../packages/core/src/db.ts:8:14 (56.12ms)
+  20 | router               |           69.21 |          2.16 |    32 | ../../packages/api/src/router/server.ts:72:36 (11.73ms)
+  

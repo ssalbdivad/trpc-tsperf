@@ -1,0 +1,161 @@
+Function Name,Total Self (ms),Avg Self (ms),Call Count,Top Location,Top Self (ms)
+Identifier: RedisClientType<{ graph: ,649.426,649.426,1,../core/src/cache.ts:12:10,649.426
+object,622.028,19.438,32,../core/src/zodSchemas/channelSchemas.ts:104:43,399.058
+mutation,373.974,41.553,9,src/router/server.ts:99:13,188.550
+omit,323.283,17.015,19,../core/src/zodSchemas/channelSchemas.ts:107:10,128.696
+psDrizzle,231.947,115.974,2,../core/src/db.ts:36:54,231.062
+string,178.053,12.718,14,../env/src/shared.ts:11:25,162.355
+input,173.438,5.101,34,src/router/server.ts:91:9,49.283
+map,95.576,2.389,40,../core/src/channel.ts:326:36,31.143
+deepPartial,74.631,18.658,4,../core/src/zodSchemas/serverSchemas.ts:26:13,48.823
+extend,72.078,4.240,17,../core/src/zodSchemas/channelSchemas.ts:95:30,39.248
+relations,66.141,1.575,42,../core/src/schema.ts:57:30,27.292
+mysqlTable,61.553,3.621,17,../core/src/schema.ts:477:26,6.943
+"Identifier: Readonly<{ NODE_ENV: ""dev",55.009,13.752,4,../core/src/db.ts:8:14,47.879
+router,51.759,1.785,29,src/router/user-server-settings.ts:78:45,10.273
+createInsertSchema,51.250,3.661,14,../core/src/schema.ts:197:36,17.528
+createEnv,48.723,6.960,7,../env/src/shared.ts:87:26,35.082
+use,47.348,4.304,11,src/router/trpc.ts:98:22,19.830
+many,47.241,6.749,7,../core/src/schema.ts:58:11,17.479
+merge,44.209,4.421,10,../core/src/zodSchemas/userServerSettingsSchemas.ts:36:41,27.623
+required,40.514,5.788,7,../core/src/zodSchemas/serverSchemas.ts:22:29,12.991
+all,40.295,2.239,18,../core/src/pages.ts:247:47,13.702
+findMany,39.491,1.717,23,../core/src/message.ts:279:13,6.975
+any,37.130,7.426,5,../core/src/search.ts:16:13,18.030
+findFirst,34.270,1.490,23,../core/src/message.ts:174:8,7.278
+toString,33.932,11.311,3,../core/src/analytics.ts:15:8,28.408
+pick,33.179,2.370,14,../core/src/zodSchemas/serverSchemas.ts:32:31,11.465
+array,27.917,4.653,6,../core/src/search.ts:168:12,8.837
+filter,25.318,2.302,11,../core/src/discord-account.ts:53:33,12.116
+one,25.293,2.529,10,../core/src/schema.ts:155:10,9.961
+values,25.057,12.529,2,../core/src/auth.ts:171:41,21.398
+applyUserServerSettingsChangesSideEffects,24.347,4.058,6,../core/src/user-server-settings.ts:210:26,12.123
+query,23.553,0.906,26,src/bot/index.ts:37:10,8.704
+enum,21.986,5.497,4,../env/src/shared.ts:63:8,10.323
+"StringLiteral: { readonly name: ""User Gr",19.401,9.700,2,../core/src/analytics.events.ts:4:22,19.386
+parse,19.304,2.145,9,../core/src/pages.ts:217:31,7.665
+protectedMutationFetchFirst,17.855,1.488,12,src/router/channel.ts:126:10,8.981
+then,17.367,1.336,13,../core/src/message.ts:353:9,10.678
+Identifier: { readonly 'User Grant Co,16.101,16.101,1,../core/src/analytics.events.ts:4:13,16.101
+createTRPCProxyClient,12.280,4.093,3,src/bot/caller.ts:6:8,7.315
+select,11.727,1.066,11,../core/src/channel.ts:351:19,4.879
+protectedFetch,11.542,0.502,23,src/router/dashboard.ts:110:11,3.777
+applyPublicFlagsToMessages,10.995,2.749,4,../core/src/message.ts:244:20,6.218
+customType,9.391,9.391,1,../core/src/schema.ts:26:18,9.391
+zStringDefaultInDev,8.858,4.429,2,../env/src/shared.ts:93:15,6.092
+eq,8.430,4.215,2,../core/src/channel.ts:277:28,7.808
+createInvite,7.519,3.760,2,src/bot/index.ts:89:24,7.381
+protectedFetchManyWithPublicData,7.292,7.292,1,src/router/discord-accounts.ts:43:10,7.292
+mutateServer,7.014,7.014,1,src/router/server.ts:107:10,7.014
+from,6.660,1.665,4,../core/src/discord-account.ts:95:20,5.114
+get,6.634,1.658,4,../core/src/message.ts:92:31,4.207
+addFlagsToServer,6.514,0.651,10,../core/src/server.ts:181:26,4.790
+upsert,6.186,2.062,3,../core/src/user-server-settings.ts:236:8,6.003
+applyChannelSettingsChangesSideEffects,6.153,3.077,2,../core/src/channel.ts:251:22,6.033
+fetch,5.792,2.896,2,src/bot/index.ts:33:25,4.226
+primaryKey,5.706,2.853,2,../core/src/schema.ts:49:11,4.194
+findChannelById,5.685,2.842,2,src/router/channel.ts:128:29,5.588
+search,5.450,1.817,3,../core/src/search.ts:330:23,4.626
+"Identifier: Record<string, boolean>",5.339,5.339,1,../core/src/utils/bitfieldUtils.ts:58:21,5.339
+upsertUserServerSettingsWithDeps,4.828,1.609,3,src/router/user-server-settings.ts:112:46,2.820
+mutate,4.825,4.825,1,src/router/channel.ts:140:25,4.825
+decode,4.818,0.964,5,../core/src/db.ts:23:15,2.112
+upsertMany,4.750,0.950,5,../core/src/channel.ts:324:20,3.116
+Identifier: Process,4.709,2.355,2,../env/src/shared.ts:2:14,4.116
+snowflake,4.234,4.234,1,../core/src/schema.ts:329:24,4.234
+createContextInner,3.958,1.319,3,src/router/context.ts:52:14,2.251
+pipe,3.950,0.987,4,../env/src/shared.ts:34:13,2.444
+applyServerSettingsSideEffects,3.937,1.312,3,../core/src/server.ts:59:34,3.553
+getPosthogQueryClientForDashboard,3.898,0.487,8,../core/src/analytics.ts:136:9,1.404
+protectedMutation,3.834,0.767,5,src/router/user-server-settings.ts:182:24,1.729
+getNextAuthSession,3.554,1.777,2,../core/src/auth.ts:516:24,3.414
+bulk,3.406,0.852,4,../core/src/search.ts:370:23,2.406
+sort,3.040,0.338,9,src/router/auth.ts:63:38,2.254
+flatMap,2.889,1.445,2,../core/src/search.ts:371:15,1.999
+varchar,2.734,0.684,4,../core/src/schema.ts:42:8,2.468
+Identifier: { client_id: string; clie,2.729,2.729,1,../core/src/auth.ts:771:9,2.729
+inArray,2.476,0.825,3,../core/src/server.ts:128:11,1.927
+mysqlEnum,2.370,0.395,6,../core/src/schema.ts:276:8,0.829
+context,2.337,0.584,4,src/router/trpc.ts:11:10,1.729
+Identifier: SetConstructor,2.088,2.088,1,../core/src/zodSchemas/channelSchemas.ts:7:36,2.088
+Identifier: { _config: RootConfig<{ c,1.677,0.839,2,src/router/trpc.ts:96:22,1.626
+Identifier: RegExpConstructor,1.624,1.624,1,src/router/server.ts:36:32,1.624
+anonymizeDiscordAccount,1.594,1.594,1,../core/src/message.ts:125:11,1.594
+Identifier: CreateContextOptions,1.449,1.449,1,src/router/context.ts:31:18,1.449
+toZObject,1.436,0.718,2,../core/src/zodSchemas/serverSchemas.ts:19:36,1.307
+update,1.418,0.236,6,../core/src/auth.ts:255:9,0.477
+Identifier: Session,1.221,0.610,2,../core/src/auth.ts:518:9,1.030
+stripPrivateChannelData,1.198,0.599,2,../core/src/pages.ts:371:11,1.139
+toBitfield,1.170,1.170,1,../core/src/utils/bitfieldUtils.ts:31:7,1.170
+validatePermissionsOrFormatData,1.142,1.142,1,src/utils/protected-procedures.ts:136:27,1.142
+"Identifier: ""feedback""",0.921,0.921,1,../core/src/analytics.events.ts:108:14,0.921
+OpenBracketToken: any,0.920,0.920,1,../core/src/utils/operations.ts:65:19,0.920
+has,0.869,0.290,3,src/router/auth.ts:71:17,0.457
+and,0.850,0.850,1,../core/src/user-server-settings.ts:160:9,0.850
+execute,0.665,0.133,5,../core/src/user-server-settings.ts:273:7,0.331
+json,0.638,0.638,1,../core/src/schema.ts:502:10,0.638
+findServerByAliasOrId,0.611,0.611,1,../core/src/server.ts:29:8,0.611
+updateUserServerSettings,0.608,0.608,1,../core/src/user-server-settings.ts:252:10,0.608
+findServerById,0.588,0.196,3,../core/src/server.ts:93:19,0.424
+Identifier: CustomMappingProperty<{ u,0.587,0.587,1,../core/src/search.ts:59:6,0.587
+Identifier: { name: string; type: num,0.555,0.555,1,../core/src/pages.ts:348:32,0.555
+mutateUserServerSettings,0.524,0.175,3,src/router/user-server-settings.ts:178:36,0.323
+getNextAuthCookieName,0.518,0.173,3,../core/src/auth.ts:505:14,0.208
+stripPrivateServerData,0.499,0.499,1,../core/src/pages.ts:370:10,0.499
+notNull,0.452,0.226,2,../core/src/schema.ts:38:13,0.343
+"Identifier: ""fbclid""",0.433,0.433,1,../core/src/analytics.events.ts:6855:14,0.433
+identify,0.390,0.390,1,../core/src/analytics.ts:211:37,0.390
+assertIsOnPlan,0.360,0.360,1,src/router/server.ts:187:17,0.360
+where,0.327,0.109,3,../core/src/auth.ts:249:5,0.168
+getPageViewsForServer,0.322,0.322,1,src/router/dashboard.ts:28:12,0.322
+"Identifier: ""$active_feature_flags""",0.300,0.300,1,../core/src/analytics.events.ts:10998:14,0.300
+join,0.298,0.298,1,src/utils/permissions.ts:138:9,0.298
+Identifier: { access_token?: string |,0.293,0.293,1,../core/src/auth.ts:34:7,0.293
+Identifier: { server: { name: string;,0.279,0.279,1,../core/src/pages.ts:394:47,0.279
+Identifier: { name: string; type: num,0.264,0.264,1,../core/src/pages.ts:402:8,0.264
+error,0.259,0.129,2,../core/src/auth.ts:434:18,0.161
+limit,0.257,0.257,1,../core/src/channel.ts:351:7,0.257
+Identifier: { [x: string]: boolean; },0.254,0.254,1,../core/src/utils/bitfieldUtils.ts:58:7,0.254
+Identifier: { name: string | null; id,0.251,0.125,2,../core/src/auth.ts:213:10,0.185
+findMessageByIdWithDiscordAccount,0.248,0.248,1,../core/src/pages.ts:255:13,0.248
+forEach,0.212,0.106,2,../utils/src/select.ts:7:25,0.171
+log,0.207,0.069,3,../core/src/pages.ts:340:29,0.086
+findManyChannelsById,0.189,0.189,1,../core/src/channel.ts:326:14,0.189
+Identifier: { isTenantSession: boolea,0.185,0.185,1,src/router/context.ts:27:8,0.185
+Identifier: ZodObject<{ id: ZodString,0.175,0.175,1,../core/src/auth.ts:609:53,0.175
+Identifier: ZodObject<extendShape<{ f,0.167,0.167,1,../core/src/user-server-settings.ts:198:22,0.167
+delete,0.163,0.163,1,../core/src/message.ts:456:8,0.163
+updateManyChannels,0.159,0.159,1,../core/src/channel.ts:334:24,0.159
+Identifier: ({ userId: string; server,0.154,0.038,4,../core/src/message.ts:107:5,0.063
+isNotNull,0.152,0.076,2,../core/src/user-server-settings.ts:168:6,0.115
+findManyChannelMessagesCounts,0.143,0.071,2,../core/src/channel.ts:371:8,0.080
+Identifier: Set<ChannelType>,0.138,0.138,1,../core/src/zodSchemas/channelSchemas.ts:7:13,0.138
+Identifier: RegExp,0.134,0.134,1,src/router/server.ts:36:13,0.134
+Identifier: CreateRouterInner<RootCon,0.133,0.133,1,src/router/discord-accounts.ts:89:36,0.133
+Identifier: string,0.131,0.131,1,../core/src/db.ts:8:6,0.131
+"Identifier: typeof import(""/home/ssal",0.129,0.129,1,../../node_modules/@redis/client/dist/lib/client/commands.d.ts:131:24,0.129
+Identifier: string | undefined,0.127,0.127,1,../core/src/analytics.ts:47:6,0.127
+Identifier: CreateRouterInner<RootCon,0.121,0.121,1,src/utils/types.ts:4:31,0.121
+cookies,0.121,0.121,1,../core/src/auth.ts:500:50,0.121
+"Identifier: ""IGNORED_ACCOUNT"" | ""NOT_",0.119,0.119,1,../core/src/utils/operations.ts:64:39,0.119
+keys,0.118,0.059,2,src/router/dashboard.ts:88:36,0.090
+"Identifier: Pick<ServerWithFlags, ""fl",0.104,0.104,1,../core/src/message.ts:105:22,0.104
+Identifier: { id: string; sessionToke,0.102,0.051,2,../core/src/auth.ts:510:13,0.080
+Identifier: typeof Column,0.099,0.099,1,../../node_modules/drizzle-orm/mysql-core/columns/common.d.ts:30:185,0.099
+Identifier: Promise<(Awaited<G> | Awa,0.091,0.091,1,src/utils/protected-procedures.ts:144:8,0.091
+Identifier: ChannelWithFlags,0.087,0.044,2,../core/src/channel.ts:80:66,0.049
+Identifier: CreateRouterInner<RootCon,0.083,0.083,1,src/router/user-server-settings.ts:213:40,0.083
+findManyIgnoredDiscordAccountsById,0.081,0.081,1,../core/src/discord-account.ts:49:31,0.081
+"Identifier: ""$geoip_longitude""",0.071,0.071,1,../core/src/analytics.events.ts:11070:6,0.071
+"Identifier: ""$insert_id""",0.071,0.071,1,../core/src/analytics.events.ts:276:6,0.071
+"Identifier: typeof import(""/home/ssal",0.069,0.069,1,../../node_modules/@redis/client/dist/lib/client/commands.d.ts:363:19,0.069
+JSONParse,0.065,0.065,1,../core/src/db.ts:30:10,0.065
+Identifier: boolean,0.059,0.030,2,../core/src/message.ts:125:11,0.040
+findServerByIdWithChannels,0.036,0.036,1,src/router/dashboard.ts:111:26,0.036
+"StringLiteral: ""$insert_id""",0.029,0.029,1,../core/src/analytics.events.ts:278:10,0.029
+"Identifier: ""Helpful Feedback Click""",0.027,0.027,1,../core/src/analytics.events.ts:106:27,0.027
+Identifier: <TTableName extends strin,0.021,0.021,1,../../node_modules/drizzle-orm/relations.d.ts:199:81,0.021
+"Identifier: ""survey dismissed""",0.018,0.018,1,../core/src/analytics.events.ts:6853:21,0.018
+"Identifier: ""Add To Server Click""",0.017,0.017,1,../core/src/analytics.events.ts:10996:24,0.017
+"Identifier: ""$host""",0.003,0.003,1,../core/src/analytics.events.ts:6995:6,0.003
+"StringLiteral: ""$geoip_longitude""",0.000,0.000,1,../core/src/analytics.events.ts:11072:10,0.000

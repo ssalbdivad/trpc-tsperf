@@ -1,0 +1,1487 @@
+Function Name,Self (ms),Duration (ms),Location
+useMutation,1869.037,1927.532,src/app/dashboard/[serverId]/settings/page.tsx:35:24
+useMutation,1731.629,1772.322,src/app/dashboard/[serverId]/channels/page.tsx:205:24
+Identifier: RedisClientType<{ graph: ,732.628,732.756,../../packages/core/src/cache.ts:12:10
+object,444.486,578.700,../../packages/core/src/zodSchemas/channelSchemas.ts:104:43
+psDrizzle,279.443,279.443,../../packages/core/src/db.ts:36:54
+mutation,235.691,245.429,../../packages/api/src/router/server.ts:99:13
+mutation,235.127,248.888,../../packages/api/src/router/channel.ts:125:13
+createInsertSchema,167.238,167.238,../../packages/core/src/schema.ts:197:36
+omit,133.620,133.620,../../packages/core/src/zodSchemas/channelSchemas.ts:107:10
+forwardRef,133.169,133.169,../../packages/ui/src/ui/command.tsx:45:3
+Identifier: any,125.146,125.146,../../packages/ui/src/layouts/root.tsx:46:10
+useMutation,79.002,79.002,src/app/dashboard/[serverId]/settings/page.tsx:35:24
+useMutation,70.454,70.454,src/app/dashboard/[serverId]/channels/page.tsx:205:24
+deepPartial,69.796,80.130,../../packages/core/src/zodSchemas/serverSchemas.ts:26:13
+omit,68.462,68.462,../../packages/core/src/zodSchemas/channelSchemas.ts:87:34
+omit,63.453,122.895,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:40:5
+useMutation,58.303,58.303,src/app/dashboard/[serverId]/settings/page.tsx:36:11
+"Identifier: Readonly<{ NODE_ENV: ""dev",56.117,56.117,../../packages/core/src/db.ts:8:14
+object,55.904,179.332,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:39:49
+cn,55.673,55.673,../../packages/ui/src/discord-avatar.tsx:21:10
+forwardRef,49.481,49.481,../../packages/ui/src/ui/input.tsx:11:11
+forwardRef,48.952,48.952,../../packages/ui/src/ui/select.tsx:14:22
+merge,46.983,46.983,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:36:41
+forwardRef,45.964,50.158,../../packages/ui/src/ui/button.tsx:48:11
+"Identifier: { width?: number | ""full""",45.872,45.872,../../packages/ui/src/icons/answer-overflow-logo.tsx:16:11
+input,45.143,294.031,../../packages/api/src/router/channel.ts:117:9
+useMutation,42.924,42.924,src/app/dashboard/[serverId]/channels/page.tsx:268:11
+createEnv,41.943,65.813,../../packages/env/src/shared.ts:87:26
+useMutation,40.511,40.511,src/app/dashboard/[serverId]/channels/page.tsx:206:11
+toLocaleString,39.581,47.046,src/app/dashboard/[serverId]/components/home.tsx:125:18
+Identifier: string,38.346,38.346,../../packages/ui/src/pricing.tsx:402:11
+extend,38.062,38.062,../../packages/core/src/zodSchemas/channelSchemas.ts:95:30
+input,37.424,282.853,../../packages/api/src/router/server.ts:91:9
+object,36.766,36.766,../../packages/core/src/zodSchemas/serverSchemas.ts:47:29
+omit,36.136,36.136,../../packages/core/src/zodSchemas/channelSchemas.ts:87:34
+relations,36.049,87.718,../../packages/core/src/schema.ts:57:30
+object,32.708,32.708,../../packages/core/src/zodSchemas/serverSchemas.ts:38:5
+toString,32.543,76.131,../../packages/core/src/analytics.ts:15:8
+object,32.453,32.453,../../packages/core/src/zodSchemas/channelSchemas.ts:99:30
+any,31.742,31.742,../../packages/core/src/search.ts:16:13
+Identifier: { readonly 'User Grant Co,30.259,30.259,../../packages/core/src/analytics.events.ts:4:13
+"StringLiteral: { readonly name: ""User Gr",30.207,31.710,../../packages/core/src/analytics.events.ts:4:22
+createEnv,29.938,49.824,../../packages/env/src/shared-schema.mjs:91:26
+many,28.447,41.702,../../packages/core/src/schema.ts:58:11
+applyUserServerSettingsChangesSideEffects,27.641,27.641,../../packages/core/src/user-server-settings.ts:178:26
+values,27.556,42.059,../../packages/core/src/auth.ts:171:41
+filter,27.133,32.830,../../packages/core/src/discord-account.ts:53:33
+forwardRef,25.143,25.761,../../packages/ui/src/ui/accordion.tsx:10:22
+forwardRef,24.917,24.917,../../packages/ui/src/ui/select.tsx:69:22
+use,24.770,24.770,../../packages/api/src/router/trpc.ts:98:22
+any,23.683,23.683,../../packages/core/src/search.ts:36:13
+applyUserServerSettingsChangesSideEffects,23.436,23.436,../../packages/core/src/user-server-settings.ts:210:26
+extend,23.179,23.179,../../packages/core/src/zodSchemas/discordAccountSchemas.ts:27:37
+forwardRef,22.856,22.856,../../packages/ui/src/ui/label.tsx:12:14
+input,22.596,47.012,../../packages/api/src/router/channel.ts:117:9
+map,22.491,26.372,../../packages/core/src/discord-account.ts:62:21
+cn,22.272,27.896,../../packages/ui/src/ui/calendar.tsx:18:13
+input,22.234,49.496,../../packages/api/src/router/server.ts:91:9
+twMerge,21.681,21.681,../../packages/ui/src/ui/heading.tsx:11:10
+map,21.142,21.142,../../packages/core/src/discord-account.ts:94:4
+preventDefault,21.078,21.078,src/app/dashboard/[serverId]/components/home.tsx:329:11
+object,21.038,45.925,../../packages/core/src/search.ts:154:24
+required,20.604,21.277,../../packages/core/src/zodSchemas/serverSchemas.ts:22:29
+cn,20.307,20.307,../../packages/ui/src/discord-avatar.tsx:38:5
+forwardRef,19.750,19.750,../../packages/ui/src/ui/dropdown-menu.tsx:42:31
+customType,19.350,19.350,../../packages/core/src/schema.ts:18:20
+preventDefault,19.078,19.078,src/app/dashboard/[serverId]/components/home.tsx:331:6
+cn,18.770,66.047,../../packages/ui/src/icons/answer-overflow-logo.tsx:9:10
+callAPI,18.731,18.731,src/app/page.tsx:5:23
+forwardRef,18.715,18.715,../../packages/ui/src/ui/table.tsx:73:38
+all,18.699,29.761,../../packages/core/src/pages.ts:247:47
+merge,18.525,18.525,../../packages/core/src/zodSchemas/discordAccountSchemas.ts:23:37
+map,17.916,17.916,../../packages/core/src/channel.ts:326:36
+Identifier: any,17.832,17.832,../../packages/ui/src/icons/index.tsx:67:10
+input,17.113,26.289,../../packages/api/src/bot/index.ts:30:10
+object,16.863,27.262,../../packages/api/src/router/server.ts:92:10
+"Identifier: Readonly<{ NODE_ENV: ""dev",16.503,16.503,../../packages/core/src/analytics.ts:47:15
+forwardRef,16.160,16.160,../../packages/ui/src/ui/select.tsx:34:29
+map,15.881,15.881,../../packages/ui/src/footer.tsx:105:14
+forwardRef,15.754,15.754,../../packages/ui/src/ui/separator.tsx:7:18
+Identifier: any,15.736,15.736,src/app/dashboard/[serverId]/components/home.tsx:268:10
+findFirst,15.422,15.422,../../packages/core/src/server.ts:177:21
+forwardRef,15.385,15.385,../../packages/ui/src/ui/sheet.tsx:116:25
+forwardRef,15.253,15.253,../../packages/ui/src/ui/select.tsx:74:3
+forwardRef,15.229,15.229,../../packages/ui/src/ui/popover.tsx:11:23
+forwardRef,15.118,16.361,../../packages/ui/src/ui/tabs.tsx:9:17
+createEnv,14.832,14.832,../../packages/env/src/web-schema.mjs:10:28
+many,14.791,26.448,../../packages/core/src/schema.ts:363:11
+forwardRef,14.693,14.693,../../packages/ui/src/ui/select.tsx:27:3
+all,14.642,14.642,../../packages/core/src/search.ts:420:36
+pick,14.612,196.440,../../packages/api/src/router/user-server-settings.ts:128:10
+forwardRef,14.535,14.732,../../packages/ui/src/ui/avatar.tsx:27:20
+primaryKey,13.999,13.999,../../packages/core/src/schema.ts:49:11
+relations,13.833,15.988,../../packages/core/src/schema.ts:534:75
+forwardRef,13.656,13.656,../../packages/ui/src/ui/textarea.tsx:11:11
+Identifier: LucideIcon,13.577,13.577,../../packages/ui/src/ui/calendar.tsx:56:34
+createInsertSchema,13.222,13.222,../../packages/core/src/schema.ts:223:40
+object,13.118,24.416,../../packages/api/src/router/channel.ts:118:10
+mysqlTable,12.962,12.962,../../packages/core/src/schema.ts:64:26
+forwardRef,12.934,12.934,../../packages/ui/src/ui/dropdown-menu.tsx:58:28
+twMerge,12.868,12.868,../../packages/ui/src/ui/heading.tsx:75:10
+Identifier: any,12.713,14.261,../../packages/ui/src/footer.tsx:145:3
+forwardRef,12.671,14.884,../../packages/ui/src/ui/dropdown-menu.tsx:20:31
+upsertMany,12.606,12.606,../../packages/core/src/discord-account.ts:141:8
+cn,12.588,14.865,../../packages/ui/src/discord-avatar.tsx:28:4
+findMany,12.544,12.544,../../packages/core/src/pages.ts:191:20
+forwardRef,12.404,12.404,../../packages/ui/src/ui/table.tsx:11:3
+map,12.069,12.069,../../packages/core/src/discord-account.ts:49:67
+createTRPCProxyClient,11.973,11.973,../../packages/api/src/bot/caller.ts:5:25
+forwardRef,11.940,16.352,../../packages/ui/src/ui/accordion.tsx:22:25
+findFirst,11.818,19.853,../../packages/core/src/server.ts:124:51
+router,11.731,299.250,../../packages/api/src/router/server.ts:72:36
+forwardRef,11.623,18.181,../../packages/ui/src/ui/sheet.tsx:104:19
+createInsertSchema,11.466,11.466,../../packages/core/src/schema.ts:388:32
+map,11.382,11.382,../../packages/ui/src/pricing.tsx:161:6
+createInvite,11.360,11.360,../../packages/api/src/bot/index.ts:89:24
+forwardRef,11.334,11.334,../../packages/ui/src/ui/dropdown-menu.tsx:118:30
+deepPartial,11.298,11.298,../../packages/api/src/router/channel.ts:123:12
+updateDiscordAccount,10.858,10.858,../../packages/core/src/discord-account.ts:134:16
+filter,10.813,10.813,../../packages/core/src/channel.ts:335:23
+mysqlTable,10.773,13.096,../../packages/core/src/schema.ts:366:29
+object,10.739,24.887,../../packages/core/src/search.ts:154:34
+protectedFetchManyWithPublicData,10.730,17.121,../../packages/api/src/router/discord-accounts.ts:43:10
+forwardRef,10.720,10.720,../../packages/ui/src/ui/table.tsx:103:38
+forwardRef,10.697,10.697,../../packages/ui/src/ui/switch.tsx:7:15
+forwardRef,10.694,10.694,../../packages/ui/src/ui/dropdown-menu.tsx:63:3
+Identifier: any,10.607,10.607,src/app/dashboard/[serverId]/components/domain.tsx:48:4
+forwardRef,10.577,10.577,../../packages/ui/src/ui/sheet.tsx:67:4
+forwardRef,10.553,10.553,../../packages/ui/src/ui/table.tsx:23:38
+fetchRequestHandler,10.541,12.372,src/app/api/trpc/[trpc]/route.ts:4:34
+forwardRef,10.503,11.689,../../packages/ui/src/ui/table.tsx:88:38
+array,10.477,10.477,../../packages/core/src/search.ts:164:14
+map,10.460,16.044,../../packages/core/src/discord-account.ts:103:21
+any,10.441,10.441,../../packages/core/src/search.ts:122:13
+deepPartial,10.399,10.399,../../packages/api/src/router/server.ts:97:12
+twMerge,10.385,13.565,../../packages/ui/src/ui/heading.tsx:27:10
+customType,10.240,10.240,../../packages/core/src/schema.ts:26:18
+forwardRef,10.149,10.149,../../packages/ui/src/ui/table.tsx:58:38
+one,10.116,10.116,../../packages/core/src/schema.ts:101:17
+map,10.100,10.100,../../packages/ui/src/pricing.tsx:162:48
+Identifier: any,10.095,10.095,../../packages/ui/src/layouts/root.tsx:61:4
+Identifier: any,9.983,9.983,../../packages/ui/src/ui/date-picker.tsx:49:10
+one,9.975,23.938,../../packages/core/src/schema.ts:155:10
+findMany,9.950,9.950,../../packages/core/src/server.ts:75:15
+use,9.896,14.982,../../packages/api/src/router/trpc.ts:101:40
+Identifier: ServerIconProps,9.875,9.875,../../packages/ui/src/server-icon.tsx:22:10
+relations,9.866,24.110,../../packages/core/src/schema.ts:306:32
+Identifier: ForwardRefExoticComponent,9.780,9.780,src/app/dashboard/[serverId]/components/home.tsx:237:9
+forwardRef,9.675,9.675,../../packages/ui/src/ui/command.tsx:39:21
+findChannelById,9.655,9.655,../../packages/api/src/router/channel.ts:128:29
+omit,9.516,9.516,../../packages/core/src/zodSchemas/serverSchemas.ts:26:30
+findFirst,9.499,9.499,../../packages/core/src/user-server-settings.ts:187:24
+"Identifier: ({ children, client, apiK",9.318,9.318,../../packages/ui/src/hooks/client.tsx:45:8
+cn,9.269,9.269,../../packages/ui/src/ui/command.tsx:132:10
+forwardRef,9.265,9.265,../../packages/ui/src/ui/accordion.tsx:25:48
+values,9.232,51.291,../../packages/core/src/auth.ts:171:14
+router,9.184,38.017,../../packages/api/src/router/user-server-settings.ts:78:45
+query,9.176,9.176,../../packages/api/src/bot/index.ts:32:10
+pick,9.144,9.144,../../packages/api/src/router/user-server-settings.ts:162:10
+map,9.065,15.407,../../packages/core/src/discord-account.ts:70:8
+omit,8.993,9.316,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:24:42
+applyServerSettingsSideEffects,8.916,8.916,../../packages/core/src/server.ts:59:28
+forwardRef,8.882,8.882,../../packages/ui/src/ui/dropdown-menu.tsx:94:33
+forwardRef,8.841,8.948,../../packages/ui/src/ui/sheet.tsx:61:3
+map,8.736,16.955,../../packages/ui/src/pricing.tsx:112:8
+forwardRef,8.732,8.732,../../packages/ui/src/ui/dropdown-menu.tsx:76:25
+router,8.687,1280.050,../../packages/api/src/router/index.ts:10:25
+forwardRef,8.636,8.636,../../packages/ui/src/ui/command.tsx:10:16
+findFirst,8.578,8.578,../../packages/core/src/server.ts:177:21
+forwardRef,8.554,8.554,../../packages/ui/src/ui/label.tsx:16:38
+toDateString,8.544,8.544,src/app/dashboard/[serverId]/components/home.tsx:47:27
+forwardRef,8.514,8.514,../../packages/ui/src/ui/dropdown-menu.tsx:45:38
+select,8.487,8.590,../../packages/core/src/channel.ts:148:8
+map,8.428,8.428,src/app/dashboard/[serverId]/layout.tsx:90:7
+forwardRef,8.409,9.562,../../packages/ui/src/ui/tabs.tsx:39:20
+findMany,8.380,13.733,../../packages/core/src/message.ts:278:8
+Identifier: any,8.351,8.351,src/app/dashboard/[serverId]/integrations/page.tsx:11:4
+forwardRef,8.348,8.348,../../packages/ui/src/ui/accordion.tsx:42:25
+mysqlTable,8.348,21.560,../../packages/core/src/schema.ts:39:9
+Identifier: ForwardRefExoticComponent,8.342,8.342,src/app/dashboard/[serverId]/components/domain.tsx:294:6
+useQuery,8.245,9.123,src/app/dashboard/[serverId]/components/navbar.tsx:37:7
+Identifier: any,8.097,8.097,../../packages/ui/src/footer.tsx:78:27
+createInsertSchema,8.064,8.064,../../packages/core/src/schema.ts:521:29
+forwardRef,7.990,7.990,../../packages/ui/src/ui/switch.tsx:19:3
+"Identifier: ""single""",7.977,7.977,../../packages/ui/src/pricing.tsx:113:12
+pick,7.964,7.964,../../packages/core/src/zodSchemas/serverSchemas.ts:32:31
+object,7.875,7.875,../../packages/core/src/zodSchemas/channelSchemas.ts:77:5
+object,7.838,41.046,../../packages/core/src/zodSchemas/serverSchemas.ts:37:29
+findMany,7.832,7.832,../../packages/core/src/pages.ts:255:70
+getInitials,7.781,7.781,../../packages/ui/src/navbar/user-dropdown.tsx:78:5
+Identifier: ForwardRefExoticComponent,7.773,7.773,src/app/dashboard/[serverId]/layout.tsx:37:9
+forwardRef,7.714,7.714,../../packages/ui/src/ui/dropdown-menu.tsx:140:26
+twMerge,7.668,9.608,../../packages/ui/src/ui/heading.tsx:43:10
+forwardRef,7.598,7.598,../../packages/ui/src/ui/select.tsx:17:48
+many,7.554,7.554,../../packages/core/src/schema.ts:59:11
+createEnv,7.513,17.710,../../packages/env/src/shared.ts:88:9
+createUserServerSettings,7.470,7.470,../../packages/core/src/user-server-settings.ts:244:36
+toLocaleString,7.465,7.465,src/app/dashboard/[serverId]/components/home.tsx:126:13
+cn,7.463,11.320,../../packages/ui/src/ui/link.tsx:12:11
+forwardRef,7.334,7.334,../../packages/ui/src/ui/popover.tsx:16:3
+Identifier: Config,7.306,10.252,tailwind.config.cjs:11:8
+Identifier: any,7.300,7.300,src/app/dashboard/[serverId]/components/tier-access-only.tsx:40:6
+forwardRef,7.186,7.186,../../packages/ui/src/ui/select.tsx:113:19
+toString,7.159,38.970,../../packages/core/src/analytics.ts:15:32
+applyServerSettingsSideEffects,7.158,7.696,../../packages/core/src/server.ts:97:34
+mysqlTable,7.094,11.471,../../packages/core/src/schema.ts:477:26
+protectedFetchWithPublicData,7.084,10.115,../../packages/api/src/router/discord-accounts.ts:33:10
+zStringDefaultInDev,7.050,10.057,../../packages/env/src/shared.ts:93:15
+forwardRef,7.048,7.048,../../packages/ui/src/ui/command.tsx:61:38
+applyChannelSettingsChangesSideEffects,6.997,6.997,../../packages/core/src/channel.ts:251:22
+discordIconStyles,6.953,13.396,../../packages/ui/src/icons/index.tsx:30:10
+Identifier: any,6.932,6.932,src/app/dashboard/[serverId]/components/domain.tsx:184:7
+forwardRef,6.901,6.901,../../packages/ui/src/ui/dropdown-menu.tsx:158:30
+varchar,6.899,6.899,../../packages/core/src/schema.ts:42:8
+Identifier: any,6.834,6.834,../../packages/ui/src/layouts/root.tsx:57:4
+number,6.833,6.833,../../packages/core/src/zodSchemas/channelSchemas.ts:51:7
+router,6.794,131.253,../../packages/api/src/router/dashboard.ts:22:39
+mysqlTable,6.758,7.206,../../packages/core/src/schema.ts:263:11
+twMerge,6.735,8.920,../../packages/ui/src/ui/heading.tsx:59:10
+forwardRef,6.708,6.708,../../packages/ui/src/ui/sheet.tsx:69:5
+use,6.673,33.564,../../packages/api/src/router/trpc.ts:101:40
+map,6.670,7.488,../../packages/ui/src/pricing.tsx:141:10
+Identifier: ComponentType<{ user: { i,6.663,6.663,../../packages/ui/src/navbar/client.tsx:26:8
+Identifier: CreateTRPCReactBase<Creat,6.662,6.662,../../packages/ui/src/layouts/trpc-provider.tsx:51:10
+Identifier: any,6.646,6.646,../../packages/ui/src/layouts/root.tsx:58:5
+forwardRef,6.633,6.633,../../packages/ui/src/ui/avatar.tsx:39:23
+forwardRef,6.622,6.622,../../packages/ui/src/ui/select.tsx:51:31
+extend,6.621,174.583,../../packages/core/src/schema.ts:197:13
+forwardRef,6.620,6.620,../../packages/ui/src/ui/sheet.tsx:119:38
+updateServer,6.586,6.586,../../packages/api/src/router/server.ts:111:12
+forwardRef,6.558,6.558,../../packages/ui/src/ui/sheet.tsx:107:3
+useEffect,6.489,6.489,../../packages/ui/src/hooks/client.tsx:26:13
+forwardRef,6.444,7.177,../../packages/ui/src/ui/command.tsx:84:21
+discordIconStyles,6.443,6.443,../../packages/ui/src/icons/index.tsx:31:7
+enum,6.440,6.440,../../packages/env/src/shared-schema.mjs:97:56
+useQuery,6.439,13.600,src/app/dashboard/[serverId]/components/home.tsx:58:8
+object,6.438,6.438,src/pages/api/v1/stripe/webhook.ts:31:10
+forwardRef,6.408,6.408,../../packages/ui/src/ui/select.tsx:125:3
+router,6.311,37.038,../../packages/api/src/router/discord-accounts.ts:29:34
+Identifier: { tenant: { description: ,6.302,6.302,../../packages/ui/src/footer.tsx:170:10
+toLocaleDateString,6.285,6.285,src/app/dashboard/[serverId]/settings/components.tsx:84:12
+from,6.189,6.189,../../packages/core/src/discord-account.ts:95:20
+relations,6.163,16.278,../../packages/core/src/schema.ts:96:69
+createEnv,6.159,23.869,../../packages/env/src/shared.ts:87:37
+applyPublicFlagsToMessages,6.036,6.036,../../packages/core/src/message.ts:244:20
+map,6.017,6.961,../../packages/core/src/message.ts:610:12
+mysqlTable,6.013,13.219,../../packages/core/src/schema.ts:262:25
+Identifier: ForwardRefExoticComponent,6.012,6.012,../../packages/ui/src/server-icon.tsx:31:4
+forwardRef,6.006,6.006,../../packages/ui/src/ui/command.tsx:87:38
+forwardRef,5.977,5.977,../../packages/ui/src/ui/command.tsx:103:38
+toLocaleString,5.963,7.073,src/app/dashboard/[serverId]/components/home.tsx:169:18
+map,5.884,6.069,src/app/dashboard/[serverId]/components/home.tsx:234:18
+forwardRef,5.879,5.879,../../packages/ui/src/ui/card.tsx:34:38
+map,5.856,6.342,../../packages/core/src/discord-account.ts:70:37
+map,5.841,9.576,../../packages/api/src/router/dashboard.ts:72:12
+Identifier: any,5.828,5.828,../../packages/ui/src/icons/index.tsx:38:4
+decode,5.776,5.922,../../packages/core/src/db.ts:26:7
+Identifier: any,5.707,5.707,src/app/dashboard/[serverId]/components/loading-spinner.tsx:4:10
+applyPublicFlagsToMessages,5.700,5.700,../../packages/core/src/pages.ts:350:26
+filter,5.697,5.697,../../packages/core/src/discord-account.ts:53:46
+many,5.660,13.095,../../packages/core/src/schema.ts:308:11
+mysqlTable,5.642,43.190,../../packages/core/src/schema.ts:38:23
+forwardRef,5.633,6.668,../../packages/ui/src/ui/table.tsx:31:38
+map,5.584,5.584,../../packages/core/src/discord-account.ts:104:14
+forwardRef,5.566,5.566,../../packages/ui/src/ui/separator.tsx:14:8
+map,5.564,5.564,../../packages/ui/src/footer.tsx:97:31
+toLocaleDateString,5.537,11.954,src/app/dashboard/[serverId]/settings/components.tsx:84:5
+useQuery,5.510,7.044,src/app/dashboard/[serverId]/components/home.tsx:142:38
+required,5.481,5.481,../../packages/core/src/zodSchemas/channelSchemas.ts:49:23
+enum,5.458,5.458,../../packages/env/src/shared.ts:63:8
+cn,5.449,5.449,../../packages/ui/src/ui/calendar.tsx:21:16
+map,5.444,5.444,../../packages/ui/src/footer.tsx:140:6
+object,5.443,5.443,../../packages/core/src/auth.ts:600:40
+getData,5.440,8.356,src/app/dashboard/[serverId]/channels/page.tsx:221:23
+Identifier: ForwardRefExoticComponent,5.436,5.436,src/app/dashboard/[serverId]/layout.tsx:113:8
+Identifier: any,5.428,5.428,src/app/dashboard/[serverId]/integrations/page.tsx:24:4
+preventDefault,5.415,10.669,src/app/dashboard/[serverId]/components/home.tsx:333:17
+relations,5.406,31.854,../../packages/core/src/schema.ts:350:76
+all,5.388,5.388,../../packages/api/src/utils/protected-procedures.ts:135:16
+then,5.353,5.353,../../packages/core/src/message.ts:353:9
+Identifier: any,5.352,5.352,src/app/dashboard/[serverId]/components/domain.tsx:38:10
+inArray,5.230,5.463,../../packages/core/src/server.ts:128:11
+map,5.208,5.208,src/app/dashboard/[serverId]/layout.tsx:91:8
+omit,5.166,5.166,../../packages/core/src/zodSchemas/channelSchemas.ts:59:31
+useQuery,5.166,6.382,src/app/dashboard/[serverId]/layout.tsx:56:7
+toLocaleString,5.153,5.163,src/app/dashboard/[serverId]/components/home.tsx:123:11
+DiscordProvider,5.101,5.101,../../packages/core/src/auth.ts:401:15
+forwardRef,5.090,5.090,../../packages/ui/src/ui/command.tsx:13:38
+Identifier: CustomMappingProperty<{ t,5.034,5.034,../../packages/core/src/search.ts:92:6
+forwardRef,5.031,5.031,../../packages/ui/src/ui/select.tsx:131:3
+forwardRef,5.002,5.139,../../packages/ui/src/ui/dropdown-menu.tsx:108:4
+Identifier: any,4.965,4.965,../../packages/ui/src/server-card.tsx:49:10
+findFirst,4.950,7.405,../../packages/core/src/message.ts:188:9
+Identifier: typeof Elastic,4.913,6.693,../../packages/core/src/search.ts:239:9
+Identifier: CustomMappingProperty<{ n,4.900,4.900,../../packages/core/src/search.ts:51:6
+"Identifier: Omit<T, ""flags"">",4.898,4.898,../../packages/core/src/server.ts:27:7
+forwardRef,4.896,4.896,../../packages/ui/src/ui/button.tsx:44:65
+onValueChange,4.879,6.750,../../packages/ui/src/ui/date-picker.tsx:54:5
+useQuery,4.859,6.191,src/app/dashboard/[serverId]/components/home.tsx:58:8
+forwardRef,4.809,4.809,../../packages/ui/src/ui/select.tsx:101:20
+Identifier: any,4.784,4.784,src/app/dashboard/[serverId]/components/home.tsx:82:10
+Identifier: any,4.784,4.784,../../packages/ui/src/pricing.tsx:313:10
+pick,4.673,4.673,../../packages/core/src/zodSchemas/discordAccountSchemas.ts:6:13
+lt,4.627,4.627,../../packages/core/src/channel.ts:356:45
+slice,4.626,4.626,src/app/dashboard/[serverId]/components/domain.tsx:157:7
+forwardRef,4.607,4.607,../../packages/ui/src/ui/table.tsx:9:38
+omit,4.586,5.481,../../packages/core/src/channel.ts:31:28
+Identifier: any,4.576,4.576,../../packages/ui/src/server-card.tsx:114:23
+zStringDefaultInDev,4.567,11.007,../../packages/env/src/shared-schema.mjs:97:15
+forwardRef,4.537,4.537,../../packages/ui/src/ui/avatar.tsx:31:24
+map,4.522,4.522,src/app/dashboard/[serverId]/channels/page.tsx:321:6
+upsert,4.476,13.446,../../packages/core/src/user-server-settings.ts:236:8
+extend,4.467,25.834,../../packages/core/src/zodSchemas/serverSchemas.ts:22:13
+Identifier: any,4.452,4.452,../../packages/ui/src/icons/answer-overflow-logo.tsx:53:4
+Identifier: any,4.423,4.423,../../packages/ui/src/pricing.tsx:360:8
+findMany,4.422,4.422,../../packages/core/src/pages.ts:155:5
+forwardRef,4.413,8.776,../../packages/ui/src/ui/command.tsx:112:20
+forwardRef,4.412,4.412,../../packages/ui/src/ui/accordion.tsx:25:3
+forwardRef,4.363,4.363,../../packages/ui/src/ui/command.tsx:113:25
+Identifier: { header: [string]; body:,4.362,6.390,../../packages/ui/tailwind.config.cjs:16:10
+planToPrettyText,4.331,4.331,src/app/dashboard/[serverId]/settings/components.tsx:83:5
+map,4.330,4.330,../../packages/core/src/message.ts:430:33
+map,4.319,4.319,src/app/dashboard/[serverId]/components/navbar.tsx:64:5
+router,4.312,14.123,../../packages/api/src/router/auth.ts:10:34
+forwardRef,4.194,4.194,../../packages/ui/src/ui/button.tsx:49:9
+Identifier: () => void,4.155,4.155,src/app/dashboard/[serverId]/integrations/page.tsx:32:5
+object,4.137,12.323,../../packages/core/src/zodSchemas/channelSchemas.ts:76:30
+varchar,4.124,4.124,../../packages/core/src/schema.ts:41:6
+Identifier: ForwardRefExoticComponent,4.117,4.117,../../packages/ui/src/ui/date-picker.tsx:56:7
+required,4.115,11.375,../../packages/core/src/zodSchemas/channelSchemas.ts:49:23
+object,4.110,4.110,../../packages/core/src/search.ts:140:25
+Identifier: ({ bitfield: number; serv,4.046,4.046,../../packages/core/src/message.ts:107:5
+mysqlTable,4.038,5.532,../../packages/core/src/schema.ts:202:36
+sort,4.026,8.521,../../packages/api/src/router/auth.ts:63:38
+Identifier: any,4.013,4.013,src/app/dashboard/[serverId]/components/domain.tsx:209:7
+zStringDefaultInDev,4.006,7.020,../../packages/env/src/shared.ts:81:29
+router,3.986,314.771,../../packages/api/src/router/channel.ts:91:37
+then,3.970,7.022,../../packages/core/src/message.ts:369:7
+Identifier: any,3.958,3.958,src/app/dashboard/[serverId]/components/navbar.tsx:22:8
+object,3.946,203.022,../../packages/api/src/router/user-server-settings.ts:125:10
+map,3.899,3.899,src/app/dashboard/[serverId]/layout.tsx:83:5
+map,3.881,3.881,../../packages/core/src/discord-account.ts:63:14
+forwardRef,3.869,7.123,../../packages/ui/src/ui/switch.tsx:10:38
+cn,3.857,3.857,../../packages/ui/src/ui/link.tsx:13:13
+forwardRef,3.857,3.857,../../packages/ui/src/ui/accordion.tsx:54:3
+object,3.855,10.293,src/pages/api/v1/stripe/webhook.ts:29:36
+Identifier: ForwardRefExoticComponent,3.851,3.851,../../packages/ui/src/navbar/user-dropdown.tsx:79:6
+all,3.843,12.229,../../packages/core/src/pages.ts:138:32
+Identifier: F,3.772,3.772,../../packages/core/src/channel.ts:46:23
+Identifier: any,3.767,3.767,src/app/dashboard/[serverId]/components/domain.tsx:45:5
+Identifier: any,3.765,3.765,src/app/dashboard/[serverId]/components/home.tsx:105:11
+upsertUserServerSettingsWithDeps,3.757,17.203,../../packages/api/src/router/user-server-settings.ts:112:12
+forwardRef,3.750,8.288,../../packages/ui/src/ui/avatar.tsx:30:38
+constructEvent,3.718,3.806,src/pages/api/v1/stripe/webhook.ts:57:16
+Identifier: any,3.692,3.692,src/app/dashboard/[serverId]/components/domain.tsx:54:6
+createInsertSchema,3.677,3.677,../../packages/core/src/schema.ts:301:28
+array,3.671,3.671,../../packages/core/src/search.ts:168:12
+mysqlTable,3.664,7.274,../../packages/core/src/schema.ts:312:26
+mysqlTable,3.654,4.377,../../packages/core/src/schema.ts:478:12
+extend,3.645,7.449,../../packages/core/src/schema.ts:301:13
+preventDefault,3.626,5.963,src/app/dashboard/[serverId]/components/domain.tsx:278:15
+findFirst,3.618,11.732,../../packages/core/src/message.ts:174:8
+getInitials,3.617,3.617,../../packages/ui/src/navbar/user-dropdown.tsx:77:4
+Identifier: any,3.608,3.608,../../packages/ui/src/pricing.tsx:37:12
+usePathname,3.605,3.605,../../packages/ui/src/ui/link-button.tsx:17:26
+select,3.598,5.878,../../packages/core/src/auth.ts:181:16
+findMany,3.593,3.593,../../packages/core/src/pages.ts:64:11
+object,3.568,13.861,src/pages/api/v1/stripe/webhook.ts:29:26
+Identifier: any,3.544,3.544,src/app/dashboard/[serverId]/components/domain.tsx:41:5
+require,3.517,15.523,tailwind.config.cjs:4:17
+createEnv,3.487,14.494,../../packages/env/src/shared-schema.mjs:92:9
+Identifier: any,3.473,5.723,src/app/dashboard/[serverId]/integrations/page.tsx:35:4
+Identifier: any,3.462,3.462,../../packages/ui/src/pricing.tsx:329:7
+select,3.439,3.439,../../packages/core/src/auth.ts:224:16
+all,3.421,8.386,../../packages/core/src/pages.ts:138:45
+Identifier: ForwardRefExoticComponent,3.421,4.941,../../packages/ui/src/ui/command.tsx:31:5
+map,3.411,5.215,../../packages/api/src/router/dashboard.ts:91:12
+"Identifier: ""exact""",3.409,3.409,../../packages/core/src/analytics.ts:20:12
+router,3.409,134.663,../../packages/api/src/router/dashboard.ts:22:31
+protectedMutationFetchFirst,3.404,13.761,../../packages/api/src/router/channel.ts:126:10
+Identifier: any,3.385,3.385,src/app/dashboard/[serverId]/components/domain.tsx:52:13
+Identifier: ForwardRefExoticComponent,3.356,3.356,src/app/dashboard/[serverId]/channels/page.tsx:123:7
+context,3.351,3.351,../../packages/api/src/bot/index.ts:13:10
+Identifier: string,3.334,6.679,src/app/dashboard/[serverId]/settings/components.tsx:63:19
+getNextAuthSession,3.302,3.302,../../packages/core/src/auth.ts:516:24
+relations,3.300,27.665,../../packages/core/src/schema.ts:152:39
+"Identifier: Context<{ currentPlan: ""F",3.295,3.295,src/app/dashboard/[serverId]/components/tier-access-only.tsx:28:10
+map,3.288,16.963,../../packages/core/src/pages.ts:205:15
+useQuery,3.263,6.417,../../packages/ui/src/layouts/providers.tsx:11:7
+forwardRef,3.254,3.254,../../packages/ui/src/ui/switch.tsx:11:24
+createEnv,3.235,3.235,../../packages/env/src/shared-schema.mjs:92:9
+all,3.230,11.062,../../packages/core/src/pages.ts:247:60
+object,3.224,3.224,../../packages/core/src/zodSchemas/serverSchemas.ts:12:8
+map,3.212,3.212,src/app/dashboard/[serverId]/components/home.tsx:242:8
+map,3.211,8.736,../../packages/core/src/pages.ts:83:33
+zStringDefaultInDev,3.208,5.911,../../packages/env/src/shared-schema.mjs:68:29
+customType,3.201,22.551,../../packages/core/src/schema.ts:18:6
+Identifier: ForwardRefExoticComponent,3.200,3.200,src/app/dashboard/[serverId]/channels/page.tsx:384:6
+Identifier: any,3.174,4.061,src/app/dashboard/[serverId]/integrations/page.tsx:49:7
+setRange,3.165,3.165,src/app/dashboard/[serverId]/client.tsx:17:10
+Identifier: IconType,3.164,3.164,src/app/dashboard/[serverId]/components/home.tsx:220:4
+useQuery,3.153,3.153,../../packages/ui/src/layouts/providers.tsx:11:18
+forwardRef,3.145,3.669,../../packages/ui/src/ui/command.tsx:71:21
+getData,3.141,3.141,src/app/dashboard/[serverId]/channels/page.tsx:219:4
+protectedMutationFetchFirst,3.091,22.003,../../packages/api/src/router/user-server-settings.ts:101:10
+forwardRef,3.086,5.168,../../packages/ui/src/ui/accordion.tsx:45:48
+object,3.075,15.219,../../packages/api/src/router/user-server-settings.ts:158:10
+dynamic,3.065,3.473,../../packages/ui/src/navbar/client.tsx:5:32
+findFirst,3.064,3.064,../../packages/core/src/server.ts:45:21
+useQuery,3.028,10.071,src/app/dashboard/[serverId]/components/home.tsx:142:7
+enum,3.008,3.008,../../packages/env/src/shared.ts:93:56
+Identifier: any,3.003,3.003,src/app/dashboard/[serverId]/components/domain.tsx:158:8
+object,3.001,12.144,../../packages/api/src/router/user-server-settings.ts:159:13
+slice,2.987,20.767,../../packages/core/src/pages.ts:219:9
+createInsertSchema,2.973,2.973,../../packages/core/src/schema.ts:388:32
+useQuery,2.967,2.992,src/app/dashboard/[serverId]/components/home.tsx:185:7
+useUtils,2.963,3.183,src/app/dashboard/[serverId]/channels/page.tsx:210:7
+mysqlTable,2.955,3.609,../../packages/core/src/schema.ts:313:12
+forwardRef,2.949,5.025,../../packages/ui/src/ui/tabs.tsx:27:38
+findMany,2.941,2.941,../../packages/core/src/message.ts:369:20
+createInsertSchema,2.939,2.939,../../packages/core/src/schema.ts:521:29
+forwardRef,2.932,5.693,../../packages/ui/src/ui/dropdown-menu.tsx:25:55
+toDict,2.888,2.888,../../packages/core/src/utils/bitfieldUtils.ts:32:8
+relations,2.865,19.418,../../packages/core/src/schema.ts:96:32
+Identifier: boolean,2.854,2.854,src/app/dashboard/[serverId]/settings/components.tsx:66:27
+map,2.842,3.906,src/app/dashboard/[serverId]/components/home.tsx:245:11
+Identifier: any,2.828,2.828,src/app/dashboard/[serverId]/integrations/page.tsx:4:23
+trackEvent,2.815,5.255,src/app/dashboard/[serverId]/components/home.tsx:337:72
+pick,2.806,2.806,../../packages/core/src/zodSchemas/serverSchemas.ts:54:29
+Identifier: Config,2.800,2.800,tailwind.config.cjs:12:6
+preventDefault,2.800,4.813,../../packages/ui/src/pricing.tsx:388:15
+forwardRef,2.799,4.945,../../packages/ui/src/ui/select.tsx:116:48
+Identifier: any,2.796,2.796,../../packages/ui/src/pricing.tsx:248:3
+Identifier: ForwardRefExoticComponent,2.769,2.769,../../packages/ui/src/ui/link.tsx:5:46
+Identifier: ForwardRefExoticComponent,2.767,3.503,src/app/dashboard/[serverId]/channels/page.tsx:319:7
+map,2.762,2.762,src/app/dashboard/[serverId]/channels/page.tsx:332:19
+createPlanCheckoutSession,2.756,2.756,../../packages/core/src/stripe.ts:54:9
+relations,2.746,4.245,../../packages/core/src/schema.ts:577:72
+map,2.745,2.745,../../packages/ui/src/pricing.tsx:175:9
+cn,2.742,2.742,../../packages/ui/src/ui/sheet.tsx:79:46
+Identifier: ForwardRefExoticComponent,2.725,2.725,src/app/dashboard/[serverId]/components/home.tsx:355:7
+object,2.709,4.146,../../packages/core/src/auth.ts:36:24
+mysqlTable,2.704,4.563,../../packages/core/src/schema.ts:409:27
+enum,2.704,2.704,../../packages/env/src/shared-schema.mjs:68:64
+router,2.688,43.344,../../packages/api/src/bot/index.ts:29:25
+Identifier: any,2.672,2.672,../../packages/ui/src/icons/index.tsx:58:4
+all,2.654,2.654,../../packages/api/src/router/vercel-domains.ts:128:40
+map,2.653,2.653,../../packages/ui/src/pricing.tsx:159:4
+object,2.637,199.077,../../packages/api/src/router/user-server-settings.ts:126:13
+onValueChange,2.635,3.935,../../packages/ui/src/ui/date-picker.tsx:53:4
+createInsertSchema,2.630,2.630,../../packages/core/src/schema.ts:223:40
+relations,2.612,19.553,../../packages/core/src/schema.ts:534:32
+slice,2.611,2.796,src/app/dashboard/[serverId]/components/domain.tsx:122:4
+parse,2.573,738.633,../../packages/core/src/auth.ts:717:11
+cn,2.551,30.447,../../packages/ui/src/ui/calendar.tsx:17:10
+pick,2.517,2.517,../../packages/core/src/zodSchemas/channelSchemas.ts:136:30
+protectedMutation,2.499,3.100,../../packages/api/src/router/channel.ts:56:27
+enum,2.486,3.014,../../packages/env/src/shared.ts:81:64
+forwardRef,2.483,4.512,../../packages/ui/src/ui/sheet.tsx:20:38
+then,2.481,2.481,../../packages/api/src/router/vercel-domains.ts:50:9
+findFirst,2.455,2.455,../../packages/core/src/message.ts:189:12
+trackEvent,2.439,2.439,src/app/dashboard/[serverId]/components/home.tsx:338:30
+findFirst,2.421,2.421,../../packages/core/src/auth.ts:82:24
+preventDefault,2.418,2.418,../../packages/ui/src/pricing.tsx:386:4
+map,2.408,4.719,src/app/dashboard/[serverId]/layout.tsx:124:9
+forwardRef,2.393,2.393,../../packages/ui/src/ui/dropdown-menu.tsx:121:48
+findFirst,2.349,2.569,../../packages/core/src/server.ts:116:21
+map,2.336,3.490,../../packages/ui/src/pricing.tsx:123:5
+anonymous,2.316,2.316,../../packages/ui/src/navbar/sign-in-button.tsx:51:9
+forwardRef,2.314,2.314,../../packages/ui/src/ui/select.tsx:126:4
+findFirst,2.307,4.353,../../packages/core/src/user-server-settings.ts:266:20
+map,2.299,2.299,../../packages/ui/src/footer.tsx:99:3
+findMany,2.289,2.289,../../packages/core/src/ignored-discord-account.ts:15:8
+then,2.280,2.280,../../packages/core/src/auth.ts:185:11
+cn,2.277,2.277,../../packages/ui/src/discord-avatar.tsx:28:11
+createProPlanCheckoutSession,2.270,5.026,../../packages/api/src/router/dashboard.ts:173:75
+map,2.269,43.136,../../packages/core/src/pages.ts:369:8
+getPosthogQueryClientForDashboard,2.268,80.889,../../packages/core/src/analytics.ts:136:9
+map,2.258,2.258,src/app/dashboard/[serverId]/layout.tsx:111:6
+input,2.256,5.719,../../packages/api/src/router/user-server-settings.ts:124:22
+Identifier: string,2.249,2.249,src/app/dashboard/[serverId]/integrations/page.tsx:35:13
+set,2.245,4.224,../../packages/core/src/server.ts:221:28
+mutateServer,2.234,9.738,../../packages/api/src/router/server.ts:107:10
+map,2.223,9.868,../../packages/core/src/message.ts:138:10
+findMany,2.220,2.326,../../packages/core/src/server.ts:189:21
+filter,2.218,3.717,../../packages/api/src/router/messages.ts:61:10
+decode,2.215,8.313,../../packages/core/src/db.ts:23:15
+forwardRef,2.213,2.213,../../packages/ui/src/ui/dropdown-menu.tsx:25:3
+require,2.191,9.927,../../packages/ui/tailwind.config.cjs:4:17
+findFirst,2.175,7.638,../../packages/core/src/server.ts:127:13
+forwardRef,2.173,2.173,../../packages/ui/src/ui/card.tsx:61:38
+all,2.158,7.932,../../packages/api/src/router/dashboard.ts:173:61
+round,2.146,2.146,src/app/dashboard/[serverId]/components/home.tsx:29:7
+forwardRef,2.146,2.146,../../packages/ui/src/ui/select.tsx:117:23
+findFirst,2.131,2.131,../../packages/core/src/discord-account.ts:22:8
+Identifier: any,2.131,2.131,../../packages/ui/src/pricing.tsx:353:6
+map,2.130,2.207,../../packages/ui/src/footer.tsx:131:38
+require,2.125,17.648,tailwind.config.cjs:1:60
+findIndex,2.120,2.120,src/app/dashboard/[serverId]/channels/page.tsx:364:10
+forwardRef,2.103,3.486,../../packages/ui/src/ui/select.tsx:54:38
+Identifier: (props: { ctaLink: string,2.084,2.084,../../packages/ui/src/pricing.tsx:442:6
+forwardRef,2.082,2.082,../../packages/ui/src/ui/accordion.tsx:46:29
+forwardRef,2.075,2.075,../../packages/ui/src/ui/tabs.tsx:28:24
+get,2.071,734.827,../../packages/core/src/auth.ts:712:27
+map,2.052,2.052,../../packages/api/src/router/auth.ts:41:32
+Identifier: any,2.046,2.046,src/app/dashboard/[serverId]/channels/page.tsx:105:32
+relations,2.042,51.669,../../packages/core/src/schema.ts:57:49
+protectedFetch,2.039,2.039,../../packages/api/src/router/discord-accounts.ts:75:10
+forwardRef,2.028,2.028,../../packages/ui/src/ui/sheet.tsx:21:25
+pick,2.022,181.709,../../packages/api/src/router/user-server-settings.ts:128:10
+map,2.012,2.012,../../packages/core/src/channel.ts:204:8
+Identifier: ForwardRefExoticComponent,1.996,1.996,../../packages/ui/src/pricing.tsx:418:5
+one,1.994,2.154,../../packages/core/src/schema.ts:539:9
+Identifier: ReactNode,1.985,1.985,src/app/dashboard/[serverId]/channels/page.tsx:181:5
+useState,1.979,1.979,../../packages/ui/src/layouts/trpc-provider.tsx:22:7
+Identifier: any,1.976,1.976,src/app/dashboard/[serverId]/components/tier-access-only.tsx:42:7
+map,1.975,2.278,src/app/onboarding/OnboardingPages.tsx:169:8
+map,1.963,1.963,src/app/dashboard/[serverId]/layout.tsx:125:11
+Identifier: { defaultChecked?: boolea,1.957,1.957,../../packages/ui/src/ui/heading.tsx:9:7
+Identifier: { children?: ReactNode; },1.948,3.597,src/app/layout.tsx:16:8
+Identifier: any,1.938,1.938,../../packages/ui/src/icons/answer-overflow-logo.tsx:35:6
+Identifier: DomainResponse & { error:,1.918,1.918,src/app/dashboard/[serverId]/components/domain.tsx:161:22
+setTheme,1.913,3.234,../../packages/ui/src/navbar/change-theme-item.tsx:10:10
+Identifier: any,1.908,1.908,src/app/dashboard/[serverId]/components/loading-spinner.tsx:8:4
+find,1.907,12.996,../../packages/core/src/permissions.ts:16:41
+trackEvent,1.899,2.014,../../packages/ui/src/pricing.tsx:393:70
+findFirst,1.893,21.746,../../packages/core/src/server.ts:124:21
+cn,1.892,1.892,../../packages/ui/src/ui/blue-link.tsx:12:10
+forwardRef,1.888,2.761,../../packages/ui/src/ui/dropdown-menu.tsx:26:35
+Identifier: string,1.871,1.871,../../packages/ui/src/ui/date-picker.tsx:54:9
+findFirst,1.841,7.136,../../packages/core/src/auth.ts:398:45
+Identifier: any,1.822,1.822,src/app/dashboard/[serverId]/integrations/page.tsx:16:4
+Identifier: any,1.791,1.791,src/app/dashboard/[serverId]/components/loading-spinner.tsx:12:4
+varchar,1.788,5.912,../../packages/core/src/schema.ts:41:6
+Identifier: typeof Elastic,1.780,1.780,../../packages/core/src/search.ts:239:13
+require,1.755,1.755,tailwind.config.cjs:112:10
+and,1.726,2.467,../../packages/core/src/user-server-settings.ts:160:9
+protectedMutationFetchFirst,1.709,18.912,../../packages/api/src/router/user-server-settings.ts:101:39
+Identifier: { _config: RootConfig<{ c,1.699,756.196,../../packages/api/src/router/trpc.ts:96:22
+find,1.687,1.928,src/app/dashboard/[serverId]/components/navbar.tsx:39:24
+map,1.681,1.891,../../packages/core/src/discord-account.ts:52:35
+anonymizeDiscordAccount,1.670,6.124,../../packages/core/src/message.ts:125:11
+eq,1.658,1.658,../../packages/core/src/user-server-settings.ts:267:9
+getPosthogQueryClientForDashboard,1.654,1.654,../../packages/core/src/analytics.ts:72:9
+filter,1.636,1.636,src/app/dashboard/page.tsx:8:21
+Identifier: string,1.607,1.904,../../packages/ui/src/layouts/root.tsx:6:34
+array,1.594,1.594,../../packages/core/src/auth.ts:608:45
+createContextInner,1.593,12.438,../../packages/api/src/router/context.ts:52:34
+map,1.593,4.110,src/app/onboarding/OnboardingPages.tsx:168:6
+array,1.590,580.290,../../packages/core/src/zodSchemas/channelSchemas.ts:104:34
+Identifier: ForwardRefExoticComponent,1.588,1.588,src/app/dashboard/[serverId]/components/domain.tsx:227:11
+Identifier: ButtonProps & { tenant: {,1.578,1.578,../../packages/ui/src/navbar/sign-in-button.tsx:13:7
+Identifier: string,1.548,1.548,../../packages/ui/src/footer.tsx:145:5
+merge,1.546,11.983,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:36:41
+keys,1.544,1.544,../../packages/api/src/router/dashboard.ts:88:36
+findFirst,1.542,1.796,../../packages/core/src/pages.ts:129:8
+Identifier: { children?: ReactNode; },1.534,1.534,src/app/layout.tsx:16:18
+router,1.528,15.788,../../packages/api/src/router/auth.ts:10:26
+Identifier: string,1.521,1.521,../../packages/ui/src/ui/command.tsx:31:13
+string,1.515,6.973,../../packages/env/src/shared.ts:59:23
+all,1.512,1.512,../../packages/api/src/utils/protected-procedures.ts:16:31
+cn,1.505,11.379,../../packages/ui/src/server-icon.tsx:21:10
+findFirst,1.489,1.489,../../packages/core/src/channel.ts:226:23
+cva,1.480,1.480,../../packages/ui/src/ui/button.tsx:9:265
+Identifier: any,1.473,1.473,../../packages/ui/src/server-card.tsx:41:4
+relations,1.470,5.979,../../packages/core/src/schema.ts:577:34
+select,1.465,3.567,../../packages/core/src/auth.ts:336:16
+FirstBinaryOperator: any,1.456,1.456,src/app/dashboard/[serverId]/settings/page.tsx:97:6
+setToFrom,1.453,1.495,src/app/dashboard/[serverId]/layout.tsx:71:21
+router,1.448,100.596,../../packages/api/src/router/server.ts:72:36
+cva,1.444,2.924,../../packages/ui/src/ui/button.tsx:8:23
+protectedFetch,1.431,18.860,../../packages/api/src/router/dashboard.ts:108:35
+findMany,1.429,1.429,../../packages/core/src/channel.ts:140:20
+protectedFetch,1.421,15.979,../../packages/api/src/router/channel.ts:102:10
+reduce,1.421,10.870,src/app/dashboard/[serverId]/components/home.tsx:43:8
+protectedFetch,1.414,5.943,../../packages/api/src/router/dashboard.ts:141:13
+error,1.410,1.480,../../packages/core/src/search.ts:377:23
+getPosthogQueryClientForDashboard,1.399,3.177,../../packages/core/src/analytics.ts:72:9
+Identifier: ForwardRefExoticComponent,1.394,39.739,../../packages/ui/src/pricing.tsx:402:5
+forwardRef,1.383,1.383,../../packages/ui/src/ui/select.tsx:55:35
+map,1.382,2.877,src/app/dashboard/[serverId]/layout.tsx:70:10
+string,1.378,1.461,../../packages/env/src/shared-schema.mjs:11:25
+upsert,1.375,12.450,../../packages/core/src/discord-account.ts:131:16
+relations,1.375,33.448,../../packages/core/src/schema.ts:350:33
+findMany,1.374,4.159,../../packages/core/src/user-server-settings.ts:159:20
+findMany,1.365,5.309,../../packages/core/src/pages.ts:62:19
+context,1.362,754.048,../../packages/api/src/router/trpc.ts:11:10
+Identifier: CreateContextOptions,1.361,739.995,../../packages/api/src/router/context.ts:31:18
+FirstBinaryOperator: any,1.350,1.350,src/app/dashboard/[serverId]/page.tsx:10:8
+Identifier: string,1.347,7.737,../../packages/ui/tailwind.config.cjs:6:8
+input,1.339,19.129,../../packages/api/src/router/discord-accounts.ts:40:11
+forwardRef,1.321,6.217,../../packages/ui/src/ui/button.tsx:44:15
+forwardRef,1.314,1.314,../../packages/ui/src/ui/sheet.tsx:58:3
+reduce,1.311,1.376,../../packages/core/src/utils/operations.ts:26:21
+"Identifier: ""popper""",1.300,1.300,../../packages/ui/src/ui/date-picker.tsx:53:18
+mutation,1.290,12.890,../../packages/api/src/bot/index.ts:97:12
+flatMap,1.290,13.321,../../packages/core/src/pages.ts:87:13
+deepPartial,1.285,6.603,../../packages/core/src/zodSchemas/channelSchemas.ts:59:13
+router,1.280,3.269,../../packages/api/src/router/discord-accounts.ts:29:34
+Identifier: string,1.280,2.027,../../packages/ui/tailwind.config.cjs:21:11
+cn,1.272,47.277,../../packages/ui/src/icons/answer-overflow-logo.tsx:10:7
+init,1.266,1.266,../../packages/ui/src/hooks/client.tsx:8:37
+primaryKey,1.253,1.253,../../packages/core/src/schema.ts:382:17
+getPosthogQueryClientForDashboard,1.237,78.217,../../packages/core/src/analytics.ts:136:9
+findServerByAliasOrId,1.234,27.000,../../packages/core/src/server.ts:29:8
+findFirst,1.227,2.097,../../packages/core/src/channel.ts:279:24
+one,1.215,1.499,../../packages/core/src/schema.ts:582:10
+fetchRequestHandler,1.210,1.210,src/app/api/trpc/[trpc]/route.ts:12:6
+parse,1.208,35.134,../../packages/core/src/pages.ts:216:8
+"Identifier: ({ children, href, varian",1.202,1.728,../../packages/ui/src/pricing.tsx:180:5
+upsert,1.201,13.651,../../packages/core/src/discord-account.ts:131:8
+mutateUserServerSettings,1.193,2.986,../../packages/api/src/router/user-server-settings.ts:141:10
+forwardRef,1.186,1.186,../../packages/ui/src/ui/table.tsx:89:5
+find,1.169,7.187,../../packages/core/src/pages.ts:365:19
+"Identifier: ({ className, children, }",1.166,1.166,src/app/dashboard/[serverId]/components/domain.tsx:210:26
+useMutation,1.161,44.297,src/app/dashboard/[serverId]/channels/page.tsx:267:18
+forwardRef,1.160,1.393,../../packages/ui/src/ui/dropdown-menu.tsx:36:3
+resolve,1.158,1.215,../../packages/core/src/channel.ts:184:30
+forwardRef,1.155,10.717,../../packages/ui/src/ui/tabs.tsx:39:6
+input,1.154,84.561,../../packages/api/src/router/dashboard.ts:23:12
+map,1.154,1.154,../../packages/ui/src/pricing.tsx:123:22
+forwardRef,1.153,1.153,../../packages/ui/src/ui/tabs.tsx:42:3
+log,1.147,1.353,../../packages/core/src/auth.ts:217:5
+mutateAsync,1.139,1.139,src/app/dashboard/[serverId]/components/domain.tsx:283:11
+input,1.131,20.295,../../packages/api/src/router/dashboard.ts:106:21
+Identifier: Session,1.128,4.762,../../packages/core/src/auth.ts:518:9
+map,1.127,9.862,../../packages/core/src/pages.ts:83:24
+"Identifier: (props: { authState: ""loa",1.127,1.127,src/app/onboarding/OnboardingPages.tsx:129:10
+createEnv,1.120,4.355,../../packages/env/src/shared-schema.mjs:91:37
+slice,1.117,1.117,src/app/dashboard/[serverId]/components/domain.tsx:155:26
+twMerge,1.112,1.112,../../packages/ui/src/ui/heading.tsx:61:15
+toLocaleString,1.110,1.110,src/app/dashboard/[serverId]/components/home.tsx:170:13
+forwardRef,1.108,2.422,../../packages/ui/src/ui/sheet.tsx:55:21
+select,1.103,1.103,../../packages/core/src/auth.ts:336:16
+input,1.100,11.598,../../packages/api/src/router/discord-accounts.ts:30:7
+map,1.098,4.910,../../packages/core/src/server.ts:192:8
+findFirst,1.098,8.234,../../packages/core/src/auth.ts:398:14
+Identifier: { H1: (props: HeadingProp,1.096,1.096,src/app/onboarding/OnboardingPages.tsx:97:5
+map,1.096,1.096,src/app/dashboard/[serverId]/channels/page.tsx:233:19
+input,1.094,6.609,../../packages/api/src/router/messages.ts:39:9
+router,1.083,41.390,../../packages/api/src/router/discord-accounts.ts:29:26
+createUserServerSettings,1.082,8.553,../../packages/core/src/user-server-settings.ts:244:10
+includes,1.075,1.075,../../packages/ui/src/utils/trpc.tsx:30:7
+map,1.064,1.064,src/app/dashboard/[serverId]/components/home.tsx:245:21
+parse,1.049,735.991,../../packages/core/src/auth.ts:717:41
+select,1.041,1.619,../../packages/core/src/auth.ts:257:16
+forwardRef,1.035,1.035,../../packages/ui/src/ui/table.tsx:32:8
+"Identifier: Readonly<{ NODE_ENV: ""dev",1.029,1.831,../../packages/core/src/stripe.ts:4:15
+Identifier: ForwardRefExoticComponent,1.028,1.028,../../packages/ui/src/pricing.tsx:429:10
+map,1.018,22.161,../../packages/core/src/discord-account.ts:91:32
+mysqlTable,1.016,15.016,../../packages/core/src/schema.ts:48:9
+map,1.000,9.709,../../packages/core/src/pages.ts:372:12
+upsertMany,0.997,31.193,../../packages/core/src/channel.ts:324:8
+sort,0.995,1.248,../../packages/core/src/pages.ts:166:9
+twMerge,0.993,3.181,../../packages/ui/src/ui/heading.tsx:28:6
+map,0.983,1.702,../../packages/core/src/server.ts:228:8
+setTheme,0.977,1.321,../../packages/ui/src/navbar/change-theme-item.tsx:11:20
+map,0.977,8.869,../../packages/core/src/message.ts:604:25
+mysqlTable,0.973,15.989,../../packages/core/src/schema.ts:46:4
+filter,0.965,4.775,../../packages/api/src/router/messages.ts:61:10
+map,0.963,0.963,../../packages/core/src/search.ts:428:32
+query,0.959,9.811,../../packages/api/src/router/auth.ts:29:26
+mutateAsync,0.951,2.090,src/app/dashboard/[serverId]/components/domain.tsx:283:11
+query,0.948,3.000,../../packages/api/src/router/auth.ts:41:23
+twMerge,0.946,1.778,../../packages/ui/src/ui/heading.tsx:29:18
+primaryKey,0.946,0.946,../../packages/core/src/schema.ts:418:15
+relations,0.945,14.040,../../packages/core/src/schema.ts:306:69
+map,0.943,3.721,../../packages/core/src/server.ts:192:8
+mysqlTable,0.942,1.494,../../packages/core/src/schema.ts:203:23
+merge,0.940,10.436,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:36:41
+Identifier: number | null,0.932,0.932,src/app/dashboard/[serverId]/settings/components.tsx:39:18
+upsertMany,0.931,11.944,../../packages/core/src/channel.ts:324:20
+map,0.930,0.930,../../packages/api/src/router/messages.ts:52:52
+forwardRef,0.927,1.111,../../packages/ui/src/ui/tabs.tsx:12:3
+findFirst,0.923,9.501,../../packages/core/src/server.ts:177:15
+create,0.922,4.273,../../packages/api/src/bot/index.ts:13:6
+find,0.922,8.556,../../packages/core/src/pages.ts:364:26
+toString,0.915,4.619,../../packages/core/src/analytics.ts:15:32
+router,0.911,363.654,../../packages/api/src/router/channel.ts:91:29
+map,0.911,1.856,../../packages/core/src/server.ts:135:12
+applyUserServerSettingsChangesSideEffects,0.909,24.574,../../packages/core/src/user-server-settings.ts:210:7
+forwardRef,0.901,1.916,../../packages/ui/src/ui/dialog.tsx:39:3
+omit,0.896,0.896,../../packages/core/src/channel.ts:31:48
+object,0.895,0.969,../../packages/api/src/router/messages.ts:40:10
+useQuery,0.894,1.332,src/app/dashboard/[serverId]/components/home.tsx:58:8
+input,0.892,8.002,../../packages/api/src/router/dashboard.ts:82:11
+useEffect,0.889,7.642,../../packages/ui/src/hooks/client.tsx:24:12
+merge,0.889,19.415,../../packages/core/src/zodSchemas/discordAccountSchemas.ts:23:13
+Identifier: string,0.887,0.887,src/app/dashboard/[serverId]/integrations/page.tsx:49:10
+protectedFetch,0.885,9.147,../../packages/api/src/router/dashboard.ts:190:27
+protectedFetch,0.872,4.346,../../packages/api/src/router/dashboard.ts:139:10
+twMerge,0.870,2.185,../../packages/ui/src/ui/heading.tsx:60:6
+OpenBracketToken: any,0.870,0.870,../../packages/core/src/utils/operations.ts:65:19
+pick,0.865,6.989,../../packages/core/src/message.ts:108:9
+forwardRef,0.862,0.862,../../packages/ui/src/ui/card.tsx:61:3
+input,0.837,0.837,../../packages/api/src/router/discord-accounts.ts:30:7
+input,0.836,23.114,../../packages/api/src/router/user-server-settings.ts:94:16
+next,0.833,1.114,../../packages/api/src/router/trpc.ts:46:8
+findFirst,0.822,3.243,../../packages/core/src/auth.ts:82:18
+createEnv,0.821,15.530,../../packages/env/src/shared-schema.mjs:91:37
+"Identifier: ({ title, description, fl",0.820,0.820,src/app/dashboard/[serverId]/channels/page.tsx:404:6
+omit,0.818,10.335,../../packages/core/src/zodSchemas/serverSchemas.ts:26:30
+classNames,0.818,0.818,../../packages/ui/src/pricing.tsx:142:7
+getData,0.813,0.829,src/app/dashboard/[serverId]/channels/page.tsx:282:12
+map,0.810,0.810,../../packages/core/src/server.ts:135:12
+Identifier: typeof Stripe,0.802,0.802,../../packages/core/src/stripe.ts:5:3
+Identifier: Response<Subscription>,0.801,3.474,../../packages/core/src/stripe.ts:19:9
+router,0.799,400.645,../../packages/api/src/router/server.ts:72:28
+onValueChange,0.791,1.365,../../packages/ui/src/ui/date-picker.tsx:25:19
+addFlagsToChannel,0.783,0.783,../../packages/core/src/channel.ts:113:8
+FirstPunctuation: any,0.779,3.636,../../packages/api/src/router/vercel-domains.ts:156:8
+input,0.775,14.261,../../packages/api/src/bot/index.ts:39:17
+Identifier: (props: { proPlanCheckout,0.772,7.451,src/app/dashboard/[serverId]/settings/components.tsx:62:12
+forwardRef,0.772,0.772,../../packages/ui/src/ui/table.tsx:40:6
+Identifier: ForwardRefExoticComponent,0.770,0.770,src/app/dashboard/[serverId]/channels/page.tsx:64:9
+next,0.764,3.329,../../packages/api/src/router/trpc.ts:80:16
+useQuery,0.763,1.015,src/app/dashboard/[serverId]/layout.tsx:56:18
+push,0.761,1.250,../../packages/core/src/search.ts:322:20
+router,0.759,258.410,../../packages/api/src/router/user-server-settings.ts:78:37
+map,0.754,7.892,../../packages/core/src/message.ts:605:16
+twMerge,0.754,1.940,../../packages/ui/src/ui/heading.tsx:44:6
+map,0.752,11.499,../../packages/core/src/pages.ts:87:41
+all,0.748,5.774,../../packages/api/src/router/dashboard.ts:173:74
+Identifier: string,0.747,0.747,../../packages/ui/tailwind.config.cjs:27:13
+findMany,0.747,2.136,../../packages/core/src/channel.ts:408:8
+map,0.743,9.612,../../packages/core/src/message.ts:604:16
+forwardRef,0.743,1.016,../../packages/ui/src/ui/dialog.tsx:39:27
+Identifier: (props: { faqs: { questio,0.743,0.800,../../packages/ui/src/pricing.tsx:292:24
+inArray,0.741,0.741,../../packages/core/src/user-server-settings.ts:164:6
+cn,0.740,0.740,../../packages/ui/src/ui/dropdown-menu.tsx:28:14
+Identifier: string,0.736,0.736,src/app/dashboard/[serverId]/channels/page.tsx:319:19
+mysqlTable,0.735,1.988,../../packages/core/src/schema.ts:381:9
+forwardRef,0.733,0.733,../../packages/ui/src/ui/command.tsx:87:3
+"Identifier: ""$active_feature_flags""",0.730,0.736,../../packages/core/src/analytics.events.ts:457:14
+map,0.728,5.749,../../packages/core/src/user-server-settings.ts:172:8
+createInsertSchema,0.724,167.962,../../packages/core/src/schema.ts:197:36
+json,0.722,0.722,../../packages/core/src/schema.ts:502:10
+includes,0.718,2.009,../../packages/ui/src/utils/trpc.tsx:30:7
+select,0.717,2.041,../../packages/core/src/auth.ts:336:16
+map,0.715,13.485,../../packages/core/src/pages.ts:205:15
+input,0.711,45.319,../../packages/api/src/router/messages.ts:24:22
+protectedFetch,0.711,10.398,../../packages/api/src/router/dashboard.ts:186:12
+findFirst,0.709,8.114,../../packages/core/src/message.ts:175:14
+select,0.704,5.624,../../packages/core/src/channel.ts:351:19
+input,0.686,11.602,../../packages/api/src/router/dashboard.ts:59:21
+query,0.683,13.655,../../packages/api/src/router/channel.ts:110:18
+input,0.678,4.666,../../packages/api/src/router/server.ts:192:18
+mutateServer,0.677,7.504,../../packages/api/src/router/server.ts:107:24
+required,0.673,0.673,../../packages/core/src/zodSchemas/serverSchemas.ts:22:29
+protectedFetch,0.672,82.517,../../packages/api/src/router/dashboard.ts:26:22
+query,0.669,17.791,../../packages/api/src/router/discord-accounts.ts:42:10
+next,0.657,4.086,../../packages/api/src/router/trpc.ts:78:8
+map,0.655,7.644,../../packages/core/src/message.ts:139:8
+router,0.655,47.972,../../packages/api/src/router/channel.ts:91:37
+snowflake,0.655,0.655,../../packages/core/src/schema.ts:319:12
+useEffect,0.648,0.755,src/app/onboarding/OnboardingPages.tsx:61:5
+all,0.648,15.554,../../packages/core/src/search.ts:420:8
+eq,0.643,0.643,../../packages/core/src/channel.ts:280:10
+protectedFetch,0.639,6.634,../../packages/api/src/router/dashboard.ts:85:22
+twMerge,0.631,0.785,../../packages/ui/src/ui/heading.tsx:45:18
+useQuery,0.630,0.630,src/app/dashboard/[serverId]/components/home.tsx:58:51
+useQuery,0.627,0.627,src/app/dashboard/[serverId]/components/navbar.tsx:37:18
+"Identifier: typeof import(""/home/ssal",0.619,0.619,../../node_modules/@radix-ui/react-accordion/dist/index.d.mts:79:71
+findFirst,0.612,19.150,../../packages/core/src/message.ts:174:8
+psDrizzle,0.602,280.046,../../packages/core/src/db.ts:36:13
+setData,0.602,0.602,src/app/dashboard/[serverId]/settings/page.tsx:48:4
+protectedMutation,0.601,0.601,../../packages/api/src/router/channel.ts:57:15
+string,0.598,7.618,../../packages/env/src/shared.ts:77:32
+map,0.597,10.464,../../packages/core/src/message.ts:134:8
+Identifier: Response<Subscription>,0.596,2.673,../../packages/core/src/stripe.ts:20:7
+eq,0.595,0.595,../../packages/core/src/channel.ts:412:19
+object,0.594,1.437,../../packages/core/src/auth.ts:36:34
+twMerge,0.591,2.548,../../packages/ui/src/ui/heading.tsx:8:11
+FirstBinaryOperator: any,0.584,0.584,src/app/dashboard/[serverId]/client.tsx:40:5
+findServerById,0.584,3.876,../../packages/core/src/server.ts:93:19
+Identifier: NextApiRequest,0.579,0.579,src/pages/api/auth/[...nextauth].ts:10:15
+input,0.575,1.875,../../packages/api/src/router/discord-accounts.ts:30:7
+Identifier: (props: ServerCardProps) ,0.575,0.697,../../packages/ui/src/server-card.tsx:97:10
+map,0.569,1.499,../../packages/api/src/router/messages.ts:52:33
+query,0.562,5.515,../../packages/api/src/router/messages.ts:50:10
+upsertDiscordAccount,0.562,14.213,../../packages/core/src/user-server-settings.ts:243:9
+map,0.559,1.270,../../packages/ui/src/footer.tsx:114:17
+map,0.556,4.886,../../packages/core/src/message.ts:430:24
+cva,0.554,1.034,../../packages/ui/src/ui/sheet.tsx:32:22
+protectedFetch,0.552,16.968,../../packages/api/src/router/dashboard.ts:110:11
+protectedMutation,0.548,3.648,../../packages/api/src/router/channel.ts:56:8
+all,0.543,4.965,../../packages/core/src/pages.ts:153:6
+input,0.531,16.754,../../packages/api/src/router/channel.ts:99:10
+twMerge,0.531,0.832,../../packages/ui/src/ui/heading.tsx:30:30
+Identifier: (props: SVGProps<SVGSVGEl,0.529,0.532,../../packages/ui/src/navbar/user-dropdown.tsx:49:3
+router,0.529,54.586,../../packages/api/src/router/messages.ts:13:30
+query,0.528,83.406,../../packages/api/src/router/dashboard.ts:25:10
+enum,0.528,0.528,../../packages/env/src/shared.ts:82:10
+now,0.527,0.872,../../packages/core/src/auth.ts:533:9
+middleware,0.525,4.927,../../packages/api/src/router/trpc.ts:66:23
+omit,0.524,6.005,../../packages/core/src/channel.ts:31:6
+forwardRef,0.524,0.524,../../packages/ui/src/ui/command.tsx:72:25
+forwardRef,0.521,16.276,../../packages/ui/src/ui/separator.tsx:7:6
+parse,0.518,12.940,../../packages/core/src/pages.ts:217:31
+forwardRef,0.515,23.372,../../packages/ui/src/ui/label.tsx:12:6
+protectedFetch,0.508,81.845,../../packages/api/src/router/dashboard.ts:26:38
+parse,0.507,2.284,../../packages/core/src/auth.ts:634:10
+then,0.504,3.977,../../packages/ui/src/navbar/client.tsx:5:13
+mysqlTable,0.503,1.449,../../packages/core/src/schema.ts:417:9
+Identifier: Metadata,0.503,2.407,../../packages/ui/src/layouts/root.tsx:6:13
+pipe,0.502,66.314,../../packages/env/src/shared.ts:87:13
+enum,0.500,0.500,../../packages/core/src/auth.ts:48:8
+object,0.500,33.207,../../packages/core/src/zodSchemas/serverSchemas.ts:37:39
+relations,0.499,16.487,../../packages/core/src/schema.ts:534:73
+query,0.498,12.861,../../packages/api/src/router/channel.ts:110:18
+router,0.494,219.634,../../packages/api/src/router/user-server-settings.ts:78:45
+protectedFetch,0.493,14.236,../../packages/api/src/router/channel.ts:108:12
+Identifier: boolean,0.491,3.345,src/app/dashboard/[serverId]/settings/components.tsx:66:26
+on,0.488,0.488,../../packages/core/src/cache.ts:16:6
+findDiscordAccountById,0.487,2.618,../../packages/api/src/router/discord-accounts.ts:34:17
+findMany,0.483,10.434,../../packages/core/src/server.ts:75:7
+map,0.482,2.511,src/app/dashboard/[serverId]/channels/page.tsx:229:18
+useQuery,0.481,1.101,src/app/dashboard/[serverId]/components/home.tsx:146:7
+forwardRef,0.480,11.177,../../packages/ui/src/ui/switch.tsx:7:6
+mutation,0.477,3.463,../../packages/api/src/router/user-server-settings.ts:140:13
+getData,0.475,1.304,src/app/dashboard/[serverId]/channels/page.tsx:282:5
+all,0.474,26.846,../../packages/core/src/discord-account.ts:62:8
+forwardRef,0.472,1.334,../../packages/ui/src/ui/card.tsx:58:20
+protectedFetch,0.468,10.509,../../packages/api/src/router/dashboard.ts:62:22
+notNull,0.467,43.657,../../packages/core/src/schema.ts:38:13
+router,0.464,2.005,../../packages/api/src/router/messages.ts:13:38
+Identifier: (props: Omit<Omit<AnchorH,0.462,0.661,src/app/dashboard/[serverId]/components/navbar.tsx:73:7
+protectedFetch,0.460,17.428,../../packages/api/src/router/dashboard.ts:109:19
+forwardRef,0.460,0.460,../../packages/ui/src/ui/dialog.tsx:49:5
+relations,0.454,16.941,../../packages/core/src/schema.ts:534:54
+delete,0.452,1.005,../../packages/core/src/discord-account.ts:118:8
+default,0.451,15.283,../../packages/env/src/web-schema.mjs:10:13
+sort,0.451,2.716,../../packages/core/src/server.ts:133:8
+createContextInner,0.445,5.206,../../packages/api/src/router/context.ts:52:35
+map,0.444,4.968,../../packages/core/src/user-server-settings.ts:172:8
+query,0.442,44.333,../../packages/api/src/router/messages.ts:37:10
+protectedFetchManyWithPublicData,0.440,0.810,../../packages/api/src/router/discord-accounts.ts:43:44
+useQuery,0.438,0.438,src/app/dashboard/[serverId]/components/home.tsx:58:8
+map,0.436,4.495,../../packages/api/src/router/auth.ts:45:30
+anonymous,0.435,0.435,../../packages/ui/src/navbar/logout-item.tsx:20:10
+protectedFetch,0.433,9.687,../../packages/api/src/router/dashboard.ts:190:27
+Identifier: { type: number; id: strin,0.430,30.334,../../packages/core/src/pages.ts:348:32
+applyUserServerSettingsChangesSideEffects,0.428,28.069,../../packages/core/src/user-server-settings.ts:178:20
+extend,0.427,7.260,../../packages/core/src/zodSchemas/channelSchemas.ts:49:56
+applyServerSettingsSideEffects,0.424,8.120,../../packages/core/src/server.ts:97:28
+and,0.423,1.083,../../packages/core/src/channel.ts:409:9
+query,0.418,2.508,../../packages/api/src/router/discord-accounts.ts:73:10
+map,0.416,9.450,src/app/dashboard/[serverId]/components/home.tsx:47:8
+addFlagsToServer,0.416,0.575,../../packages/core/src/message.ts:612:37
+map,0.415,3.890,../../packages/api/src/router/auth.ts:56:10
+extend,0.415,23.594,../../packages/core/src/zodSchemas/discordAccountSchemas.ts:27:13
+middleware,0.414,1.822,../../packages/api/src/router/trpc.ts:32:26
+find,0.411,7.634,../../packages/core/src/pages.ts:364:26
+mysqlTable,0.410,1.859,../../packages/core/src/schema.ts:415:4
+pipe,0.410,6.321,../../packages/env/src/shared-schema.mjs:65:32
+getFakeData,0.406,0.406,src/app/dashboard/[serverId]/components/home.tsx:148:26
+getPosthogQueryClientForDashboard,0.403,78.621,../../packages/core/src/analytics.ts:136:9
+varchar,0.401,6.314,../../packages/core/src/schema.ts:41:6
+varchar,0.401,0.448,../../packages/core/src/schema.ts:275:24
+Identifier: { type: number; id: strin,0.401,43.890,../../packages/core/src/pages.ts:402:8
+map,0.399,10.864,../../packages/core/src/message.ts:133:8
+pipe,0.399,50.222,../../packages/env/src/shared-schema.mjs:91:13
+findFirst,0.396,8.034,../../packages/core/src/server.ts:126:8
+query,0.390,12.363,../../packages/api/src/router/channel.ts:110:18
+forwardRef,0.389,6.606,../../packages/ui/src/ui/button.tsx:44:6
+findFirst,0.389,2.046,../../packages/core/src/user-server-settings.ts:266:61
+query,0.383,10.498,../../packages/api/src/router/discord-accounts.ts:32:10
+"Identifier: ""fbclid""",0.379,0.382,../../packages/core/src/analytics.events.ts:10222:14
+getPosthogQueryClientForDashboard,0.376,76.817,../../packages/core/src/analytics.ts:136:9
+router,0.375,16.163,../../packages/api/src/router/index.ts:17:7
+input,0.373,49.251,../../packages/api/src/router/server.ts:73:7
+map,0.373,1.732,src/app/dashboard/[serverId]/channels/page.tsx:229:47
+limit,0.371,6.288,../../packages/core/src/channel.ts:351:7
+addFlagsToServer,0.369,25.766,../../packages/core/src/server.ts:181:8
+constructEvent,0.369,4.175,src/pages/api/v1/stripe/webhook.ts:57:8
+forwardRef,0.369,13.303,../../packages/ui/src/ui/dropdown-menu.tsx:58:6
+stripPrivateServerData,0.369,0.944,../../packages/core/src/message.ts:612:13
+pipe,0.368,1.886,../../packages/env/src/shared-schema.mjs:11:13
+getPageViewsForServer,0.367,81.256,../../packages/api/src/router/dashboard.ts:28:12
+protectedMutationFetchFirst,0.366,10.169,../../packages/api/src/router/channel.ts:127:11
+getDefaultDiscordAccount,0.365,0.485,../../packages/core/src/discord-account.ts:70:43
+forwardRef,0.365,6.999,../../packages/ui/src/ui/avatar.tsx:39:6
+query,0.365,0.421,../../packages/api/src/router/messages.ts:29:10
+findMany,0.365,4.524,../../packages/core/src/user-server-settings.ts:159:14
+then,0.364,0.364,../../packages/core/src/auth.ts:261:21
+all,0.361,16.405,../../packages/core/src/discord-account.ts:103:8
+input,0.359,1.301,../../packages/api/src/router/discord-accounts.ts:30:7
+findFirst,0.356,4.917,../../packages/core/src/user-server-settings.ts:266:7
+map,0.356,2.247,../../packages/core/src/discord-account.ts:52:26
+useQuery,0.355,1.455,src/app/dashboard/[serverId]/components/home.tsx:144:16
+map,0.354,0.375,../../packages/ui/src/footer.tsx:117:16
+Identifier: { server: { description: ,0.354,43.490,../../packages/core/src/pages.ts:394:47
+findMany,0.351,3.944,../../packages/core/src/pages.ts:64:5
+twMerge,0.350,1.136,../../packages/ui/src/ui/heading.tsx:45:15
+one,0.345,0.555,../../packages/core/src/schema.ts:155:25
+forwardRef,0.341,20.091,../../packages/ui/src/ui/dropdown-menu.tsx:42:6
+useQuery,0.339,6.530,src/app/dashboard/[serverId]/components/home.tsx:58:8
+input,0.339,1.308,../../packages/api/src/router/messages.ts:39:9
+mysqlTable,0.336,2.324,../../packages/core/src/schema.ts:379:4
+toString,0.335,10.575,../../packages/core/src/schema.ts:26:6
+addFlagsToServer,0.332,3.292,../../packages/core/src/server.ts:120:8
+map,0.331,12.649,../../packages/core/src/discord-account.ts:49:7
+input,0.331,15.550,../../packages/api/src/router/user-server-settings.ts:157:20
+Identifier: unknown,0.331,0.625,../../packages/core/src/analytics.ts:192:7
+protectedMutation,0.330,1.319,../../packages/api/src/router/user-server-settings.ts:144:54
+protectedFetch,0.329,8.261,../../packages/api/src/router/dashboard.ts:173:55
+mutateUserServerSettings,0.328,1.793,../../packages/api/src/router/user-server-settings.ts:141:36
+extend,0.325,38.387,../../packages/core/src/zodSchemas/channelSchemas.ts:95:13
+map,0.325,11.900,../../packages/core/src/pages.ts:87:41
+Identifier: ForwardRefExoticComponent,0.323,0.605,../../packages/ui/src/ui/tabs.tsx:36:4
+omit,0.323,0.323,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:25:8
+int,0.322,0.322,../../packages/core/src/schema.ts:209:16
+notNull,0.321,4.884,../../packages/core/src/schema.ts:409:13
+useMutation,0.321,79.323,src/app/dashboard/[serverId]/settings/page.tsx:35:24
+fetchRequestHandler,0.320,1.831,src/app/api/trpc/[trpc]/route.ts:5:22
+findMany,0.318,2.785,../../packages/core/src/user-server-settings.ts:159:67
+findFirst,0.317,22.063,../../packages/core/src/server.ts:124:15
+map,0.316,2.265,../../packages/core/src/server.ts:135:12
+pipe,0.316,7.289,../../packages/env/src/shared.ts:59:13
+middleware,0.315,4.401,../../packages/api/src/router/trpc.ts:66:37
+useMutation,0.315,2007.169,src/app/dashboard/[serverId]/settings/page.tsx:35:7
+object,0.311,8.186,../../packages/core/src/zodSchemas/channelSchemas.ts:76:40
+assertBoolsAreNotEqual,0.309,0.642,../../packages/api/src/router/user-server-settings.ts:146:25
+object,0.308,123.428,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:39:59
+Identifier: CreateRouterInner<RootCon,0.307,41.698,../../packages/api/src/router/discord-accounts.ts:89:36
+findMany,0.306,1.390,../../packages/core/src/channel.ts:408:45
+extend,0.306,17.368,../../packages/core/src/zodSchemas/channelSchemas.ts:49:6
+from,0.306,6.495,../../packages/core/src/discord-account.ts:95:7
+query,0.305,19.165,../../packages/api/src/router/dashboard.ts:108:10
+map,0.304,0.712,../../packages/ui/src/footer.tsx:115:15
+array,0.303,580.594,../../packages/core/src/zodSchemas/channelSchemas.ts:104:13
+mutation,0.302,13.486,../../packages/api/src/bot/index.ts:41:13
+fetchRequestHandler,0.302,1.511,src/app/api/trpc/[trpc]/route.ts:10:11
+forwardRef,0.301,8.937,../../packages/ui/src/ui/command.tsx:10:6
+twMerge,0.301,0.301,../../packages/ui/src/ui/heading.tsx:31:8
+map,0.300,1.263,../../packages/core/src/search.ts:428:23
+slice,0.300,17.451,../../packages/core/src/pages.ts:220:19
+twMerge,0.298,2.076,../../packages/ui/src/ui/heading.tsx:29:15
+addFlagsToServer,0.298,30.632,../../packages/core/src/pages.ts:370:51
+map,0.297,2.029,src/app/dashboard/[serverId]/channels/page.tsx:229:41
+Identifier: boolean,0.297,0.297,../../packages/ui/src/layouts/root.tsx:11:9
+object,0.296,134.214,../../packages/core/src/zodSchemas/channelSchemas.ts:105:11
+omit,0.295,59.261,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:40:5
+useMutation,0.295,70.749,src/app/dashboard/[serverId]/channels/page.tsx:205:24
+"Identifier: { compare: ""exact""; prope",0.294,3.703,../../packages/core/src/analytics.ts:19:17
+and,0.293,4.920,../../packages/core/src/channel.ts:354:10
+middleware,0.293,1.407,../../packages/api/src/router/trpc.ts:32:40
+many,0.293,13.255,../../packages/core/src/schema.ts:58:17
+map,0.291,10.532,../../packages/core/src/pages.ts:107:12
+context,0.290,754.462,../../packages/api/src/router/trpc.ts:11:10
+addFlagsToServer,0.289,25.397,../../packages/core/src/server.ts:181:26
+findFirst,0.289,3.547,../../packages/core/src/server.ts:45:7
+then,0.288,6.431,../../packages/core/src/message.ts:244:17
+input,0.287,203.309,../../packages/api/src/router/user-server-settings.ts:124:22
+relations,0.285,88.003,../../packages/core/src/schema.ts:57:13
+object,0.285,41.330,../../packages/core/src/zodSchemas/serverSchemas.ts:37:13
+object,0.284,32.737,../../packages/core/src/zodSchemas/channelSchemas.ts:99:13
+query,0.283,7.109,../../packages/api/src/router/dashboard.ts:84:10
+useMutation,0.283,1843.353,src/app/dashboard/[serverId]/channels/page.tsx:205:7
+protectedMutation,0.282,0.989,../../packages/api/src/router/user-server-settings.ts:145:24
+applyUserServerSettingsChangesSideEffects,0.282,28.352,../../packages/core/src/user-server-settings.ts:178:7
+"Identifier: ""Answer Overflow Account ",0.282,0.288,../../packages/core/src/analytics.events.ts:5085:14
+Identifier: MapConstructor,0.282,0.282,../../packages/core/src/server.ts:224:18
+Identifier: ForwardRefExoticComponent,0.282,0.282,../../packages/ui/src/ui/tabs.tsx:36:4
+Identifier: { id: string; name: strin,0.281,2.565,../../packages/api/src/router/trpc.ts:60:9
+getTenantCookieName,0.281,0.860,src/pages/api/auth/[...nextauth].ts:10:15
+getServersForOnboarding,0.281,19.154,src/app/page.tsx:5:7
+forwardRef,0.278,7.465,../../packages/ui/src/ui/select.tsx:113:6
+forwardRef,0.277,5.086,../../packages/ui/src/ui/select.tsx:101:6
+dynamic,0.276,0.408,../../packages/ui/src/navbar/client.tsx:6:64
+set,0.276,1.979,../../packages/core/src/server.ts:221:44
+map,0.276,0.517,../../packages/core/src/message.ts:134:8
+applyServerSettingsSideEffects,0.276,0.538,../../packages/core/src/server.ts:97:66
+query,0.276,44.609,../../packages/api/src/router/messages.ts:29:10
+mutation,0.275,22.278,../../packages/api/src/router/user-server-settings.ts:96:13
+relations,0.273,49.528,../../packages/core/src/schema.ts:57:65
+forwardRef,0.271,16.432,../../packages/ui/src/ui/select.tsx:34:6
+addFlagsToServer,0.271,30.903,../../packages/core/src/pages.ts:370:34
+usePathname,0.270,3.875,../../packages/ui/src/ui/link-button.tsx:17:13
+pick,0.269,8.232,../../packages/core/src/zodSchemas/serverSchemas.ts:32:13
+router,0.268,1271.363,../../packages/api/src/router/index.ts:10:33
+relations,0.267,19.820,../../packages/core/src/schema.ts:534:13
+protectedFetch,0.266,10.040,../../packages/api/src/router/dashboard.ts:62:38
+all,0.264,14.906,../../packages/core/src/search.ts:420:30
+forwardRef,0.263,26.024,../../packages/ui/src/ui/accordion.tsx:10:6
+upsert,0.263,8.970,../../packages/core/src/user-server-settings.ts:236:16
+map,0.263,1.359,src/app/dashboard/[serverId]/channels/page.tsx:231:12
+forwardRef,0.262,15.146,../../packages/ui/src/ui/dropdown-menu.tsx:20:6
+applyServerSettingsSideEffects,0.262,0.262,../../packages/core/src/server.ts:98:7
+relations,0.260,16.553,../../packages/core/src/schema.ts:96:54
+map,0.257,2.768,src/app/dashboard/[serverId]/channels/page.tsx:227:23
+reduce,0.256,1.633,../../packages/core/src/utils/operations.ts:26:7
+stripPrivateServerData,0.256,31.159,../../packages/core/src/pages.ts:370:10
+query,0.255,10.915,../../packages/api/src/router/dashboard.ts:61:10
+forwardRef,0.254,11.588,../../packages/ui/src/ui/dropdown-menu.tsx:118:6
+forwardRef,0.253,14.985,../../packages/ui/src/ui/avatar.tsx:27:6
+push,0.252,0.427,../../packages/core/src/search.ts:324:12
+useQuery,0.251,0.878,src/app/dashboard/[serverId]/components/navbar.tsx:37:18
+filter,0.251,33.080,../../packages/core/src/discord-account.ts:53:7
+setTheme,0.248,0.248,../../packages/ui/src/navbar/change-theme-item.tsx:12:13
+Identifier: string,0.248,0.526,../../packages/ui/src/pricing.tsx:180:16
+slice,0.247,17.780,../../packages/core/src/pages.ts:220:19
+forwardRef,0.247,15.476,../../packages/ui/src/ui/popover.tsx:11:6
+mutateAsync,0.246,2.337,src/app/dashboard/[serverId]/components/domain.tsx:282:24
+object,0.246,46.171,../../packages/core/src/search.ts:154:13
+applyServerSettingsSideEffects,0.246,9.162,../../packages/core/src/server.ts:59:7
+query,0.243,16.222,../../packages/api/src/router/channel.ts:101:10
+Identifier: ForwardRefExoticComponent,0.242,0.242,../../packages/ui/src/pricing.tsx:113:3
+relations,0.242,4.509,../../packages/core/src/schema.ts:577:57
+Identifier: NonNullable<{ readonly st,0.241,0.241,src/app/dashboard/[serverId]/components/navbar.tsx:41:5
+forwardRef,0.241,6.863,../../packages/ui/src/ui/select.tsx:51:6
+mutateServer,0.241,6.827,../../packages/api/src/router/server.ts:110:15
+createInvite,0.240,11.600,../../packages/api/src/bot/index.ts:89:24
+protectedFetch,0.240,5.996,../../packages/api/src/router/dashboard.ts:85:38
+forwardRef,0.237,25.155,../../packages/ui/src/ui/select.tsx:69:6
+pick,0.237,179.569,../../packages/api/src/router/user-server-settings.ts:128:10
+addFlagsToServer,0.237,2.960,../../packages/core/src/server.ts:120:26
+addDays,0.237,0.237,../../packages/ui/src/ui/date-picker.tsx:29:12
+query,0.234,3.988,../../packages/api/src/router/server.ts:194:10
+router,0.234,363.888,../../packages/api/src/router/index.ts:12:11
+Identifier: string,0.234,2.311,src/app/dashboard/[serverId]/layout.tsx:124:13
+findFirst,0.233,3.476,../../packages/core/src/auth.ts:82:7
+inArray,0.233,0.233,../../packages/core/src/server.ts:128:11
+forwardRef,0.233,0.233,../../packages/ui/src/ui/dropdown-menu.tsx:36:16
+extend,0.230,105.038,../../packages/core/src/zodSchemas/channelSchemas.ts:87:13
+findFirst,0.229,1.871,../../packages/core/src/channel.ts:226:7
+cva,0.229,0.480,../../packages/ui/src/ui/sheet.tsx:33:197
+findServerById,0.229,4.221,../../packages/core/src/server.ts:92:18
+findFirst,0.228,9.727,../../packages/core/src/user-server-settings.ts:187:19
+applyUserServerSettingsChangesSideEffects,0.228,23.664,../../packages/core/src/user-server-settings.ts:210:20
+findFirst,0.227,0.870,../../packages/core/src/channel.ts:279:55
+pipe,0.226,6.547,../../packages/env/src/shared-schema.mjs:65:13
+findMany,0.226,12.770,../../packages/core/src/pages.ts:191:14
+omit,0.226,123.121,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:40:5
+forwardRef,0.225,7.939,../../packages/ui/src/ui/dropdown-menu.tsx:140:6
+findMany,0.224,2.550,../../packages/core/src/server.ts:189:15
+keys,0.223,3.400,../../packages/api/src/router/dashboard.ts:66:39
+select,0.222,1.325,../../packages/core/src/auth.ts:336:16
+delete,0.221,0.427,../../packages/core/src/discord-account.ts:118:8
+router,0.221,134.884,../../packages/api/src/router/index.ts:16:12
+extend,0.221,14.820,../../packages/core/src/schema.ts:388:13
+findFirst,0.221,0.221,../../packages/core/src/server.ts:116:51
+mutation,0.220,13.184,../../packages/api/src/bot/index.ts:96:10
+parse,0.220,13.160,../../packages/core/src/pages.ts:217:10
+notNull,0.220,5.752,../../packages/core/src/schema.ts:202:13
+applyServerSettingsSideEffects,0.218,8.338,../../packages/core/src/server.ts:97:7
+protectedFetchWithPublicData,0.217,3.032,../../packages/api/src/router/discord-accounts.ts:33:40
+includes,0.216,1.291,../../packages/ui/src/utils/trpc.tsx:30:7
+protectedFetch,0.216,14.452,../../packages/api/src/router/channel.ts:103:11
+upsert,0.216,11.074,../../packages/core/src/discord-account.ts:134:10
+map,0.216,10.747,../../packages/core/src/pages.ts:89:10
+relations,0.216,24.365,../../packages/core/src/schema.ts:153:19
+filter,0.215,1.851,src/app/dashboard/page.tsx:8:21
+map,0.215,5.546,../../packages/api/src/router/dashboard.ts:91:12
+object,0.215,4.325,../../packages/core/src/search.ts:140:6
+notNull,0.214,13.311,../../packages/core/src/schema.ts:366:13
+forwardRef,0.214,16.575,../../packages/ui/src/ui/tabs.tsx:9:6
+useQuery,0.214,0.620,src/app/dashboard/[serverId]/components/home.tsx:147:16
+find,0.213,5.913,../../packages/core/src/pages.ts:365:19
+object,0.212,4.358,../../packages/core/src/auth.ts:36:7
+useMutation,0.212,43.136,src/app/dashboard/[serverId]/channels/page.tsx:267:52
+forwardRef,0.212,9.094,../../packages/ui/src/ui/dropdown-menu.tsx:94:6
+forwardRef,0.212,8.944,../../packages/ui/src/ui/dropdown-menu.tsx:76:6
+enum,0.210,0.710,../../packages/core/src/auth.ts:48:8
+one,0.210,0.210,../../packages/core/src/schema.ts:156:11
+findFirst,0.210,22.273,../../packages/core/src/server.ts:124:7
+map,0.210,0.210,../../packages/core/src/discord-account.ts:52:35
+protectedFetch,0.210,5.756,../../packages/api/src/router/dashboard.ts:86:11
+omit,0.210,36.346,../../packages/core/src/zodSchemas/channelSchemas.ts:87:34
+pick,0.209,3.015,../../packages/core/src/zodSchemas/serverSchemas.ts:54:13
+makeMessageWithAuthor,0.209,0.209,../../packages/core/src/message.ts:136:22
+findFirst,0.208,4.561,../../packages/core/src/user-server-settings.ts:266:14
+relations,0.207,33.655,../../packages/core/src/schema.ts:350:13
+required,0.207,5.687,../../packages/core/src/zodSchemas/channelSchemas.ts:49:23
+pop,0.206,2.058,src/app/dashboard/page.tsx:8:7
+map,0.206,3.703,../../packages/api/src/router/dashboard.ts:72:12
+log,0.206,0.206,../../packages/core/src/auth.ts:218:30
+all,0.204,2.857,../../packages/api/src/router/vercel-domains.ts:128:34
+twMerge,0.203,1.315,../../packages/ui/src/ui/heading.tsx:61:14
+select,0.203,5.871,../../packages/core/src/channel.ts:351:19
+relations,0.202,32.073,../../packages/core/src/schema.ts:350:55
+omit,0.202,133.822,../../packages/core/src/zodSchemas/channelSchemas.ts:107:10
+forwardRef,0.202,49.154,../../packages/ui/src/ui/select.tsx:14:6
+forwardRef,0.202,7.103,../../packages/ui/src/ui/dropdown-menu.tsx:158:6
+useQuery,0.201,1.216,src/app/dashboard/[serverId]/layout.tsx:56:18
+forwardRef,0.201,8.549,../../packages/ui/src/ui/accordion.tsx:42:6
+forwardRef,0.200,1.534,../../packages/ui/src/ui/card.tsx:58:6
+Identifier: string,0.199,0.199,src/app/dashboard/[serverId]/components/navbar.tsx:73:12
+Identifier: unknown,0.198,0.272,../../packages/core/src/analytics.ts:194:10
+relations,0.198,24.308,../../packages/core/src/schema.ts:306:13
+protectedFetch,0.198,9.774,../../packages/api/src/router/dashboard.ts:63:11
+Identifier: { bitfield: number; serve,0.197,0.523,../../packages/core/src/user-server-settings.ts:74:6
+extend,0.197,11.308,../../packages/core/src/schema.ts:521:13
+router,0.197,54.784,../../packages/api/src/router/index.ts:15:11
+forwardRef,0.197,0.197,../../packages/ui/src/ui/avatar.tsx:28:25
+useEffect,0.197,6.686,../../packages/ui/src/hooks/client.tsx:26:13
+protectedFetchWithPublicData,0.197,2.815,../../packages/api/src/router/discord-accounts.ts:34:11
+router,0.195,41.893,../../packages/api/src/router/index.ts:13:18
+Identifier: ZodObject<{ id: ZodString,0.195,5.638,../../packages/core/src/auth.ts:609:53
+"Identifier: Readonly<{ NODE_ENV: ""dev",0.195,0.195,../../packages/env/src/web-schema.mjs:8:13
+forwardRef,0.195,15.580,../../packages/ui/src/ui/sheet.tsx:116:6
+query,0.194,43.538,../../packages/api/src/bot/index.ts:29:13
+DiscordProvider,0.194,5.295,../../packages/core/src/auth.ts:401:13
+findFirst,0.194,3.258,../../packages/core/src/server.ts:45:15
+"Identifier: ""IGNORED_ACCOUNT"" | ""NOT_",0.193,1.063,../../packages/core/src/utils/operations.ts:64:39
+Identifier: Promise<(Awaited<G> | Awa,0.193,5.581,../../packages/api/src/utils/protected-procedures.ts:144:8
+relations,0.193,24.131,../../packages/core/src/schema.ts:154:16
+"Identifier: Pick<ServerWithFlags, ""fl",0.193,4.370,../../packages/core/src/message.ts:105:22
+all,0.192,12.421,../../packages/core/src/pages.ts:138:26
+one,0.191,0.285,../../packages/core/src/schema.ts:582:26
+useMutation,0.191,58.495,src/app/dashboard/[serverId]/settings/page.tsx:35:57
+int,0.191,0.513,../../packages/core/src/schema.ts:209:16
+forwardRef,0.190,2.612,../../packages/ui/src/ui/sheet.tsx:55:6
+map,0.190,13.675,../../packages/core/src/pages.ts:205:15
+setDate,0.190,0.426,../../packages/ui/src/ui/date-picker.tsx:28:14
+one,0.190,13.408,../../packages/core/src/schema.ts:155:15
+Identifier: string,0.189,56.306,../../packages/core/src/db.ts:8:6
+map,0.189,17.151,../../packages/core/src/pages.ts:205:15
+protectedMutationFetchFirst,0.187,10.357,../../packages/api/src/router/channel.ts:126:39
+map,0.187,10.240,../../packages/core/src/pages.ts:109:15
+Identifier: ChannelType.GuildText | C,0.187,0.304,src/app/dashboard/[serverId]/channels/page.tsx:63:6
+"Identifier: Record<""canPubliclyDispla",0.187,0.187,../../packages/core/src/user-server-settings.ts:76:4
+query,0.187,82.704,../../packages/api/src/router/dashboard.ts:26:16
+object,0.187,36.952,../../packages/core/src/zodSchemas/serverSchemas.ts:47:13
+many,0.186,11.657,../../packages/core/src/schema.ts:363:17
+relations,0.186,27.851,../../packages/core/src/schema.ts:152:13
+Identifier: ForwardRefExoticComponent,0.185,0.185,src/app/dashboard/[serverId]/components/domain.tsx:122:5
+Identifier: ForwardRefExoticComponent,0.185,0.185,src/app/dashboard/[serverId]/components/home.tsx:235:8
+findFirst,0.185,15.607,../../packages/core/src/server.ts:177:21
+toDateString,0.183,8.727,src/app/dashboard/[serverId]/components/home.tsx:47:27
+protectedFetch,0.183,4.529,../../packages/api/src/router/dashboard.ts:145:35
+useMutation,0.182,40.693,src/app/dashboard/[serverId]/channels/page.tsx:205:58
+cva,0.181,0.184,../../packages/ui/src/ui/sheet.tsx:36:9
+omit,0.181,59.441,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:40:5
+query,0.181,8.851,../../packages/api/src/router/auth.ts:29:58
+omit,0.180,9.496,../../packages/core/src/zodSchemas/userServerSettingsSchemas.ts:24:42
+findFirst,0.179,11.911,../../packages/core/src/message.ts:174:8
+map,0.178,2.728,../../packages/core/src/server.ts:192:8
+relations,0.178,14.244,../../packages/core/src/schema.ts:306:53
+forwardRef,0.178,16.529,../../packages/ui/src/ui/accordion.tsx:22:6
+Identifier: { title: string; cta: str,0.177,0.278,../../packages/ui/src/pricing.tsx:180:48
+cva,0.177,3.101,../../packages/ui/src/ui/button.tsx:8:6
+string,0.177,7.795,../../packages/env/src/shared.ts:77:13
+decode,0.177,6.098,../../packages/core/src/db.ts:23:27
+input,0.176,47.188,../../packages/api/src/router/channel.ts:117:9
+object,0.176,12.499,../../packages/core/src/zodSchemas/channelSchemas.ts:76:13
+map,0.176,7.138,../../packages/core/src/message.ts:609:10
+Identifier: string | undefined,0.176,16.679,../../packages/core/src/analytics.ts:47:6
+Identifier: string,0.175,2.517,src/app/onboarding/OnboardingPages.tsx:168:10
+assertBoolsAreNotEqual,0.175,0.333,../../packages/api/src/router/user-server-settings.ts:147:31
+push,0.175,0.175,../../packages/core/src/search.ts:324:14
+cn,0.175,5.624,../../packages/ui/src/ui/calendar.tsx:21:15
+query,0.175,82.878,../../packages/api/src/router/dashboard.ts:33:10
+Identifier: ForwardRefExoticComponent,0.173,0.224,../../packages/ui/src/ui/input.tsx:23:3
+input,0.172,49.669,../../packages/api/src/router/server.ts:91:9
+useQuery,0.172,0.252,src/app/dashboard/[serverId]/layout.tsx:56:18
+next,0.171,0.171,../../packages/api/src/router/trpc.ts:48:12
+findMany,0.171,1.658,../../packages/core/src/channel.ts:140:7
+cn,0.169,0.169,../../packages/ui/src/ui/dialog.tsx:41:15
+map,0.169,4.059,../../packages/api/src/router/auth.ts:45:50
+protectedFetchManyWithPublicData,0.169,0.371,../../packages/api/src/router/discord-accounts.ts:45:17
+forwardRef,0.169,3.837,../../packages/ui/src/ui/command.tsx:71:6
+getNextAuthSession,0.168,3.470,../../packages/core/src/auth.ts:516:18
+findFirst,0.168,10.041,../../packages/core/src/user-server-settings.ts:187:7
+findFirst,0.166,2.338,../../packages/core/src/channel.ts:279:8
+forwardRef,0.166,9.841,../../packages/ui/src/ui/command.tsx:39:6
+where,0.165,1.170,../../packages/core/src/discord-account.ts:117:22
+toDict,0.165,3.053,../../packages/core/src/utils/bitfieldUtils.ts:32:8
+Identifier: Session,0.163,3.634,../../packages/core/src/auth.ts:519:7
+extend,0.163,16.113,../../packages/core/src/schema.ts:223:13
+getPosthogQueryClientForDashboard,0.163,76.980,../../packages/core/src/analytics.ts:136:9
+Identifier: number | null,0.163,1.095,src/app/dashboard/[serverId]/settings/components.tsx:39:7
+map,0.162,1.782,../../packages/api/src/router/dashboard.ts:91:12
+many,0.161,7.435,../../packages/core/src/schema.ts:308:17
+then,0.161,6.627,../../packages/core/src/message.ts:244:9
+createInsertSchema,0.160,11.626,../../packages/core/src/schema.ts:388:32
+then,0.160,2.641,../../packages/api/src/router/vercel-domains.ts:47:34
+getPosthogQueryClientForDashboard,0.160,76.442,../../packages/core/src/analytics.ts:136:9
+cva,0.160,1.194,../../packages/ui/src/ui/sheet.tsx:32:6
+use,0.160,5.086,../../packages/api/src/router/trpc.ts:103:7
+addFlagsToServer,0.160,0.160,../../packages/core/src/message.ts:612:54
+input,0.158,48.811,../../packages/api/src/router/server.ts:73:7
+assertBoolsAreNotEqual,0.158,0.158,../../packages/api/src/router/user-server-settings.ts:150:18
+now,0.157,0.267,../../packages/core/src/auth.ts:537:22
+relations,0.157,6.136,../../packages/core/src/schema.ts:577:13
+upsertMany,0.156,18.252,../../packages/core/src/channel.ts:324:20
+delete,0.156,0.207,../../packages/core/src/discord-account.ts:118:8
+map,0.155,11.090,../../packages/core/src/message.ts:133:8
+applyChannelSettingsChangesSideEffects,0.155,7.152,../../packages/core/src/channel.ts:251:7
+twMerge,0.154,0.154,../../packages/ui/src/ui/heading.tsx:45:18
+router,0.154,400.799,../../packages/api/src/router/index.ts:11:10
+upsert,0.154,8.707,../../packages/core/src/user-server-settings.ts:242:10
+findFirst,0.154,2.723,../../packages/core/src/server.ts:116:15
+findFirst,0.152,1.642,../../packages/core/src/channel.ts:226:17
+findManyIgnoredDiscordAccountsById,0.152,12.221,../../packages/core/src/discord-account.ts:49:31
+map,0.152,0.198,src/app/onboarding/OnboardingPages.tsx:169:8
+omit,0.151,5.318,../../packages/core/src/zodSchemas/channelSchemas.ts:59:31
+get,0.151,3.152,../../packages/api/src/router/auth.ts:59:12
+getPosthogQueryClientForDashboard,0.150,76.281,../../packages/core/src/analytics.ts:136:9
+get,0.150,0.432,../../packages/core/src/server.ts:228:24
+Identifier: CreateRouterInner<RootCon,0.149,258.559,../../packages/api/src/router/user-server-settings.ts:213:40
+findChannelById,0.148,9.803,../../packages/api/src/router/channel.ts:128:12
+assertIsUser,0.148,0.202,../../packages/api/src/router/discord-accounts.ts:45:27
+map,0.148,2.916,src/app/dashboard/[serverId]/channels/page.tsx:227:13
+setDate,0.148,0.574,../../packages/ui/src/ui/date-picker.tsx:27:30
+useMutation,0.148,44.444,src/app/dashboard/[serverId]/channels/page.tsx:267:7
+Identifier: Config,0.145,2.946,tailwind.config.cjs:12:6
+mutateUserServerSettings,0.145,1.464,../../packages/api/src/router/user-server-settings.ts:144:15
+createContextInner,0.143,752.687,../../packages/api/src/router/context.ts:52:14
+all,0.143,29.904,../../packages/core/src/pages.ts:247:41
+use,0.143,24.913,../../packages/api/src/router/trpc.ts:101:40
+updateManyChannels,0.143,10.955,../../packages/core/src/channel.ts:334:24
+getServersForOnboarding,0.143,18.873,src/app/page.tsx:5:17
+pick,0.142,2.659,../../packages/core/src/zodSchemas/channelSchemas.ts:136:13
+findFirst,0.141,0.141,../../packages/core/src/pages.ts:129:22
+goToPage,0.141,0.179,src/app/onboarding/OnboardingPages.tsx:186:29
+object,0.140,14.177,src/pages/api/v1/stripe/webhook.ts:29:6
+forwardRef,0.140,8.916,../../packages/ui/src/ui/command.tsx:112:6
+createEnv,0.140,0.140,../../packages/env/src/shared.ts:126:22
+"Identifier: Record<""canPubliclyDispla",0.138,0.325,../../packages/core/src/user-server-settings.ts:75:52
+forwardRef,0.137,0.137,../../packages/ui/src/ui/dropdown-menu.tsx:108:5
+set,0.137,4.360,../../packages/core/src/server.ts:221:13
+error,0.136,12.508,src/app/api/trpc/[trpc]/route.ts:4:16
+getRedisClient,0.136,0.136,../../packages/core/src/auth.ts:744:8
+map,0.135,0.945,../../packages/core/src/server.ts:135:12
+map,0.135,22.296,../../packages/core/src/discord-account.ts:91:7
+find,0.134,2.062,src/app/dashboard/[serverId]/components/navbar.tsx:39:7
+map,0.134,9.033,src/app/dashboard/[serverId]/components/home.tsx:47:18
+enum,0.134,0.844,../../packages/core/src/auth.ts:48:8
+forwardRef,0.133,0.873,../../packages/ui/src/ui/dropdown-menu.tsx:28:13
+toLocaleDateString,0.133,6.417,src/app/dashboard/[serverId]/settings/components.tsx:84:11
+forwardRef,0.133,0.133,../../packages/ui/src/ui/tabs.tsx:11:39
+"Identifier: { width?: number | ""full""",0.132,46.005,../../packages/ui/src/icons/answer-overflow-logo.tsx:16:10
+flatMap,0.132,12.032,../../packages/core/src/pages.ts:87:35
+dynamic,0.131,0.131,../../packages/ui/src/navbar/client.tsx:9:11
+input,0.130,47.318,../../packages/api/src/router/channel.ts:117:9
+createInsertSchema,0.128,3.805,../../packages/core/src/schema.ts:301:28
+"Identifier: typeof import(""/home/ssal",0.128,0.128,../../node_modules/@redis/client/dist/lib/client/commands.d.ts:223:29
+get,0.127,3.379,../../packages/api/src/router/auth.ts:59:12
+delete,0.127,0.271,../../packages/core/src/message.ts:494:8
+forwardRef,0.126,18.307,../../packages/ui/src/ui/sheet.tsx:104:6
+delete,0.126,0.553,../../packages/core/src/discord-account.ts:118:8
+router,0.125,258.685,../../packages/api/src/router/index.ts:14:21
+Identifier: CreateRouterInner<RootCon,0.125,2036.567,../../packages/api/src/utils/types.ts:4:31
+useUtils,0.125,0.164,src/app/dashboard/[serverId]/channels/page.tsx:210:15
+get,0.125,9.987,../../packages/core/src/pages.ts:90:22
+router,0.124,52.053,../../packages/api/src/router/messages.ts:13:38
+getPosthogQueryClientForDashboard,0.124,1.778,../../packages/core/src/analytics.ts:72:9
+context,0.124,754.172,../../packages/api/src/router/trpc.ts:11:10
+Identifier: { indexingEnabled?: boole,0.123,3.896,../../packages/core/src/channel.ts:46:7
+one,0.123,0.160,../../packages/core/src/schema.ts:539:32
+Identifier: ServerCardProps,0.123,0.123,../../packages/ui/src/server-card.tsx:98:14
+input,0.122,49.791,../../packages/api/src/router/server.ts:91:9
+cast,0.121,0.145,../../packages/core/src/db.ts:33:9
+relations,0.121,19.539,../../packages/core/src/schema.ts:96:13
+getDefaultDiscordAccount,0.120,0.120,../../packages/core/src/discord-account.ts:70:43
+all,0.120,1.632,../../packages/api/src/utils/protected-procedures.ts:16:25
+pick,0.119,181.828,../../packages/api/src/router/user-server-settings.ts:128:10
+findManyChannelsById,0.118,18.035,../../packages/core/src/channel.ts:326:14
+getDomainStatus,0.118,3.754,../../packages/api/src/router/server.ts:195:10
+pick,0.117,179.687,../../packages/api/src/router/user-server-settings.ts:128:10
+findServerById,0.117,3.993,../../packages/core/src/server.ts:93:13
+Identifier: ChannelType.GuildText | C,0.117,0.117,src/app/dashboard/[serverId]/channels/page.tsx:63:6
+query,0.116,6.826,../../packages/api/src/router/dashboard.ts:104:10
+get,0.115,734.942,../../packages/core/src/auth.ts:712:27
+sort,0.115,0.253,../../packages/core/src/pages.ts:177:8
+map,0.115,5.331,../../packages/api/src/router/dashboard.ts:91:12
+Identifier: { children?: ReactNode; },0.115,1.649,src/app/layout.tsx:16:17
+map,0.115,2.078,src/app/dashboard/[serverId]/layout.tsx:125:10
+trackEvent,0.115,0.115,../../packages/ui/src/pricing.tsx:393:70
+input,0.113,1.989,../../packages/api/src/router/discord-accounts.ts:30:7
+"Identifier: Pick<T, K>",0.113,0.113,../../packages/ui/src/server-card.tsx:29:19
+Identifier: ({ bitfield: number; serv,0.112,4.159,../../packages/core/src/message.ts:107:5
+twMerge,0.112,2.188,../../packages/ui/src/ui/heading.tsx:29:14
+findMany,0.112,3.053,../../packages/core/src/message.ts:369:20
+query,0.111,12.972,../../packages/api/src/router/channel.ts:110:18
+Identifier: { isTenantSession: boolea,0.111,740.105,../../packages/api/src/router/context.ts:27:8
+then,0.110,0.579,../../packages/core/src/auth.ts:261:11
+filter,0.108,4.952,../../packages/api/src/router/messages.ts:61:10
+forwardRef,0.108,0.184,../../packages/ui/src/ui/tabs.tsx:12:36
+createInsertSchema,0.108,3.047,../../packages/core/src/schema.ts:521:29
+map,0.108,5.418,../../packages/core/src/pages.ts:83:33
+protectedFetch,0.108,9.255,../../packages/api/src/router/dashboard.ts:190:27
+use,0.107,1.929,../../packages/api/src/router/trpc.ts:102:7
+map,0.107,5.524,../../packages/core/src/pages.ts:83:33
+useEffect,0.107,0.107,src/app/onboarding/OnboardingPages.tsx:61:5
+toDateString,0.107,8.834,src/app/dashboard/[serverId]/components/home.tsx:47:27
+forwardRef,0.106,0.106,../../packages/ui/src/ui/sheet.tsx:61:4
+use,0.106,33.670,../../packages/api/src/router/trpc.ts:101:40
+protectedFetch,0.106,14.558,../../packages/api/src/router/channel.ts:102:26
+findMany,0.106,0.106,../../packages/core/src/server.ts:189:57
+then,0.106,2.422,../../packages/ui/src/navbar/sign-in-button.tsx:50:20
+find,0.105,6.018,../../packages/core/src/pages.ts:365:19
+router,0.105,40.656,../../packages/api/src/bot/index.ts:29:33
+input,0.105,0.942,../../packages/api/src/router/discord-accounts.ts:30:7
+then,0.104,0.469,../../packages/core/src/auth.ts:261:19
+map,0.104,0.302,src/app/onboarding/OnboardingPages.tsx:169:8
+groupBy,0.103,0.103,../../packages/core/src/channel.ts:155:12
+forwardRef,0.103,0.273,../../packages/ui/src/ui/dialog.tsx:41:14
+parse,0.102,1.696,../../packages/core/src/auth.ts:634:10
+retrieve,0.101,1.932,../../packages/core/src/stripe.ts:14:21
+"StringLiteral: { readonly name: ""User Gr",0.101,31.811,../../packages/core/src/analytics.events.ts:4:22
+Identifier: { title: string; cta: str,0.100,0.100,../../packages/ui/src/pricing.tsx:180:49
+get,0.100,3.252,../../packages/api/src/router/auth.ts:59:12
+all,0.100,1.732,../../packages/api/src/utils/protected-procedures.ts:16:8
+router,0.099,756.392,../../packages/api/src/router/index.ts:10:25
+then,0.099,0.106,../../packages/core/src/auth.ts:340:19
+createInsertSchema,0.098,13.320,../../packages/core/src/schema.ts:223:40
+relations,0.098,49.626,../../packages/core/src/schema.ts:57:63
+Identifier: { _config: RootConfig<{ c,0.098,756.293,../../packages/api/src/router/trpc.ts:96:22
+object,0.097,0.175,src/pages/api/v1/stripe/webhook.ts:29:26
+delete,0.097,0.120,../../packages/core/src/message.ts:494:8
+keys,0.096,3.497,../../packages/api/src/router/dashboard.ts:66:26
+query,0.096,10.660,../../packages/api/src/router/dashboard.ts:80:10
+omit,0.096,133.918,../../packages/core/src/zodSchemas/channelSchemas.ts:107:10
+map,0.096,12.317,../../packages/core/src/discord-account.ts:49:25
+findFirst,0.096,9.873,../../packages/core/src/user-server-settings.ts:187:17
+flatMap,0.095,13.417,../../packages/core/src/pages.ts:86:8
+setTheme,0.095,0.343,../../packages/ui/src/navbar/change-theme-item.tsx:12:12
+one,0.093,0.093,../../packages/core/src/schema.ts:584:14
+filter,0.093,3.810,../../packages/api/src/router/messages.ts:61:10
+decode,0.093,8.406,../../packages/core/src/db.ts:23:6
+map,0.093,1.949,../../packages/core/src/server.ts:135:12
+now,0.090,0.109,../../packages/core/src/auth.ts:537:22
+map,0.090,3.811,../../packages/core/src/server.ts:192:8
+required,0.089,21.366,../../packages/core/src/zodSchemas/serverSchemas.ts:22:29
+map,0.089,0.719,../../packages/core/src/server.ts:228:17
+map,0.089,8.644,../../packages/core/src/pages.ts:372:12
+protectedFetch,0.088,13.743,../../packages/api/src/router/channel.ts:110:12
+constructEvent,0.087,0.087,src/pages/api/v1/stripe/webhook.ts:58:35
+input,0.087,1.444,../../packages/api/src/router/messages.ts:39:9
+findFirst,0.085,0.227,../../packages/core/src/pages.ts:129:22
+createEnv,0.084,0.135,../../packages/env/src/shared-schema.mjs:161:17
+Identifier: boolean,0.084,4.454,../../packages/core/src/message.ts:125:11
+input,0.083,203.458,../../packages/api/src/router/user-server-settings.ts:124:22
+transform,0.082,0.082,../../packages/env/src/shared-schema.mjs:13:13
+forwardRef,0.082,7.259,../../packages/ui/src/ui/command.tsx:84:6
+valueOf,0.082,0.092,../../packages/core/src/pages.ts:179:15
+slice,0.082,17.532,../../packages/core/src/pages.ts:220:19
+sort,0.081,8.603,../../packages/api/src/router/auth.ts:63:38
+parse,0.081,1.777,../../packages/core/src/auth.ts:634:10
+all,0.081,16.486,../../packages/core/src/discord-account.ts:102:37
+protectedFetch,0.080,81.337,../../packages/api/src/router/dashboard.ts:27:11
+retrieve,0.080,2.077,../../packages/core/src/stripe.ts:14:21
+useQuery,0.080,0.080,src/app/dashboard/[serverId]/layout.tsx:56:18
+createEnv,0.080,0.215,../../packages/env/src/shared-schema.mjs:161:17
+next,0.080,0.250,../../packages/api/src/router/trpc.ts:47:7
+map,0.080,2.326,../../packages/core/src/discord-account.ts:52:7
+now,0.079,0.345,../../packages/core/src/auth.ts:537:12
+object,0.078,0.078,src/pages/api/v1/stripe/webhook.ts:29:26
+Identifier: boolean,0.078,0.090,../../packages/api/src/utils/permissions.ts:125:6
+useQuery,0.078,1.533,src/app/dashboard/[serverId]/components/home.tsx:143:56
+upsert,0.077,14.290,../../packages/core/src/user-server-settings.ts:242:24
+all,0.077,26.922,../../packages/core/src/discord-account.ts:61:37
+map,0.077,0.077,../../packages/ui/src/footer.tsx:132:6
+keys,0.076,1.620,../../packages/api/src/router/dashboard.ts:88:23
+query,0.076,6.710,../../packages/api/src/router/dashboard.ts:85:16
+applyPublicFlagsToMessages,0.076,6.112,../../packages/core/src/message.ts:244:20
+map,0.076,11.575,../../packages/core/src/pages.ts:87:41
+forwardRef,0.075,0.075,../../packages/ui/src/ui/tabs.tsx:12:38
+upsert,0.075,14.365,../../packages/core/src/user-server-settings.ts:242:10
+findFirst,0.075,2.172,../../packages/core/src/channel.ts:279:18
+Identifier: undefined,0.074,0.074,../../packages/core/src/analytics.ts:193:17
+input,0.074,1.541,../../packages/api/src/router/messages.ts:39:9
+mutation,0.073,12.964,../../packages/api/src/bot/index.ts:97:12
+map,0.071,4.957,../../packages/core/src/message.ts:430:7
+map,0.071,10.934,../../packages/core/src/message.ts:133:8
+error,0.070,0.070,../../packages/core/src/search.ts:378:18
+get,0.069,0.501,../../packages/core/src/server.ts:228:24
+parse,0.069,736.060,../../packages/core/src/auth.ts:717:30
+filter,0.069,4.844,../../packages/api/src/router/messages.ts:61:10
+then,0.068,0.503,../../packages/ui/src/navbar/logout-item.tsx:19:13
+query,0.068,8.671,../../packages/api/src/router/auth.ts:94:9
+Identifier: ForwardRefExoticComponent,0.068,0.292,../../packages/ui/src/ui/input.tsx:23:3
+find,0.068,13.064,../../packages/core/src/permissions.ts:16:13
+cva,0.067,0.251,../../packages/ui/src/ui/sheet.tsx:35:12
+input,0.067,48.877,../../packages/api/src/router/server.ts:73:7
+input,0.067,15.681,../../packages/api/src/router/user-server-settings.ts:157:20
+next,0.067,3.395,../../packages/api/src/router/trpc.ts:79:7
+useEffect,0.067,6.753,../../packages/ui/src/hooks/client.tsx:26:7
+get,0.066,10.053,../../packages/core/src/pages.ts:90:22
+reduce,0.066,0.066,../../packages/core/src/utils/operations.ts:30:5
+and,0.066,0.660,../../packages/core/src/channel.ts:411:44
+input,0.066,49.358,../../packages/api/src/router/server.ts:73:7
+input,0.065,203.375,../../packages/api/src/router/user-server-settings.ts:124:22
+query,0.065,0.069,../../packages/api/src/router/auth.ts:18:19
+get,0.065,0.566,../../packages/core/src/server.ts:228:24
+get,0.064,0.630,../../packages/core/src/server.ts:228:24
+protectedMutation,0.064,0.706,../../packages/api/src/router/user-server-settings.ts:146:19
+map,0.064,2.342,src/app/onboarding/OnboardingPages.tsx:169:7
+map,0.064,8.708,../../packages/core/src/pages.ts:372:12
+input,0.064,15.614,../../packages/api/src/router/user-server-settings.ts:157:20
+getTenantCookieName,0.063,0.924,src/pages/api/auth/[...nextauth].ts:10:7
+map,0.063,9.675,../../packages/core/src/message.ts:604:7
+push,0.062,0.489,../../packages/core/src/search.ts:323:22
+select,0.061,2.103,../../packages/core/src/auth.ts:336:16
+upsertMany,0.061,18.096,../../packages/core/src/channel.ts:326:8
+map,0.060,1.323,../../packages/core/src/search.ts:428:8
+object,0.059,0.074,../../packages/api/src/router/messages.ts:40:10
+findMany,0.059,1.488,../../packages/core/src/channel.ts:140:14
+string,0.058,1.519,../../packages/env/src/shared-schema.mjs:11:25
+upsertMany,0.058,11.013,../../packages/core/src/channel.ts:334:10
+resolve,0.058,0.058,../../packages/core/src/channel.ts:184:47
+Identifier: (props: { faqs: { questio,0.057,0.057,../../packages/ui/src/pricing.tsx:293:6
+get,0.056,3.435,../../packages/api/src/router/auth.ts:59:12
+useUtils,0.056,0.220,src/app/dashboard/[serverId]/channels/page.tsx:210:15
+router,0.056,0.137,../../packages/api/src/router/auth.ts:10:34
+query,0.055,10.564,../../packages/api/src/router/dashboard.ts:62:16
+assertIsUser,0.054,0.054,../../packages/api/src/router/discord-accounts.ts:45:27
+Identifier: ({ server }: Pick<ServerC,0.053,0.166,../../packages/ui/src/server-card.tsx:29:6
+map,0.053,5.021,../../packages/core/src/user-server-settings.ts:172:8
+map,0.051,2.779,../../packages/core/src/server.ts:192:8
+createEnv,0.051,0.051,../../packages/env/src/shared-schema.mjs:161:17
+query,0.051,2.090,../../packages/api/src/router/discord-accounts.ts:74:9
+delete,0.051,0.051,../../packages/core/src/discord-account.ts:118:8
+Identifier: ForwardRefExoticComponent,0.051,0.051,../../packages/ui/src/ui/input.tsx:23:3
+twMerge,0.050,1.186,../../packages/ui/src/ui/heading.tsx:45:14
+findFirst,0.050,9.778,../../packages/core/src/user-server-settings.ts:187:17
+use,0.049,24.962,../../packages/api/src/router/trpc.ts:101:40
+input,0.049,1.356,../../packages/api/src/router/messages.ts:39:9
+varchar,0.047,0.047,../../packages/core/src/schema.ts:275:24
+map,0.046,0.046,src/app/onboarding/OnboardingPages.tsx:169:8
+select,0.046,5.917,../../packages/core/src/channel.ts:351:19
+select,0.045,5.669,../../packages/core/src/channel.ts:351:19
+"Identifier: ""$identify""",0.044,0.780,../../packages/core/src/analytics.events.ts:455:12
+map,0.043,0.043,src/app/dashboard/[serverId]/layout.tsx:82:4
+input,0.041,49.292,../../packages/api/src/router/server.ts:73:7
+query,0.041,0.056,../../packages/api/src/router/messages.ts:31:8
+protectedFetch,0.040,10.438,../../packages/api/src/router/dashboard.ts:186:12
+toDateString,0.040,8.900,src/app/dashboard/[serverId]/components/home.tsx:47:27
+"Identifier: ""You cannot grant consent",0.039,0.039,../../packages/core/src/user-server-settings.ts:26:13
+useUtils,0.039,0.039,src/app/dashboard/[serverId]/channels/page.tsx:210:15
+get,0.039,3.474,../../packages/api/src/router/auth.ts:59:12
+int,0.038,0.552,../../packages/core/src/schema.ts:209:16
+goToPage,0.038,0.038,src/app/onboarding/OnboardingPages.tsx:186:29
+one,0.037,0.037,../../packages/core/src/schema.ts:541:14
+find,0.037,7.223,../../packages/core/src/pages.ts:365:17
+protectedFetch,0.035,5.978,../../packages/api/src/router/dashboard.ts:141:13
+then,0.035,6.466,../../packages/core/src/message.ts:244:15
+context,0.035,754.497,../../packages/api/src/router/trpc.ts:11:10
+retrieve,0.034,1.997,../../packages/core/src/stripe.ts:14:21
+next,0.034,3.429,../../packages/api/src/router/trpc.ts:78:14
+map,0.033,3.736,../../packages/api/src/router/dashboard.ts:72:12
+map,0.033,0.408,../../packages/ui/src/footer.tsx:117:15
+map,0.032,0.240,../../packages/core/src/message.ts:136:9
+"Identifier: ""$pageleave""",0.031,0.414,../../packages/core/src/analytics.events.ts:10220:13
+next,0.031,0.281,../../packages/api/src/router/trpc.ts:46:14
+retrieve,0.031,1.963,../../packages/core/src/stripe.ts:14:21
+applyPublicFlagsToMessages,0.031,6.143,../../packages/core/src/message.ts:244:20
+valueOf,0.030,0.121,../../packages/core/src/pages.ts:179:15
+setTimeout,0.030,0.208,src/app/onboarding/OnboardingPages.tsx:186:22
+findFirst,0.027,0.254,../../packages/core/src/pages.ts:129:22
+findManyDiscordAccountsById,0.027,0.027,../../packages/core/src/discord-account.ts:112:8
+toDateString,0.026,8.860,src/app/dashboard/[serverId]/components/home.tsx:47:27
+relations,0.026,14.066,../../packages/core/src/schema.ts:306:67
+useQuery,0.025,0.025,src/app/dashboard/[serverId]/components/home.tsx:185:38
+delete,0.024,0.144,../../packages/core/src/message.ts:494:8
+cast,0.024,0.024,../../packages/core/src/db.ts:33:15
+input,0.024,1.467,../../packages/api/src/router/messages.ts:39:9
+delete,0.023,0.023,../../packages/core/src/message.ts:494:8
+map,0.022,1.804,../../packages/api/src/router/dashboard.ts:91:12
+relations,0.022,4.267,../../packages/core/src/schema.ts:577:70
+Identifier: unknown,0.022,0.294,../../packages/core/src/analytics.ts:193:63
+"Identifier: ""Server Join""",0.022,0.309,../../packages/core/src/analytics.events.ts:5083:16
+map,0.021,0.021,../../packages/ui/src/footer.tsx:117:37
+now,0.019,0.019,../../packages/core/src/auth.ts:537:22
+Identifier: ({ bitfield: number; serv,0.019,4.178,../../packages/core/src/message.ts:106:46
+relations,0.018,24.149,../../packages/core/src/schema.ts:154:14
+valueOf,0.017,0.138,../../packages/core/src/pages.ts:179:15
+relations,0.017,31.870,../../packages/core/src/schema.ts:350:74
+query,0.016,0.016,../../packages/api/src/router/messages.ts:31:9
+then,0.016,0.122,../../packages/core/src/auth.ts:340:11
+Identifier: ForwardRefExoticComponent,0.016,0.016,src/app/dashboard/[serverId]/channels/page.tsx:318:6
+object,0.015,0.015,../../packages/api/src/router/messages.ts:40:10
+relations,0.015,16.293,../../packages/core/src/schema.ts:96:67
+query,0.013,0.082,../../packages/api/src/router/auth.ts:18:19
+Identifier: boolean,0.012,0.012,../../packages/api/src/utils/permissions.ts:125:7
+valueOf,0.010,0.010,../../packages/core/src/pages.ts:179:15
+Identifier: <T>(props: { isError: boo,0.010,0.010,src/app/dashboard/[serverId]/components/home.tsx:124:6
+then,0.007,0.007,../../packages/core/src/auth.ts:340:24
+"Identifier: ""$geoip_longitude""",0.006,0.006,../../packages/core/src/analytics.events.ts:5121:6
+"Identifier: ""$geoip_continent_code""",0.006,0.006,../../packages/core/src/analytics.events.ts:545:6
+query,0.004,0.004,../../packages/api/src/router/auth.ts:18:19
+"Identifier: ""$geoip_city_name""",0.003,0.003,../../packages/core/src/analytics.events.ts:10270:6
+Identifier: (props: Omit<Omit<AnchorH,0.003,0.003,../../packages/ui/src/navbar/user-dropdown.tsx:51:4
+cva,0.003,0.003,../../packages/ui/src/ui/sheet.tsx:41:11

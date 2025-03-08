@@ -1,0 +1,86 @@
+⏳ Gathering type trace data for /home/ssalb/AnswerOverflow/packages/api...
+Files:                        2706
+Lines of Library:            41991
+Lines of Definitions:       414642
+Lines of TypeScript:         19010
+Lines of JavaScript:             0
+Lines of JSON:                   0
+Lines of Other:                  0
+Identifiers:                481924
+Symbols:                    498952
+Types:                      122160
+Instantiations:            8045836
+Memory used:               644677K
+Assignability cache size:   172263
+Identity cache size:          1862
+Subtype cache size:            648
+Strict subtype cache size:     257
+Tracing time:                0.14s
+I/O Read time:               0.09s
+Parse time:                  1.09s
+ResolveModule time:          0.23s
+ResolveTypeReference time:   0.02s
+ResolveLibrary time:         0.01s
+Program time:                1.75s
+Bind time:                   0.66s
+Check time:                  5.26s
+transformTime time:          0.49s
+printTime time:              0.00s
+Emit time:                   0.00s
+Dump types time:             2.27s
+Total time:                  7.67s
+⏳ Analyzing type trace data for /home/ssalb/AnswerOverflow/packages/api...
+Found 790 traces with duration information
+
+
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | Identifier: ...aph:  |          649.43 | ../core/src/cache.ts:12:10
+   2 | object               |          399.06 | ../core/src/zodSchemas/channelSchemas.ts:104:43
+   3 | psDrizzle            |          231.06 | ../core/src/db.ts:36:54
+   4 | mutation             |          188.55 | src/router/server.ts:99:13
+   5 | mutation             |          182.35 | src/router/channel.ts:125:13
+   6 | string               |          162.36 | ../env/src/shared.ts:11:25
+   7 | omit                 |          128.70 | ../core/src/zodSchemas/channelSchemas.ts:107:10
+   8 | omit                 |           65.42 | ../core/src/zodSchemas/channelSchemas.ts:87:34
+   9 | omit                 |           61.23 | ../core/src/zodSchemas/userServerSettingsSchemas.ts:40:5
+  10 | object               |           51.90 | ../core/src/zodSchemas/userServerSettingsSchemas.ts:39:49
+  11 | input                |           49.28 | src/router/server.ts:91:9
+  12 | deepPartial          |           48.82 | ../core/src/zodSchemas/serverSchemas.ts:26:13
+  13 | Identifier: ... "dev |           47.88 | ../core/src/db.ts:8:14
+  14 | omit                 |           39.29 | ../core/src/zodSchemas/channelSchemas.ts:87:34
+  15 | extend               |           39.25 | ../core/src/zodSchemas/channelSchemas.ts:95:30
+  16 | input                |           38.35 | src/router/channel.ts:117:9
+  17 | object               |           36.44 | ../core/src/zodSchemas/serverSchemas.ts:47:29
+  18 | createEnv            |           35.08 | ../env/src/shared.ts:87:26
+  19 | map                  |           31.14 | ../core/src/channel.ts:326:36
+  20 | object               |           28.65 | ../core/src/zodSchemas/channelSchemas.ts:99:30
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | Identifier: ...aph:  |          649.43 |        649.43 |     1 | ../core/src/cache.ts:12:10 (649.43ms)
+   2 | object               |          622.03 |         19.44 |    32 | ../core/src/zodSchemas/channelSchemas.ts:104:43 (399.06ms)
+   3 | mutation             |          373.97 |         41.55 |     9 | src/router/server.ts:99:13 (188.55ms)
+   4 | omit                 |          323.28 |         17.01 |    19 | ../core/src/zodSchemas/channelSchemas.ts:107:10 (128.70ms)
+   5 | psDrizzle            |          231.95 |        115.97 |     2 | ../core/src/db.ts:36:54 (231.06ms)
+   6 | string               |          178.05 |         12.72 |    14 | ../env/src/shared.ts:11:25 (162.36ms)
+   7 | input                |          173.44 |          5.10 |    34 | src/router/server.ts:91:9 (49.28ms)
+   8 | map                  |           95.58 |          2.39 |    40 | ../core/src/channel.ts:326:36 (31.14ms)
+   9 | deepPartial          |           74.63 |         18.66 |     4 | ../core/src/zodSchemas/serverSchemas.ts:26:13 (48.82ms)
+  10 | extend               |           72.08 |          4.24 |    17 | ../core/src/zodSchemas/channelSchemas.ts:95:30 (39.25ms)
+  11 | relations            |           66.14 |          1.57 |    42 | ../core/src/schema.ts:57:30 (27.29ms)
+  12 | mysqlTable           |           61.55 |          3.62 |    17 | ../core/src/schema.ts:477:26 (6.94ms)
+  13 | Identifier: ... "dev |           55.01 |         13.75 |     4 | ../core/src/db.ts:8:14 (47.88ms)
+  14 | router               |           51.76 |          1.78 |    29 | src/router/user-server-settings.ts:78:45 (10.27ms)
+  15 | createInsertSchema   |           51.25 |          3.66 |    14 | ../core/src/schema.ts:197:36 (17.53ms)
+  16 | createEnv            |           48.72 |          6.96 |     7 | ../env/src/shared.ts:87:26 (35.08ms)
+  17 | use                  |           47.35 |          4.30 |    11 | src/router/trpc.ts:98:22 (19.83ms)
+  18 | many                 |           47.24 |          6.75 |     7 | ../core/src/schema.ts:58:11 (17.48ms)
+  19 | merge                |           44.21 |          4.42 |    10 | ../core/src/zodSchemas/userServerSettingsSchemas.ts:36:41 (27.62ms)
+  20 | required             |           40.51 |          5.79 |     7 | ../core/src/zodSchemas/serverSchemas.ts:22:29 (12.99ms)
+  
