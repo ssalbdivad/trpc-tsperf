@@ -1,0 +1,85 @@
+⏳ Gathering type trace data for /home/ssalb/cal.com/apps/api/v2...
+Files:                         9907
+Lines of Library:             28727
+Lines of Definitions:       1082906
+Lines of TypeScript:         254315
+Lines of JavaScript:              0
+Lines of JSON:                20008
+Lines of Other:                   0
+Identifiers:                1612272
+Symbols:                    2857185
+Types:                      1082091
+Instantiations:            29465368
+Memory used:               3029262K
+Assignability cache size:    572049
+Identity cache size:          20584
+Subtype cache size:           21107
+Strict subtype cache size:    26572
+Tracing time:                 2.70s
+I/O Read time:                0.49s
+Parse time:                   6.33s
+ResolveModule time:           1.19s
+ResolveTypeReference time:    0.05s
+Program time:                10.15s
+Bind time:                    3.77s
+Check time:                  53.20s
+printTime time:               0.00s
+Emit time:                    0.00s
+Dump types time:             53.90s
+Total time:                  67.14s
+⏳ Analyzing type trace data for /home/ssalb/cal.com/apps/api/v2...
+Found 14125 traces with duration information
+
+📊 Performance Analysis - Top Individual Calls:
+
+Rank | Function Name        | Self (ms)       | Location
+-----|----------------------|-----------------|---------
+   1 | map                  |          530.40 | ../../../packages/trpc/server/routers/viewer/teams/updateInternalNotesPresets.handler.ts:58:23
+   2 | monitorCallbackAsync |          452.44 | ../../../packages/trpc/server/routers/viewer/slots/util.ts:270:26
+   3 | map                  |          398.84 | ../../../packages/lib/server/queries/teams/index.ts:442:27
+   4 | setValue             |          386.95 | ../../../packages/features/ee/managed-event-types/hooks/useLockedFieldsManager.tsx:118:21
+   5 | map                  |          314.90 | ../../../packages/features/bookings/Booker/components/OverlayCalendar/OverlayCalendarSettingsModal.tsx:108:33
+   6 | map                  |          307.37 | ../../../packages/features/bookings/Booker/components/OverlayCalendar/OverlayCalendarSettingsModal.tsx:108:47
+   7 | Identifier: ...onent |          287.11 | ../../../packages/ui/components/list/List.tsx:120:8
+   8 | Identifier: ...keyof |          247.51 | ../../../packages/ui/components/app-list-card/AppListCard.tsx:43:11
+   9 | Identifier: "p"      |          232.82 | ../../../packages/ui/components/app-list-card/AppListCard.tsx:43:24
+  10 | setValue             |          230.51 | ../../../packages/features/eventtypes/components/tabs/limits/EventLimitsTab.tsx:915:52
+  11 | classNames           |          229.31 | ../../../packages/ui/components/skeleton/Skeleton.tsx:96:20
+  12 | deleteMany           |          214.04 | ../../../packages/features/ee/managed-event-types/lib/handleChildrenEventTypes.ts:69:44
+  13 | Identifier: ...Props |          213.22 | ../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:349:26
+  14 | Identifier: ...onent |          186.80 | ../../../packages/ui/components/list/List.tsx:136:8
+  15 | extend               |          186.48 | ../../../packages/prisma/zod/user.ts:114:65
+  16 | findMany             |          172.10 | ../../../packages/lib/server/repository/team.ts:92:22
+  17 | useLocale            |          169.12 | ../../../packages/ui/components/skeleton/Skeleton.tsx:37:17
+  18 | object               |          168.86 | src/lib/throttler-guard.ts:19:24
+  19 | monitorCallbackAsync |          167.50 | ../../../packages/trpc/server/routers/viewer/slots/util.ts:341:69
+  20 | Identifier: ... | un |          166.86 | ../../../packages/features/ee/common/components/LicenseRequired.tsx:34:15
+
+📊 Performance Analysis - Functions by Self Time:
+
+Rank | Function Name        | Total Self (ms) | Avg Self (ms) | Calls | Top Usage
+-----|----------------------|-----------------|---------------|-------|----------
+   1 | map                  |         3576.76 |          3.07 |  1165 | ../../../packages/trpc/server/routers/viewer/teams/updateInternalNotesPresets.handler.ts:58:23 (530.40ms)
+   2 | object               |         1868.44 |          3.48 |   537 | src/lib/throttler-guard.ts:19:24 (168.86ms)
+   3 | extend               |         1656.76 |         12.18 |   136 | ../../../packages/prisma/zod/user.ts:114:65 (186.48ms)
+   4 | findMany             |         1607.08 |          1.91 |   843 | ../../../packages/lib/server/repository/team.ts:92:22 (172.10ms)
+   5 | update               |         1164.26 |          3.18 |   366 | ../../../packages/lib/server/repository/user.ts:565:13 (40.20ms)
+   6 | findUnique           |         1001.05 |          2.55 |   393 | ../../../packages/trpc/server/routers/viewer/workflows/update.handler.ts:37:29 (57.35ms)
+   7 | lazy                 |          997.56 |          3.88 |   257 | ../../../packages/prisma/zod/user.ts:114:13 (21.17ms)
+   8 | findFirst            |          988.35 |          2.01 |   491 | ../../../packages/features/credentials/handleDeleteCredential.ts:36:31 (43.87ms)
+   9 | Identifier: any      |          867.53 |          5.04 |   172 | ../../../packages/ui/components/avatar/Avatar.tsx:93:47 (159.44ms)
+  10 | monitorCallbackAsync |          856.27 |          9.51 |    90 | ../../../packages/trpc/server/routers/viewer/slots/util.ts:270:26 (452.44ms)
+  11 | create               |          853.97 |          2.48 |   345 | ../../../packages/lib/server/repository/user.ts:596:23 (86.30ms)
+  12 | setValue             |          852.62 |         11.52 |    74 | ../../../packages/features/ee/managed-event-types/hooks/useLockedFieldsManager.tsx:118:21 (386.95ms)
+  13 | classNames           |          778.42 |          5.33 |   146 | ../../../packages/ui/components/skeleton/Skeleton.tsx:96:20 (229.31ms)
+  14 | t                    |          769.98 |          2.07 |   372 | ../../../packages/features/ee/common/components/LicenseRequired.tsx:33:11 (140.97ms)
+  15 | all                  |          725.89 |          3.63 |   200 | ../../../packages/lib/event-types/getEventTypesByViewer.ts:53:56 (61.85ms)
+  16 | router               |          658.67 |          5.03 |   131 | ../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:75:44 (50.31ms)
+  17 | input                |          437.65 |          0.98 |   448 | ../../../packages/trpc/server/routers/viewer/availability/schedule/_router.tsx:128:27 (9.88ms)
+  18 | union                |          434.59 |          3.75 |   116 | ../../../packages/lib/event-types/transformers/internal/locations.ts:47:8 (71.12ms)
+  19 | findUniqueOrThrow    |          426.45 |          3.71 |   115 | ../../../packages/trpc/server/routers/viewer/eventTypes/update.handler.ts:55:29 (58.89ms)
+  20 | upsert               |          405.34 |          4.45 |    91 | ../../../packages/features/ee/managed-event-types/lib/handleChildrenEventTypes.ts:278:19 (81.39ms)
+
+✅ Analysis complete! Results exported to:
+   - /home/ssalb/cal.com/apps/api/v2/.attest/trace/ranges.csv (individual calls)
+   - /home/ssalb/cal.com/apps/api/v2/.attest/trace/names.csv (grouped by function name)

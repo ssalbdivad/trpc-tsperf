@@ -1,0 +1,1603 @@
+Function Name,Total Self (ms),Avg Self (ms),Call Count,Top Location,Top Self (ms)
+map,3576.765,3.070,1165,../../../packages/trpc/server/routers/viewer/teams/updateInternalNotesPresets.handler.ts:58:23,530.402
+object,1868.443,3.479,537,src/lib/throttler-guard.ts:19:24,168.859
+extend,1656.759,12.182,136,../../../packages/prisma/zod/user.ts:114:65,186.477
+findMany,1607.078,1.906,843,../../../packages/lib/server/repository/team.ts:92:22,172.101
+update,1164.260,3.181,366,../../../packages/lib/server/repository/user.ts:565:13,40.200
+findUnique,1001.055,2.547,393,../../../packages/trpc/server/routers/viewer/workflows/update.handler.ts:37:29,57.349
+lazy,997.564,3.882,257,../../../packages/prisma/zod/user.ts:114:13,21.173
+findFirst,988.355,2.013,491,../../../packages/features/credentials/handleDeleteCredential.ts:36:31,43.867
+Identifier: any,867.527,5.044,172,../../../packages/ui/components/avatar/Avatar.tsx:93:47,159.439
+monitorCallbackAsync,856.275,9.514,90,../../../packages/trpc/server/routers/viewer/slots/util.ts:270:26,452.440
+create,853.968,2.475,345,../../../packages/lib/server/repository/user.ts:596:23,86.303
+setValue,852.623,11.522,74,../../../packages/features/ee/managed-event-types/hooks/useLockedFieldsManager.tsx:118:21,386.945
+classNames,778.421,5.332,146,../../../packages/ui/components/skeleton/Skeleton.tsx:96:20,229.308
+t,769.976,2.070,372,../../../packages/features/ee/common/components/LicenseRequired.tsx:33:11,140.969
+all,725.891,3.629,200,../../../packages/lib/event-types/getEventTypesByViewer.ts:53:56,61.845
+router,658.674,5.028,131,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:75:44,50.307
+input,437.650,0.977,448,../../../packages/trpc/server/routers/viewer/availability/schedule/_router.tsx:128:27,9.881
+union,434.587,3.746,116,../../../packages/lib/event-types/transformers/internal/locations.ts:47:8,71.117
+findUniqueOrThrow,426.449,3.708,115,../../../packages/trpc/server/routers/viewer/eventTypes/update.handler.ts:55:29,58.885
+upsert,405.337,4.454,91,../../../packages/features/ee/managed-event-types/lib/handleChildrenEventTypes.ts:278:19,81.386
+createElement,335.606,9.070,37,../../../packages/ui/components/list/List.tsx:122:9,64.163
+getValues,330.561,7.346,45,../../../packages/features/ee/managed-event-types/hooks/useLockedFieldsManager.tsx:114:31,129.638
+array,299.209,2.625,114,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:327:11,12.778
+Identifier: (props: DetailedHTMLProps,287.859,22.143,13,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:349:26,213.224
+"Identifier: ""span"" | TComponent",287.113,287.113,1,../../../packages/ui/components/list/List.tsx:120:8,287.113
+forwardRef,280.483,2.397,117,../../../packages/ui/components/popover/Popover.tsx:10:23,14.368
+deleteMany,274.574,4.817,57,../../../packages/features/ee/managed-event-types/lib/handleChildrenEventTypes.ts:69:44,214.036
+$transaction,262.367,2.262,116,../../../packages/features/credentials/handleDeleteCredential.ts:190:35,21.854
+Identifier: <TComponent extends keyof,247.512,247.512,1,../../../packages/ui/components/app-list-card/AppListCard.tsx:43:11,247.512
+"Identifier: ""p""",232.818,232.818,1,../../../packages/ui/components/app-list-card/AppListCard.tsx:43:24,232.818
+filter,227.934,1.091,209,../../../packages/lib/event-types/getEventTypesByViewer.ts:227:23,19.443
+find,222.569,1.349,165,../../../packages/features/bookings/lib/handleSeats/create/createNewSeat.ts:179:42,15.559
+pick,215.258,9.359,23,../../../packages/features/ee/users/server/trpc-router.ts:17:23,45.435
+"Identifier: ""span"" | TComponent",186.797,186.797,1,../../../packages/ui/components/list/List.tsx:136:8,186.797
+useLocale,177.831,11.855,15,../../../packages/ui/components/skeleton/Skeleton.tsx:37:17,169.125
+Identifier: { className?: string | un,166.856,166.856,1,../../../packages/features/ee/common/components/LicenseRequired.tsx:34:15,166.856
+anonymous,162.335,1.576,103,../../../packages/prisma/selects/payment.ts:14:12,10.214
+use,150.793,3.770,40,../../../packages/trpc/server/procedures/publicProcedure.ts:5:24,40.808
+query,144.681,0.786,184,../../../packages/features/insights/server/trpc-router.ts:917:42,8.472
+handler,137.704,1.513,91,../../../packages/trpc/server/routers/viewer/admin/_router.ts:60:11,11.889
+delete,134.738,2.105,64,../../../packages/lib/server/repository/selectedCalendar.ts:110:11,7.634
+parse,133.789,1.593,84,../../../packages/trpc/server/routers/viewer/apps/saveKeys.handler.ts:24:15,19.328
+cx,129.294,18.471,7,../../../packages/ui/components/form/select/Select.tsx:59:17,61.360
+defineExtension,128.133,4.004,32,../../../packages/prisma/extensions/disallow-undefined-delete-update-many.ts:30:18,24.782
+Identifier: StateManagedSelect,123.973,61.986,2,../../../packages/ui/form/Select.tsx:30:11,102.895
+Identifier: typeof PrismaClient,116.777,116.777,1,src/modules/prisma/prisma-read.service.ts:15:18,116.777
+push,113.139,1.594,71,../../../packages/trpc/server/routers/viewer/eventTypes/getEventTypesFromGroup.handler.ts:142:17,14.127
+format,112.684,1.943,58,../../../packages/features/bookings/lib/handleNewBooking.ts:987:27,11.580
+debug,107.076,8.923,12,../../../packages/trpc/server/routers/viewer/slots/util.ts:951:40,43.649
+Identifier: ForwardRefExoticComponent,105.652,105.652,1,../../../packages/features/embed/Embed.tsx:1416:11,105.652
+string,101.951,2.317,44,../../../packages/prisma/zod-utils.ts:228:40,11.659
+split,101.901,3.397,30,../../../packages/features/calendars/DestinationCalendarSelector.tsx:134:7,25.951
+Identifier: MemoExoticComponent<({ sc,94.958,94.958,1,../../../packages/features/eventtypes/components/tabs/availability/EventAvailabilityTab.tsx:389:28,94.958
+getSubLogger,92.800,3.569,26,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:41:38,42.162
+merge,92.606,3.193,29,../../../packages/features/bookings/lib/getBookingDataSchemaForApi.ts:19:9,20.730
+Identifier: ZodObject<{ apiKey: ZodSt,90.794,90.794,1,../../../node_modules/@replexica/sdk/build/index.d.ts:46:47,90.794
+get,89.953,1.285,70,../../../packages/platform/atoms/booker/BookerWebWrapper.tsx:30:32,19.758
+Identifier: string,89.714,0.690,130,../../../packages/features/eventtypes/components/tabs/availability/EventAvailabilityTab.tsx:130:7,7.856
+handleSeats,86.895,8.690,10,../../../packages/features/bookings/lib/handleNewBooking.ts:1107:42,69.992
+useMutation,82.078,1.784,46,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:115:25,10.011
+literal,80.522,3.501,23,../../../packages/prisma/zod-utils.ts:50:32,8.505
+checkExistentEventTypes,79.806,39.903,2,../../../packages/features/ee/managed-event-types/lib/handleChildrenEventTypes.ts:199:38,79.770
+ensureAvailableUsers,78.430,11.204,7,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:126:31,39.852
+describe,75.997,1.949,39,src/ee/bookings/2024-08-13/controllers/e2e/emails/team-emails.e2e-spec.ts:90:54,9.930
+useQuery,75.074,1.597,47,../../../packages/features/embed/Embed.tsx:664:45,10.746
+findFirstOrThrow,74.909,2.025,37,../../../packages/app-store/wipemycalother/lib/reschedule.ts:22:19,19.165
+then,74.411,1.048,71,../../../packages/app-store/dailyvideo/lib/VideoApiAdapter.ts:194:29,8.112
+createMany,74.327,2.323,32,../../../packages/features/ee/dsync/lib/users/createUsersAndConnectToOrg.ts:33:8,8.972
+record,74.280,4.952,15,../../../packages/features/form-builder/schema.ts:186:18,11.666
+list,71.728,11.955,6,../../../packages/trpc/server/routers/loggedInViewer/updateProfile.handler.ts:38:36,56.734
+omit,68.354,4.557,15,../../../packages/features/ee/managed-event-types/lib/handleChildrenEventTypes.ts:122:33,22.744
+Identifier: CSSObjectWithLabel,64.264,21.421,3,../../../packages/ui/components/form/select/Select.tsx:63:17,62.703
+toLocaleLowerCase,62.022,20.674,3,../../../packages/features/ee/workflows/lib/reminders/emailReminderManager.ts:59:37,30.121
+preventDefault,61.986,6.887,9,../../../packages/ui/components/form/inputs/Form.tsx:18:11,41.624
+beforeAll,61.634,1.433,43,src/ee/bookings/2024-08-13/controllers/e2e/team-bookings.e2e-spec.ts:69:15,14.296
+FirstPunctuation: any,61.587,1.540,40,../../../packages/platform/atoms/hooks/schedules/useSchedule.ts:25:9,7.330
+reduce,61.095,1.153,53,../../../packages/trpc/server/routers/loggedInViewer/bookingUnconfirmedCount.handler.ts:32:9,12.855
+nativeEnum,59.503,2.975,20,../../../packages/prisma/zod/attribute.ts:9:8,6.674
+allSettled,59.472,3.130,19,../../../packages/trpc/server/routers/loggedInViewer/getUserTopBanners.handler.ts:50:12,17.833
+language,58.929,0.921,64,../../../packages/emails/src/templates/VerifyEmailByCode.tsx:22:7,5.705
+useMemo,58.815,1.590,37,../../../packages/platform/atoms/event-types/hooks/useTabsNavigations.tsx:72:33,9.560
+flatMap,58.072,1.708,34,../../../packages/lib/event-types/getEventTypeById.ts:104:20,18.173
+forEach,57.384,1.125,51,../../../packages/app-store/BookingPageTagManager.tsx:71:22,9.063
+safeParse,55.527,2.314,24,../../../packages/trpc/server/routers/loggedInViewer/addNotificationsSubscription.handler.ts:20:51,12.248
+updateMany,54.447,1.756,31,../../../packages/lib/bulkUpdateEventsToDefaultLocation.ts:46:44,5.855
+beforeEach,53.094,8.849,6,src/modules/auth/guards/permissions/permissions.guard.spec.ts:18:12,28.522
+enum,52.411,2.758,19,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:326:12,13.382
+useEffect,52.228,1.536,34,../../../packages/features/bookings/Booker/config.ts:172:28,34.977
+useCallback,51.636,2.245,23,../../../packages/platform/atoms/cal-provider/BaseCalProvider.tsx:98:26,38.367
+validator,50.131,1.474,34,../../../packages/lib/event-types/getEventTypeById.ts:32:32,10.625
+getBookingFieldsWithSystemFields,49.350,7.050,7,../../../packages/features/eventtypes/lib/getPublicEvent.ts:274:21,19.151
+toString,49.082,1.636,30,../../../packages/features/auth/lib/verifyEmail.ts:27:37,6.717
+Identifier: { name: string; slug: str,48.395,4.033,12,../../../packages/trpc/server/routers/viewer/organizations/publish.handler.ts:67:6,47.418
+superRefine,47.907,3.685,13,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:123:24,27.717
+groupBy,47.808,2.988,16,../../../packages/trpc/server/routers/loggedInViewer/bookingUnconfirmedCount.handler.ts:21:8,10.312
+Identifier: boolean,47.782,0.796,60,../../../packages/lib/server/repository/organization.ts:235:11,9.714
+assign,47.072,3.923,12,../../../packages/lib/event-types/getEventTypeById.ts:201:44,33.497
+replaceOccurrences,46.656,11.664,4,../../../packages/platform/atoms/cal-provider/BaseCalProvider.tsx:135:13,31.377
+it,46.637,0.696,67,src/modules/auth/guards/billing/platform-plan.guard.spec.ts:35:27,7.650
+getProfileFromEvent,45.155,45.155,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:485:13,45.155
+FirstBinaryOperator: any,44.903,2.495,18,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/uiConfig.tsx:64:11,7.700
+zodResolver,44.414,11.103,4,../../../packages/features/bookings/Booker/components/hooks/useBookingForm.ts:82:14,33.731
+middleware,44.151,4.415,10,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:135:26,29.411
+mutation,44.139,0.460,96,../../../packages/features/ee/users/server/trpc-router.ts:72:15,6.354
+cn,43.425,3.102,14,../../../packages/platform/atoms/destination-calendar/DestinationCalendar.tsx:11:11,18.037
+register,43.405,2.553,17,../../../packages/features/eventtypes/components/tabs/advanced/EventAdvancedTab.tsx:684:15,12.320
+Identifier: GetUserAvailabilityInitia,42.840,14.280,3,../../../packages/core/getUserAvailability.ts:309:36,42.427
+useForm,41.712,1.545,27,../../../packages/features/eventtypes/components/BulkEditDefaultForEventsModal.tsx:31:15,14.537
+setAppData,41.153,2.286,18,../../../packages/app-store/insihts/components/EventTypeAppCardInterface.tsx:22:7,21.897
+mutate,41.124,1.418,29,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:519:23,10.219
+spyOn,40.600,2.030,20,src/modules/auth/guards/billing/platform-plan.guard.spec.ts:100:64,32.838
+includes,39.165,1.306,30,../../../packages/trpc/server/routers/viewer/eventTypes/getEventTypesFromGroup.handler.ts:27:38,10.328
+crmAppImportFn,37.053,12.351,3,../../../packages/app-store/_utils/getCrm.ts:25:23,36.687
+Identifier: number,36.376,1.254,29,../../../packages/features/bookings/components/AvailableTimes.tsx:164:47,12.567
+startOf,35.731,11.910,3,../../../packages/trpc/server/routers/loggedInViewer/outOfOffice.handler.ts:27:41,29.886
+keyof,35.055,11.685,3,../../../packages/trpc/server/routers/viewer/apps/listLocal.handler.ts:72:21,34.478
+Identifier: { owner: ({ name: string ,34.943,34.943,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:474:8,34.943
+concat,34.615,1.573,22,../../../packages/features/ee/workflows/lib/reminders/reminderScheduler.ts:46:28,13.089
+entries,34.360,1.494,23,../../../packages/trpc/server/routers/viewer/eventTypes/update.handler.ts:544:24,14.995
+StringLiteral: (string | (string | null),34.281,34.281,1,../../../node_modules/tzdata/timezone-data.json:1:87964,34.281
+Boolean,33.456,1.859,18,../../../packages/platform/atoms/cal-provider/BaseCalProvider.tsx:141:49,7.444
+trim,33.380,3.035,11,../../../packages/features/form-builder/FormBuilderField.tsx:86:15,16.421
+toUpperCase,31.719,3.524,9,../../../packages/features/eventtypes/components/tabs/apps/EventAppsTab.tsx:91:7,21.741
+toISOString,30.800,3.080,10,../../../packages/features/insights/server/events.ts:469:34,9.208
+useUtils,30.409,2.172,14,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:97:21,14.001
+calculateHostsAndAvailabilities,30.036,3.755,8,../../../packages/trpc/server/routers/viewer/slots/util.ts:393:55,21.146
+enrichUserWithItsProfile,29.925,1.575,19,../../../packages/features/eventtypes/lib/getPublicEvent.ts:394:32,7.469
+replace,28.867,1.203,24,../../../packages/ui/components/form/timezone-select/TimezoneSelect.tsx:103:16,8.859
+watch,27.562,2.756,10,../../../packages/features/eventtypes/components/EventTypeLayout.tsx:249:17,7.787
+getBookingData,27.047,3.381,8,../../../packages/features/bookings/lib/handleNewBooking.ts:375:28,23.442
+useWatch,26.473,5.295,5,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:168:22,16.520
+findByUpId,25.960,4.327,6,../../../packages/lib/event-types/getEventTypesByViewer.ts:39:37,10.926
+Identifier: { metadata: { smartContra,25.853,5.171,5,../../../packages/core/getUserAvailability.ts:343:6,15.845
+getTranslation,25.814,0.993,26,../../../packages/platform/atoms/cal-provider/BaseCalProvider.tsx:98:74,21.230
+dynamic,25.642,2.564,10,../../../packages/features/shell/SideBar.tsx:22:13,11.396
+refine,24.847,1.775,14,../../../node_modules/@calcom/trpc/server/routers/viewer/eventTypes/types.ts:79:21,9.868
+count,23.985,1.499,16,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:217:31,10.297
+querySelector,23.904,3.984,6,../../../packages/embeds/embed-core/embed-iframe-init.ts:61:28,22.613
+init,23.735,1.249,19,../../../packages/lib/server/i18n.ts:8:44,7.166
+editLocation,23.265,23.265,1,../../../packages/trpc/server/routers/viewer/bookings/_router.tsx:74:11,23.265
+request,23.037,0.274,84,src/modules/conferencing/controllers/conferencing.controller.e2e-spec.ts:71:13,5.170
+$extends,23.030,1.645,14,../../../packages/prisma/index.ts:44:70,6.791
+loggerLink,22.871,22.871,1,../../../packages/trpc/react/trpc.ts:72:15,22.871
+cva,22.783,1.899,12,../../../packages/ui/components/button/Button.tsx:42:29,5.482
+some,22.351,0.745,30,../../../packages/features/bookings/lib/handleSeats/reschedule/owner/combineTwoSeatedBookings.ts:17:33,9.737
+getLuckyUser_requiresDataToBePreFetched,21.919,3.131,7,../../../packages/lib/server/getLuckyUser.ts:439:24,16.687
+Identifier: { ClearIndicator: <Option,21.747,4.349,5,../../../packages/ui/components/form/checkbox/MultiSelectCheckboxes.tsx:35:11,10.430
+Identifier: { children: ReactNode; },21.503,21.503,1,../../../packages/emails/src/components/BaseEmailHtml.tsx:15:5,21.503
+normalizeProfile,21.273,3.039,7,../../../packages/lib/server/repository/profile.ts:286:11,12.243
+getAllColumns,21.181,21.181,1,../../../packages/features/data-table/hooks/useFilterableColumns.ts:13:10,21.181
+Identifier: ForwardRefExoticComponent,21.124,3.521,6,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:636:32,10.142
+getEnabledAppsFromCredentials,21.032,4.206,5,../../../packages/lib/getConnectedApps.ts:116:28,14.051
+handlePayment,20.420,2.042,10,../../../packages/features/bookings/lib/handleNewBooking.ts:1811:41,7.404
+useState,20.135,0.694,29,../../../packages/app-store/mock-payment-app/components/EventTypeAppCardInterface.tsx:37:46,4.661
+onChange,20.113,2.514,8,../../../packages/features/ee/organizations/components/TeamInviteFromOrg.tsx:83:7,6.256
+Identifier: { identity_provider: stri,20.036,10.018,2,../../../packages/platform/atoms/cal-provider/CalProvider.tsx:18:45,13.494
+slice,19.988,2.221,9,../../../packages/app-store/routing-forms/pages/routing-link/getServerSideProps.ts:8:34,7.361
+expect,19.861,0.296,67,src/modules/teams/event-types/controllers/teams-event-types.controller.e2e-spec.ts:259:76,3.679
+withSelectedCalendars,18.755,3.751,5,../../../packages/features/bookings/lib/handleNewBooking/getEventTypesFromDB.ts:173:33,6.134
+dayjs,18.380,0.613,30,../../../packages/features/embed/Embed.tsx:383:28,7.026
+addEventListener,18.331,1.666,11,../../../packages/embeds/embed-core/src/embed.ts:940:35,12.076
+keys,18.239,0.829,22,../../../packages/platform/atoms/event-types/hooks/useEventTypeForm.ts:266:23,9.864
+Identifier: { identity_provider: stri,18.153,9.077,2,../../../packages/platform/atoms/cal-provider/CalProvider.tsx:23:45,10.669
+abs,17.721,8.860,2,../../../packages/features/eventtypes/components/tabs/advanced/EventAdvancedTab.tsx:824:64,11.104
+cloneElement,17.527,3.505,5,../../../packages/features/shell/Shell.tsx:56:38,14.880
+getUsersAvailability,17.419,2.488,7,../../../packages/trpc/server/routers/viewer/slots/util.ts:1047:43,6.133
+Component,17.353,17.353,1,../../../packages/emails/src/renderEmail.ts:12:41,17.353
+rescheduleSeatedBooking,17.263,5.754,3,../../../packages/features/bookings/lib/handleSeats/handleSeats.ts:95:52,14.885
+sort,17.037,2.840,6,../../../packages/features/eventtypes/components/tabs/setup/EventSetupTab.tsx:205:17,6.931
+Identifier: (<Props extends {}>(Compo,16.836,8.418,2,../../../packages/features/bookings/components/AvailableTimes.tsx:164:16,12.165
+"Identifier: <K extends TFuncKey<N, TK",16.744,2.093,8,../../../packages/emails/src/templates/OrganizationAdminNoSlots.tsx:33:9,3.899
+read,16.729,4.182,4,../../../packages/lib/server/resizeBase64Image.ts:24:22,14.444
+getQueueAndAttributeWeightData,16.707,5.569,3,../../../packages/lib/server/getLuckyUser.ts:911:49,16.215
+onTimeSelect,16.500,4.125,4,../../../packages/features/bookings/components/AvailableTimes.tsx:163:13,7.043
+Identifier: { identity_provider: stri,16.402,8.201,2,../../../packages/platform/atoms/cal-provider/CalProvider.tsx:20:45,10.433
+Identifier: Window & typeof globalThi,16.369,4.092,4,../../../packages/embeds/embed-core/src/FloatingButton/FloatingButton.ts:105:34,15.273
+sendCancelledEmailsAndSMS,16.360,2.727,6,../../../packages/features/credentials/handleDeleteCredential.ts:318:45,12.908
+Identifier: UserFindUniqueArgs<Intern,16.351,16.351,1,../../../packages/prisma/extensions/exclude-locked-users.ts:44:4,16.351
+execSync,16.250,8.125,2,scripts/docker-start.ts:4:8,15.160
+Identifier: ComponentType<{ eventType,16.225,16.225,1,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:215:10,16.225
+"Identifier: ""a"" | ""button""",15.303,7.651,2,../../../packages/ui/components/dropdown/Dropdown.tsx:148:18,8.625
+Identifier: { name: string | null; em,15.236,5.079,3,../../../packages/trpc/server/routers/loggedInViewer/updateProfile.handler.ts:372:15,10.097
+writeText,14.935,4.978,3,../../../packages/features/ee/teams/components/TeamListItem.tsx:114:11,10.708
+set,14.832,2.119,7,../../../packages/embeds/embed-core/src/embed.ts:458:26,7.353
+calculatePadding,14.779,14.779,1,../../../packages/emails/src/components/CallToAction.tsx:30:11,14.779
+flat,14.663,2.933,5,../../../node_modules/@calcom/trpc/server/routers/loggedInViewer/setDestinationCalendar.handler.ts:23:45,8.875
+getOrg,14.611,2.435,6,../../../packages/lib/server/queries/teams/index.ts:178:20,5.158
+StringLiteral: (string | null)[][],14.501,14.501,1,../../../node_modules/tzdata/timezone-data.json:1:10,14.501
+getDynamicEventType,14.286,14.286,1,../../../packages/trpc/server/routers/viewer/slots/util.ts:167:9,14.286
+isTeamAdmin,14.207,1.579,9,../../../packages/features/ee/sso/lib/saml.ts:43:35,9.228
+"Identifier: { ""/*"": string; name: str",14.171,14.171,1,../../../packages/app-store/apps.metadata.generated.ts:110:32,14.171
+Identifier: Omit<EmbedButtonProps<T> ,13.781,13.781,1,../../../packages/features/embed/Embed.tsx:1417:15,13.781
+attendeeRescheduleSeatedBooking,13.760,4.587,3,../../../packages/features/bookings/lib/handleSeats/reschedule/rescheduleSeatedBooking.ts:132:26,13.418
+Identifier: Query,13.492,6.746,2,../../../packages/features/Segment.tsx:86:10,10.947
+Identifier: typeof HeadingNode,13.449,13.449,1,../../../packages/ui/components/editor/Editor.tsx:59:9,13.449
+Identifier: number | null,13.263,1.474,9,../../../packages/app-store/routing-forms/trpc/formMutation.handler.ts:359:11,9.630
+stringify,13.083,0.354,37,../../../packages/app-store/salesforce/lib/CrmService.ts:88:22,3.833
+"Identifier: { language: ""fr"" | ""en"" |",13.058,4.353,3,../../../packages/lib/hooks/useLocale.ts:11:11,12.887
+onOpenChange,12.894,4.298,3,../../../packages/app-store/office365video/components/AccountDialog.tsx:18:13,8.118
+useInfiniteQuery,12.706,2.118,6,../../../packages/features/kbar/Kbar.tsx:41:8,6.822
+Identifier: EmbedButtonProps<ElementT,12.550,12.550,1,../../../packages/features/embed/EventTypeEmbed.tsx:23:36,12.550
+setMenuOpen,12.491,3.123,4,../../../packages/features/shell/user-dropdown/UserDropdown.tsx:74:7,4.809
+createEvent,12.107,1.730,7,../../../packages/emails/lib/generateIcsString.ts:57:32,10.407
+splitLink,12.034,3.008,4,../../../packages/trpc/react/trpc.ts:80:19,8.801
+Identifier: { title: string; location,11.843,5.921,2,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:73:22,9.994
+useFilterValue,11.837,2.959,4,../../../packages/features/data-table/components/filters/DateRangeFilter.tsx:76:22,7.977
+from,11.704,0.532,22,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:462:21,2.123
+Identifier: { notes: string | null; i,11.698,11.698,1,../../../packages/trpc/server/routers/loggedInViewer/outOfOffice.handler.ts:169:24,11.698
+toDate,11.583,1.930,6,../../../packages/features/insights/server/routing-events.ts:235:62,6.867
+optional,11.540,0.641,18,../../../packages/trpc/server/routers/viewer/availability/schedule/get.schema.ts:4:14,7.256
+getMailerOptions,11.520,1.280,9,../../../packages/emails/templates/organizer-requested-to-reschedule-email.ts:17:11,3.798
+Identifier: { schedule: number | null,11.438,1.634,7,../../../packages/lib/event-types/getEventTypeById.ts:240:19,8.471
+Identifier: Omit<{ location: string |,11.377,3.792,3,../../../packages/features/bookings/lib/get-booking.ts:274:9,10.857
+enrichFormWithMigrationData,11.370,2.842,4,../../../packages/app-store/routing-forms/trpc/getResponseWithFormFields.handler.ts:93:44,5.158
+Identifier: { bookingFields: { name: ,11.250,0.592,19,../../../packages/features/bookings/lib/handleNewBooking.ts:966:30,1.516
+handleResponse,11.129,11.129,1,../../../packages/trpc/server/routers/viewer/routing-forms/response.handler.ts:46:9,11.129
+back,11.107,3.702,3,../../../packages/features/shell/SideBar.tsx:69:7,5.225
+getPlaceholderAvatar,10.992,1.570,7,../../../packages/features/ee/teams/components/TeamListItem.tsx:97:21,2.573
+getUserAvailability,10.953,1.217,9,../../../packages/trpc/server/routers/viewer/teams/getMemberAvailability.handler.ts:32:16,8.558
+digest,10.866,10.866,1,../../../packages/trpc/server/routers/loggedInViewer/me.handler.ts:97:9,10.866
+setIsOpen,10.686,10.686,1,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:344:12,10.686
+"Identifier: ({ clientId, accessToken,",10.654,10.654,1,../../../packages/platform/atoms/cal-provider/CalProvider.tsx:130:7,10.654
+getUsersFromEvent,10.540,2.635,4,../../../packages/features/eventtypes/lib/getPublicEvent.ts:406:11,9.410
+Identifier: { hidden?: boolean | unde,10.532,5.266,2,../../../packages/lib/server/repository/eventType.ts:85:11,9.975
+Identifier: BookerLayout,10.511,1.752,6,../../../packages/features/bookings/Booker/Booker.tsx:377:18,4.314
+Identifier: { identity_provider: stri,10.368,10.368,1,../../../packages/platform/atoms/cal-provider/CalProvider.tsx:22:47,10.368
+transform,10.215,1.021,10,../../../packages/features/filters/lib/getTeamsFiltersFromQuery.ts:19:6,4.403
+useBookerStore,10.195,0.784,13,../../../packages/features/bookings/Booker/Booker.tsx:100:48,5.820
+getBookingWithResponses,10.084,5.042,2,../../../packages/features/bookings/lib/get-booking.ts:83:18,9.959
+createUsersAndConnectToOrg,10.080,5.040,2,../../../packages/features/ee/sso/lib/sso.ts:52:10,9.815
+findByIdIncludeHostsAndTeam,9.869,4.934,2,../../../packages/trpc/server/routers/viewer/routing-forms/findTeamMembersMatchingAttributeLogicOfRoute.handler.ts:177:26,9.757
+getCRMManagerWithRRLeadSkip,9.718,9.718,1,../../../packages/app-store/_utils/CRMRoundRobinSkip.ts:18:8,9.718
+scheduleMandatoryReminder,9.708,1.618,6,../../../packages/features/bookings/lib/handleNewBooking.ts:1984:37,3.862
+findUsersByUsername,9.707,1.618,6,../../../packages/features/eventtypes/lib/getPublicEvent.ts:215:30,8.264
+getToken,9.487,4.743,2,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:60:34,9.186
+getEventTypeIdsWhereUserIsAdminOrOwner,9.486,9.486,1,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:178:74,9.486
+"Identifier: Partial<Record<""number"" |",9.324,4.662,2,../../../packages/platform/atoms/cal-provider/CalProvider.tsx:138:17,9.149
+DocsPropertyOptional,9.291,0.929,10,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/create-event-type.input.ts:311:11,3.798
+join,9.259,0.926,10,../../../packages/lib/CalEventParser.ts:32:22,3.906
+Module,9.136,1.827,5,src/modules/organizations/organizations.module.ts:68:13,5.937
+ensureNoServiceAccountKey,9.095,0.909,10,../../../packages/trpc/server/routers/viewer/domainWideDelegation/list.handler.ts:29:11,7.520
+hasOwnProperty,9.091,3.030,3,../../../packages/trpc/server/routers/viewer/organizations/update.handler.ts:25:35,5.555
+getVerifiedNumbers,9.080,4.540,2,../../../packages/trpc/server/routers/viewer/workflows/_router.tsx:185:11,8.808
+Identifier: { kbd?: string | undefine,9.038,9.038,1,../../../packages/ui/components/dropdown/Dropdown.tsx:162:8,9.038
+bulkUpdateFunction,8.995,4.498,2,../../../packages/features/eventtypes/components/BulkEditDefaultForEventsModal.tsx:50:9,7.253
+"Identifier: ""h3""",8.980,4.490,2,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:629:30,5.005
+warn,8.970,0.897,10,../../../packages/lib/payment/handlePayment.ts:21:22,4.867
+findById,8.965,1.281,7,../../../packages/lib/server/repository/profile.ts:338:26,4.419
+Identifier: { identity_provider: stri,8.959,8.959,1,../../../packages/platform/atoms/cal-provider/CalProvider.tsx:21:45,8.959
+getSerializableForm,8.916,0.637,14,../../../packages/app-store/routing-forms/pages/routing-link/getServerSideProps.ts:83:11,4.407
+useFormContext,8.867,2.217,4,../../../packages/ui/components/form/inputs/HintOrErrors.tsx:18:8,8.565
+setTimeout,8.726,2.909,3,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:246:25,8.042
+Identifier: { length: number; slug: s,8.628,1.726,5,../../../packages/lib/event-types/getEventTypeById.ts:106:14,5.668
+createServerSideHelpers,8.618,2.155,4,../../web/server/lib/ssr.ts:62:14,5.834
+Identifier: Widgets,8.617,8.617,1,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/uiConfig.tsx:84:8,8.617
+Identifier: (Omit<{ name: string | nu,8.547,1.425,6,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:55:45,3.725
+Identifier: { data: JsonValue; id: nu,8.523,2.841,3,../../../packages/features/bookings/lib/get-booking.ts:173:22,7.884
+Identifier: { startTime: string; endT,8.459,2.820,3,../../../packages/features/ee/payments/pages/payment.tsx:68:34,8.128
+salesforceCreateEventApiCall,8.423,1.203,7,../../../packages/app-store/salesforce/lib/CrmService.ts:222:31,4.549
+getAllCredentials,8.404,0.840,10,../../../packages/trpc/server/routers/viewer/bookings/confirm.handler.ts:269:72,4.626
+purchaseTeamOrOrgSubscription,8.343,2.086,4,../../../packages/trpc/server/routers/viewer/organizations/publish.handler.ts:39:34,6.554
+setScope,8.329,4.164,2,../../../packages/platform/atoms/selected-calendars/wrappers/SelectedCalendarsSettingsWebWrapper.tsx:261:18,5.479
+Identifier: typeof InlineSVG,8.287,8.287,1,../../../packages/ui/components/icon/IconSprites.tsx:8:11,8.287
+Identifier: typeof TRPCError,8.209,0.684,12,../../../packages/trpc/server/routers/viewer/slots/util.ts:307:14,5.143
+Identifier: IConnectionAPIController,8.190,8.190,1,../../../packages/features/ee/sso/lib/jackson.ts:57:9,8.190
+transformSelectOptionsApiToInternal,8.112,2.704,3,../../../packages/lib/event-types/transformers/api-to-internal/booking-fields.ts:41:81,3.890
+getInstantBookingLocation,8.087,4.043,2,../../../packages/trpc/server/routers/viewer/bookings/_router.tsx:163:13,7.093
+diff,8.083,2.694,3,src/ee/bookings/2024-08-13/services/output.service.ts:94:21,7.951
+next,8.018,0.501,16,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:140:9,2.603
+Identifier: { status: BookingStatus; ,8.002,8.002,1,../../../packages/features/ee/payments/pages/payment.tsx:41:60,8.002
+render,7.992,0.999,8,../../../packages/features/form-builder/FormBuilder.tsx:430:11,2.772
+Identifier: { DestinationCalendarSett,7.961,7.961,1,../../../packages/features/eventtypes/components/tabs/advanced/EventAdvancedTab.tsx:302:13,7.961
+memo,7.932,3.966,2,../../../packages/features/eventtypes/components/tabs/availability/EventAvailabilityTab.tsx:188:13,5.020
+bulkUpdateToDefaultLocation,7.893,3.947,2,../../../packages/trpc/server/routers/viewer/eventTypes/_router.ts:270:13,7.170
+getAppData,7.845,1.121,7,../../../packages/app-store/stripepayment/components/EventTypeAppSettingsInterface.tsx:159:31,4.448
+Identifier: EventBusyDetails[],7.837,7.837,1,../../../packages/core/getUserAvailability.ts:572:17,7.837
+getOrderedListOfLuckyUsers,7.833,2.611,3,../../../packages/trpc/server/routers/viewer/routing-forms/findTeamMembersMatchingAttributeLogicOfRoute.handler.ts:272:12,4.003
+animate,7.822,7.822,1,../../../packages/features/bookings/Booker/config.ts:208:10,7.822
+processUserAttributes,7.801,7.801,1,../../../packages/trpc/server/routers/viewer/attributes/bulkAssignAttributes.handler.ts:66:15,7.801
+getAppAssetFullPath,7.797,7.797,1,../../../packages/app-store/getNormalizedAppMetadata.ts:12:40,7.797
+deleteEventsAndMeetings,7.767,3.884,2,../../../packages/core/EventManager.ts:465:12,7.691
+getFormattedDate,7.750,1.937,4,../../../packages/sms/attendee/awaiting-payment-sms.ts:13:11,3.284
+Identifier: ForwardRefExoticComponent,7.747,3.874,2,../../../packages/features/bookings/Booker/Booker.tsx:386:13,5.933
+getTeamMemberEmailForResponseOrContact,7.740,1.935,4,../../../packages/lib/server/getTeamMemberEmailFromCrm.ts:250:15,6.742
+hostScheduleQuery,7.707,3.854,2,../../../packages/features/eventtypes/components/tabs/availability/EventAvailabilityTab.tsx:418:30,6.975
+runAttributeLogic,7.687,3.844,2,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:292:63,7.502
+ThisKeyword: this & HTMLElement & { sh,7.685,1.281,6,../../../packages/embeds/embed-core/src/ModalBox/ModalBox.ts:24:32,5.383
+onSubmit,7.616,2.539,3,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:235:9,4.188
+setError,7.599,7.599,1,../../../packages/features/eventtypes/components/tabs/ai/AIEventController.tsx:190:97,7.599
+handleDayClick,7.557,7.557,1,../../../packages/ui/components/form/date-range-picker/DateRangePicker.tsx:41:21,7.557
+"Identifier: ""submit""",7.540,2.513,3,../../../packages/features/schedules/components/NewScheduleButton.tsx:87:20,5.905
+Identifier: { name: string; id: numbe,7.506,3.753,2,../../../packages/trpc/server/routers/viewer/availability/schedule/update.handler.ts:73:11,3.910
+isVideoOrConferencingApp,7.434,7.434,1,../../../packages/features/credentials/handleDeleteCredential.ts:99:9,7.434
+Identifier: ForwardRefExoticComponent,7.374,7.374,1,../../../packages/app-store/office365video/components/AccountDialog.tsx:12:8,7.374
+Identifier: { identity_provider: stri,7.358,7.358,1,../../../packages/platform/atoms/cal-provider/BaseCalProvider.tsx:206:13,7.358
+Identifier: HandleSeatsResultBooking,7.355,3.677,2,../../../packages/features/bookings/lib/handleSeats/handleSeats.ts:160:9,5.661
+useAppContextWithSchema,7.331,1.466,5,../../../packages/app-store/paypal/components/EventTypeAppCardInterface.tsx:26:47,4.720
+inputStyles,7.298,7.298,1,../../../packages/ui/components/form/slider/RangeSliderPopover.tsx:51:9,7.298
+createWithNonExistentOwner,7.280,3.640,2,../../../packages/trpc/server/routers/viewer/organizations/create.handler.ts:228:23,7.243
+"Identifier: ({ children, multiple, ..",7.276,1.819,4,../../../packages/emails/src/components/EmailBodyLogo.tsx:17:9,4.704
+Identifier: CreatedBooking,7.244,1.035,7,../../../packages/features/bookings/lib/handleNewBooking.ts:1843:10,3.289
+reset,7.232,7.232,1,../../../packages/features/bookings/Booker/components/hooks/useCalendars.ts:67:9,7.232
+info,7.207,1.802,4,../../../packages/app-store/_utils/getCalendar.ts:49:4,4.254
+chargeCard,7.184,1.197,6,../../../packages/trpc/server/routers/viewer/payments/chargeCard.handler.ts:114:58,4.045
+getStartTime,7.004,1.751,4,../../../packages/trpc/server/routers/viewer/slots/util.ts:298:20,5.873
+min,7.001,1.750,4,../../../packages/lib/date-ranges.ts:72:31,6.339
+useAnimate,6.990,6.990,1,../../../packages/features/bookings/Booker/config.ts:168:36,6.990
+createParamDecorator,6.964,0.995,7,src/modules/auth/decorators/get-org/get-org.decorator.ts:29:11,3.461
+edit,6.929,3.464,2,../../../packages/trpc/server/routers/viewer/webhook/_router.tsx:81:11,5.143
+tap,6.875,6.875,1,src/middleware/request-ids/request-id.interceptor.ts:19:31,6.875
+setTimezone,6.808,3.404,2,../../../packages/features/bookings/Booker/components/EventMeta.tsx:213:19,5.435
+adminFindById,6.745,3.373,2,../../../packages/trpc/server/routers/viewer/organizations/adminGet.handler.ts:14:15,6.597
+findTeamMembersMatchingAttributeLogic,6.744,0.562,12,../../../packages/trpc/server/routers/viewer/attributes/findTeamMembersMatchingAttributeLogic.handler.ts:34:12,2.566
+createTRPCNext,6.739,1.685,4,../../../packages/trpc/react/trpc.ts:52:70,2.885
+isStartBeforeEnd,6.728,3.364,2,src/modules/ooo/services/ooo.service.ts:100:37,6.495
+"Identifier: Record<""number"" | ""boolea",6.658,6.658,1,../../../packages/features/form-builder/fieldTypes.ts:6:6,6.658
+pf,6.626,6.626,1,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:206:94,6.626
+getEnrichedSerializableForm,6.597,2.199,3,../../../packages/trpc/server/routers/viewer/routing-forms/findTeamMembersMatchingAttributeLogicOfRoute.handler.ts:126:33,4.948
+getBusyCalendarTimes,6.577,2.192,3,../../../packages/trpc/server/routers/viewer/availability/calendarOverlay.handler.ts:78:34,6.262
+getOriginalRescheduledBooking,6.547,2.182,3,../../../packages/features/bookings/lib/handleNewBooking.ts:547:35,5.607
+testTrigger,6.486,3.243,2,../../../packages/trpc/server/routers/viewer/webhook/_router.tsx:115:11,5.423
+fetch,6.483,0.499,13,../../../packages/app-store/zohocalendar/api/callback.ts:67:19,3.456
+getEnv,6.454,0.922,7,src/config/app.ts:6:9,4.200
+post,6.418,1.070,6,../../../packages/features/bookings/lib/create-booking.ts:6:25,4.260
+setSelectedParam,6.408,2.136,3,../../../packages/app-store/vital/components/AppConfiguration.tsx:111:13,3.416
+Identifier: { user: { email: null; na,6.405,6.405,1,../../../packages/features/bookings/lib/handleNewBooking.ts:2041:9,6.405
+Identifier: { title?: string | undefi,6.386,6.386,1,../../../packages/ui/components/badge/Badge.tsx:74:32,6.386
+Identifier: (props: BadgeProps) => De,6.384,2.128,3,../../../packages/features/ee/managed-event-types/hooks/useLockedFieldsManager.tsx:58:12,3.654
+onFocus,6.251,6.251,1,../../../packages/ui/components/editable-heading/EditableHeading.tsx:22:11,6.251
+importHandler,6.229,0.479,13,../../../packages/trpc/server/routers/viewer/teams/_router.tsx:191:28,1.529
+"Identifier: typeof import(""/home/ssal",6.218,6.218,1,../../../packages/ui/components/dialog/ConfirmationDialogContent.tsx:68:11,6.218
+authenticateNextAuth,6.181,2.060,3,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:64:21,5.912
+catchall,6.135,6.135,1,../../../packages/lib/server/getRoutedUrl.ts:24:6,6.135
+Identifier: { id: number; eventType: ,6.121,3.061,2,../../../packages/features/bookings/lib/get-booking.ts:181:20,5.180
+check,6.098,0.762,8,../../../packages/ui/components/card/FormCard.tsx:48:11,5.084
+Identifier: number | undefined,6.080,1.520,4,../../../packages/trpc/server/routers/viewer/slots/util.ts:323:7,5.293
+sendCancelledReminders,6.014,1.203,5,../../../packages/features/bookings/lib/handleCancelBooking.ts:394:32,3.140
+fetcher,5.992,0.545,11,../../../packages/app-store/larkcalendar/lib/CalendarService.ts:321:18,4.424
+setContinueWithProvider,5.982,5.982,1,../../../packages/features/bookings/Booker/components/OverlayCalendar/OverlayCalendarSwitch.tsx:42:7,5.982
+getFixedT,5.979,1.993,3,../../../packages/lib/server/i18n.ts:17:9,5.559
+createNewContactUnderAnAccount,5.911,1.970,3,../../../packages/app-store/salesforce/lib/CrmService.ts:522:47,5.592
+Identifier: ComponentType<{ logoOnly?,5.860,5.860,1,../../../packages/features/bookings/Booker/Booker.tsx:511:13,5.860
+findByWebhookId,5.860,1.465,4,../../../packages/trpc/server/routers/viewer/webhook/get.handler.ts:14:15,5.420
+valueOf,5.858,0.976,6,../../../packages/lib/parse-dates.ts:79:35,3.439
+withApiAuth,5.817,0.485,12,src/modules/slots/slots-2024-09-04/controllers/e2e/dynamic-event-type-slots.controller.e2e-spec.ts:49:30,4.424
+useId,5.814,1.453,4,../../../packages/ui/form/radio-area/RadioAreaGroup.tsx:12:18,3.482
+Identifier: any,5.807,0.528,11,../../../packages/trpc/react/trpc.ts:39:13,5.131
+onCropComplete,5.785,5.785,1,../../../packages/ui/components/image-uploader/ImageUploader.tsx:47:11,5.785
+Identifier: ForwardRefExoticComponent,5.784,1.446,4,../../../packages/ui/components/avatar/Avatar.tsx:102:15,4.206
+ThisKeyword: this,5.779,5.779,1,../../../packages/core/builders/CalendarEvent/builder.ts:68:23,5.779
+Identifier: ({ hasError: boolean; for,5.685,5.685,1,../../../packages/app-store/routing-forms/trpc/forms.handler.ts:108:11,5.685
+Identifier: VideoResult,5.682,2.841,2,../../../packages/features/bookings/lib/handleNewBooking/getVideoCallDetails.ts:13:46,5.380
+createNewSeat,5.670,1.890,3,../../../packages/features/bookings/lib/handleSeats/handleSeats.ts:101:20,4.818
+presenter,5.658,1.886,3,../../../packages/app-store/routing-forms/trpc/report.handler.ts:107:20,5.223
+"Identifier: ({ isOpenDialog, setIsOpe",5.651,2.825,2,../../../packages/features/bookings/Booker/Booker.tsx:517:37,5.559
+values,5.615,0.468,12,../../../packages/lib/service/attribute/server/getAttributes.ts:118:9,1.143
+getAllWorkflowsFromEventType,5.614,0.936,6,../../../packages/trpc/server/routers/viewer/workflows/getAllActiveWorkflows.handler.ts:44:35,2.327
+Identifier: { form: { user: { id: num,5.611,1.403,4,../../../packages/app-store/routing-forms/trpc/getResponseWithFormFields.handler.ts:74:15,5.065
+exchangeAuthorizationToken,5.597,1.119,5,src/modules/oauth-clients/controllers/oauth-flow/oauth-flow.controller.ts:100:12,4.718
+preprocess,5.587,1.117,5,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:26:9,2.227
+isEventTypeLoggingEnabled,5.552,5.552,1,../../../packages/trpc/server/routers/viewer/slots/util.ts:277:7,5.552
+buildMember,5.549,5.549,1,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:252:52,5.549
+getFullYear,5.537,5.537,1,../../../packages/ui/components/credits/Credits.tsx:20:11,5.537
+safeStringify,5.514,0.551,10,../../../packages/trpc/server/routers/viewer/bookings/requestReschedule.handler.ts:254:52,4.417
+createTransport,5.509,1.836,3,../../../packages/emails/templates/_base-email.ts:74:43,4.087
+getTotalCSAT,5.435,1.812,3,../../../packages/features/insights/server/trpc-router.ts:350:59,5.122
+Identifier: Context<EmbedDialogContex,5.409,5.409,1,../../../packages/features/embed/lib/hooks/useEmbedDialogCtx.tsx:15:11,5.409
+getMetadataHelpers,5.390,1.797,3,../../../packages/trpc/server/routers/viewer/organizations/update.handler.ts:142:28,5.129
+Identifier: ForwardRefExoticComponent,5.363,2.682,2,../../../packages/ui/components/apps/Categories.tsx:41:15,3.464
+transformWorkingHoursForClient,5.353,1.784,3,src/ee/schedules/schedules_2024_04_15/services/schedules.service.ts:148:20,4.327
+Type,5.338,0.763,7,src/modules/organizations/outputs/organization-membership/get-all-memberships.output.ts:18:14,4.313
+getSchedule,5.318,2.659,2,../../../packages/trpc/server/routers/viewer/slots/_router.tsx:30:11,3.591
+getDefaultScheduleId,5.302,5.302,1,../../../packages/lib/server/repository/schedule.ts:44:33,5.302
+findBookingQuery,5.271,0.586,9,../../../packages/features/bookings/lib/handleSeats/reschedule/owner/moveSeatedBookingToNewTimeSlot.ts:102:47,3.312
+Number,5.234,1.309,4,../../../packages/lib/server/getTeamMemberEmailFromCrm.ts:42:48,3.332
+"Identifier: { color: ""black""; fontSiz",5.214,5.214,1,../../../packages/emails/src/templates/BookingRedirectEmailNotification.tsx:23:9,5.214
+isNaN,5.198,1.040,5,../../../packages/features/bookings/lib/handleNewBooking.ts:1725:33,4.927
+"Identifier: ""NOT_FOUND""",5.186,5.186,1,../../../packages/trpc/server/routers/viewer/slots/util.ts:273:25,5.186
+Identifier: { chosenRouteId: string |,5.177,2.589,2,../../../packages/app-store/salesforce/lib/assignmentReasonHandler.ts:55:24,4.360
+Identifier: (props: TextEditorProps) ,5.171,5.171,1,../../../packages/ui/components/editor/Editor.tsx:82:11,5.171
+getUserToUpdateEvent,5.167,1.722,3,src/ee/event-types/event-types_2024_04_15/services/event-types.service.ts:130:32,4.940
+findAllByUpId,5.087,5.087,1,../../../packages/lib/event-types/getEventTypesByViewer.ts:65:8,5.087
+getDestinationCalendar,5.086,1.695,3,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:253:36,4.923
+handlePaypalPaymentSuccess,5.068,1.689,3,../../../packages/app-store/paypal/api/webhook.ts:92:19,4.903
+splice,4.975,4.975,1,../../../packages/embeds/embed-core/src/embed-iframe.ts:238:93,4.975
+findQualifiedHosts,4.957,1.652,3,../../../packages/features/bookings/lib/handleNewBooking/loadAndValidateUsers.ts:112:69,4.260
+"Identifier: typeof import(""/home/ssal",4.922,4.922,1,../../../packages/app-store/stripepayment/components/EventTypeAppSettingsInterface.tsx:178:21,4.922
+Identifier: { calendar: string; event,4.880,4.880,1,../../../packages/emails/src/templates/BrokenIntegrationEmail.tsx:44:32,4.880
+getVisibleCells,4.864,4.864,1,../../../packages/features/data-table/components/DataTable.tsx:266:16,4.864
+getEventType,4.848,4.848,1,../../../packages/core/getUserAvailability.ts:310:45,4.848
+click,4.847,1.212,4,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:315:24,2.594
+updateTeamMembership,4.821,2.410,2,src/modules/teams/memberships/controllers/teams-memberships.controller.ts:123:30,4.679
+now,4.803,0.686,7,../../../packages/platform/atoms/event-types/hooks/useEventTypeForm.ts:27:32,2.899
+hideDialogFor,4.785,4.785,1,../../../packages/features/settings/TimezoneChangeDialog.tsx:60:9,4.785
+handleConfirmation,4.783,2.392,2,../../../packages/lib/payment/handlePaymentSuccess.ts:72:12,4.745
+"Identifier: ({ extraDays, limitHeight",4.771,4.771,1,../../../packages/features/bookings/Booker/Booker.tsx:445:15,4.771
+combine,4.760,2.380,2,src/lib/logger.ts:14:27,4.154
+createCachedImport,4.718,1.573,3,../../../packages/app-store/index.ts:1:17,4.496
+number,4.705,0.470,10,../../../packages/prisma/zod/workflow.ts:10:10,3.687
+"Identifier: ({ ariaActiveDescendant, ",4.679,4.679,1,../../../packages/ui/components/editor/Editor.tsx:97:32,4.679
+getHost,4.671,2.335,2,src/ee/bookings/2024-08-13/services/output.service.ts:365:20,4.175
+Identifier: { title: string; workflow,4.654,2.327,2,../../../packages/trpc/server/routers/viewer/eventTypes/update.handler.ts:351:10,4.128
+registerDecorator,4.654,0.931,5,../../../packages/platform/types/bookings/2024-08-13/inputs/validators/validate-metadata.ts:11:19,1.727
+ApiPropertyOptional,4.650,1.550,3,src/modules/organizations/inputs/attributes/update-organization-attribute.input.ts:18:4,4.248
+"Identifier: ({ children, content, ope",4.627,4.627,1,../../../packages/features/ee/teams/components/TeamListItem.tsx:193:20,4.627
+Identifier: { isFixed: boolean; creat,4.605,2.303,2,../../../packages/trpc/server/routers/viewer/slots/util.ts:356:51,4.375
+sendVerifyEmailCode,4.568,4.568,1,../../../packages/trpc/server/routers/viewer/auth/_router.tsx:89:11,4.568
+Identifier: { id: number; booking: { ,4.506,1.502,3,../../../packages/app-store/hitpay/api/callback.ts:54:53,3.539
+validateInputDestinationCalendar,4.494,0.899,5,src/modules/organizations/services/event-types/input.service.ts:39:13,4.354
+setOptions,4.492,2.246,2,../../../packages/features/data-table/components/DataTableWrapper.tsx:75:22,4.223
+getLuckyUser,4.480,1.120,4,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:136:33,2.457
+aggregate,4.441,0.888,5,../../../packages/features/insights/server/events.ts:196:48,2.906
+getSeatedBooking,4.422,4.422,1,../../../packages/features/bookings/lib/handleNewBooking.ts:544:22,4.422
+plainToClass,4.397,0.338,13,../../../packages/platform/types/slots/slots-2024-09-04/inputs/get-slots-input.pipe.ts:40:19,1.388
+processInstruction,4.381,4.381,1,../../../packages/embeds/embed-core/src/embed.ts:255:21,4.381
+indexOf,4.350,4.350,1,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:550:9,4.350
+hostsWithSelectedCalendars,4.344,1.086,4,../../../packages/lib/server/repository/eventType.ts:755:13,3.199
+invalidate,4.342,0.868,5,../../../packages/features/ee/teams/components/InviteLinkSettingsModal.tsx:26:54,2.804
+getOwnersForManagedEventType,4.331,2.165,2,src/modules/organizations/services/event-types/input.service.ts:154:25,4.165
+findAllProfilesForUserIncludingMovedUser,4.311,4.311,1,../../../packages/trpc/server/routers/loggedInViewer/me.handler.ts:21:25,4.311
+Identifier: { id?: number | undefined,4.304,4.304,1,../../../packages/platform/atoms/event-types/hooks/useEventTypeForm.ts:338:20,4.304
+Permissions,4.294,4.294,1,src/ee/event-types/event-types_2024_06_14/controllers/event-types.controller.ts:141:4,4.294
+every,4.276,0.389,11,../../../packages/features/form-builder/Components.tsx:30:91,1.141
+parseInt,4.253,1.418,3,../../../packages/features/eventtypes/components/EditWeightsForAllTeamMembers.tsx:43:11,2.891
+Identifier: ({ id: number; organizati,4.253,1.418,3,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:270:9,3.841
+"Identifier: ""gray""",4.233,2.116,2,../../../packages/ui/components/badge/UpgradeTeamsBadge.tsx:18:15,3.965
+raw,4.209,2.104,2,../../../packages/features/insights/server/routing-events.ts:509:24,2.510
+Identifier: { id: number; createdAt: ,4.193,4.193,1,../../../packages/features/insights/server/routing-events.ts:358:12,4.193
+buildPersonalProfileFromUser,4.189,0.838,5,../../../packages/trpc/server/routers/loggedInViewer/me.handler.ts:80:22,3.218
+inviteMembersWithNoInviterPermissionCheck,4.186,1.046,4,../../../packages/trpc/server/routers/viewer/teams/inviteMember/inviteMember.handler.ts:273:66,3.008
+Identifier: { user: { email: null; na,4.176,2.088,2,../../../packages/features/bookings/lib/handleNewBooking.ts:1850:11,3.918
+handleStripeCheckoutEvents,4.160,1.387,3,src/modules/billing/controllers/billing.controller.ts:111:62,3.813
+getTotalSize,4.142,4.142,1,../../../packages/features/data-table/components/DataTable.tsx:108:11,4.142
+content,4.135,2.068,2,../../../packages/features/calendars/DestinationCalendarSelector.tsx:148:17,4.116
+Identifier: CollectOpts,4.123,4.123,1,../../../packages/lib/telemetry.ts:58:13,4.123
+findIndex,4.117,0.686,6,../../../packages/features/schedules/components/Schedule.tsx:557:23,3.695
+findUsersWithInviteStatus,4.111,1.370,3,../../../packages/trpc/server/routers/viewer/teams/inviteMember/inviteMember.handler.ts:154:41,3.120
+getLocationGroupedOptions,4.108,0.822,5,../../../packages/trpc/server/routers/loggedInViewer/locationOptions.handler.ts:19:32,2.711
+getWorkflowActionOptions,4.097,2.048,2,../../../packages/trpc/server/routers/viewer/workflows/getWorkflowActionOptions.handler.ts:31:9,2.948
+Identifier: string[],4.024,2.012,2,../../../packages/features/ee/organizations/lib/orgDomains.ts:132:18,3.965
+Identifier: { team: { name: string; },3.982,1.327,3,../../../packages/lib/server/repository/team.ts:273:11,2.645
+useFieldArray,3.905,1.953,2,../../../packages/features/form-builder/FormBuilder.tsx:96:51,3.411
+transformWorkingHoursForAtom,3.892,3.892,1,../../../packages/lib/server/repository/schedule.ts:74:11,3.892
+fromEntries,3.875,0.554,7,../../../packages/lib/timezone.ts:18:9,1.636
+Identifier: { booking: { _count: { se,3.856,0.964,4,../../../packages/trpc/server/routers/viewer/bookings/getBookingAttendees.handler.ts:32:9,1.932
+Identifier: { label: string; options:,3.815,1.907,2,../../../packages/app-store/server.ts:146:9,3.666
+createDocument,3.799,1.899,2,src/main.ts:108:19,3.587
+setConjunction,3.767,1.884,2,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/widgets.tsx:308:9,2.426
+getUserEventGroups,3.744,1.872,2,../../../packages/trpc/server/routers/viewer/eventTypes/_router.ts:73:25,3.676
+reverse,3.739,1.869,2,../../../packages/trpc/server/routers/loggedInViewer/eventTypeOrder.handler.ts:55:21,2.273
+findKeyOfType,3.730,1.865,2,../../../packages/trpc/server/routers/viewer/apiKeys/_router.tsx:48:11,3.216
+day,3.691,3.691,1,../../../packages/features/calendars/DatePicker.tsx:132:13,3.691
+Identifier: DynamicClientExtensionThi,3.686,0.922,4,../../../packages/features/insights/server/routing-events.ts:742:23,1.928
+getCalEventResponses,3.663,3.663,1,../../../packages/features/webhooks/lib/scheduleTrigger.ts:91:14,3.663
+passthrough,3.662,0.610,6,../../../packages/features/bookings/Booker/components/hooks/useBookingForm.ts:30:30,2.293
+Identifier: { user: { name: string | ,3.645,3.645,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:401:19,3.645
+Identifier: { id: number; uid: string,3.640,1.820,2,../../../packages/lib/payment/handlePayment.ts:109:9,3.567
+Identifier: User,3.622,3.622,1,../../../packages/features/shell/SideBar.tsx:87:23,3.622
+getTextBody,3.582,0.597,6,../../../packages/emails/templates/organizer-requested-to-reschedule-email.ts:34:12,1.209
+mergeRouters,3.577,1.789,2,../../../packages/trpc/server/routers/viewer/_router.tsx:34:28,2.466
+Identifier: IsMulti,3.576,1.788,2,../../../packages/ui/components/form/select/components.tsx:57:32,3.549
+getTokenObjectFromCredential,3.536,1.768,2,../../../packages/app-store/office365video/lib/VideoApiAdapter.ts:34:29,2.860
+resolve,3.504,0.438,8,../../../packages/app-store/webex/api/add.ts:38:7,1.980
+isArray,3.479,0.696,5,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:269:45,2.676
+Identifier: IAtomsContext,3.441,1.721,2,../../../packages/lib/hooks/useLocale.ts:11:19,3.261
+setPreviewState,3.434,1.717,2,../../../packages/features/embed/Embed.tsx:1083:25,2.063
+"Identifier: ""meta""",3.431,3.431,1,../../../packages/features/bookings/Booker/Booker.tsx:353:29,3.431
+ApiExtraModels,3.397,3.397,1,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/create-event-type.input.ts:85:2,3.397
+duplicate,3.397,1.698,2,../../../packages/trpc/server/routers/viewer/availability/schedule/_router.tsx:104:11,2.723
+Identifier: Schedule,3.382,1.691,2,../../../packages/trpc/server/routers/viewer/availability/schedule/update.handler.ts:123:9,1.772
+translate,3.381,0.338,10,../../../packages/emails/src/templates/OrganizerRequestedToRescheduleEmail.tsx:6:27,1.341
+getTeamHostsFromDB,3.365,0.673,5,../../../packages/trpc/server/routers/viewer/teams/roundRobin/getRoundRobinHostsToReasign.handler.ts:121:70,1.537
+shouldLockDisableProps,3.343,0.836,4,../../../packages/features/eventtypes/components/tabs/setup/EventSetupTab.tsx:344:13,2.504
+useRef,3.305,0.661,5,../../../packages/ui/components/popover/AnimatedPopover.tsx:30:14,2.587
+Identifier: CalendarEvent,3.288,1.644,2,../../../packages/features/calendars/weeklyview/components/event/Event.tsx:95:33,3.128
+onConnectNow,3.281,3.281,1,../../../packages/features/bookings/Booker/components/InstantBooking.tsx:35:7,3.281
+mergeMetadata,3.275,1.092,3,../../../packages/trpc/server/routers/viewer/organizations/update.handler.ts:144:46,2.065
+updateProfile,3.249,3.249,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:208:11,3.249
+Identifier: { team: { metadata: JsonV,3.241,0.405,8,../../../packages/trpc/server/routers/viewer/teams/createInvite.handler.ts:23:50,1.060
+monitorCallbackSync,3.239,0.540,6,../../../packages/trpc/server/routers/viewer/slots/util.ts:1030:16,1.468
+confirm,3.235,1.617,2,../../../packages/trpc/server/routers/viewer/bookings/_router.tsx:107:11,2.326
+addToSelectedDate,3.221,0.403,8,../../../packages/features/bookings/Booker/components/Header.tsx:117:11,1.350
+getAllTeamMembers,3.197,3.197,1,src/modules/organizations/services/event-types/input.service.ts:94:26,3.197
+Identifier: { locked: { name: string ,3.180,3.180,1,../../../packages/trpc/server/routers/viewer/admin/getSMSLockStateTeamsUsers.handler.ts:57:20,3.180
+"Identifier: { readonly ROUND_ROBIN: """,3.178,0.795,4,../../../packages/features/bookings/lib/handleNewBooking.ts:784:57,2.854
+onContinue,3.173,3.173,1,../../../packages/features/bookings/Booker/components/OverlayCalendar/OverlayCalendarContinueModal.tsx:20:11,3.173
+setInput,3.165,3.165,1,../../../packages/app-store/templates/general-app-settings/components/AppSettingsInterface.tsx:10:11,3.165
+setCreateModalOpen,3.163,1.581,2,../../../packages/features/eventtypes/components/tabs/webhooks/EventWebhooksTab.tsx:91:14,1.722
+enrichUsersWithTheirProfiles,3.112,1.037,3,../../../packages/features/eventtypes/lib/getPublicEvent.ts:623:75,1.994
+Identifier: { user: UserWithSelectedC,3.106,1.035,3,../../../packages/trpc/server/routers/viewer/teams/roundRobin/getRoundRobinHostsToReasign.handler.ts:78:22,2.636
+useSuspenseQuery,3.105,3.105,1,../../web/components/apps/AdditionalCalendarSelector.tsx:19:35,3.105
+Identifier: typeof TOTP,3.099,3.099,1,../../../packages/lib/totp.ts:42:24,3.099
+"Identifier: { propsType: ""variants""; ",3.080,3.080,1,../../../packages/features/form-builder/FormBuilderField.tsx:371:13,3.080
+isAfter,3.078,0.513,6,../../../packages/features/auth/lib/hooks/useRedirectToOnboardingIfNeeded.tsx:12:29,1.527
+call,3.051,1.017,3,../../../packages/embeds/embed-core/src/embed.ts:224:37,1.292
+setLocalWeights,2.985,0.746,4,../../../packages/features/eventtypes/components/EditWeightsForAllTeamMembers.tsx:373:15,2.474
+Identifier: { length: number; slug: s,2.979,1.490,2,../../../node_modules/@calcom/trpc/server/routers/viewer/eventTypes/util.ts:209:12,2.813
+ApiProperty,2.976,0.165,18,src/modules/teams/event-types/outputs/update-team-event-type.output.ts:10:4,0.516
+getSelectedOption,2.964,1.482,2,../../../packages/features/eventtypes/components/tabs/limits/EventLimitsTab.tsx:224:11,1.675
+createUserSchedule,2.962,1.481,2,src/ee/bookings/2024-08-13/controllers/e2e/emails/team-emails.e2e-spec.ts:374:47,2.756
+tz,2.945,1.473,2,../../../packages/features/bookings/Booker/components/hooks/useOverlayCalendar.ts:13:34,1.953
+Identifier: { organizationId: number;,2.939,0.735,4,../../../packages/features/bookings/lib/handleNewBooking/getEventTypesFromDB.ts:169:49,1.930
+Identifier: { id: number; user: { tea,2.938,0.734,4,../../../packages/trpc/server/routers/viewer/workflows/update.handler.ts:69:19,1.728
+"Identifier: typeof import(""/home/ssal",2.904,2.904,1,../../../packages/ui/components/tooltip/Tooltip.tsx:44:11,2.904
+switchOnClick,2.902,0.967,3,../../../packages/app-store/_components/AppCard.tsx:83:11,2.452
+Identifier: { user: { name: string | ,2.895,2.895,1,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:97:16,2.895
+saveBooking,2.888,1.444,2,../../../packages/features/bookings/lib/handleNewBooking/createBooking.ts:110:15,2.848
+getAllUserBookings,2.879,1.439,2,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:36:56,2.836
+Identifier: { id: number; username: s,2.872,0.957,3,../../../packages/trpc/server/routers/viewer/organizations/listMembers.handler.ts:263:9,2.706
+Identifier: { name: string; slug: str,2.838,1.419,2,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:63:23,2.052
+Identifier: { _config: RootConfig<{ c,2.830,2.830,1,../../../packages/trpc/server/trpc.ts:14:26,2.830
+Identifier: { newRole: MembershipRole,2.826,0.942,3,../../../packages/trpc/server/routers/viewer/teams/inviteMember/inviteMember.handler.ts:235:21,2.077
+Identifier: string | null,2.816,0.313,9,../../../packages/trpc/server/routers/viewer/teams/update.handler.ts:138:9,1.591
+countGroupedByStatus,2.813,2.813,1,../../../packages/features/insights/server/trpc-router.ts:348:28,2.813
+updateById,2.808,0.351,8,../../../packages/trpc/server/routers/viewer/domainWideDelegation/update.handler.ts:52:36,1.165
+getTag,2.783,0.928,3,../../../packages/ui/components/editor/plugins/ToolbarPlugin.tsx:315:49,2.478
+Identifier: Partial<{ user: { name: s,2.772,0.554,5,../../../packages/features/bookings/lib/handleNewBooking.ts:1145:30,1.255
+processWorkflowStep,2.771,2.771,1,../../../packages/features/ee/workflows/lib/reminders/reminderScheduler.ts:173:41,2.771
+scheduleWorkflowNotifications,2.758,0.552,5,../../../packages/trpc/server/routers/viewer/workflows/update.handler.ts:404:12,1.300
+Identifier: { id: number; emailVerifi,2.755,0.918,3,../../../packages/trpc/server/routers/loggedInViewer/updateProfile.handler.ts:371:34,2.234
+Identifier: { id: string; action: { t,2.755,0.689,4,../../../packages/lib/server/getLuckyUser.ts:876:36,2.098
+"Identifier: ""BEFORE_EVENT"" | ""AFTER_E",2.739,2.739,1,../../../packages/features/ee/workflows/lib/reminders/whatsappReminderManager.ts:152:64,2.739
+Identifier: { name: string; options: ,2.721,0.907,3,../../../packages/lib/service/attribute/server/getAttributes.ts:362:9,2.549
+toggle,2.719,2.719,1,../../../packages/trpc/server/routers/viewer/apps/_router.tsx:53:11,2.719
+Identifier: Users,2.715,1.357,2,../../../packages/features/bookings/lib/handleNewBooking.ts:530:14,2.595
+getBookingAttendees,2.712,2.712,1,../../../packages/trpc/server/routers/viewer/bookings/_router.tsx:127:13,2.712
+Identifier: string | number | true | ,2.688,2.688,1,../../../packages/app-store/hitpay/api/webhook.ts:87:10,2.688
+getAllWorkflows,2.682,0.670,4,../../../packages/trpc/server/routers/viewer/workflows/util.ts:779:29,2.392
+Identifier: CalendarEvent,2.669,0.243,11,../../../packages/features/bookings/lib/handleNewBooking.ts:1975:26,1.246
+"Identifier: ""primary""",2.664,2.664,1,../../../packages/features/bookings/Booker/components/Header.tsx:63:20,2.664
+resendVerifyEmail,2.653,2.653,1,../../../packages/trpc/server/routers/viewer/auth/_router.tsx:106:11,2.653
+Identifier: (props: DestinationCalend,2.643,2.643,1,../../../packages/platform/atoms/destination-calendar/wrappers/DestinationCalendarSettingsWebWrapper.tsx:21:7,2.643
+Identifier: { integration: App & { cr,2.639,2.639,1,../../../packages/core/CalendarManager.ts:38:9,2.639
+reserveSlot,2.634,2.634,1,../../../packages/trpc/server/routers/viewer/slots/_router.tsx:47:11,2.634
+verbose,2.634,0.527,5,src/lib/throttler-guard.ts:59:25,1.439
+getBooking,2.625,0.656,4,../../../packages/features/bookings/lib/get-booking.ts:196:24,1.954
+onConnectNowInstantMeeting,2.619,2.619,1,../../../packages/features/bookings/Booker/Booker.tsx:483:15,2.619
+getLocationFromApp,2.591,2.591,1,../../../packages/features/apps/components/AppList.tsx:94:46,2.591
+stopPropagation,2.585,0.862,3,../../../packages/features/ee/teams/components/TeamListItem.tsx:220:19,2.413
+buildTroubleshooterData,2.571,0.428,6,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:229:40,1.852
+unwrap,2.570,2.570,1,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:24:17,2.570
+Identifier: { form: { routes: JsonVal,2.546,0.849,3,../../../packages/lib/server/getTeamMemberEmailFromCrm.ts:75:37,1.638
+useSession,2.542,0.636,4,../../../packages/features/auth/lib/hooks/useRedirectToLoginIfUnauthenticated.tsx:10:36,1.090
+Identifier: { status: BookingStatus; ,2.541,0.847,3,../../../packages/lib/payment/getBooking.ts:105:8,1.128
+Identifier: PaidAppData | undefined,2.531,2.531,1,../../../packages/ui/components/apps/AppCard.tsx:151:48,2.531
+renderTab,2.483,2.483,1,../../../packages/app-store/giphy/components/SearchDialog.tsx:120:9,2.483
+Identifier: ({ user: { name: string |,2.481,0.414,6,../../../packages/features/bookings/lib/handleNewBooking.ts:1727:32,0.745
+getTeamAndEventTypeOptions,2.465,1.233,2,../../../packages/trpc/server/routers/viewer/eventTypes/_router.ts:125:27,2.350
+buildFormsWithReadOnlyStatus,2.462,0.821,3,../../../packages/app-store/routing-forms/trpc/forms.handler.ts:62:9,2.194
+defaultHandler,2.459,0.351,7,../../../packages/app-store/sendgrid/api/add.ts:3:15,0.963
+"Identifier: ""button""",2.457,0.819,3,../../../packages/features/ee/teams/components/TeamListItem.tsx:158:24,1.159
+axios,2.441,0.222,11,../../../packages/app-store/zoho-bigin/lib/CrmService.ts:196:11,0.604
+Identifier: Process,2.439,0.152,16,../../../packages/lib/getIP.ts:39:25,0.377
+Identifier: { upId: string; hasValidL,2.424,1.212,2,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:132:9,2.334
+denullish,2.421,0.242,10,../../../packages/prisma/zod-utils.ts:585:18,1.189
+getUrlSearchParamsToForward,2.420,0.605,4,../../../packages/app-store/routing-forms/pages/routing-link/getUrlSearchParamsToForward.ts:175:18,1.240
+"Identifier: ""secondary""",2.415,2.415,1,../../../packages/ui/components/apps/AppCard.tsx:204:14,2.415
+getTeamOrThrow,2.413,1.206,2,../../../packages/trpc/server/routers/viewer/teams/inviteMember/inviteMember.handler.ts:243:21,2.323
+Identifier: { organizationId: any; or,2.405,1.203,2,../../../packages/features/eventtypes/lib/getPublicEvent.ts:635:10,2.194
+getUTCHours,2.405,2.405,1,../../../packages/features/schedules/components/DateOverrideInputDialog.tsx:26:25,2.405
+sendRoundRobinCancelledEmailsAndSMS,2.397,0.799,3,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:380:12,1.950
+toLowerCase,2.382,0.476,5,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:255:31,0.975
+Identifier: ZodEffects<ZodObject<{ le,2.364,2.364,1,../../../packages/trpc/server/routers/viewer/eventTypes/create.schema.ts:5:34,2.364
+boolean,2.355,2.355,1,../../../packages/trpc/server/routers/viewer/slots/types.ts:29:22,2.355
+getRateLimitsForApiKeyTracker,2.354,0.785,3,src/lib/throttler-guard.ts:73:29,1.803
+setDefaultConferencingApp,2.346,0.587,4,../../../packages/trpc/server/routers/viewer/apps/_router.tsx:106:13,1.699
+Identifier: ComponentType<EventAvaila,2.344,2.344,1,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:187:20,2.344
+incrementRateLimit,2.316,0.772,3,src/lib/throttler-guard.ts:77:34,1.663
+getBookings,2.313,0.463,5,../../../packages/lib/bookings/getAllUserBookings.ts:79:44,1.705
+findByUserIdAndOrgId,2.311,0.578,4,../../../packages/features/ee/teams/lib/removeMember.ts:91:34,1.716
+findAllByUpIdIncludeTeamWithMembersAndEventTypes,2.311,2.311,1,../../../packages/lib/event-types/getEventTypesByViewer.ts:53:70,2.311
+Identifier: keyof TypeOf<T>,2.296,2.296,1,../../../packages/lib/getMetadataHelpers.ts:19:9,2.296
+endsWith,2.290,1.145,2,../../../packages/app-store/_utils/getCalendar.ts:26:27,2.168
+Identifier: Session,2.278,0.456,5,../../../packages/features/auth/lib/getServerSession.ts:119:30,1.435
+Identifier: string | number | boolean,2.266,2.266,1,../../../packages/emails/src/components/Row.tsx:11:34,2.266
+Identifier: boolean | undefined,2.247,0.250,9,../../../packages/features/bookings/lib/handleNewBooking.ts:1475:9,1.033
+renderEmail,2.232,1.116,2,../../../packages/emails/templates/account-verify-email.ts:37:18,2.111
+getStripeCustomerId,2.226,0.742,3,../../../packages/app-store/stripepayment/lib/customer.ts:23:27,1.794
+Identifier: { metadata: { smartContra,2.221,2.221,1,../../../packages/lib/server/queries/teams/index.ts:273:29,2.221
+"Identifier: ({ eventType, isTeamEvent",2.220,2.220,1,../../../packages/platform/atoms/event-types/wrappers/EventAvailabilityTabWebWrapper.tsx:47:11,2.220
+Identifier: { username: string | null,2.219,1.110,2,../../../packages/trpc/server/routers/viewer/teams/listMembers.handler.ts:107:9,2.080
+handlePaymentSuccess,2.216,0.554,4,../../../packages/app-store/alby/api/webhook.ts:91:39,1.362
+Identifier: { eventTypeGroups: EventT,2.188,2.188,1,../../../packages/lib/event-types/getEventTypesByViewer.ts:342:11,2.188
+listWithTeam,2.180,1.090,2,../../../packages/trpc/server/routers/viewer/eventTypes/_router.ts:162:11,1.628
+Identifier: Date | undefined,2.157,0.719,3,../../../packages/features/bookings/Booker/components/hooks/useBookings.ts:401:9,1.977
+Identifier: { length: number; slug: s,2.138,2.138,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:395:8,2.138
+mapKeys,2.127,1.063,2,../../../packages/features/insights/server/routing-events.ts:441:12,1.923
+getUserSession,2.123,2.123,1,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:137:34,2.123
+setNextRouter,2.121,2.121,1,../../../packages/embeds/embed-core/src/embed-iframe.ts:197:21,2.121
+Identifier: { name: string; options: ,2.094,1.047,2,../../../packages/trpc/server/routers/viewer/attributes/assignUserToAttribute.handler.ts:222:13,1.996
+Identifier: { username?: string | und,2.090,2.090,1,../../../packages/trpc/server/routers/loggedInViewer/updateProfile.handler.ts:369:9,2.090
+Identifier: string | undefined,2.088,0.232,9,../../../packages/features/apps/components/AppList.tsx:179:12,0.966
+sendEmailVerificationByCode,2.073,0.691,3,../../../packages/trpc/server/routers/viewer/auth/sendVerifyEmailCode.handler.ts:23:22,1.408
+setIsErrorsExpanded,2.072,2.072,1,../../../packages/features/eventtypes/components/EditWeightsForAllTeamMembers.tsx:348:19,2.072
+listTeamAvailability,2.067,2.067,1,../../../packages/trpc/server/routers/viewer/availability/_router.tsx:60:11,2.067
+Identifier: { TextWidget: (props: Tex,2.061,2.061,1,../../../packages/features/form-builder/Components.tsx:321:13,2.061
+getTeamUrlSync,2.059,0.343,6,../../../packages/features/ee/teams/components/TeamListItem.tsx:234:25,0.667
+getConnections,2.053,0.293,7,../../../packages/features/ee/sso/lib/sso.ts:67:51,0.652
+usePathname,2.035,0.678,3,../../../packages/ui/components/head-seo/HeadSeo.tsx:73:23,1.879
+getByViewer,2.029,2.029,1,../../../packages/trpc/server/routers/viewer/eventTypes/_router.ts:50:25,2.029
+getDefaultRateLimit,2.023,2.023,1,src/lib/throttler-guard.ts:91:10,2.023
+Identifier: UserWithSelectedCalendars,2.022,2.022,1,../../../packages/features/bookings/lib/handleNewBooking/getEventTypesFromDB.ts:181:11,2.022
+$use,2.019,2.019,1,../../../packages/prisma/middleware/bookingReference.ts:3:44,2.019
+updateChildrenEventTypes,2.011,1.006,2,../../../node_modules/@calcom/trpc/server/routers/viewer/eventTypes/update.handler.ts:553:8,1.958
+Identifier: true,2.001,0.667,3,../../../packages/trpc/server/routers/viewer/auth/verifyCodeUnAuthenticated.handler.ts:25:9,1.377
+transformInputLocations,1.964,1.964,1,src/ee/event-types/event-types_2024_06_14/services/input-event-types.service.ts:183:22,1.964
+setIsOpenDialog,1.960,1.960,1,../../../packages/app-store/giphy/components/SearchDialog.tsx:200:11,1.960
+"Identifier: ({ name, size, className,",1.951,0.390,5,../../../packages/features/bookings/components/VerifyCodeDialog.tsx:118:19,0.555
+createInstance,1.946,0.973,2,../../../packages/lib/server/i18n.ts:6:17,1.335
+getConnectedDestinationCalendarsAndEnsureDefaultsInDb,1.945,0.972,2,../../../packages/trpc/server/routers/loggedInViewer/connectedCalendars.handler.ts:19:10,1.903
+Identifier: ({ integration: App & { c,1.944,1.944,1,../../../packages/platform/atoms/destination-calendar/wrappers/DestinationCalendarSettingsWebWrapper.tsx:21:35,1.944
+calendarOverlay,1.941,1.941,1,../../../packages/trpc/server/routers/viewer/availability/_router.tsx:78:11,1.941
+findBySlugIncludeSensitiveServiceAccountKey,1.924,0.962,2,../../../packages/trpc/server/routers/viewer/domainWideDelegation/update.handler.ts:39:36,1.791
+onSettingsOpen,1.921,0.960,2,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:383:17,1.053
+showToast,1.910,0.273,7,../../../packages/features/schedules/components/DateOverrideInputDialog.tsx:179:13,0.955
+and,1.892,0.378,5,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:33:17,1.189
+createPortal,1.890,0.630,3,../../../packages/ui/components/editor/plugins/AddVariablesPlugin.tsx:130:17,1.582
+addIssue,1.887,0.472,4,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:203:69,0.811
+addRule,1.885,0.377,5,../../../packages/lib/turndownService.ts:18:11,0.901
+Identifier: { name: string; slug: str,1.885,1.885,1,../../../packages/trpc/server/routers/viewer/admin/getSMSLockStateTeamsUsers.handler.ts:62:11,1.885
+getNestedField,1.882,1.882,1,../../../packages/platform/atoms/event-types/hooks/useEventTypeForm.ts:200:25,1.882
+fetchAllDataNeededForCalculations,1.880,0.940,2,../../../packages/lib/server/getLuckyUser.ts:437:12,1.660
+deleteRemindersOfActiveOnIds,1.876,0.469,4,../../../packages/trpc/server/routers/viewer/workflows/update.handler.ts:182:76,0.939
+setWriteToPersonObjectFieldType,1.872,1.872,1,../../../packages/app-store/salesforce/components/EventTypeAppCardInterface.tsx:365:19,1.872
+sendGenericWebhookPayload,1.871,0.468,4,../../../packages/app-store/routing-forms/trpc/utils.ts:151:31,1.248
+sendEmailVerification,1.870,0.374,5,../../../packages/trpc/server/routers/viewer/auth/resendVerifyEmail.handler.ts:60:22,0.849
+getActionIcon,1.867,1.867,1,../../../packages/features/eventtypes/components/tabs/workflows/EventWorkfowsTab.tsx:101:9,1.867
+applyTemplate,1.860,0.620,3,../../../packages/features/webhooks/lib/sendPayload.ts:220:37,1.343
+Identifier: NextSeoProps,1.860,0.310,6,../../../packages/ui/components/head-seo/HeadSeo.tsx:128:33,0.630
+Identifier: BookerLayouts.WEEK_VIEW |,1.856,0.619,3,../../../packages/features/bookings/Booker/Booker.tsx:377:56,0.891
+"Identifier: ({ paid, ...props }: { pa",1.856,1.856,1,../../../packages/ui/components/apps/AppCard.tsx:151:25,1.856
+getCurrentMonthsBookings,1.845,0.461,4,../../../packages/lib/server/getLuckyUser.ts:583:30,1.200
+fire,1.841,1.841,1,../../../packages/embeds/embed-core/src/embed.ts:934:4,1.841
+verifyCodeUnAuthenticated,1.827,0.913,2,../../../packages/trpc/server/routers/viewer/auth/_router.tsx:72:11,1.026
+createRange,1.805,1.805,1,../../../packages/features/embed/Embed.tsx:846:30,1.805
+getPublicEvent,1.800,0.450,4,../../../packages/lib/server/repository/event.ts:7:24,1.392
+Identifier: { id: number; },1.787,0.894,2,../../../packages/trpc/server/routers/viewer/slots/util.ts:89:9,1.246
+partial,1.786,0.595,3,../../../packages/prisma/zod-utils.ts:359:78,1.435
+catch,1.770,0.295,6,../../../packages/emails/templates/_base-email.ts:74:10,0.811
+changeMonth,1.767,1.767,1,../../../packages/features/calendars/DatePicker.tsx:392:9,1.767
+Identifier: ComponentType<Pick<{ even,1.752,0.876,2,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:221:14,1.733
+sendEmail,1.746,0.194,9,../../../packages/emails/email-manager.ts:375:21,0.534
+Identifier: EventTypeAppSettingsCompo,1.736,0.868,2,../../../packages/app-store/alby/components/EventTypeAppCardInterface.tsx:44:7,1.518
+setQuery,1.732,1.732,1,../../../packages/lib/hooks/useTypedQuery.ts:87:49,1.732
+Identifier: { licenseKey: string | nu,1.717,0.572,3,../../../packages/features/ee/deployment/lib/getDeploymentKey.ts:12:9,1.440
+transformInputBookerLayouts,1.714,1.714,1,src/ee/event-types/event-types_2024_06_14/services/input-event-types.service.ts:195:16,1.714
+canEditEntity,1.714,0.857,2,../../../packages/app-store/routing-forms/trpc/forms.handler.ts:71:69,1.700
+generateAuthCode,1.714,1.714,1,../../../packages/trpc/server/routers/viewer/oAuth/_router.tsx:63:11,1.714
+Identifier: { length: number; slug: s,1.708,0.854,2,../../../packages/features/bookings/lib/handleNewBooking/getEventTypesFromDB.ts:169:25,1.359
+querySelectorAll,1.698,0.566,3,../../../packages/features/ee/workflows/lib/reminders/providers/sendgridProvider.ts:125:28,1.167
+getApps,1.684,0.421,4,../../../packages/core/CalendarManager.ts:27:30,0.957
+setData,1.683,0.841,2,../../../packages/features/schedules/components/NewScheduleButton.tsx:38:97,1.068
+increment,1.682,0.561,3,src/lib/throttler-guard.ts:181:76,1.178
+Identifier: { teams: { accepted: bool,1.673,1.673,1,../../../packages/trpc/server/routers/viewer/organizations/getUser.handler.ts:87:9,1.673
+mutateAsync,1.670,1.670,1,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:398:35,1.670
+getContacts,1.659,0.277,6,../../../packages/core/crmManager/crmManager.ts:36:26,0.982
+"Identifier: { propsType: ""boolean""; f",1.653,1.653,1,../../../packages/features/form-builder/FormBuilderField.tsx:273:9,1.653
+Identifier: { members: { id: number; ,1.647,0.549,3,../../../packages/trpc/server/routers/viewer/organizations/getMembers.handler.ts:77:9,1.175
+getCalendar,1.645,0.548,3,../../../packages/app-store/googlecalendar/api/webhook.ts:38:25,1.557
+Transform,1.642,0.821,2,../../../packages/platform/types/api.ts:43:14,0.891
+getVideoCallDetails,1.640,0.410,4,../../../packages/features/bookings/lib/handleNewBooking.ts:1374:10,1.131
+"Identifier: ControlProps<Option, IsMu",1.634,0.817,2,../../../packages/ui/components/form/select/components.tsx:66:21,1.535
+processPaymentRefund,1.632,0.816,2,../../../packages/features/bookings/lib/handleCancelBooking.ts:514:12,1.588
+createOIDCConnection,1.631,0.408,4,../../../packages/trpc/server/routers/viewer/sso/updateOIDC.handler.ts:31:60,1.122
+handleNotificationWhenNoSlots,1.624,0.271,6,../../../node_modules/@calcom/trpc/server/routers/viewer/slots/util.ts:691:22,0.512
+"StringLiteral: ""type""",1.618,0.405,4,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/booking-fields.input.ts:937:9,1.026
+prepareQueuesAndAttributesData,1.617,0.808,2,../../../packages/lib/server/getLuckyUser.ts:572:56,1.408
+Identifier: typeof HttpError,1.604,0.229,7,../../../packages/features/bookings/lib/handleNewBooking/checkIfBookerEmailIsBlocked.ts:53:10,0.449
+getUserAvatarUrl,1.580,1.580,1,../../../packages/trpc/server/routers/loggedInViewer/teamsAndUserProfilesQuery.handler.ts:86:11,1.580
+appendChild,1.577,0.263,6,../../../packages/embeds/embed-core/src/embed.ts:578:43,0.481
+getOutputRecurringSeatedBooking,1.577,1.577,1,src/ee/bookings/2024-08-13/services/output.service.ts:329:24,1.577
+duplicateFunction,1.576,0.394,4,../../../packages/features/schedules/components/ScheduleListItem.tsx:114:30,0.719
+startsWith,1.558,0.312,5,../../../packages/emails/src/templates/BaseScheduledEmail.tsx:53:11,1.000
+Identifier: OutputBookingField_2024_0,1.548,1.548,1,../../../packages/platform/types/event-types/event-types_2024_06_14/outputs/booking-fields.output.ts:677:11,1.548
+Identifier: <TFieldValues extends Fie,1.537,1.537,1,../../../packages/features/schedules/components/Schedule.tsx:108:13,1.537
+Identifier: { status: BookingStatus; ,1.533,0.383,4,../../../packages/trpc/server/routers/viewer/bookings/confirm.handler.ts:134:7,0.670
+dispatchCommand,1.526,0.763,2,../../../packages/ui/components/editor/plugins/ToolbarPlugin.tsx:471:62,0.850
+getEventTypesFromGroup,1.523,0.762,2,../../../packages/trpc/server/routers/viewer/eventTypes/_router.ts:99:27,1.199
+bulkUpdateToDefaultAvailability,1.523,1.523,1,../../../packages/trpc/server/routers/viewer/availability/schedule/_router.tsx:176:13,1.523
+updateAppCredentials,1.511,1.511,1,../../../packages/trpc/server/routers/viewer/apps/_router.tsx:125:13,1.511
+"Identifier: { name: ""notes""; type: ""t",1.499,1.499,1,../../../packages/lib/event-types/transformers/api-to-internal/booking-fields.ts:176:11,1.499
+hasKeyInMetadata,1.498,0.375,4,../../../packages/lib/hooks/useHasPaidPlan.ts:15:35,0.677
+Identifier: typeof globalThis,1.497,0.374,4,../../../packages/features/ee/sso/lib/jackson.ts:60:18,0.947
+token,1.493,0.373,4,../../../packages/app-store/stripepayment/api/callback.ts:39:25,0.813
+afterAll,1.492,0.497,3,src/modules/organizations/controllers/users/organizations-users.e2e-spec.ts:106:14,1.243
+Identifier: BookingSeat,1.487,0.248,6,../../../packages/features/bookings/lib/handleSeats/reschedule/attendee/attendeeRescheduleSeatedBooking.ts:24:62,0.528
+Identifier: typeof Redis,1.487,1.487,1,src/modules/redis/redis.service.ts:15:17,1.487
+"Identifier: ({ children, features, st",1.481,1.481,1,../../../packages/features/bookings/Booker/Booker.tsx:546:11,1.481
+Identifier: { location: string | null,1.480,0.740,2,../../../packages/features/bookings/lib/get-booking.ts:34:10,1.352
+Identifier: 1,1.477,0.738,2,../../../packages/platform/constants/permissions.ts:12:27,1.267
+createMock,1.472,0.736,2,src/modules/auth/guards/permissions/permissions.guard.spec.ts:21:33,1.146
+Identifier: { status: BookingStatus; ,1.470,0.210,7,../../../packages/features/bookings/lib/handleSeats/reschedule/owner/moveSeatedBookingToNewTimeSlot.ts:104:9,0.443
+Identifier: FC<BannerContainerProps>,1.459,0.729,2,../../../packages/features/shell/Shell.tsx:51:76,1.406
+loadUsersByEventType,1.454,1.454,1,../../../packages/features/bookings/lib/handleNewBooking/loadUsers.ts:48:18,1.454
+api,1.441,1.441,1,../../../packages/lib/domainManager/deploymentServices/cloudflare.ts:94:31,1.441
+unlinkAccount,1.441,1.441,1,../../../packages/trpc/server/routers/loggedInViewer/unlinkConnectedAccount.handler.ts:14:31,1.441
+getClient,1.440,1.440,1,../../../packages/trpc/server/routers/viewer/oAuth/_router.tsx:29:11,1.440
+json,1.420,0.095,15,../../../packages/app-store/wipemycalother/api/wipe.ts:20:16,0.986
+Identifier: ComponentType<EventRecurr,1.412,1.412,1,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:214:15,1.412
+getEventTypesByViewer,1.410,0.705,2,../../../packages/trpc/server/routers/viewer/eventTypes/getByViewer.handler.ts:25:15,1.330
+Identifier: IOption[],1.407,0.703,2,../../../packages/features/schedules/components/Schedule.tsx:495:9,1.063
+getTeamMemberEmailForResponseOrContactUsingUrlQuery,1.406,0.469,3,../../../packages/trpc/server/routers/viewer/routing-forms/findTeamMembersMatchingAttributeLogicOfRoute.handler.ts:229:45,0.849
+Identifier: NewBookingEventType,1.405,0.281,5,../../../packages/features/bookings/lib/handleSeats/create/createNewSeat.ts:129:39,0.527
+Identifier: ReqBodyWithEnd,1.403,0.701,2,../../../packages/features/bookings/lib/handleNewBooking/getBookingData.ts:41:11,1.074
+Identifier: { title: string; location,1.401,0.700,2,../../../packages/app-store/wipemycalother/lib/reschedule.ts:69:64,0.865
+Identifier: { credentials: { type: st,1.400,1.400,1,../../../packages/features/bookings/lib/getAllCredentialsForUsersOnEvent/getAllCredentials.ts:74:9,1.400
+getDurationFormatted,1.397,0.466,3,../../../packages/features/bookings/Booker/components/BookEventForm/BookFormAsModal.tsx:53:7,1.349
+normalizePayload,1.391,1.391,1,../../../packages/lib/event-types/getEventTypesByViewer.ts:315:9,1.391
+Identifier: { metadata: { requestedSl,1.391,0.199,7,../../../packages/features/ee/teams/components/TeamListItem.tsx:136:24,0.469
+"StringLiteral: ""1916""",1.383,0.692,2,../../../node_modules/tzdata/timezone-data.json:1:158933,0.779
+"Identifier: ({ options, value, onChan",1.381,1.381,1,../../../packages/features/eventtypes/components/tabs/assignment/EventTeamAssignmentTab.tsx:433:58,1.381
+listOOOEntries,1.370,0.457,3,../../../packages/app-store/zapier/api/subscriptions/listOOOEntries.ts:50:27,1.164
+"Identifier: ""minimal"" | ""primary"" | """,1.369,1.369,1,../../../packages/ui/components/disconnect-calendar-integration/DisconnectIntegration.tsx:28:18,1.369
+getParsedAppKeysFromSlug,1.363,0.341,4,../../../packages/app-store/nextcloudtalk/lib/VideoApiAdapter.ts:38:28,1.159
+Identifier: { name: string; id: numbe,1.362,0.681,2,../../../packages/lib/server/repository/schedule.ts:75:10,1.051
+Identifier: { user: { id: number; met,1.353,0.451,3,../../../packages/app-store/routing-forms/pages/routing-link/getServerSideProps.ts:85:18,0.849
+Identifier: (App & { credential: Cred,1.349,1.349,1,../../../packages/app-store/utils.ts:104:9,1.349
+"Identifier: Omit<T, ""metadata"">",1.346,1.346,1,../../../packages/lib/server/repository/teamUtils.ts:8:9,1.346
+Identifier: typeof CrmManager,1.344,1.344,1,../../../packages/features/tasker/tasks/crm/createCRMEvent.ts:125:20,1.344
+Identifier: { status: BookingStatus; ,1.338,0.669,2,../../../packages/lib/server/repository/booking.ts:477:11,1.283
+addClient,1.336,1.336,1,../../../packages/trpc/server/routers/viewer/oAuth/_router.tsx:46:11,1.336
+roundRobinReassignment,1.330,0.665,2,../../../packages/trpc/server/routers/viewer/teams/roundRobin/roundRobinReassign.handler.ts:26:15,1.215
+Identifier: { user: { name: string | ,1.324,0.441,3,../../../packages/features/auth/lib/next-auth-custom-adapter.ts:27:27,0.984
+"Identifier: [T, ...T[]]",1.319,1.319,1,../../../packages/lib/server/getLuckyUser.ts:248:9,1.319
+appCredentialsByType,1.315,1.315,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:180:13,1.315
+getUsersDefaultConferencingApp,1.310,0.655,2,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:384:11,0.741
+Identifier: ({ isEmbed }: { isEmbed?:,1.309,1.309,1,../../../packages/features/bookings/Booker/Booker.tsx:285:65,1.309
+"Identifier: ""map"" | ""filter"" | ""code""",1.306,0.653,2,../../../packages/ui/components/icon/Icon.tsx:24:18,1.229
+filteredList,1.303,1.303,1,../../../packages/trpc/server/routers/viewer/workflows/_router.tsx:255:11,1.303
+useContext,1.300,0.650,2,../../../packages/features/ee/organizations/context/provider.ts:44:29,1.193
+Identifier: { troubleshooterData?: { ,1.294,0.647,2,../../../packages/features/bookings/lib/handleNewBooking.ts:1155:13,1.169
+checkIfItFallbackImage,1.292,0.431,3,../../../packages/ui/components/image-uploader/ImageUploader.tsx:143:11,1.207
+Identifier: { id: number; workflow: {,1.288,1.288,1,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:453:23,1.288
+signIn,1.287,1.287,1,../../../packages/features/ee/impersonation/components/ImpersonatingBanner.tsx:26:36,1.287
+withParsedServiceAccountKey,1.284,0.642,2,../../../packages/lib/server/repository/workspacePlatform.ts:71:11,1.151
+getAllBookingsForRoundRobin,1.283,0.641,2,../../../packages/lib/server/getLuckyUser.ts:413:15,1.225
+Identifier: EventBusyDate[],1.274,1.274,1,../../../packages/trpc/server/routers/viewer/availability/calendarOverlay.handler.ts:101:9,1.274
+Identifier: { bookingFields: { name: ,1.264,1.264,1,../../../packages/features/bookings/Booker/utils/event.ts:41:9,1.264
+Identifier: (props: { children: React,1.261,1.261,1,../../../packages/platform/atoms/selected-calendars/wrappers/SelectedCalendarsSettingsWebWrapper.tsx:163:7,1.261
+getInviteLink,1.260,0.315,4,../../../packages/trpc/server/routers/viewer/teams/createInvite.handler.ts:32:24,0.817
+renderComponent,1.258,0.629,2,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/uiConfig.tsx:37:56,1.220
+Identifier: (props: AvatarProps) => E,1.253,0.418,3,../../../packages/features/eventtypes/components/EditWeightsForAllTeamMembers.tsx:45:7,0.824
+locationOptions,1.252,1.252,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:290:11,1.252
+ThisKeyword: this,1.247,1.247,1,src/modules/prisma/prisma-read.service.ts:13:68,1.247
+isEmbed,1.244,1.244,1,../../../packages/features/bookings/Booker/config.ts:166:40,1.244
+getRoutedUsersWithContactOwnerAndFixedUsers,1.240,0.413,3,../../../packages/features/bookings/lib/handleNewBooking/loadUsers.ts:52:24,0.986
+updateAllCRMEvents,1.232,1.232,1,../../../packages/core/EventManager.ts:508:31,1.232
+authenticateBearerToken,1.225,0.612,2,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:56:21,1.151
+routedToPerPeriod,1.221,1.221,1,../../../packages/features/insights/server/trpc-router.ts:1702:19,1.221
+setChangeSecret,1.219,0.609,2,../../../packages/features/webhooks/components/WebhookForm.tsx:250:23,0.642
+"Identifier: typeof import(""/home/ssal",1.217,1.217,1,../../../packages/ui/components/form/date-range-picker/DateRangePicker.tsx:82:9,1.217
+Identifier: number | null | undefined,1.205,0.301,4,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:243:25,0.677
+updatedClassString,1.196,0.598,2,../../../packages/embeds/embed-core/src/FloatingButton/FloatingButton.ts:105:23,1.068
+getIdsFromUserIdsFilter,1.191,1.191,1,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:176:64,1.191
+Identifier: Pick<{ id: number; name: ,1.187,1.187,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:502:11,1.187
+getAllActiveWorkflows,1.187,1.187,1,../../../packages/trpc/server/routers/viewer/workflows/_router.tsx:274:13,1.187
+updateOIDC,1.182,1.182,1,../../../packages/trpc/server/routers/viewer/sso/_router.tsx:82:11,1.182
+keyBy,1.179,0.589,2,../../../packages/trpc/server/routers/loggedInViewer/updateProfile.handler.ts:343:12,1.004
+markdownToSafeHTML,1.175,1.175,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:476:17,1.175
+Identifier: WorkflowTriggerEvents,1.168,0.389,3,../../../packages/features/ee/workflows/lib/reminders/emailReminderManager.ts:274:7,0.541
+bookingDataSchemaGetter,1.166,1.166,1,../../../packages/features/bookings/lib/handleNewBooking.ts:371:28,1.166
+getEventTypeById,1.162,1.162,1,../../../packages/trpc/server/routers/viewer/eventTypes/get.handler.ts:16:9,1.162
+Identifier: { length?: number | undef,1.152,1.152,1,../../../packages/trpc/server/routers/viewer/eventTypes/update.handler.ts:173:44,1.152
+getVideoAdapters,1.148,0.144,8,../../../packages/core/videoClient.ts:196:50,0.413
+Identifier: AppStoreMetaData,1.138,0.228,5,../../../packages/features/credentials/handleDeleteCredential.ts:364:16,0.518
+handleCustomValidations,1.130,0.565,2,../../../packages/trpc/server/routers/viewer/apps/updateAppCredentials.handler.ts:35:30,1.082
+Identifier: { location: string | null,1.129,0.376,3,../../../packages/lib/getBooking.tsx:33:10,0.603
+Identifier: MapConstructor,1.118,0.559,2,../../../packages/lib/server/repository/user.ts:437:23,0.911
+handle,1.109,1.109,1,src/middleware/request-ids/request-id.interceptor.ts:19:11,1.109
+setNewOnBookingWriteToPersonObjectField,1.107,1.107,1,../../../packages/app-store/salesforce/components/EventTypeAppCardInterface.tsx:396:26,1.107
+showCroppedImage,1.105,0.552,2,../../../packages/ui/components/image-uploader/BannerUploader.tsx:189:23,0.597
+getContext,1.098,1.098,1,../../../packages/features/data-table/components/DataTable.tsx:329:11,1.098
+Identifier: ZodEffects<ZodObject<{ la,1.092,1.092,1,../../../packages/features/form-builder/fieldTypes.ts:6:55,1.092
+Identifier: { title: string; location,1.091,0.545,2,../../../packages/features/ee/round-robin/utils/getDestinationCalendar.ts:32:9,0.606
+Identifier: { startTime: string; endT,1.085,0.543,2,../../../node_modules/@calcom/trpc/server/routers/viewer/slots/util.ts:282:31,0.776
+useBookingForm,1.081,0.540,2,../../../packages/platform/atoms/booker/BookerWebWrapper.tsx:95:21,0.965
+getTimeFormatStringFromUserTimeFormat,1.076,1.076,1,../../../packages/features/bookings/lib/handleNewBooking.ts:996:15,1.076
+scheduleNoShowTriggers,1.072,0.214,5,../../../packages/features/bookings/lib/handleConfirmation.ts:441:34,0.777
+Identifier: ({ team: { children: { na,1.071,0.536,2,../../../packages/trpc/server/routers/loggedInViewer/getUserTopBanners.handler.ts:58:9,0.886
+getHeading,1.051,1.051,1,../../../packages/emails/src/templates/TeamInviteEmail.tsx:29:8,1.051
+bookingUnconfirmedCount,1.033,1.033,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:320:11,1.033
+Identifier: { id: string; createdAt: ,1.030,1.030,1,../../../packages/trpc/server/routers/viewer/apiKeys/edit.handler.ts:41:9,1.030
+silly,1.020,1.020,1,../../../packages/features/ee/workflows/lib/reminders/providers/twilioProvider.ts:33:23,1.020
+Identifier: ZodObject<{ appCategories,1.019,1.019,1,../../../packages/app-store/apps.schemas.generated.ts:54:30,1.019
+generateCreateEventTypeData,1.014,1.014,1,../../../packages/lib/server/repository/eventType.ts:126:12,1.014
+Identifier: GetSubscriberOptions,1.013,0.203,5,../../../packages/features/bookings/lib/handleNewBooking.ts:1929:87,0.278
+updateEnabled,1.002,0.501,2,../../../packages/app-store/hitpay/components/EventTypeAppCardInterface.tsx:29:13,0.640
+getConnectedCalendars,1.000,0.250,4,../../../packages/lib/getConnectedDestinationCalendars.ts:239:44,0.593
+error,0.996,0.332,3,../../../packages/core/videoClient.ts:233:42,0.504
+Identifier: { defaultScheduleId: numb,0.994,0.497,2,../../../packages/trpc/server/routers/viewer/availability/util.ts:16:11,0.771
+publish,0.989,0.198,5,../../../packages/trpc/server/routers/viewer/teams/publish.handler.ts:69:42,0.601
+getAttendees,0.987,0.987,1,../../../packages/app-store/googlecalendar/lib/CalendarService.ts:276:10,0.987
+addSecondaryEmail,0.986,0.986,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:486:11,0.986
+findDelegationsWithServiceAccount,0.986,0.246,4,../../../packages/trpc/server/routers/viewer/domainWideDelegation/list.handler.ts:21:38,0.775
+getTravelSchedules,0.985,0.985,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:500:11,0.985
+findDetailedScheduleById,0.981,0.490,2,../../../packages/trpc/server/routers/viewer/availability/schedule/get.handler.ts:14:15,0.933
+getRawBody,0.980,0.490,2,../../../packages/app-store/paypal/api/webhook.ts:74:26,0.935
+listLocal,0.980,0.490,2,../../../packages/trpc/server/routers/viewer/apps/_router.tsx:37:11,0.531
+weekSpan,0.979,0.489,2,../../../packages/lib/availability.ts:164:9,0.903
+asyncPerf,0.979,0.489,2,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:308:39,0.699
+filterUsersBasedOnWeights,0.978,0.489,2,../../../packages/lib/server/getLuckyUser.ts:501:8,0.685
+getCalVideoRecordings,0.976,0.976,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:337:13,0.976
+"Identifier: Omit<T & Record<""profile""",0.974,0.974,1,../../../packages/lib/server/repository/user.ts:521:12,0.974
+Identifier: (props: { headStyles?: CS,0.963,0.963,1,../../../packages/emails/src/components/BaseEmailHtml.tsx:71:70,0.963
+Identifier: typeof LRUCache,0.959,0.959,1,../../../packages/features/auth/lib/getServerSession.ts:18:14,0.959
+toEqual,0.959,0.240,4,src/modules/organizations/controllers/event-types/organizations-event-types.e2e-spec.ts:607:46,0.737
+Identifier: ZodEffects<ZodEffects<Zod,0.958,0.958,1,../../../packages/trpc/server/routers/viewer/slots/getSchedule.schema.ts:5:39,0.958
+Identifier: { name: string | null; id,0.952,0.476,2,../../../packages/trpc/server/routers/loggedInViewer/teamsAndUserProfilesQuery.handler.ts:89:12,0.699
+createTeamEventType,0.950,0.317,3,src/modules/slots/slots-2024-09-04/controllers/e2e/org-team-event-type-slots.controller.e2e-spec.ts:165:89,0.506
+Identifier: UseTRPCMutationResult<{ o,0.934,0.467,2,../../../packages/features/bookings/Booker/components/hooks/useVerifyEmail.ts:60:36,0.521
+saveKeys,0.932,0.466,2,../../../packages/trpc/server/routers/viewer/apps/_router.tsx:69:11,0.562
+Identifier: IsFixedAwareUser,0.927,0.464,2,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:544:10,0.624
+buildResultPayload,0.926,0.309,3,../../../packages/features/handleMarkNoShow.ts:101:28,0.771
+connectAndJoin,0.921,0.921,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:428:11,0.921
+jsonLogicToPrisma,0.915,0.305,3,../../../packages/app-store/routing-forms/trpc/report.handler.ts:39:6,0.658
+getExchangeService,0.913,0.304,3,../../../packages/app-store/exchange2016calendar/lib/CalendarService.ts:211:27,0.462
+getEventTypeWorkflows,0.910,0.303,3,../../../packages/trpc/server/routers/viewer/workflows/getAllActiveWorkflows.handler.ts:19:26,0.632
+Identifier: { isFixed: boolean; creat,0.894,0.894,1,../../../packages/trpc/server/routers/viewer/slots/util.ts:352:8,0.894
+Identifier: any,0.894,0.149,6,../../../packages/features/bookings/lib/handleNewBooking.ts:1654:76,0.370
+Identifier: { calEventUserFieldsRespo,0.894,0.447,2,../../../packages/features/bookings/lib/handleNewBooking.ts:544:22,0.719
+getById,0.893,0.447,2,../../../packages/trpc/server/routers/viewer/workflows/get.handler.ts:17:25,0.860
+apiKeyStrategy,0.892,0.446,2,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:124:16,0.743
+"Identifier: ""google_calendar""",0.889,0.296,3,../../../packages/platform/constants/apps.ts:30:36,0.690
+findManyForUsers,0.886,0.295,3,../../../packages/lib/server/repository/user.ts:434:27,0.641
+Identifier: { bookingFields: { name: ,0.885,0.295,3,../../../packages/features/bookings/lib/handleNewBooking.ts:967:8,0.564
+"Identifier: ({ days, containerNavRef ",0.884,0.442,2,../../../packages/features/calendars/weeklyview/components/Calendar.tsx:68:13,0.822
+getTeamWithoutMembers,0.883,0.441,2,../../../packages/trpc/server/routers/viewer/teams/get.handler.ts:29:21,0.793
+getUserTopBanners,0.875,0.875,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:352:11,0.875
+getRecordingsOfCalVideoByRoomName,0.861,0.287,3,../../../packages/trpc/server/routers/loggedInViewer/getCalVideoRecordings.handler.ts:19:22,0.477
+handleSubmit,0.857,0.857,1,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:550:14,0.857
+bookingSuccessRedirect,0.855,0.855,1,../../../packages/features/bookings/Booker/components/hooks/useBookings.ts:269:9,0.855
+add,0.853,0.171,5,../../../packages/dayjs/plugins/business-days-plugin.ts:102:19,0.475
+Identifier: (SAMLSSORecord | OIDCSSOR,0.839,0.210,4,../../../packages/features/ee/sso/lib/sso.ts:90:12,0.501
+inviteMemberByToken,0.838,0.838,1,../../../packages/trpc/server/routers/viewer/teams/inviteMemberByToken.handler.ts:16:9,0.838
+getSelectedCalendarsFromUser,0.837,0.837,1,../../../packages/lib/getConnectedDestinationCalendars.ts:199:11,0.837
+runMainAttributeLogic,0.827,0.414,2,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:379:12,0.763
+Identifier: { id: number; locations: ,0.826,0.826,1,../../../packages/features/credentials/handleDeleteCredential.ts:99:9,0.826
+getOrganizerStart,0.825,0.275,3,../../../packages/emails/templates/broken-integration-email.ts:85:11,0.482
+Identifier: RecurringBookingCreateBod,0.825,0.825,1,../../../packages/features/bookings/lib/handleNewRecurringBooking.ts:76:29,0.825
+getUsersFromGWorkspace,0.821,0.821,1,../../../packages/trpc/server/routers/viewer/googleWorkspace/_router.tsx:41:11,0.821
+Identifier: (props: PropsWithChildren,0.817,0.817,1,../../../packages/ui/components/dialog/ConfirmationDialogContent.tsx:26:7,0.817
+Identifier: { client_id: string; secr,0.814,0.407,2,../../../packages/app-store/paypal/lib/updateAppCredentials.validator.ts:41:15,0.571
+generateCheckoutSession,0.811,0.406,2,../../../packages/trpc/server/routers/viewer/teams/create.handler.ts:80:34,0.735
+createPipedriveEvent,0.810,0.405,2,../../../packages/app-store/pipedrive-crm/lib/CrmService.ts:181:38,0.808
+"Identifier: { color: ""#292929"" | ""#FF",0.808,0.808,1,../../../packages/emails/src/components/CallToAction.tsx:53:10,0.808
+getOwnerFromUsersArray,0.807,0.202,4,../../../packages/features/eventtypes/lib/getPublicEvent.ts:585:15,0.425
+Identifier: typeof ReplexicaEngine,0.807,0.807,1,../../../packages/lib/server/service/replexica.ts:8:26,0.807
+Identifier: typeof Authenticator,0.806,0.806,1,../../../packages/lib/totp.ts:21:24,0.806
+getRoutesAndFieldsForDuplication,0.804,0.402,2,../../../packages/app-store/routing-forms/trpc/formMutation.handler.ts:75:40,0.715
+getEventTypeIdsFromTeamIdsFilter,0.803,0.803,1,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:175:26,0.803
+outOfOfficeEntriesList,0.795,0.795,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:458:11,0.795
+Identifier: { defaultOperator: string,0.793,0.793,1,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/BasicConfig.ts:279:21,0.793
+Identifier: any[],0.789,0.395,2,../../../packages/features/bookings/lib/handleConfirmation.ts:96:7,0.682
+Identifier: PromiseSettledResult<({ t,0.789,0.197,4,../../../packages/trpc/server/routers/loggedInViewer/getUserTopBanners.handler.ts:59:23,0.292
+ssoTenantProduct,0.789,0.789,1,../../../packages/trpc/server/routers/publicViewer/samlTenantProduct.handler.ts:17:9,0.789
+user,0.789,0.394,2,../../../packages/trpc/server/routers/viewer/availability/_router.tsx:43:11,0.461
+Identifier: QueryResult<Record>,0.788,0.088,9,../../../packages/app-store/salesforce/lib/CrmService.ts:1248:9,0.187
+validate,0.786,0.196,4,../../../packages/embeds/embed-core/src/embed.ts:784:13,0.313
+findManyForUser,0.784,0.131,6,../../../packages/lib/server/repository/user.ts:333:12,0.464
+Identifier: UseTRPCQueryResult<{ book,0.774,0.387,2,../../../packages/features/bookings/Booker/utils/event.ts:42:10,0.433
+getAggregatedAvailabilityNew,0.773,0.258,3,../../../packages/trpc/server/routers/viewer/slots/util.ts:460:26,0.407
+workflowOrder,0.772,0.772,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:259:11,0.772
+"Identifier: ""settings""",0.771,0.771,1,../../../packages/app-store/_components/AppCard.tsx:144:26,0.771
+Identifier: { organizationId: null; o,0.763,0.763,1,../../../packages/trpc/server/routers/loggedInViewer/me.handler.ts:131:8,0.763
+repeat,0.763,0.763,1,../../../packages/lib/hooks/useNotifications.tsx:156:27,0.763
+getUsersWithHighestPriority,0.762,0.762,1,../../../packages/lib/server/getLuckyUser.ts:514:31,0.762
+$hasEditPermissionForUser,0.760,0.760,1,../../../packages/trpc/server/routers/viewer/teams/hasEditPermissionForUser.handler.ts:15:9,0.760
+isBefore,0.758,0.108,7,../../../packages/trpc/server/routers/viewer/slots/util.ts:358:6,0.252
+bulkUpdateEventsToDefaultLocation,0.755,0.755,1,../../../packages/trpc/server/routers/viewer/eventTypes/bulkUpdateToDefaultLocation.handler.ts:16:9,0.755
+getCloseComCustomActivityTypeFieldsIds,0.755,0.252,3,../../../packages/lib/CloseComeUtils.ts:66:47,0.681
+customPrisma,0.753,0.251,3,../../../packages/prisma/index.ts:72:4,0.482
+"Identifier: ""booking"" | ""selecting_da",0.748,0.748,1,../../../packages/features/bookings/Booker/Booker.tsx:474:10,0.748
+defaultResponder,0.748,0.187,4,../../../packages/app-store/sendgrid/api/_getAdd.ts:14:15,0.309
+Identifier: { id: number; name: strin,0.743,0.743,1,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:541:9,0.743
+validateLayout,0.741,0.123,6,../../../packages/features/bookings/Booker/components/hooks/useBookerLayout.ts:26:50,0.301
+isQueryValueARuleGroup,0.737,0.369,2,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:72:8,0.701
+"Identifier: readonly [1, 2, 4, 8, 16,",0.735,0.735,1,../../../packages/platform/constants/permissions.ts:12:13,0.735
+getSafeRedirectUrl,0.735,0.105,7,../../../packages/app-store/googlecalendar/api/callback.ts:126:24,0.158
+getRoutingFormPaginatedResponsesForDownload,0.734,0.734,1,../../../packages/features/insights/server/trpc-router.ts:1615:19,0.734
+isAuthorizedToAddActiveOnIds,0.733,0.183,4,../../../packages/trpc/server/routers/viewer/workflows/update.handler.ts:228:39,0.550
+getEventTypesFromDB,0.731,0.244,3,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:80:47,0.357
+Identifier: GroupedAttribute[],0.728,0.728,1,../../../packages/trpc/server/routers/viewer/attributes/getByUserId.handler.ts:109:9,0.728
+Identifier: { title: string; id: numb,0.725,0.362,2,../../../packages/trpc/server/routers/viewer/slots/util.ts:862:14,0.401
+Identifier: AnimationScope<any>,0.724,0.724,1,../../../packages/features/bookings/Booker/config.ts:216:9,0.724
+renderToStaticMarkup,0.723,0.145,5,../../../packages/emails/src/renderEmail.ts:9:11,0.508
+nullable,0.723,0.145,5,../../../packages/prisma/zod-utils.ts:124:39,0.378
+Identifier: { [x: string]: unknown; k,0.722,0.722,1,../../../packages/lib/totp.ts:21:43,0.722
+ceil,0.721,0.721,1,../../../packages/ui/components/pagination/Pagination.tsx:22:26,0.721
+Identifier: { user: { name: string | ,0.714,0.714,1,../../../packages/trpc/server/routers/viewer/payments/chargeCard.handler.ts:49:25,0.714
+Identifier: string[],0.712,0.237,3,../../../packages/features/bookings/Booker/Booker.tsx:113:20,0.337
+handleSendingSMS,0.711,0.711,1,../../../packages/sms/sms-manager.ts:87:11,0.711
+Identifier: { length: number; slug: s,0.709,0.709,1,../../../packages/features/bookings/lib/handleNewBooking/getEventTypesFromDB.ts:179:8,0.709
+Identifier: ForwardRefExoticComponent,0.708,0.708,1,../../../packages/features/ee/workflows/components/TimeTimeUnitInput.tsx:37:7,0.708
+Identifier: UseTRPCMutationResult<voi,0.707,0.236,3,../../../packages/platform/atoms/destination-calendar/wrappers/DestinationCalendarSettingsWebWrapper.tsx:27:19,0.562
+requestInvoice,0.699,0.175,4,../../../packages/app-store/alby/lib/PaymentService.ts:51:28,0.449
+getFailedBookingsByRoutingFormGroup,0.696,0.696,1,../../../packages/features/insights/server/trpc-router.ts:1657:19,0.696
+Identifier: { user: { name: string | ,0.685,0.685,1,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:84:9,0.685
+Identifier: ({ data }: TeamsUpgradeBa,0.683,0.683,1,../../../packages/features/shell/banners/LayoutBanner.tsx:42:57,0.683
+text,0.679,0.113,6,../../../packages/lib/errors.ts:64:73,0.251
+shouldVerifyEmail,0.679,0.339,2,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:415:11,0.620
+useLocalSet,0.674,0.674,1,../../../packages/features/bookings/Booker/components/hooks/useOverlayCalendar.ts:18:8,0.674
+createClient,0.663,0.663,1,../../../packages/ui/components/mocks/trpc.tsx:13:37,0.663
+Identifier: UseTRPCMutationResult<{ u,0.662,0.331,2,../../../packages/features/ee/teams/components/CreateANewTeamForm.tsx:71:16,0.462
+useShouldLockIndicator,0.660,0.330,2,../../../packages/features/ee/managed-event-types/hooks/useLockedFieldsManager.tsx:173:11,0.590
+"Identifier: Pick<BookerEvent, ""profil",0.652,0.163,4,../../../packages/features/bookings/Booker/components/hooks/useBookerLayout.ts:34:24,0.233
+Identifier: { name: string; slug: str,0.649,0.325,2,../../../packages/lib/server/repository/organization.ts:310:17,0.422
+hubspotAuth,0.649,0.649,1,../../../packages/app-store/hubspot/lib/CrmService.ts:41:16,0.649
+Identifier: BookingWhereInput,0.645,0.645,1,../../../packages/features/webhooks/lib/scheduleTrigger.ts:379:8,0.645
+Identifier: ({ title }: { title?: str,0.644,0.644,1,../../../packages/emails/src/components/V2BaseEmailHtml.tsx:26:11,0.644
+Identifier: { isFixed: boolean; creat,0.644,0.644,1,../../../packages/trpc/server/routers/viewer/slots/util.ts:356:29,0.644
+Identifier: InputJsonValue | Nullable,0.643,0.322,2,../../../packages/lib/server/repository/eventType.ts:111:11,0.621
+"StringLiteral: ""1973""",0.642,0.642,1,../../../node_modules/tzdata/timezone-data.json:1:119730,0.642
+findCurrentOrg,0.641,0.160,4,../../../packages/trpc/server/routers/viewer/organizations/list.handler.ts:18:15,0.379
+connectedCalendars,0.639,0.639,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:120:11,0.639
+setMinutes,0.636,0.636,1,../../../packages/features/schedules/components/Schedule.tsx:375:19,0.636
+Array,0.634,0.634,1,../../../packages/lib/weekday.ts:5:9,0.634
+ThisKeyword: this,0.633,0.317,2,../../../packages/app-store/alby/lib/PaymentService.ts:49:53,0.499
+strict,0.632,0.316,2,../../../node_modules/@calcom/trpc/server/routers/viewer/eventTypes/types.ts:78:13,0.319
+Identifier: ComponentType<T>,0.628,0.628,1,../../../packages/features/ee/common/components/LicenseRequired.tsx:76:9,0.628
+Identifier: { hosts: ({ user: { email,0.626,0.313,2,../../../node_modules/@calcom/trpc/server/routers/viewer/slots/util.ts:437:22,0.415
+Identifier: number[],0.626,0.313,2,../../../packages/trpc/server/routers/loggedInViewer/appCredentialsByType.handler.ts:36:9,0.408
+httpBatchLink,0.625,0.312,2,../../../packages/trpc/react/trpc.ts:93:53,0.498
+Identifier: { organizerUser: { id: nu,0.622,0.311,2,../../../packages/features/bookings/lib/handleNewBooking.ts:1301:27,0.426
+alertStyles,0.621,0.311,2,../../../packages/ui/components/alert/Alert.tsx:38:51,0.411
+"StringLiteral: ""dirName""",0.616,0.616,1,../../../packages/app-store/getNormalizedAppMetadata.ts:13:18,0.616
+Identifier: { safeDescription: string,0.614,0.614,1,../../../packages/lib/event-types/getEventTypesByViewer.ts:163:23,0.614
+jackson,0.612,0.306,2,../../../packages/features/ee/sso/lib/sso.ts:26:41,0.505
+isApiKey,0.612,0.612,1,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:123:19,0.612
+"Identifier: Record<string, Record<str",0.612,0.612,1,../../../packages/features/insights/server/routing-events.ts:613:11,0.612
+Identifier: { name: string; id: numbe,0.609,0.305,2,../../../packages/trpc/server/routers/viewer/organizations/getFacetedValues.handler.ts:47:9,0.400
+sendSMS,0.608,0.203,3,../../../packages/features/ee/workflows/lib/reminders/smsReminderManager.ts:209:14,0.396
+Identifier: { data: JsonValue; id: nu,0.608,0.152,4,../../../packages/app-store/hitpay/lib/PaymentService.ts:118:13,0.186
+Identifier: typeof VitalClient,0.608,0.608,1,../../../packages/app-store/vital/lib/client.ts:26:16,0.608
+Identifier: string | number | true | ,0.608,0.152,4,../../../packages/ui/components/form/switch/Switch.tsx:54:46,0.239
+usePlatformMe,0.604,0.604,1,../../web/components/settings/platform/hooks/useGetUserAttributes.ts:5:36,0.604
+Identifier: Promise<unknown>[],0.603,0.603,1,../../../packages/features/bookings/lib/handleCancelBooking.ts:578:8,0.603
+deletePayment,0.601,0.601,1,../../../packages/features/credentials/handleDeleteCredential.ts:281:22,0.601
+IsNumber,0.600,0.120,5,../../../packages/platform/types/bookings/2024-08-13/inputs/get-bookings.input.ts:84:16,0.201
+getChildEventTypesForManagedEventType,0.598,0.299,2,src/modules/organizations/services/event-types/input.service.ts:87:27,0.488
+sign,0.597,0.597,1,src/modules/jwt/jwt.service.ts:9:10,0.597
+pushState,0.597,0.299,2,../../../packages/features/bookings/Booker/utils/query-param.ts:35:11,0.331
+"Identifier: UseFormReturn<FormValues,",0.596,0.298,2,../../../packages/features/eventtypes/components/tabs/setup/EventSetupTab.tsx:346:24,0.509
+getRoutingFormPaginatedResponses,0.591,0.591,1,../../../packages/features/insights/server/trpc-router.ts:1597:19,0.591
+getResponseEventType,0.588,0.588,1,src/modules/organizations/services/event-types/output.service.ts:87:10,0.588
+Identifier: { parentId: number | null,0.587,0.196,3,../../../packages/features/webhooks/lib/getWebhooks.ts:34:35,0.353
+removeAttribute,0.586,0.195,3,../../../packages/trpc/server/routers/viewer/attributes/attributeUtils.ts:78:12,0.402
+Identifier: GlobalCalWithNs,0.584,0.195,3,../../../packages/embeds/embed-core/src/embed.ts:1045:4,0.290
+availabilityAsString,0.584,0.292,2,../../../packages/features/schedules/components/ScheduleListItem.tsx:63:39,0.532
+Identifier: { requestedSlug?: string ,0.577,0.192,3,../../../packages/lib/server/repository/teamUtils.ts:6:24,0.239
+Identifier: { id: number; username: s,0.574,0.287,2,../../../packages/features/auth/lib/oAuthAuthorization.ts:36:17,0.401
+findManyByOrgSlugOrRequestedSlug,0.574,0.574,1,../../../packages/lib/server/repository/user.ts:197:16,0.574
+Identifier: EventResult<NewCalendarEv,0.573,0.573,1,../../../packages/core/EventManager.ts:182:10,0.573
+formatDate,0.572,0.286,2,../../../packages/app-store/routing-forms/trpc/report.handler.ts:141:48,0.337
+Controller,0.567,0.189,3,src/modules/slots/slots-2024-04-15/controllers/slots.controller.ts:20:2,0.241
+uuid,0.567,0.283,2,../../../packages/trpc/server/routers/viewer/slots/reserveSlot.handler.ts:23:14,0.434
+Identifier: { alby: () => Promise<typ,0.566,0.283,2,../../../packages/app-store/_utils/getCrm.ts:18:25,0.396
+Identifier: { uid: boolean; responses,0.566,0.566,1,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:68:8,0.566
+getAttributesForTeam,0.566,0.566,1,../../../packages/app-store/routing-forms/trpc/getAttributesForTeam.handler.ts:31:9,0.566
+gotoState,0.566,0.283,2,../../../packages/features/embed/Embed.tsx:214:29,0.542
+Identifier: ({ accepted: boolean; mem,0.566,0.283,2,../../../packages/trpc/server/routers/viewer/teams/legacyListMembers.handler.ts:124:9,0.403
+log,0.565,0.565,1,../../../packages/ui/components/scrollable/ScrollableArea.tsx:8:23,0.565
+clone,0.565,0.565,1,../../../packages/dayjs/plugins/business-days-plugin.ts:96:41,0.565
+isSeatedRescheduleInput,0.564,0.188,3,../../../packages/platform/types/bookings/2024-08-13/inputs/reschedule-booking-input.pipe.ts:32:9,0.306
+setIsBookingCustomizationOpen,0.564,0.564,1,../../../packages/features/embed/Embed.tsx:1108:29,0.564
+obtainWhereConditional,0.561,0.561,1,../../../packages/features/insights/server/events.ts:377:22,0.561
+"Identifier: Record<string, { isBookab",0.558,0.139,4,../../../packages/lib/isOutOfBounds.tsx:169:23,0.189
+Identifier: { user: UserWithSelectedC,0.554,0.277,2,../../../packages/features/ee/round-robin/roundRobinManualReassignment.ts:116:18,0.473
+buildBaseWhereCondition,0.554,0.277,2,../../../packages/features/insights/server/trpc-router.ts:767:47,0.330
+integrations,0.554,0.554,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:150:11,0.554
+useEventTypeById,0.553,0.553,1,../../../packages/features/bookings/Booker/components/BookEventForm/BookFormAsModal.tsx:28:8,0.553
+Identifier: { id: number; eventType: ,0.552,0.552,1,../../../packages/features/bookings/lib/get-booking.ts:181:7,0.552
+"Identifier: { ""/*"": string; name: str",0.552,0.552,1,../../../packages/app-store/bookerApps.metadata.generated.ts:51:32,0.552
+getFilteredList,0.545,0.273,2,../../../packages/trpc/server/routers/viewer/workflows/filteredList.handler.tsx:59:15,0.463
+Identifier: { primary?: boolean | und,0.544,0.544,1,../../../packages/lib/getConnectedDestinationCalendars.ts:308:9,0.544
+getConnectedApps,0.544,0.544,1,../../../packages/trpc/server/routers/loggedInViewer/integrations.handler.ts:34:9,0.544
+isValidPhoneNumber,0.543,0.271,2,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:148:21,0.337
+Identifier: { metadata: { smartContra,0.541,0.541,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:273:10,0.541
+hasNodes,0.540,0.270,2,../../../packages/ui/components/editor/plugins/AddVariablesPlugin.tsx:54:10,0.403
+createChat,0.538,0.538,1,../../../packages/features/mintlify-chat/util.ts:76:28,0.538
+Identifier: T[],0.537,0.537,1,../../../packages/lib/server/getLuckyUser.ts:84:24,0.537
+getPublicEventSelect,0.534,0.534,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:355:12,0.534
+getByTypeAndUserId,0.531,0.177,3,src/ee/calendars/services/gcal.service.ts:87:28,0.339
+toHex,0.531,0.177,3,../../../packages/lib/getBrandColours.tsx:64:14,0.335
+Identifier: UseTRPCQueryResult<{ conn,0.526,0.175,3,../../../packages/platform/atoms/selected-calendars/wrappers/SelectedCalendarsSettingsWebWrapper.tsx:172:10,0.268
+DocsProperty,0.526,0.131,4,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/booking-fields.input.ts:28:4,0.213
+checkPremiumUsername,0.525,0.525,1,../../../packages/app-store/stripepayment/api/subscription.ts:55:10,0.525
+setInterval,0.524,0.524,1,../../../packages/features/bookings/Booker/components/hooks/useSlots.ts:61:21,0.524
+getUserStats,0.523,0.105,5,../../../packages/trpc/server/routers/loggedInViewer/myStats.handler.ts:16:73,0.164
+createSchedule,0.522,0.261,2,src/ee/schedules/schedules_2024_06_11/services/schedules.service.ts:36:28,0.438
+useTranslation,0.520,0.520,1,../../../packages/app-store/_components/AppCard.tsx:40:8,0.520
+outOfOfficeReasonList,0.519,0.519,1,../../../packages/trpc/server/routers/loggedInViewer/_router.tsx:514:11,0.519
+updateAttendees,0.517,0.172,3,../../../packages/features/handleMarkNoShow.ts:18:27,0.217
+handleAiChat,0.515,0.129,4,../../../packages/features/mintlify-chat/MintlifyChat.tsx:48:38,0.264
+handleAppInstall,0.515,0.257,2,../../../packages/ui/components/apps/AppCard.tsx:141:25,0.388
+checkIfBookerEmailIsBlocked,0.515,0.172,3,../../../packages/features/bookings/lib/handleNewBooking.ts:412:8,0.323
+getTeamIdFromEventType,0.513,0.256,2,../../../packages/trpc/server/routers/viewer/workflows/util.ts:762:23,0.489
+updateEvent,0.507,0.253,2,../../../packages/core/EventManager.ts:883:35,0.390
+deleteById,0.504,0.252,2,../../../packages/trpc/server/routers/viewer/teams/delete.handler.ts:19:15,0.475
+_getWhereClauseForFindingUsersByUsername,0.503,0.168,3,../../../packages/lib/server/repository/user.ts:153:38,0.298
+Identifier: ZodObject<{ id: ZodString,0.502,0.502,1,../../../packages/app-store/paypal/api/webhook.ts:20:26,0.502
+"Identifier: Request<ParamsDictionary,",0.496,0.248,2,src/modules/webhooks/guards/is-user-webhook-guard.ts:14:17,0.367
+Identifier: ErrorConstructor,0.495,0.124,4,../../../packages/features/bookings/lib/handleNewBooking.ts:786:10,0.231
+Identifier: ({ videoCallUrl?: string ,0.489,0.081,6,src/ee/bookings/2024-08-13/services/output.service.ts:363:21,0.175
+Identifier: { select: { id: true; use,0.489,0.489,1,../../../packages/trpc/server/routers/loggedInViewer/updateProfile.handler.ts:237:48,0.489
+doesUserIdHaveAccessToBooking,0.488,0.488,1,../../../packages/trpc/server/routers/viewer/teams/roundRobin/roundRobinManualReassign.handler.ts:16:47,0.488
+Identifier: RaqbLogicResult,0.487,0.487,1,../../../packages/app-store/routing-forms/lib/processRoute.tsx:60:9,0.487
+createMemberships,0.486,0.243,2,../../../node_modules/@calcom/trpc/server/routers/viewer/teams/inviteMember/utils.ts:765:12,0.443
+validateCancelBookingSeated,0.485,0.485,1,../../../packages/platform/types/bookings/2024-08-13/inputs/cancel-booking-input.pipe.ts:28:13,0.485
+uploadLogo,0.481,0.160,3,../../../packages/trpc/server/routers/viewer/teams/create.handler.ts:111:26,0.277
+Identifier: ({ username: string; id: ,0.481,0.160,3,../../../packages/lib/server/repository/profile.ts:522:11,0.276
+on,0.477,0.477,1,../../../packages/embeds/embed-core/src/embed.ts:381:8,0.477
+Identifier: { operators: Operators & ,0.477,0.477,1,../../../packages/app-store/routing-forms/lib/getQueryBuilderConfig.ts:94:17,0.477
+setLastBookingResponse,0.474,0.237,2,../../../packages/platform/atoms/hooks/bookings/useHandleBookEvent.ts:88:29,0.415
+Reschedule,0.466,0.233,2,../../../packages/app-store/vital/api/webhook.ts:139:39,0.317
+Identifier: { name: string; slug: str,0.465,0.465,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:532:18,0.465
+sendDeclinedEmailsAndSMS,0.465,0.465,1,../../../packages/trpc/server/routers/viewer/bookings/confirm.handler.ts:324:25,0.465
+Identifier: ZodObject<{ defaultLabel:,0.459,0.459,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:451:45,0.459
+Identifier: { id: number; } | null,0.458,0.229,2,../../../packages/lib/getOrgIdFromMemberOrTeamId.ts:48:9,0.335
+getDateSlotRange,0.456,0.456,1,../../../packages/features/schedules/components/Schedule.tsx:302:41,0.456
+getRows,0.455,0.152,3,../../../packages/app-store/routing-forms/trpc/report.handler.ts:98:37,0.221
+convertToNewDurationType,0.453,0.453,1,../../../packages/features/eventtypes/components/tabs/limits/EventLimitsTab.tsx:300:11,0.453
+max,0.453,0.151,3,src/lib/throttler-guard.ts:203:75,0.201
+Identifier: () => string,0.451,0.226,2,../../../packages/features/bookings/Booker/components/EventMeta.tsx:216:33,0.427
+Identifier: { averageWeightsHosts: { ,0.450,0.225,2,../../../packages/lib/server/getLuckyUser.ts:920:29,0.238
+Identifier: (props: { calendar: strin,0.450,0.450,1,../../../packages/emails/src/templates/BrokenIntegrationEmail.tsx:108:19,0.450
+getHttpServer,0.449,0.064,7,src/ee/bookings/2024-08-13/controllers/e2e/variable-length-bookings.e2e-spec.ts:151:24,0.155
+Identifier: ById_2024_09_04,0.449,0.449,1,../../../packages/platform/types/slots/slots-2024-09-04/inputs/get-slots-input.pipe.ts:52:11,0.449
+"Identifier: { ""/*"": string; name: str",0.449,0.449,1,../../../packages/app-store/getNormalizedAppMetadata.ts:13:59,0.449
+$isHeadingNode,0.449,0.449,1,../../../packages/ui/components/editor/plugins/ToolbarPlugin.tsx:315:23,0.449
+Identifier: { title: string; id: numb,0.447,0.224,2,../../../node_modules/@calcom/trpc/server/routers/viewer/slots/util.ts:862:14,0.251
+Identifier: { booking: { status: Book,0.447,0.447,1,../../../packages/trpc/server/routers/loggedInViewer/connectAndJoin.handler.ts:80:69,0.447
+Identifier: { metadata: { smartContra,0.447,0.224,2,../../../packages/lib/defaultEvents.ts:156:9,0.334
+FindFolders,0.446,0.149,3,../../../packages/app-store/exchangecalendar/lib/CalendarService.ts:180:11,0.257
+Identifier: Uint8ArrayConstructor,0.445,0.445,1,../../../packages/lib/hooks/useNotifications.tsx:160:22,0.445
+Identifier: { id: string; userId: num,0.443,0.443,1,../../../packages/trpc/server/routers/viewer/webhook/create.handler.ts:72:9,0.443
+getUserIdsWhereUserIsOrgAdminOrOwner,0.443,0.443,1,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:179:94,0.443
+validateById,0.442,0.442,1,../../../packages/platform/types/slots/slots-2024-09-04/inputs/get-slots-input.pipe.ts:29:13,0.442
+Identifier: { name: string | null; em,0.440,0.440,1,../../../packages/trpc/server/routers/viewer/organizations/getUser.handler.ts:79:8,0.440
+Identifier: { onChange: (date: Dayjs ,0.437,0.109,4,../../../packages/features/calendars/DatePicker.tsx:285:8,0.255
+substring,0.436,0.436,1,../../../packages/features/ee/api-keys/lib/findValidApiKey.ts:4:24,0.436
+"Identifier: ZodUnion<[ZodString, ZodB",0.435,0.218,2,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:13:31,0.357
+apiGraphBatchCall,0.431,0.108,4,../../../packages/app-store/office365calendar/lib/CalendarService.ts:197:29,0.198
+"Identifier: TFunction<string, undefin",0.431,0.215,2,../../../packages/features/bookings/lib/handleNewBooking.ts:1002:16,0.332
+Identifier: { name: string | null; em,0.429,0.143,3,../../../packages/features/users/users.repository.ts:14:13,0.291
+getEventTypeIdsFromEventTypeIdsFilter,0.428,0.428,1,../../../packages/trpc/server/routers/viewer/bookings/get.handler.ts:177:67,0.428
+Identifier: Pick<{ id: number; teamId,0.426,0.213,2,../../../node_modules/@calcom/trpc/server/routers/viewer/teams/inviteMember/utils.ts:561:27,0.352
+Identifier: { user: UserWithSelectedC,0.426,0.426,1,../../../packages/features/bookings/lib/handleNewBooking/getEventTypesFromDB.ts:180:11,0.426
+Identifier: TProps,0.425,0.213,2,../../../packages/features/form-builder/Components.tsx:117:27,0.237
+"Identifier: Header<any, any>",0.425,0.071,6,../../../packages/features/data-table/components/DataTable.tsx:332:21,0.151
+isSame,0.424,0.424,1,../../../packages/features/bookings/components/AvailableTimesHeader.tsx:24:36,0.424
+status,0.423,0.060,7,../../../packages/app-store/zoomvideo/api/callback.ts:54:11,0.114
+getDnsRecordToDelete,0.422,0.141,3,../../../packages/lib/domainManager/deploymentServices/cloudflare.ts:82:34,0.187
+Identifier: i18n | null,0.422,0.211,2,../../../packages/lib/server/i18n.ts:16:16,0.216
+getEventName,0.422,0.211,2,../../../packages/features/eventtypes/components/tabs/advanced/EventAdvancedTab.tsx:467:45,0.310
+"Identifier: { new (url: string | URL,",0.421,0.140,3,../../../packages/embeds/embed-core/src/embed-iframe.ts:402:23,0.209
+IsOptional,0.418,0.104,4,../../../packages/platform/types/bookings/2024-04-15/inputs/index.ts:77:4,0.203
+Identifier: { email: string; id: numb,0.416,0.208,2,../../../packages/trpc/server/routers/loggedInViewer/addSecondaryEmail.handler.ts:60:10,0.256
+Identifier: DefaultFieldOutput_2024_0,0.414,0.207,2,../../../packages/platform/types/event-types/event-types_2024_06_14/outputs/booking-fields.output.ts:677:63,0.222
+Identifier: ZodObject<{ defaultLabel:,0.412,0.412,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:452:46,0.412
+"Identifier: ""blue""",0.409,0.409,1,../../../packages/features/eventtypes/components/tabs/instant/InstantEventController.tsx:61:15,0.409
+Identifier: TFunction,0.407,0.407,1,../../../packages/features/bookings/lib/handleSeats/reschedule/attendee/attendeeRescheduleSeatedBooking.ts:24:29,0.407
+Identifier: ZodObject<{ id: ZodString,0.402,0.402,1,../../../packages/core/EventManager.ts:99:41,0.402
+Identifier: ({ html }: { html?: strin,0.401,0.201,2,../../../packages/emails/src/components/EmailCommonDivider.tsx:63:13,0.343
+createNestApplication,0.401,0.100,4,src/ee/event-types/event-types_2024_06_14/controllers/event-types.controller.e2e-spec.ts:1232:12,0.168
+"Identifier: UseQueryResult<any, Error",0.401,0.401,1,../../web/lib/hooks/settings/platform/oauth-clients/usePersistOAuthClient.ts:138:9,0.401
+Identifier: { update: UpdateSession; ,0.400,0.400,1,../../../packages/features/shell/SideBar.tsx:52:18,0.400
+setex,0.400,0.400,1,src/modules/oauth-clients/services/oauth-flow.service.ts:56:93,0.400
+"StringLiteral: ""onClick""",0.400,0.400,1,../../../packages/ui/components/badge/Badge.tsx:74:19,0.400
+Identifier: { team: { name: string; s,0.395,0.198,2,../../../packages/lib/server/repository/organization.ts:245:14,0.247
+findAndInit,0.394,0.197,2,../../../packages/lib/server/repository/team.ts:277:30,0.293
+Identifier: EventTypeUpdateInput,0.393,0.393,1,../../../packages/trpc/server/routers/viewer/eventTypes/update.handler.ts:173:8,0.393
+Identifier: Types,0.391,0.391,1,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/BasicConfig.ts:279:6,0.391
+Identifier: Workflow,0.389,0.195,2,../../../packages/features/ee/workflows/lib/reminders/reminderScheduler.ts:192:36,0.295
+Identifier: { teamId: number | null; ,0.387,0.194,2,../../../packages/lib/getTeamIdFromEventType.ts:27:11,0.297
+buildHashMapForUsers,0.384,0.064,6,../../../packages/features/insights/server/trpc-router.ts:904:26,0.082
+"Identifier: { type: ""TEXT"" | ""PHONE"" ",0.383,0.383,1,../../../packages/lib/event-types/getEventTypeById.ts:118:18,0.383
+toggleElementInArray,0.383,0.096,4,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:352:41,0.200
+Identifier: ZodObject<{ name: ZodStri,0.381,0.381,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:470:41,0.381
+Identifier: ZodArray<ZodObject<{ name,0.379,0.190,2,../../../packages/prisma/zod-utils.ts:136:38,0.287
+Identifier: { keys: JsonValue; slug: ,0.379,0.189,2,../../../packages/trpc/server/routers/viewer/apps/toggle.handler.ts:170:9,0.290
+getAllAcceptedMemberships,0.378,0.189,2,../../../packages/features/ee/sso/lib/sso.ts:28:26,0.343
+Identifier: { isEmbed: boolean; },0.378,0.378,1,../../../packages/lib/server/getRoutedUrl.ts:138:15,0.378
+useCreateEventType,0.377,0.189,2,../../../packages/features/eventtypes/components/CreateEventTypeDialog.tsx:103:8,0.374
+evaluateHost,0.377,0.126,3,src/modules/organizations/controllers/event-types/organizations-event-types.e2e-spec.ts:325:24,0.218
+"StringLiteral: ""username""",0.376,0.188,2,../../../packages/features/eventtypes/lib/getPublicEvent.ts:535:19,0.295
+Identifier: UserProfile,0.376,0.188,2,../../../packages/trpc/server/routers/loggedInViewer/platformMe.handler.ts:33:20,0.291
+getBookerBaseUrlSync,0.373,0.187,2,../../../packages/features/eventtypes/lib/getPublicEvent.ts:633:11,0.286
+Identifier: typeof Api,0.372,0.124,3,../../../node_modules/twilio/lib/rest/Twilio.d.ts:77:20,0.168
+"Identifier: Request<ParamsDictionary,",0.371,0.186,2,src/modules/auth/guards/organizations/is-webhook-in-org.guard.ts:25:30,0.292
+"Identifier: Record<BookerLayout, bool",0.370,0.370,1,../../../packages/features/bookings/Booker/components/hooks/useBookerLayout.ts:75:33,0.370
+date,0.370,0.123,3,../../../packages/trpc/server/routers/viewer/availability/schedule/update.schema.ts:12:17,0.227
+Identifier: CancelSeatedBookingInput_,0.370,0.370,1,../../../packages/platform/types/bookings/2024-08-13/inputs/cancel-booking-input.pipe.ts:63:11,0.370
+transformBookerLayouts,0.368,0.074,5,src/ee/event-types/event-types_2024_06_14/services/output-event-types.service.ts:138:55,0.171
+http,0.365,0.183,2,../../../packages/lib/fetch-wrapper.ts:31:15,0.301
+Identifier: { id: number; metadata: {,0.365,0.365,1,../../../packages/trpc/server/routers/viewer/workflows/getAllActiveWorkflows.handler.ts:28:7,0.365
+Identifier: (Omit<{ name: string | nu,0.362,0.362,1,../../../packages/features/bookings/lib/handleNewBooking/loadUsers.ts:59:13,0.362
+Identifier: null,0.362,0.181,2,../../../packages/trpc/server/routers/viewer/attributes/findTeamMembersMatchingAttributeLogic.handler.ts:48:11,0.211
+safeParseAsync,0.361,0.181,2,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:192:30,0.210
+getOrgIdFromMemberOrTeamId,0.357,0.179,2,../../../packages/trpc/server/routers/viewer/workflows/util.ts:769:22,0.334
+"Identifier: Map<number, UserProfile[]",0.354,0.354,1,../../../packages/lib/server/repository/user.ts:437:10,0.354
+Identifier: { members: { user: { name,0.353,0.118,3,../../../packages/trpc/server/routers/viewer/organizations/adminDelete.handler.ts:59:30,0.225
+namespaced,0.353,0.118,3,../../../packages/trpc/server/routers/viewer/routing-forms/_router.ts:24:43,0.203
+nullish,0.352,0.117,3,../../../packages/prisma/zod/selectedcalendar.ts:35:14,0.157
+Identifier: { theme: { placeholder: s,0.352,0.352,1,../../../packages/ui/components/editor/Editor.tsx:53:6,0.352
+resolveEndpoint,0.352,0.176,2,../../../packages/trpc/react/trpc.ts:95:36,0.218
+unstable_pipe,0.350,0.175,2,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:162:57,0.308
+Identifier: FileEvent<HTMLInputElemen,0.349,0.349,1,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:160:17,0.349
+redirect,0.349,0.050,7,../../../packages/app-store/googlecalendar/api/callback.ts:125:103,0.090
+findOrgTeamMembership,0.348,0.174,2,src/modules/organizations/services/organizations-teams-memberships.service.ts:32:28,0.258
+Identifier: ZodObject<{ defaultLabel:,0.344,0.344,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:454:48,0.344
+Identifier: { label: string; value: s,0.342,0.114,3,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/widgets.tsx:170:7,0.189
+Identifier: { username: string | null,0.340,0.340,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:486:19,0.340
+generateTeamCheckoutSession,0.339,0.170,2,../../../packages/trpc/server/routers/viewer/teams/create.handler.ts:35:32,0.307
+Identifier: { id: number; createdAt: ,0.336,0.168,2,../../../packages/trpc/server/routers/viewer/teams/createInvite.handler.ts:31:13,0.228
+Identifier: SafeParseSuccess<{ writeT,0.335,0.335,1,../../../packages/app-store/salesforce/lib/routingForm/incompleteBookingAction.ts:17:8,0.335
+Identifier: ({ slug: string; } | { me,0.335,0.167,2,../../../packages/features/ee/organizations/lib/orgDomains.ts:128:9,0.300
+createEventTypeWebhook,0.335,0.112,3,src/modules/webhooks/services/event-type-webhooks.service.ts:17:11,0.230
+Identifier: { placeholder: string; pa,0.334,0.334,1,../../../packages/ui/components/editor/Editor.tsx:53:21,0.334
+handleLarkError,0.333,0.083,4,../../../packages/app-store/larkcalendar/lib/CalendarService.ts:357:32,0.211
+Identifier: (NonNullable<{ avatar: st,0.333,0.166,2,../../../packages/trpc/server/routers/loggedInViewer/me.handler.ts:80:22,0.271
+Identifier: ZodObject<{ id: ZodNumber,0.331,0.331,1,../../../packages/prisma/zod/booking.ts:55:56,0.331
+Identifier: { value: number; label: s,0.327,0.109,3,../../../packages/features/eventtypes/components/tabs/setup/EventSetupTab.tsx:259:26,0.196
+verifyNumber,0.327,0.327,1,../../../packages/features/ee/workflows/lib/reminders/verifyPhoneNumber.ts:9:33,0.327
+Identifier: URL,0.326,0.163,2,../../../packages/embeds/embed-core/src/embed.ts:294:10,0.218
+setActiveFilters,0.326,0.163,2,../../../packages/features/data-table/lib/context.tsx:56:24,0.309
+withAccelerate,0.326,0.163,2,../../../packages/prisma/index.ts:65:13,0.176
+toUrlEncoded,0.325,0.163,2,src/modules/conferencing/services/office365-video.service.ts:67:17,0.211
+loadDynamicUsers,0.325,0.163,2,../../../packages/features/bookings/lib/handleNewBooking/loadUsers.ts:50:14,0.277
+getEventTypeAppDataFromId,0.325,0.162,2,../../../packages/app-store/salesforce/lib/routingFormBookingFormHandler.ts:7:6,0.168
+Identifier: { id: number; userId: num,0.325,0.325,1,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:55:8,0.325
+cloneDeep,0.325,0.162,2,../../../packages/features/ee/round-robin/roundRobinManualReassignment.ts:323:8,0.255
+formatErrors,0.324,0.324,1,../../../packages/platform/types/bookings/2024-08-13/inputs/create-booking-input.pipe.ts:53:12,0.324
+Identifier: { length: number; slug: s,0.323,0.323,1,../../../packages/lib/event-types/getEventTypeById.ts:105:8,0.323
+Identifier: SafeParseSuccess<{ creden,0.321,0.161,2,../../../packages/app-store/paypal/lib/updateAppCredentials.validator.ts:18:18,0.232
+_queryAllData,0.321,0.160,2,../../../packages/lib/service/attribute/server/getAttributes.ts:338:10,0.256
+Identifier: string | null | undefined,0.320,0.107,3,../../../packages/core/getBusyTimes.ts:91:24,0.205
+Identifier: (base: CSSObjectWithLabel,0.319,0.160,2,../../../packages/ui/components/form/select/Select.tsx:62:15,0.280
+IsEmail,0.318,0.159,2,../../../packages/platform/types/bookings/2024-08-13/outputs/booking.output.ts:172:4,0.227
+Identifier: { calEvent: CalendarEvent,0.317,0.106,3,../../../packages/emails/src/templates/NoShowFeeChargedEmail.tsx:32:17,0.206
+Identifier: () => void,0.316,0.158,2,../../../packages/features/shell/user-dropdown/UserDropdown.tsx:171:27,0.228
+Identifier: typeof InternalServerErro,0.313,0.157,2,src/ee/event-types/event-types_2024_04_15/controllers/event-types.controller.ts:134:10,0.213
+confirmBookingHandler,0.313,0.063,5,src/ee/bookings/2024-08-13/services/bookings.service.ts:538:13,0.215
+Identifier: T,0.312,0.312,1,../../../packages/lib/server/getLuckyUser.ts:451:9,0.312
+Identifier: { label: string; value: n,0.311,0.104,3,../../../packages/features/eventtypes/components/HostEditDialogs.tsx:58:10,0.203
+Identifier: ReactNode,0.310,0.155,2,../../../packages/ui/components/card/Card.tsx:145:9,0.175
+findTravelSchedulesByUserId,0.310,0.155,2,../../../packages/trpc/server/routers/loggedInViewer/getTravelSchedules.handler.ts:11:15,0.271
+getBatchProcessorJobAccessLink,0.309,0.077,4,../../../packages/app-store/dailyvideo/lib/VideoApiAdapter.ts:398:36,0.153
+"Identifier: { readonly CANCELLED: ""CA",0.309,0.309,1,../../../packages/trpc/server/routers/viewer/bookings/confirm.handler.ts:149:51,0.309
+round,0.309,0.154,2,../../../packages/app-store/dailyvideo/lib/VideoApiAdapter.ts:256:16,0.165
+getItem,0.308,0.308,1,../../../packages/features/bookings/Booker/components/hooks/useLocalSet.tsx:10:8,0.308
+getBrand,0.308,0.103,3,../../../packages/trpc/server/routers/viewer/organizations/getBrand.handler.ts:15:15,0.188
+Identifier: ZodObject<{ id: ZodNumber,0.307,0.307,1,../../../packages/prisma/zod/workflow.ts:18:57,0.307
+getTeamEventType,0.306,0.153,2,src/modules/teams/event-types/services/teams-event-types.service.ts:135:10,0.175
+getAttributesForLogic,0.306,0.153,2,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:353:12,0.255
+Identifier: { organization: Omit<{ na,0.305,0.152,2,../../../packages/lib/server/repository/user.ts:206:18,0.230
+Identifier: { user: ({ credentials: {,0.305,0.305,1,../../../packages/trpc/server/routers/viewer/bookings/addGuests.handler.ts:137:9,0.305
+reject,0.303,0.303,1,../../../packages/app-store/salesforce/lib/CrmService.ts:330:11,0.303
+isUsernameReservedDueToMigration,0.303,0.050,6,../../../packages/lib/server/username.ts:139:16,0.111
+Identifier: { length: number | undefi,0.300,0.300,1,../../../packages/platform/atoms/event-types/hooks/useEventTypeForm.ts:338:10,0.300
+getUsernameList,0.300,0.300,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:225:23,0.300
+Identifier: ZodObject<{ defaultLabel:,0.300,0.300,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:455:39,0.300
+Identifier: ZodObject<{ defaultLabel:,0.299,0.299,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:458:39,0.299
+Identifier: { status: BookingStatus; ,0.299,0.299,1,../../../packages/features/ee/payments/pages/payment.tsx:43:8,0.299
+isAcceptedCurrencyCode,0.298,0.149,2,../../../packages/app-store/mock-payment-app/components/EventTypeAppCardInterface.tsx:37:56,0.171
+getBufferAsync,0.298,0.075,4,../../../packages/lib/server/resizeBase64Image.ts:33:26,0.091
+Identifier: ArrayPath<TFieldValues>,0.298,0.149,2,../../../packages/features/schedules/components/Schedule.tsx:112:21,0.241
+transformInputCreateRecurringBooking,0.295,0.098,3,src/ee/bookings/2024-08-13/services/input.service.ts:207:34,0.203
+Identifier: { limit: number; endDate:,0.294,0.147,2,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:215:12,0.272
+Identifier: { id: string; action: { t,0.293,0.147,2,../../../packages/app-store/routing-forms/lib/processRoute.tsx:30:7,0.258
+Identifier: { children: ReactNode; ca,0.293,0.146,2,../../../packages/emails/src/components/V2BaseEmailHtml.tsx:141:18,0.176
+setFieldStates,0.293,0.293,1,../../../packages/features/ee/managed-event-types/hooks/useLockedFieldsManager.tsx:165:25,0.293
+createSignature,0.292,0.292,1,../../../packages/features/ee/common/server/LicenseKeyService.ts:60:12,0.292
+importer,0.292,0.146,2,../../../node_modules/@calcom/trpc/server/trpc.ts:35:29,0.199
+generateResponse,0.292,0.146,2,../../../packages/features/mintlify-chat/util.ts:94:10,0.255
+"Identifier: readonly [""a"", ""abbr"", ""a",0.290,0.290,1,../../../node_modules/framer-motion/dist/index.d.ts:3274:52,0.290
+Identifier: ZodObject<{ id: ZodNumber,0.290,0.290,1,../../../packages/prisma/zod/team.ts:44:53,0.290
+Identifier: { profile: { id: number; ,0.290,0.290,1,../../../packages/lib/server/repository/user.ts:521:51,0.290
+fromEnv,0.289,0.289,1,../../../packages/features/redis/RedisService.ts:8:18,0.289
+setIsGenerating,0.289,0.289,1,../../../packages/features/mintlify-chat/MintlifyChat.tsx:43:18,0.289
+Identifier: {},0.288,0.288,1,../../../packages/features/eventtypes/components/Locations.tsx:170:12,0.288
+Identifier: ZodObject<{ defaultLabel:,0.288,0.288,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:453:50,0.288
+Identifier: { alby: ZodObject<{ appCa,0.286,0.286,1,../../../packages/app-store/apps.schemas.generated.ts:54:13,0.286
+Identifier: typeof ErrorCode,0.286,0.095,3,../../../packages/core/getUserAvailability.ts:438:52,0.147
+getCroppedImg,0.285,0.143,2,../../../packages/ui/components/image-uploader/BannerUploader.tsx:107:35,0.196
+setSlugExistsChildrenDialogOpen,0.282,0.141,2,../../../packages/platform/atoms/event-types/wrappers/EventTypeWebWrapper.tsx:303:38,0.223
+Identifier: { value: number; label: s,0.281,0.281,1,../../../packages/features/eventtypes/components/tabs/setup/EventSetupTab.tsx:237:25,0.281
+Identifier: typeof EventManager,0.281,0.281,1,../../../packages/lib/payment/handlePaymentSuccess.ts:38:25,0.281
+Identifier: { user: NonNullable<{ ava,0.279,0.093,3,../../../packages/trpc/server/routers/viewer/organizations/list.handler.ts:14:54,0.104
+atob,0.278,0.139,2,../../../packages/lib/hooks/useNotifications.tsx:159:18,0.183
+Identifier: { id: number | null; isOr,0.278,0.139,2,../../../packages/trpc/server/middlewares/sessionMiddleware.ts:73:58,0.173
+Identifier: SplitNameDefaultFieldInpu,0.276,0.138,2,../../../packages/lib/event-types/transformers/api-to-internal/booking-fields.ts:132:28,0.203
+Identifier: { inviteToken: { expires:,0.276,0.138,2,../../../packages/trpc/server/routers/viewer/teams/get.handler.ts:46:9,0.178
+Identifier: CreateRouterInner<RootCon,0.275,0.275,1,../../../packages/trpc/server/routers/_app.ts:17:31,0.275
+Identifier: MembershipRole,0.275,0.137,2,../../../packages/lib/server/repository/organization.ts:244:12,0.205
+Identifier: { calEvent: CalendarEvent,0.273,0.068,4,../../../packages/emails/src/templates/BaseScheduledEmail.tsx:97:57,0.198
+Identifier: (Omit<{ name: string | nu,0.273,0.273,1,../../../packages/features/bookings/lib/handleNewBooking.ts:694:31,0.273
+Identifier: objectOutputType<{ succes,0.272,0.068,4,../../../packages/lib/domainManager/deploymentServices/cloudflare.ts:141:11,0.103
+Identifier: CustomEventDetail,0.271,0.135,2,../../../packages/embeds/embed-core/src/sdk-action-manager.ts:5:49,0.225
+checkLicense,0.270,0.045,6,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:143:33,0.107
+getInstalledAppPath,0.270,0.135,2,../../../packages/app-store/zohocalendar/api/callback.ts:134:51,0.201
+applyFilterWithFallback,0.270,0.270,1,../../../packages/lib/bookings/findQualifiedHosts.ts:149:48,0.270
+Identifier: ForwardRefExoticComponent,0.269,0.269,1,../../../packages/ui/components/filter-select/index.tsx:62:8,0.269
+getHumanReadableLocationValue,0.268,0.134,2,../../../packages/features/webhooks/lib/scheduleTrigger.ts:251:18,0.200
+findOriginalRescheduledBooking,0.268,0.134,2,../../../packages/features/bookings/lib/handleNewBooking/getOriginalRescheduledBooking.ts:8:32,0.221
+Identifier: { username: true; email: ,0.268,0.134,2,../../../packages/lib/server/queries/teams/index.ts:126:20,0.244
+updateFieldsInConnectedForms,0.267,0.133,2,../../../packages/app-store/routing-forms/trpc/formMutation.handler.ts:83:26,0.141
+Identifier: { email: string; id: numb,0.266,0.266,1,../../../packages/app-store/ics-feedcalendar/api/add.ts:38:23,0.266
+"Identifier: ""locked"" | ""unlocked""",0.264,0.132,2,../../../packages/features/eventtypes/components/tabs/webhooks/EventWebhooksTab.tsx:132:34,0.183
+findFirstByUserIdAndTeamId,0.261,0.130,2,../../../packages/trpc/server/routers/viewer/teams/get.handler.ts:17:31,0.235
+Identifier: (SAMLSSORecord | OIDCSSOR,0.260,0.087,3,../../../packages/trpc/server/routers/publicViewer/ssoConnections.handler.ts:23:24,0.130
+Identifier: (props?: (ConfigVariants<,0.259,0.259,1,../../../packages/ui/components/button/Button.tsx:13:48,0.259
+getTotalNoShowGuests,0.258,0.258,1,../../../packages/features/insights/server/trpc-router.ts:351:55,0.258
+Identifier: { label: string; value: s,0.256,0.256,1,../../../packages/app-store/stripepayment/lib/constants.ts:5:13,0.256
+Identifier: (id: number) => Promise<P,0.254,0.254,1,../../../packages/core/getUserAvailability.ts:148:50,0.254
+SyntaxList: any,0.254,0.085,3,../../../packages/core/getBusyTimes.ts:188:63,0.147
+Identifier: { status: BookingStatus; ,0.253,0.127,2,../../../packages/lib/server/repository/booking.ts:228:11,0.136
+Identifier: { userId: number; result:,0.253,0.126,2,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:293:9,0.173
+"Identifier: ({ fieldName, message }: ",0.252,0.252,1,../../../packages/features/eventtypes/components/tabs/ai/AIEventController.tsx:222:37,0.252
+assertNonEmptyArray,0.251,0.251,1,../../../packages/features/bookings/lib/handleNewBooking.ts:704:29,0.251
+Identifier: Appointment,0.251,0.084,3,../../../packages/app-store/exchange2013calendar/lib/CalendarService.ts:70:72,0.173
+Identifier: ZodObject<{ id: ZodString,0.251,0.251,1,../../../packages/prisma/zod/attribute.ts:20:58,0.251
+Identifier: MultiValue<{ value: numbe,0.250,0.125,2,../../../packages/features/eventtypes/components/tabs/setup/EventSetupTab.tsx:272:27,0.133
+Identifier: { fontWeight: number; lin,0.247,0.247,1,../../../packages/emails/src/templates/DailyVideoDownloadRecordingEmail.tsx:55:9,0.247
+Identifier: Component,0.247,0.082,3,../../../packages/features/form-builder/FormBuilderField.tsx:253:7,0.184
+Identifier: TeamFindUniqueArgs<Intern,0.247,0.062,4,../../../packages/prisma/extensions/exclude-pending-payment-teams.ts:38:49,0.141
+Identifier: ZodObject<{ defaultLabel:,0.245,0.245,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:456:39,0.245
+Identifier: { updatedAt: Date; teamId,0.245,0.082,3,../../../packages/features/flags/features.repository.ts:73:16,0.169
+Identifier: ZodObject<{ end: ZodOptio,0.243,0.243,1,../../../packages/prisma/zod-utils.ts:294:47,0.243
+Identifier: { name: string | null; id,0.242,0.242,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:535:33,0.242
+Identifier: { id: number; isOrganizat,0.242,0.242,1,src/modules/billing/billing.processor.ts:32:21,0.242
+Identifier: { id: number; uid: string,0.240,0.120,2,../../../packages/features/bookings/lib/handleNewBooking.ts:1855:18,0.157
+formatLocalizedDateTime,0.240,0.120,2,../../../packages/lib/date-fns/index.ts:86:5,0.206
+"Identifier: ""success"" | ""warning"" | """,0.240,0.080,3,../../../packages/ui/components/dialog/ConfirmationDialogContent.tsx:55:14,0.166
+Identifier: { url: string | null; },0.240,0.120,2,../../../packages/trpc/server/routers/viewer/organizations/publish.handler.ts:56:18,0.131
+Identifier: { email: string; id: numb,0.239,0.239,1,../../../packages/features/ee/dsync/lib/users/createUsersAndConnectToOrg.ts:72:9,0.239
+Identifier: (where: UserWhereInput) =,0.239,0.239,1,../../../packages/core/getUserAvailability.ts:158:41,0.239
+Expose,0.239,0.119,2,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/create-event-type.input.ts:421:4,0.182
+Identifier: { id: number; credentialI,0.238,0.238,1,../../../packages/features/bookings/lib/handleNewBooking.ts:966:8,0.238
+useOptions,0.237,0.237,1,../../../packages/features/schedules/components/Schedule.tsx:416:8,0.237
+inviteMembers,0.237,0.118,2,../../../packages/trpc/server/routers/viewer/teams/inviteMember/inviteMember.handler.ts:294:15,0.217
+createContext,0.236,0.118,2,../../../packages/features/data-table/lib/context.tsx:31:13,0.176
+Identifier: { dependencyData?: TDepen,0.236,0.118,2,../../../packages/lib/getConnectedApps.ts:230:11,0.158
+Identifier: { value: string; label: s,0.236,0.118,2,../../../packages/features/calendars/DestinationCalendarSelector.tsx:182:15,0.154
+findManyIncludeAttribute,0.235,0.235,1,../../../packages/lib/service/attribute/server/utils.ts:12:40,0.235
+Identifier: { label: string; descript,0.235,0.078,3,../../../packages/emails/src/components/Info.tsx:49:12,0.139
+getUserRelevantTeamRoutingForms,0.235,0.235,1,../../../packages/features/insights/server/trpc-router.ts:1752:33,0.235
+Identifier: ZodObject<{ id: ZodNumber,0.234,0.234,1,../../../packages/prisma/zod-utils.ts:502:47,0.234
+Identifier: { attributesOfTheOrg: { n,0.234,0.117,2,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:313:24,0.158
+Identifier: { name: string; logo: str,0.234,0.117,2,../../../packages/trpc/server/routers/viewer/oAuth/addClient.handler.ts:27:27,0.134
+Identifier: { createdAt: Date; update,0.233,0.233,1,../../../packages/features/auth/lib/next-auth-custom-adapter.ts:56:13,0.233
+Identifier: { limit?: number | null |,0.232,0.232,1,../../../packages/trpc/server/routers/viewer/teams/legacyListMembers.handler.ts:32:21,0.232
+Identifier: { isFixed: boolean; creat,0.232,0.232,1,../../../packages/features/bookings/lib/handleNewBooking/loadAndValidateUsers.ts:130:7,0.232
+"StringLiteral: ""308.2""",0.232,0.077,3,../../../node_modules/tzdata/timezone-data.json:1:86807,0.177
+"Identifier: { ""/*"": string; name: str",0.231,0.231,1,../../../packages/app-store/apps.metadata.generated.ts:211:16,0.231
+Identifier: OptionProps<LocationOptio,0.230,0.230,1,../../../packages/features/form/components/LocationSelect.tsx:95:31,0.230
+buildInvitationsFromInput,0.230,0.077,3,../../../packages/trpc/server/routers/viewer/teams/inviteMember/inviteMember.handler.ts:252:22,0.145
+Identifier: ScheduleUpdateInput,0.229,0.229,1,src/ee/schedules/schedules_2024_06_11/schedules.repository.ts:117:10,0.229
+"Identifier: ""black""",0.227,0.113,2,../../../packages/emails/src/templates/BookingRedirectEmailNotification.tsx:24:16,0.204
+Identifier: TRPCError,0.225,0.113,2,../../../packages/lib/server/getRoutedUrl.ts:141:19,0.163
+Identifier: { status: BookingStatus; ,0.225,0.225,1,../../../packages/trpc/server/routers/loggedInViewer/connectAndJoin.handler.ts:189:17,0.225
+Identifier: ReturnObject,0.225,0.112,2,../../../packages/emails/lib/generateIcsString.ts:98:9,0.182
+getStripe,0.225,0.225,1,src/modules/billing/services/billing.service.ts:67:26,0.225
+"Identifier: { ""Response ID"": number; ",0.224,0.112,2,../../../packages/features/insights/server/routing-events.ts:446:12,0.135
+"Identifier: { color: ""#101010""; fontW",0.224,0.224,1,../../../packages/emails/src/components/Info.tsx:41:11,0.224
+Identifier: ZodObject<{ defaultLabel:,0.223,0.223,1,../../../packages/lib/event-types/transformers/internal-to-api/booking-fields.ts:457:40,0.223
+fromEntriesWithDuplicateKeys,0.223,0.223,1,../../../packages/trpc/server/routers/viewer/routing-forms/findTeamMembersMatchingAttributeLogicOfRoute.handler.ts:230:11,0.223
+updateUserSchedule,0.221,0.110,2,src/ee/schedules/schedules_2024_04_15/controllers/schedules.controller.ts:108:28,0.133
+Identifier: { length: number; slug: s,0.220,0.220,1,../../../packages/trpc/server/routers/viewer/eventTypes/getEventTypesFromGroup.handler.ts:148:7,0.220
+Identifier: { user: { name: string | ,0.220,0.220,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:531:25,0.220
+deleteAllRedirectsForUsers,0.219,0.219,1,../../../packages/trpc/server/routers/viewer/organizations/adminDelete.handler.ts:48:8,0.219
+"Identifier: { direction: ""ltr""; fontS",0.218,0.218,1,../../../packages/emails/src/components/V2BaseEmailHtml.tsx:131:18,0.218
+getAllUserAndTeamEventTypes,0.216,0.072,3,../../../packages/trpc/server/routers/viewer/workflows/util.ts:261:28,0.131
+nameOfDay,0.216,0.216,1,../../../packages/lib/weekday.ts:7:21,0.216
+fromISO,0.214,0.107,2,src/modules/slots/slots-2024-09-04/services/slots.service.ts:87:10,0.119
+Identifier: { name: string; slug: str,0.213,0.213,1,../../../packages/lib/server/queries/teams/index.ts:264:8,0.213
+Identifier: { datePickerContainer?: s,0.212,0.106,2,../../../packages/features/bookings/Booker/components/DatePicker.tsx:75:31,0.188
+Identifier: { user: { name: string | ,0.211,0.106,2,../../../packages/lib/server/repository/profile.ts:342:17,0.114
+Identifier: Schema$Event,0.210,0.210,1,../../../packages/app-store/googlecalendar/lib/CalendarService.ts:467:95,0.210
+handleDelete,0.210,0.210,1,../../../packages/platform/atoms/availability/wrappers/AvailabilitySettingsPlatformWrapper.tsx:126:23,0.210
+Identifier: RollingLimitCustomClassNa,0.209,0.070,3,../../../packages/features/eventtypes/components/tabs/limits/EventLimitsTab.tsx:236:30,0.146
+utc,0.209,0.209,1,../../../packages/trpc/server/routers/viewer/slots/util.ts:241:20,0.209
+setTimeZoneRange,0.207,0.069,3,src/modules/slots/slots-2024-04-15/services/slots-output.service.ts:30:22,0.146
+getFullName,0.206,0.206,1,../../../packages/features/bookings/Booker/components/hooks/useBookings.ts:188:23,0.206
+Identifier: { name: string | null; id,0.204,0.204,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:532:26,0.204
+Identifier: (theme: Theme) => { borde,0.203,0.203,1,../../../packages/ui/form/Select.tsx:31:17,0.203
+getAppKeysFromSlug,0.203,0.051,4,../../../packages/app-store/campsite/api/callback.ts:19:45,0.079
+Identifier: { createdAt: Date; update,0.202,0.202,1,../../../packages/features/auth/lib/next-auth-custom-adapter.ts:64:15,0.202
+Identifier: (props: EmbedButtonProps<,0.202,0.202,1,../../../packages/features/embed/EventTypeEmbed.tsx:23:13,0.202
+Identifier: { time: number | null; tr,0.202,0.202,1,../../../packages/features/ee/round-robin/roundRobinReassignment.ts:453:12,0.202
+Identifier: ZodUnion<[ZodObject<{ tot,0.202,0.202,1,../../../packages/prisma/zod-utils.ts:528:57,0.202
+Identifier: { user: { id: number; met,0.201,0.201,1,../../../packages/app-store/routing-forms/trpc/getResponseWithFormFields.handler.ts:87:8,0.201
+handleSlotClick,0.201,0.100,2,../../../packages/features/bookings/components/AvailableTimes.tsx:128:25,0.178
+Identifier: BookingStatus | undefined,0.199,0.199,1,../../../packages/app-store/locations.ts:442:9,0.199
+useAutoAnimate,0.199,0.199,1,../../../packages/features/eventtypes/components/tabs/availability/EventAvailabilityTab.tsx:493:8,0.199
+Identifier: { id: number; },0.199,0.199,1,../../../packages/features/bookings/lib/handleNewBooking/createBooking.ts:190:23,0.199
+"Identifier: { alby: { ""/*"": string; n",0.198,0.198,1,../../../packages/app-store/appStoreMetaData.ts:6:34,0.198
+Identifier: { fontSize: string; margi,0.198,0.198,1,../../../packages/emails/src/templates/TeamInviteEmail.tsx:33:9,0.198
+getIntersection,0.198,0.099,2,../../../packages/lib/date-ranges.ts:261:29,0.165
+handleAccountLookupFieldReason,0.197,0.099,2,../../../packages/app-store/salesforce/lib/assignmentReasonHandler.ts:26:37,0.170
+resizeBase64Image,0.197,0.197,1,../../../packages/trpc/server/routers/viewer/teams/update.schema.ts:13:36,0.197
+isNonEmptyArray,0.197,0.197,1,../../../packages/lib/server/getLuckyUser.ts:238:8,0.197
+Identifier: { id: boolean; trigger: b,0.197,0.197,1,../../../packages/features/ee/workflows/lib/getAllWorkflows.ts:5:13,0.197
+IsBoolean,0.197,0.098,2,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/booking-fields.input.ts:603:4,0.181
+Identifier: { label: string; value: s,0.196,0.196,1,../../../packages/lib/getLabelValueMapFromResponses.ts:25:11,0.196
+getSchemaPath,0.195,0.098,2,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/update-event-type.input.ts:184:14,0.189
+Identifier: { rescheduleReason: strin,0.195,0.195,1,../../../packages/features/bookings/lib/handleNewBooking.ts:1975:8,0.195
+Identifier: { hasTeamPlan: boolean; },0.194,0.194,1,../../../packages/lib/hooks/useHasPaidPlan.ts:18:22,0.194
+Identifier: { profile: UserAsPersonal,0.194,0.097,2,../../../packages/features/eventtypes/lib/getPublicEvent.ts:309:14,0.103
+Identifier: string | ArrayBuffer | nu,0.194,0.097,2,../../../packages/ui/components/image-uploader/ImageUploader.tsx:144:14,0.149
+Identifier: { ttgetAttributesQueryBui,0.192,0.192,1,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:395:17,0.192
+Identifier: Person,0.192,0.192,1,../../../packages/features/bookings/lib/handleSeats/reschedule/attendee/attendeeRescheduleSeatedBooking.ts:22:70,0.192
+Identifier: { type: string; id: numbe,0.191,0.064,3,../../../packages/trpc/server/routers/viewer/apps/updateAppCredentials.handler.ts:49:12,0.135
+Identifier: { _count: { userLevelSele,0.190,0.063,3,../../../packages/trpc/server/routers/loggedInViewer/myStats.handler.ts:25:19,0.073
+String,0.190,0.190,1,../../../packages/platform/atoms/cal-provider/BaseCalProvider.tsx:98:66,0.190
+Identifier: T,0.190,0.190,1,../../../packages/lib/server/getLuckyUser.ts:517:11,0.190
+Identifier: GoogleChannelProps,0.189,0.189,1,../../../packages/app-store/googlecalendar/lib/CalendarService.ts:845:11,0.189
+Identifier: { name: string; id: numbe,0.188,0.188,1,../../../packages/trpc/server/routers/viewer/teams/updateInternalNotesPresets.handler.ts:84:9,0.188
+Identifier: ZodObject<{ recording: Zo,0.187,0.187,1,../../../packages/app-store/zoomvideo/lib/VideoApiAdapter.ts:62:46,0.187
+Identifier: { eventType: { schedule: ,0.185,0.185,1,../../../packages/lib/event-types/getEventTypeById.ts:249:9,0.185
+ThisKeyword: this,0.185,0.185,1,src/modules/redis/redis.service.ts:13:66,0.185
+"Identifier: { fontFamily: ""Roboto, He",0.184,0.184,1,../../../packages/emails/src/templates/OrganizerPaymentRefundFailedEmail.tsx:38:17,0.184
+Parse,0.183,0.183,1,../../../packages/app-store/exchangecalendar/lib/CalendarService.ts:60:57,0.183
+"Identifier: [T, ...T[]]",0.183,0.092,2,../../../packages/lib/server/getLuckyUser.ts:518:17,0.106
+IsInt,0.182,0.061,3,../../../packages/platform/types/teams/outputs/team.output.ts:6:4,0.101
+Identifier: number | true | null | un,0.182,0.182,1,../../../packages/features/bookings/lib/handleCancelBooking.ts:219:26,0.182
+Identifier: { fontWeight: number; },0.181,0.181,1,../../../packages/emails/src/templates/VerifyEmailByCode.tsx:22:9,0.181
+Identifier: ContactRecord[],0.181,0.181,1,../../../packages/app-store/salesforce/lib/CrmService.ts:442:23,0.181
+Identifier: Omit<{ name: string; slug,0.180,0.180,1,../../../packages/lib/server/queries/teams/index.ts:252:55,0.180
+ThisKeyword: this,0.180,0.180,1,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/booking-limits-count.input.ts:75:46,0.180
+setAssignRRMembersUsingSegment,0.180,0.090,2,../../../packages/features/eventtypes/components/AddMembersWithSwitch.tsx:147:28,0.136
+addUserSelectedCalendar,0.180,0.090,2,src/modules/selected-calendars/controllers/selected-calendars.controller.ts:44:36,0.103
+Identifier: ZodUnion<[ZodObject<{ lab,0.180,0.180,1,../../../packages/features/insights/lib/types.ts:36:43,0.180
+getRecurringFreq,0.180,0.090,2,../../../packages/lib/recurringStrings.ts:26:13,0.090
+Identifier: { type: string; id: numbe,0.179,0.090,2,../../../packages/app-store/salesforce/lib/CrmService.ts:90:26,0.142
+generateUsernameSuggestion,0.179,0.179,1,../../../packages/lib/server/username.ts:256:39,0.179
+OpenBracketToken: any,0.179,0.089,2,../../../packages/lib/defaultEvents.ts:141:29,0.124
+Identifier: { id: number; timeZone: s,0.179,0.060,3,../../../packages/core/getUserAvailability.ts:345:19,0.085
+Identifier: { start: string | null; e,0.179,0.179,1,src/ee/bookings/2024-08-13/services/input.service.ts:306:11,0.179
+Identifier: { name: string | null; em,0.178,0.178,1,../../../packages/lib/payment/handlePaymentSuccess.ts:38:43,0.178
+Identifier: { fontWeight: number; },0.177,0.177,1,../../../packages/emails/src/templates/VerifyAccountEmail.tsx:29:9,0.177
+createMeetingWithCalVideo,0.177,0.059,3,../../../packages/core/videoClient.ts:119:33,0.097
+Identifier: { id: string; createdAt: ,0.176,0.176,1,../../../packages/trpc/server/routers/viewer/webhook/edit.handler.ts:57:9,0.176
+Identifier: ({ team: { name: string; ,0.176,0.088,2,../../../packages/lib/server/repository/workflow.ts:232:20,0.129
+FirstLiteralToken: 1,0.176,0.088,2,../../../packages/features/eventtypes/components/tabs/advanced/EventAdvancedTab.tsx:246:49,0.159
+randomString,0.176,0.044,4,src/modules/organizations/controllers/teams/schedules/organizations-teams-schedules.e2e-spec.ts:108:61,0.073
+pushEvent,0.174,0.174,1,../../../packages/app-store/BookingPageTagManager.tsx:71:59,0.174
+"Identifier: Pick<any, ""length"" | ""tit",0.173,0.173,1,../../../packages/app-store/metapixel/components/EventTypeAppCardInterface.tsx:20:37,0.173
+getUserById,0.173,0.173,1,../../../packages/features/tasker/tasks/triggerNoShow/common.ts:133:25,0.173
+Identifier: { value: JsonValue; crede,0.172,0.172,1,../../../packages/features/calendar-cache/calendar-cache.repository.ts:80:11,0.172
+Identifier: AppFrontendPayload,0.169,0.056,3,../../../packages/ui/components/apps/AppCard.tsx:151:55,0.116
+Identifier: Response<Session>,0.168,0.056,3,../../../packages/features/ee/teams/lib/payments.ts:103:9,0.070
+Identifier: number[] | null,0.168,0.168,1,../../../packages/app-store/routing-forms/lib/handleResponse.ts:200:41,0.168
+getConjunctions,0.168,0.168,1,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/config.ts:86:13,0.168
+Identifier: Omit<{ name: string; slug,0.165,0.165,1,../../../packages/lib/server/queries/teams/index.ts:354:55,0.165
+UseGuards,0.165,0.083,2,src/modules/organizations/controllers/webhooks/organizations-webhooks.controller.ts:45:2,0.150
+isRouterLinkedField,0.165,0.165,1,../../../packages/app-store/routing-forms/trpc/formMutation.handler.ts:257:15,0.165
+patch,0.165,0.055,3,src/modules/organizations/controllers/event-types/organizations-event-types.e2e-spec.ts:537:37,0.111
+mapAttendees,0.164,0.164,1,../../../packages/lib/CalendarService.ts:130:22,0.164
+Identifier: HTMLImageElement,0.164,0.164,1,../../../packages/ui/components/image-uploader/Common.tsx:49:10,0.164
+Identifier: Uint8Array,0.163,0.163,1,../../../packages/lib/hooks/useNotifications.tsx:164:9,0.163
+test,0.162,0.081,2,../../../packages/trpc/server/routers/viewer/teams/util.ts:1:13,0.083
+isTokenValid,0.161,0.081,2,../../../packages/app-store/hubspot/lib/CrmService.ts:154:10,0.146
+createOAuthClient,0.161,0.054,3,src/modules/oauth-clients/controllers/oauth-client-users/oauth-client-users.controller.e2e-spec.ts:448:46,0.120
+Identifier: ZodObject<{ id: ZodString,0.161,0.161,1,../../../packages/prisma/zod/domainwidedelegation.ts:22:69,0.161
+"Identifier: ({ eventTypes, isEventTyp",0.160,0.160,1,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:382:14,0.160
+Identifier: { id: number; createdAt: ,0.159,0.079,2,../../../packages/features/instant-meeting/handleInstantMeeting.ts:336:20,0.123
+removeAllRanges,0.158,0.079,2,../../../packages/features/embed/Embed.tsx:852:23,0.140
+getRequest,0.158,0.079,2,src/modules/auth/decorators/get-user/get-user.decorator.ts:5:13,0.092
+Identifier: { readonly BEFORE_EVENT: ,0.158,0.079,2,../../../packages/features/ee/workflows/lib/reminders/reminderScheduler.ts:193:27,0.148
+getWebexAppKeys,0.158,0.158,1,../../../packages/app-store/webex/api/callback.ts:15:8,0.158
+"Identifier: { ""/*"": string; name: str",0.157,0.157,1,../../../packages/app-store/apps.metadata.generated.ts:128:8,0.157
+Identifier: EventTypeColor_2024_06_14,0.157,0.078,2,../../../packages/lib/event-types/transformers/api-to-internal/event-colors.ts:13:25,0.143
+Identifier: ({ ...props }: SingleValu,0.157,0.078,2,../../../packages/platform/atoms/destination-calendar/DestinationCalendarSelector.tsx:142:20,0.120
+Identifier: { connectedCalendars: ({ ,0.155,0.078,2,../../../packages/lib/getConnectedDestinationCalendars.ts:245:27,0.080
+usageTrackingExtention,0.155,0.155,1,../../../packages/prisma/index.ts:60:13,0.155
+translateEvent,0.155,0.077,2,../../../packages/app-store/larkcalendar/lib/CalendarService.ts:147:30,0.112
+ThisKeyword: this,0.154,0.039,4,../../../packages/emails/templates/organization-email-verification.ts:28:10,0.111
+Identifier: VitalClient | null,0.154,0.154,1,../../../packages/app-store/vital/lib/client.ts:25:22,0.154
+Identifier: { path: string[]; equals:,0.153,0.153,1,../../../packages/features/ee/organizations/lib/orgDomains.ts:130:32,0.153
+Identifier: { background: string; bor,0.153,0.153,1,../../../packages/features/kbar/Kbar.tsx:338:15,0.153
+Identifier: Date,0.152,0.152,1,../../../packages/features/schedules/components/Schedule.tsx:378:18,0.152
+Identifier: { id: number; },0.152,0.152,1,../../../packages/trpc/server/routers/viewer/eventTypes/duplicate.handler.ts:104:19,0.152
+Identifier: { fontSize: string; fontW,0.152,0.152,1,../../../packages/emails/src/templates/DailyVideoDownloadTranscriptEmail.tsx:44:9,0.152
+Identifier: { showSearch: boolean; },0.152,0.152,1,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/BasicConfig.ts:362:21,0.152
+Identifier: 403,0.151,0.151,1,../../../packages/features/bookings/lib/handleNewBooking/checkIfBookerEmailIsBlocked.ts:53:25,0.151
+any,0.151,0.075,2,../../../packages/features/bookings/lib/getBookingResponsesSchema.ts:33:48,0.106
+Identifier: { name: string; slug: str,0.151,0.151,1,../../../packages/lib/server/queries/teams/index.ts:366:8,0.151
+Identifier: { title: string; user: { ,0.148,0.074,2,../../../packages/trpc/server/routers/viewer/workflows/util.ts:556:11,0.080
+setSelectedMode,0.148,0.074,2,../../../packages/app-store/giphy/components/SearchDialog.tsx:96:25,0.084
+Identifier: { notes: string | null; i,0.147,0.147,1,../../../packages/features/webhooks/lib/scheduleTrigger.ts:535:11,0.147
+Identifier: { location: string; userF,0.147,0.147,1,../../../packages/features/webhooks/lib/scheduleTrigger.ts:255:11,0.147
+Identifier: { url: string; message: s,0.146,0.073,2,../../../packages/trpc/server/routers/viewer/teams/create.handler.ts:89:13,0.089
+"Identifier: LRUCache<string, Session,",0.146,0.146,1,../../../packages/features/auth/lib/getServerSession.ts:18:6,0.146
+getAttributesAssignedToMembersOfTeam,0.146,0.073,2,../../../packages/lib/service/attribute/server/getAttributes.ts:361:27,0.121
+Identifier: { name: string; slug: str,0.146,0.146,1,../../../packages/trpc/server/routers/viewer/eventTypes/duplicate.handler.ts:104:12,0.146
+getOutputSeatedBooking,0.146,0.146,1,src/ee/bookings/2024-08-13/services/output.service.ts:247:10,0.146
+getSuccessUser,0.146,0.073,2,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:131:47,0.108
+Identifier: EmailData[],0.145,0.145,1,../../../packages/features/ee/workflows/lib/reminders/emailReminderManager.ts:116:26,0.145
+Identifier: EmailData,0.145,0.145,1,../../../packages/features/ee/workflows/lib/reminders/emailReminderManager.ts:116:14,0.145
+Identifier: { skipContactOwner?: bool,0.145,0.072,2,../../../packages/app-store/salesforce/lib/assignmentReasonHandler.ts:65:27,0.091
+Identifier: { status: BookingStatus; ,0.145,0.145,1,../../../packages/features/tasker/tasks/triggerNoShow/getBooking.ts:71:9,0.145
+Identifier: Directory,0.143,0.143,1,../../../packages/trpc/server/routers/viewer/dsync/get.handler.ts:53:9,0.143
+createMeeting,0.143,0.048,3,../../../packages/core/videoClient.ts:208:9,0.067
+Identifier: { length: number; slug: s,0.143,0.143,1,../../../packages/core/builders/CalendarEvent/builder.ts:156:11,0.143
+Identifier: { status: BookingStatus; ,0.143,0.143,1,../../../packages/features/bookings/lib/getUserBooking.ts:62:9,0.143
+generateOffice365AuthUrl,0.143,0.048,3,src/modules/conferencing/controllers/conferencing.controller.ts:122:27,0.083
+Identifier: SerializableForm<{ user: ,0.142,0.142,1,../../../packages/lib/server/getRoutedUrl.ts:140:16,0.142
+Identifier: { notes: string | null; i,0.142,0.142,1,../../../packages/trpc/server/routers/loggedInViewer/outOfOffice.handler.ts:436:9,0.142
+"StringLiteral: ""1927""",0.142,0.142,1,../../../node_modules/tzdata/timezone-data.json:1:185154,0.142
+"Identifier: (event: Pick<BookerEvent,",0.142,0.142,1,../../../packages/features/bookings/Booker/components/hooks/useBookerLayout.ts:16:52,0.142
+"Identifier: ""center""",0.141,0.141,1,../../../packages/emails/src/templates/AdminOrganizationNotificationEmail.tsx:38:14,0.141
+transformInputCreateTeamEventType,0.141,0.047,3,src/modules/organizations/services/event-types/input.service.ts:29:34,0.082
+Identifier: { id: string; appId: stri,0.141,0.141,1,../../../packages/features/webhooks/lib/getWebhooks.ts:80:9,0.141
+salesforceCreateEvent,0.140,0.047,3,../../../packages/app-store/salesforce/lib/CrmService.ts:296:26,0.088
+Identifier: GetRecurringSeatedBooking,0.138,0.138,1,src/ee/bookings/2024-08-13/services/output.service.ts:426:11,0.138
+Identifier: { busy: EventBusyDetails[,0.137,0.137,1,../../../packages/core/getUserAvailability.ts:587:9,0.137
+Identifier: typeof LightningAddress,0.137,0.137,1,../../../packages/app-store/alby/lib/PaymentService.ts:49:31,0.137
+Identifier: typeof BadRequestExceptio,0.137,0.068,2,src/ee/schedules/schedules_2024_04_15/inputs/create-availability.input.ts:23:10,0.117
+Identifier: { clientSecret: string; n,0.137,0.137,1,../../../packages/trpc/server/routers/viewer/oAuth/addClient.handler.ts:32:9,0.137
+Identifier: { id: number; enabled: bo,0.136,0.136,1,../../../packages/trpc/server/routers/loggedInViewer/outOfOfficeReasons.handler.ts:10:9,0.136
+useIsPlatform,0.136,0.068,2,../../../packages/features/apps/components/AppListCard.tsx:80:8,0.108
+Identifier: HubspotToken,0.135,0.027,5,../../../packages/app-store/hubspot/lib/CrmService.ts:118:26,0.079
+Identifier: { id: number; user: { nam,0.135,0.135,1,../../../packages/trpc/server/routers/viewer/organizations/listOtherTeamMembers.handler.ts:108:27,0.135
+Identifier: { id: number; name: strin,0.135,0.135,1,../../../packages/features/insights/server/routing-events.ts:775:18,0.135
+Identifier: { organizationId: number;,0.134,0.067,2,../../../packages/trpc/server/routers/viewer/organizations/create.handler.ts:268:14,0.099
+Identifier: (eventType: { id?: number,0.133,0.133,1,../../../packages/core/getUserAvailability.ts:260:53,0.133
+Identifier: string | boolean,0.133,0.133,1,../../../packages/lib/constants.ts:102:13,0.133
+Identifier: { title: string; location,0.132,0.132,1,../../../packages/features/bookings/lib/handleCancelBooking.ts:219:43,0.132
+Identifier: { isDynamic: boolean; per,0.131,0.131,1,../../../packages/lib/defaultEvents.ts:137:6,0.131
+"Identifier: { reasonEnum: ""SALESFORCE",0.131,0.131,1,../../../packages/app-store/salesforce/lib/assignmentReasonHandler.ts:27:13,0.131
+Identifier: { id: number; timeZone: s,0.130,0.130,1,../../../packages/lib/server/repository/travelSchedule.ts:17:11,0.130
+createUserEventType,0.128,0.128,1,src/ee/event-types/event-types_2024_06_14/services/event-types.service.ts:197:50,0.128
+Identifier: SubscriptionItem | undefi,0.127,0.063,2,src/modules/billing/services/billing.service.ts:243:9,0.124
+Identifier: { id: number; user: { nam,0.127,0.127,1,../../../packages/trpc/server/routers/viewer/availability/team/listTeamAvailability.handler.ts:75:27,0.127
+Identifier: <T extends FieldValues>(p,0.127,0.127,1,../../../packages/features/eventtypes/components/BulkEditDefaultForEventsModal.tsx:50:10,0.127
+setKeyword,0.126,0.126,1,../../../packages/app-store/giphy/components/SearchDialog.tsx:93:16,0.126
+Identifier: { id: string; enabled: bo,0.126,0.126,1,../../../packages/lib/server/repository/domainWideDelegation.ts:120:11,0.126
+Identifier: { label: string; value: s,0.126,0.126,1,../../../packages/ui/components/form/checkbox/MultiSelectCheckboxes.tsx:91:8,0.126
+buildAttendeesList,0.125,0.031,4,../../../packages/core/builders/CalendarEvent/director.ts:50:53,0.072
+startCase,0.125,0.125,1,../../../packages/features/insights/server/routing-events.ts:441:39,0.125
+Identifier: () => void,0.125,0.125,1,../../../packages/platform/atoms/hooks/schedules/useUpdateSchedule.ts:17:48,0.125
+Identifier: ({ profile: UserAsPersona,0.124,0.124,1,../../../packages/features/eventtypes/lib/getPublicEvent.ts:233:18,0.124
+Identifier: { id: string; createdAt: ,0.123,0.123,1,../../../packages/features/ee/api-keys/lib/findValidApiKey.ts:23:9,0.123
+ApiOperation,0.123,0.061,2,src/modules/stripe/controllers/stripe.controller.ts:44:4,0.112
+"Identifier: typeof import(""/home/ssal",0.122,0.061,2,../../../packages/ui/components/hover-card/index.tsx:12:24,0.111
+reqBodyWithEnd,0.122,0.122,1,../../../packages/features/bookings/lib/handleNewBooking/getBookingData.ts:33:8,0.122
+"Identifier: { around: { ""/*"": string;",0.121,0.121,1,../../../packages/app-store/bookerApps.metadata.generated.ts:51:13,0.121
+"Identifier: <Option, IsMulti extends ",0.120,0.120,1,../../../packages/ui/components/form/select/components.tsx:57:13,0.120
+Identifier: { parent: ({ organization,0.120,0.120,1,../../../packages/trpc/server/routers/viewer/teams/inviteMember/utils.ts:106:15,0.120
+"StringLiteral: ""788.0666666666666""",0.119,0.119,1,../../../node_modules/tzdata/timezone-data.json:1:21986,0.119
+getStripeCustomerIdFromUserId,0.119,0.119,1,../../../packages/features/ee/teams/lib/payments.ts:57:54,0.119
+Identifier: { readonly google_calenda,0.117,0.117,1,../../../packages/platform/constants/apps.ts:30:13,0.117
+Identifier: { data: objectOutputType<,0.116,0.116,1,../../../packages/trpc/server/routers/loggedInViewer/getCalVideoRecordings.handler.ts:20:11,0.116
+Identifier: FC<CustomEventTypeModalPr,0.115,0.115,1,../../../packages/features/eventtypes/components/tabs/advanced/EventAdvancedTab.tsx:1125:10,0.115
+transformInputUpdateEventType,0.115,0.038,3,src/ee/event-types/event-types_2024_06_14/services/input-event-types.service.ts:81:34,0.074
+Identifier: { fontWeight: number; lin,0.113,0.113,1,../../../packages/emails/src/templates/OrgAutoInviteEmail.tsx:73:11,0.113
+Identifier: { ok: boolean; skipped: b,0.112,0.112,1,../../../packages/trpc/server/routers/viewer/auth/resendVerifyEmail.handler.ts:67:9,0.112
+Identifier: { id: number; userId: num,0.112,0.037,3,../../../packages/features/insights/server/events.ts:605:14,0.064
+"Identifier: ""routingForms""",0.112,0.056,2,../../../packages/trpc/server/routers/viewer/routing-forms/_router.ts:9:34,0.091
+Identifier: Attendee[],0.111,0.111,1,../../../packages/lib/CalendarService.ts:139:11,0.111
+getSalesforceUserIdFromEmail,0.111,0.055,2,../../../packages/app-store/salesforce/lib/CrmService.ts:194:22,0.091
+useAddAppMutation,0.110,0.110,1,../../../packages/app-store/_components/OmniInstallAppButton.tsx:41:13,0.110
+write,0.110,0.110,1,src/modules/organizations/controllers/webhooks/organizations-webhooks.e2e-spec.ts:102:29,0.110
+Identifier: GoogleWorkspaceCache,0.110,0.110,1,../../../packages/trpc/server/routers/viewer/googleWorkspace/_router.tsx:10:6,0.110
+Identifier: GetBatchResult,0.109,0.109,1,../../../packages/features/ee/managed-event-types/lib/handleChildrenEventTypes.ts:85:11,0.109
+Identifier: ({ form: { routes: JsonVa,0.109,0.109,1,../../../packages/lib/server/getTeamMemberEmailFromCrm.ts:75:7,0.109
+Identifier: NextApiRequest,0.109,0.054,2,../../../packages/app-store/zapier/api/subscriptions/addSubscription.ts:9:8,0.055
+Identifier: typeof ICSFeedCalendarSer,0.108,0.108,1,../../../packages/app-store/ics-feedcalendar/api/add.ts:35:18,0.108
+Identifier: Omit<{ luckyUsers?: numbe,0.107,0.107,1,../../../packages/features/bookings/lib/create-booking.ts:14:9,0.107
+Identifier: WorkflowType[],0.107,0.107,1,../../../packages/lib/server/repository/workflow.ts:230:13,0.107
+Identifier: ZodOptional<ZodObject<{ a,0.106,0.106,1,../../../packages/features/credentials/handleDeleteCredential.ts:466:25,0.106
+Identifier: { rrSkipToAccountLookupFi,0.105,0.052,2,../../../packages/app-store/salesforce/lib/assignmentReasonHandler.ts:67:33,0.068
+Identifier: StripeSetupIntentData,0.104,0.104,1,../../../packages/app-store/stripepayment/lib/PaymentService.ts:240:12,0.104
+Identifier: { alby: () => Promise<typ,0.104,0.104,1,../../../packages/app-store/index.ts:59:31,0.104
+Identifier: ForwardRefExoticComponent,0.103,0.103,1,../../../packages/app-store/alby/components/EventTypeAppSettingsInterface.tsx:108:16,0.103
+Identifier: { title: string | null; i,0.103,0.103,1,../../../packages/features/insights/server/events.ts:410:13,0.103
+Identifier: typeof RaqbLogicResult,0.102,0.102,1,../../../packages/app-store/routing-forms/lib/processRoute.tsx:60:19,0.102
+Identifier: { ok: boolean; skipped: b,0.101,0.101,1,../../../packages/trpc/server/routers/viewer/auth/sendVerifyEmailCode.handler.ts:30:9,0.101
+Identifier: { name: string; options: ,0.101,0.101,1,../../../packages/lib/raqb/findTeamMembersMatchingAttributeLogic.ts:312:9,0.101
+Identifier: { email: string; noShow: ,0.101,0.051,2,../../../packages/features/handleMarkNoShow.ts:27:23,0.064
+Identifier: { name: string; logo: str,0.100,0.100,1,../../../packages/trpc/server/routers/viewer/oAuth/getClient.handler.ts:23:9,0.100
+Identifier: GetSeatedBookingOutput_20,0.100,0.100,1,src/ee/bookings/2024-08-13/services/output.service.ts:316:11,0.100
+Identifier: { name: string; id: numbe,0.099,0.099,1,../../../packages/trpc/server/routers/viewer/workflows/get.handler.ts:27:9,0.099
+Identifier: { orgOwner: { name: strin,0.099,0.049,2,../../../packages/trpc/server/routers/viewer/organizations/create.handler.ts:236:15,0.063
+Identifier: { crmManager: CrmManager;,0.098,0.049,2,../../../packages/app-store/_utils/CRMRoundRobinSkip.ts:20:7,0.052
+Identifier: File,0.096,0.096,1,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:160:10,0.096
+Identifier: CustomEvent<CustomEventDe,0.096,0.096,1,../../../packages/embeds/embed-core/src/sdk-action-manager.ts:5:8,0.096
+Identifier: SaveResult,0.096,0.096,1,../../../packages/app-store/salesforce/lib/CrmService.ts:271:11,0.096
+Identifier: { enabledLayouts: BookerL,0.095,0.047,2,../../../packages/features/bookings/Booker/components/hooks/useBookerLayout.ts:36:46,0.066
+Identifier: Omit<{ message: string; m,0.094,0.094,1,../../../packages/features/bookings/lib/create-instant-booking.ts:14:9,0.094
+Identifier: Workflow[],0.093,0.047,2,../../../packages/trpc/server/routers/viewer/workflows/util.ts:787:9,0.052
+Identifier: BasecampToken,0.092,0.092,1,../../../packages/app-store/basecamp3/trpc/projectMutation.handler.ts:38:6,0.092
+Identifier: NextApiRequest & { userId,0.090,0.090,1,../../../packages/features/bookings/lib/handleNewRecurringBooking.ts:74:73,0.090
+Identifier: { width: string; },0.090,0.090,1,../../../packages/emails/src/templates/MonthlyDigestEmail.tsx:124:13,0.090
+"Identifier: { name: ""firstName"" | ""la",0.089,0.089,1,../../../packages/lib/event-types/transformers/api-to-internal/booking-fields.ts:131:25,0.089
+Identifier: Sql,0.088,0.088,1,../../../packages/features/insights/server/routing-events.ts:537:11,0.088
+Identifier: { name: string; email: st,0.087,0.087,1,../../../packages/features/bookings/lib/handleNewBooking.ts:404:6,0.087
+Identifier: 1,0.086,0.086,1,../../../packages/ui/components/editor/plugins/ToolbarPlugin.tsx:36:6,0.086
+"Identifier: string | Record<string, s",0.085,0.085,1,../../../packages/features/form-builder/Components.tsx:117:12,0.085
+Identifier: { id: number; userId: num,0.085,0.043,2,../../../packages/trpc/server/routers/viewer/teams/get.handler.ts:43:10,0.053
+Identifier: { name: string; options: ,0.085,0.085,1,../../../packages/trpc/server/routers/viewer/attributes/get.handler.ts:55:8,0.085
+Identifier: ZodOptional<ZodArray<ZodO,0.083,0.083,1,../../../packages/trpc/server/routers/viewer/workflows/util.ts:793:26,0.083
+Identifier: { id: string; },0.082,0.082,1,../../../packages/trpc/server/routers/viewer/attributes/edit.handler.ts:116:9,0.082
+Identifier: 400,0.082,0.082,1,../../../packages/core/getUserAvailability.ts:438:25,0.082
+Identifier: { bookingFields: { name: ,0.080,0.080,1,../../../packages/lib/server/repository/event.ts:16:11,0.080
+Identifier: { destination: string; pe,0.079,0.079,1,../../../packages/features/ee/payments/pages/payment.tsx:66:11,0.079
+Identifier: (secretKey: string | null,0.078,0.078,1,../../../packages/features/webhooks/lib/schedulePayload.ts:16:15,0.078
+Identifier: { troubleshooter?: { type,0.078,0.039,2,../../../packages/app-store/routing-forms/lib/handleResponse.ts:154:44,0.044
+Identifier: MessageInstance,0.077,0.077,1,../../../packages/features/ee/workflows/lib/reminders/providers/twilioProvider.ts:79:9,0.077
+Identifier: typeof MessageBody,0.077,0.077,1,../../../packages/app-store/exchange2013calendar/lib/CalendarService.ts:71:25,0.077
+"Identifier: { readonly EMAIL_HOST: ""E",0.075,0.075,1,../../../packages/features/ee/workflows/lib/reminders/reminderScheduler.ts:105:11,0.075
+Identifier: DateConstructor,0.075,0.075,1,../../../packages/features/schedules/components/Schedule.tsx:378:27,0.075
+Identifier: { id: number; credentialI,0.075,0.075,1,../../../packages/lib/payment/getBooking.ts:135:8,0.075
+Identifier: Event,0.075,0.075,1,../../../packages/app-store/office365calendar/lib/CalendarService.ts:320:42,0.075
+Identifier: { name: string; email: st,0.075,0.075,1,../../../packages/lib/buildCalEventFromBooking.ts:94:15,0.075
+Identifier: { evt: CalendarEvent; web,0.073,0.073,1,../../../packages/features/bookings/lib/handleCancelBooking.ts:358:8,0.073
+Identifier: (() => Promise<typeof imp,0.072,0.072,1,../../../packages/app-store/_utils/getCrm.ts:18:8,0.072
+Identifier: SafeParseError<{ smartCon,0.072,0.072,1,../../../packages/features/tasker/tasks/crm/createCRMEvent.ts:66:23,0.072
+"Identifier: { readonly USER: ""USER""; ",0.071,0.071,1,../../../packages/features/shell/SideBar.tsx:52:46,0.071
+Identifier: RatelimitResponse,0.070,0.070,1,../../../packages/lib/checkRateLimitAndThrowError.ts:15:8,0.070
+Identifier: FC<SkeletonBaseProps & { ,0.069,0.069,1,../../../packages/features/ee/teams/components/SkeletonloaderTeamList.tsx:33:11,0.069
+Identifier: AppFrontendPayload | null,0.068,0.068,1,../../../packages/app-store/_appRegistry.ts:21:26,0.068
+Identifier: 16,0.067,0.067,1,../../../packages/platform/constants/permissions.ts:16:17,0.067
+Identifier: ({ id: string; title: str,0.067,0.067,1,../../../packages/features/data-table/components/filters/FilterOptions.tsx:22:14,0.067
+Identifier: new (width?: number | und,0.063,0.063,1,../../../packages/ui/components/image-uploader/Common.tsx:49:18,0.063
+Identifier: PaymentsRouterHandlerCach,0.063,0.063,1,../../../packages/trpc/server/routers/viewer/payments/_router.ts:9:6,0.063
+Identifier: CrmManager,0.062,0.062,1,../../../packages/features/tasker/tasks/crm/createCRMEvent.ts:125:14,0.062
+"Identifier: { EMAIL_HOST: ""EMAIL_HOST",0.061,0.061,1,../../../node_modules/.prisma/client/index.d.ts:576:38,0.061
+Identifier: { name?: string | undefin,0.060,0.060,1,../../../packages/ui/components/form/select/Select.tsx:128:11,0.060
+Identifier: (props: LayoutProps) => E,0.059,0.059,1,../../../packages/platform/atoms/availability/AvailabilitySettings.tsx:303:6,0.059
+"Identifier: (Omit<RoutingFormType, ""f",0.059,0.059,1,../../../packages/features/insights/server/virtual-queues.ts:86:11,0.059
+Identifier: { user: NonNullable<{ ava,0.058,0.058,1,../../../packages/trpc/server/routers/viewer/teams/updateMembership.handler.ts:16:7,0.058
+Identifier: { operators: string[]; wi,0.058,0.058,1,../../../packages/app-store/routing-forms/components/react-awesome-query-builder/config/BasicConfig.ts:359:13,0.058
+Injectable,0.058,0.058,1,src/middleware/request-ids/request-id.middleware.ts:5:2,0.058
+Identifier: typeof ForbiddenException,0.056,0.056,1,src/modules/webhooks/guards/is-oauth-client-webhook-guard.ts:35:12,0.056
+success,0.055,0.055,1,src/modules/auth/strategies/api-auth/api-auth.strategy.ts:131:13,0.055
+Identifier: PresetOption[],0.054,0.054,1,../../../packages/features/data-table/lib/dateRange.ts:20:13,0.054
+Identifier: { title: string; id: numb,0.054,0.018,3,../../../packages/core/getBusyTimes.ts:188:49,0.037
+Identifier: { usernameOrEmail: string,0.053,0.053,1,../../../packages/trpc/server/routers/viewer/teams/inviteMember/inviteMember.handler.ts:281:9,0.053
+Identifier: ICSFeedCalendarService,0.052,0.052,1,../../../packages/app-store/ics-feedcalendar/api/add.ts:35:12,0.052
+Identifier: { disabled: boolean; Lock,0.051,0.051,1,../../../packages/features/eventtypes/components/tabs/limits/EventLimitsTab.tsx:567:19,0.051
+Identifier: { name: string; slug: str,0.050,0.050,1,../../../packages/app-store/components.tsx:122:8,0.050
+Identifier: { fields: RaqbConfigField,0.049,0.049,1,../../../packages/app-store/routing-forms/lib/getQueryBuilderConfig.ts:98:9,0.049
+Identifier: T,0.048,0.048,1,../../../packages/trpc/server/routers/viewer/domainWideDelegation/utils.ts:95:41,0.048
+Identifier: { title: string; id: numb,0.048,0.048,1,../../../packages/core/getBusyTimes.ts:188:15,0.048
+Identifier: Contact[] | undefined,0.047,0.047,1,../../../packages/core/crmManager/crmManager.ts:72:11,0.047
+Identifier: WebhookTriggerEvents,0.046,0.046,1,../../../packages/trpc/server/routers/viewer/bookings/requestReschedule.handler.ts:291:8,0.046
+IsIn,0.046,0.046,1,../../../packages/platform/types/event-types/event-types_2024_06_14/inputs/booking-fields.input.ts:442:4,0.046
+Identifier: CalEventResponses | null ,0.045,0.045,1,../../../packages/app-store/salesforce/lib/CrmService.ts:1130:11,0.045
+Identifier: typeof BookerLayouts,0.044,0.044,1,../../../packages/features/embed/Embed.tsx:889:13,0.044
+Identifier: { users: { locked: { name,0.044,0.044,1,../../../packages/trpc/server/routers/viewer/admin/getSMSLockStateTeamsUsers.handler.ts:68:9,0.044
+Identifier: Person[],0.043,0.043,1,../../../packages/lib/CalEventParser.ts:40:67,0.043
+Identifier: typeof DialogClose,0.043,0.043,1,../../../packages/features/settings/TimezoneChangeDialog.tsx:62:11,0.043
+deleteEvent,0.041,0.041,1,../../../packages/app-store/zohocalendar/lib/CalendarService.ts:150:29,0.041
+Identifier: ApiAuthGuardUser,0.041,0.041,1,src/modules/webhooks/guards/is-user-webhook-guard.ts:14:10,0.041
+"StringLiteral: ""max-w-full""",0.040,0.040,1,../../../packages/features/bookings/Booker/components/EventMeta.tsx:222:33,0.040
+Identifier: EventManager,0.036,0.036,1,../../../packages/lib/payment/handlePaymentSuccess.ts:38:10,0.036
+"Identifier: ""BOOKING_CREATED"" | ""BOOK",0.036,0.036,1,../../../packages/features/bookings/lib/handleNewBooking.ts:1069:35,0.036
+Identifier: JsonObject,0.035,0.035,1,../../../packages/app-store/vital/api/save.ts:49:11,0.035
+"Identifier: ((slot: Slot, isOverlappi",0.034,0.034,1,../../../packages/features/bookings/components/AvailableTimes.tsx:128:25,0.034
+Identifier: { label: string; value: s,0.033,0.033,1,../../../packages/app-store/mock-payment-app/components/EventTypeAppCardInterface.tsx:113:33,0.033
+Identifier: FC<HoverCardPortalProps>,0.031,0.031,1,../../../packages/ui/components/hover-card/index.tsx:12:6,0.031
+uuidv4,0.029,0.029,1,src/ee/bookings/2024-08-13/services/input.service.ts:258:29,0.029
+Identifier: { id: boolean; slug: bool,0.028,0.028,1,../../../packages/lib/server/repository/profile.ts:602:42,0.028
+Identifier: readonly [{ readonly labe,0.028,0.028,1,../../../packages/app-store/paypal/components/EventTypeAppSettingsInterface.tsx:27:45,0.028
+"Identifier: ""ACCEPTED"" | ""REJECTED"" |",0.028,0.028,1,../../../packages/app-store/locations.ts:442:53,0.028
+IsString,0.027,0.027,1,../../../packages/platform/types/bookings/2024-08-13/outputs/booking.output.ts:57:4,0.027
+Query,0.027,0.027,1,src/ee/calendars/controllers/calendars.controller.ts:139:6,0.027
+Identifier: ExtendedTokenResponse,0.026,0.026,1,../../../packages/app-store/salesforce/lib/CrmService.ts:90:10,0.026
+Identifier: RaqbConfigFields,0.026,0.026,1,../../../packages/app-store/routing-forms/lib/getQueryBuilderConfig.ts:96:12,0.026
+Identifier: 500,0.026,0.026,1,../../../packages/app-store/sendgrid/api/check.ts:25:25,0.026
+Identifier: { form: SerializableForm<,0.022,0.022,1,../../../packages/lib/server/getRoutedUrl.ts:137:13,0.022
+FirstLiteralToken: 0,0.022,0.022,1,../../../packages/features/ee/teams/components/MemberInvitationModal.tsx:160:33,0.022
+Identifier: (props: DialogFooterProps,0.022,0.022,1,../../../packages/features/embed/Embed.tsx:1306:14,0.022
+Identifier: ForwardRefExoticComponent,0.020,0.020,1,../../../packages/features/eventtypes/components/CreateEventTypeForm.tsx:120:14,0.020
+"Identifier: Record<string, string | b",0.019,0.019,1,../../../packages/features/bookings/lib/getCalEventResponses.ts:40:7,0.019
+"Identifier: ({ app, description, swit",0.019,0.019,1,../../../packages/app-store/giphy/components/EventTypeAppCardInterface.tsx:32:7,0.019
+FirstLiteralToken: 403,0.018,0.018,1,../../../packages/features/bookings/lib/handleNewBooking/checkIfBookerEmailIsBlocked.ts:53:38,0.018
+_request,0.018,0.018,1,../../../packages/lib/CloseCom.ts:457:20,0.018
+Identifier: boolean | null,0.015,0.015,1,../../../packages/core/EventManager.ts:261:9,0.015
+Identifier: undefined,0.015,0.015,1,../../../packages/app-store/mock-payment-app/components/EventTypeAppCardInterface.tsx:84:51,0.015
+Identifier: EventTypeAppCardComponent,0.014,0.014,1,../../../packages/app-store/matomo/components/EventTypeAppCardInterface.tsx:50:15,0.014
+"StringLiteral: ""1943""",0.014,0.014,1,../../../node_modules/tzdata/timezone-data.json:1:160997,0.014
+switchToHttp,0.013,0.013,1,src/modules/auth/decorators/methods/get-auth-methods.decorator.ts:5:18,0.013
+"StringLiteral: ""2003""",0.013,0.013,1,../../../node_modules/tzdata/timezone-data.json:1:121165,0.013
+Identifier: { readonly accepted: true,0.011,0.011,1,../../../packages/lib/server/queries/teams/index.ts:120:15,0.011
+Identifier: { id: string; serviceAcco,0.011,0.011,1,../../../packages/trpc/server/routers/viewer/domainWideDelegation/utils.ts:101:45,0.011
+Identifier: { id: number; type: strin,0.009,0.009,1,src/modules/stripe/stripe.service.ts:168:9,0.009
+Identifier: { platformClientId: strin,0.008,0.008,1,src/ee/bookings/2024-08-13/services/input.service.ts:324:9,0.008
+Body,0.007,0.007,1,src/ee/bookings/2024-08-13/controllers/bookings.controller.ts:328:6,0.007
+StringLiteral: any,0.007,0.003,2,../../../packages/features/eventtypes/components/EventTypeLayout.tsx:248:30,0.004
+Identifier: { defaultValue?: string |,0.006,0.006,1,../../../packages/features/eventtypes/components/Locations.tsx:170:40,0.006
+"StringLiteral: ""0""",0.005,0.005,1,../../../node_modules/tzdata/timezone-data.json:1:185184,0.005
+"StringLiteral: ""-600""",0.005,0.005,1,../../../node_modules/tzdata/timezone-data.json:1:22194,0.005
+"StringLiteral: ""stripepayment""",0.004,0.004,1,../../../packages/app-store/_components/DynamicComponent.tsx:8:38,0.004
+findByIds,0.004,0.004,1,../../../packages/trpc/server/routers/viewer/routing-forms/findTeamMembersMatchingAttributeLogicOfRoute.handler.ts:256:8,0.004
+StringLiteral: string,0.004,0.002,2,../../web/public/static/locales/nl/common.json:2905:32,0.002
+useLockedFieldsManager,0.003,0.003,1,../../../packages/features/eventtypes/components/tabs/workflows/EventWorkfowsTab.tsx:180:85,0.003
+Identifier: (props: { children: React,0.002,0.002,1,../../../packages/emails/src/templates/OrganizationAdminNoSlots.tsx:23:6,0.002
+"StringLiteral: ""16px""",0.001,0.001,1,../../../packages/emails/src/templates/BookingRedirectEmailNotification.tsx:26:20,0.001
+"StringLiteral: ""Bezoekers""",0.001,0.001,1,../../web/public/static/locales/nl/common.json:258:12,0.001
+"StringLiteral: ""Integrieren Sie Cal.com ",0.001,0.001,1,../../web/public/static/locales/de/common.json:537:39,0.001
