@@ -1,0 +1,40 @@
+ts5.8:
+Files:                         3349
+Lines of Library:             41991
+Lines of Definitions:        505353
+Lines of TypeScript:          24897
+Lines of JavaScript:            574
+Lines of JSON:                    0
+Lines of Other:                   0
+Identifiers:                 645279
+Symbols:                     652296
+Types:                       139688
+Instantiations:            13672436
+Memory used:                814104K
+Assignability cache size:    185402
+Identity cache size:           3214
+Subtype cache size:            1067
+Strict subtype cache size:      625
+I/O Read time:                0.11s
+Parse time:                   1.36s
+ResolveModule time:           0.34s
+ResolveTypeReference time:    0.01s
+ResolveLibrary time:          0.01s
+Program time:                 2.05s
+Bind time:                    0.66s
+Check time:                   9.62s
+printTime time:               0.00s
+Emit time:                    0.00s
+Total time:                  12.33s
+
+
+tsgo:
+
+Files:             3486
+Types:           377974
+Parse time:      0.220s
+Bind time:       0.080s
+Check time:      2.194s (4.4x faster)
+Total time:      2.493s
+Memory used:    737741K
+Memory allocs: 61872407
